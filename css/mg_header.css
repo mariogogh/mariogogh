@@ -1,15 +1,54 @@
-
-
-
+body {
+   font-size: 50%;
+}
 
 .header{
-background-color: black;
+	background-color: black;
+	width: auto;
+  	background-position: 50% 50%;
+    background-size: cover;
+    height: 60vh;
+    border: 45px solid #fff;
+    padding: 80px;
+}
+
+h1{
+	font-family: helvetica;
+	text-align: left;
+	color: #ffffff;
+	padding-left: auto;
+	font-size: 9em;
+	margin-top: 10%;
+}
 
 
+a.link{
+	font-family: helvetica;
+	font-size: 1em;
+	color: red;
+}
 
+img {
+   max-width: 100%;
+}
 
+@media screen and (max-width: 320px;)
+{
+		.header {
+   			width: 100%;
+   			margin-top: 500px;
 
+   		}
 
-
+		.link {
+		font-size: 2em;}
+		a {
+		font-size: 2em;}
+		h1{
+		font-size: 2em;
+		margin-top: 500px;
+		
+		}
 
 }
+
