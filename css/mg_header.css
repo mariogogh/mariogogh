@@ -32,23 +32,18 @@ img {
    max-width: 100%;
 }
 
-@media screen and (max-width: 320px;)
-{
-		.header {
-   			width: 100%;
-   			margin-top: 500px;
 
-   		}
+/* Desktop View /*
 
-		.link {
-		font-size: 2em;}
-		a {
-		font-size: 2em;}
-		h1{
-		font-size: 2em;
-		margin-top: 500px;
-		
-		}
 
-}
+
+/* Mobile View /*
+
+
+
+/* Mobile View /*
+
+
+
+
 
