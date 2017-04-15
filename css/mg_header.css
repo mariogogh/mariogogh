@@ -1,6 +1,4 @@
-body {
-   font-size: 50%;
-}
+
 
 .header{
 	background-color: black;
@@ -17,14 +15,14 @@ h1{
 	text-align: left;
 	color: #ffffff;
 	padding-left: auto;
-	font-size: 9em;
+	font-size: 30px;
 	margin-top: 10%;
 }
 
 
 a.link{
 	font-family: helvetica;
-	font-size: 1em;
+	font-size: 30px;
 	color: red;
 }
 
@@ -33,17 +31,37 @@ img {
 }
 
 
-/* Desktop View /*
+/* Desktop View */
 
 
 
-/* Mobile View /*
+/* tablet View */ 
 
+@media (max-width: 768px) {
+		
+	h1 {
+	color: green;
+	font-size: 10px;
+	}
 
+	a.link{
+	font-family: helvetica;
+	font-size: 30px;
+	color: red;
+	}
 
-/* Mobile View /*
+	.header{
+	background-color: black;
+	width: auto;
+  	background-position: 50% 50%;
+    background-size: cover;
+    height: 60vh;
+    border: 10px solid #fff;
+    padding: 80px;
+	}
+}
 
-
+/* Mobile View */
 
 
 
