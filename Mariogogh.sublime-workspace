@@ -1,0 +1,257 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"ima",
+				"background-image"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/css"
+	],
+	"file_history":
+	[
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/home.html",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/css/mg_header.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/topnav.js",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/topnav",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/jquery.slicknav.js",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/jquery-1.11.3.min.js",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/slicknav.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com/slicknav.min.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/card_test.html",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/css/cards.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/css/style01.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/home.html",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/css/style#1.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/css/hero.css",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/index.html",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/makersbsb.com/makers-bsb/css/effect.js",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/behance-bsb/home.html",
+		"/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/100-days/100-days/css/hero1.css",
+		"/Users/Mariogogh/Desktop/Home - KIKK Festival_files/main.css",
+		"/Users/Mariogogh/Desktop/Home - KIKK Festival.html",
+		"/Users/Mariogogh/Desktop/Cuckoo – A productivity timer for remote teams..html",
+		"/Users/Mariogogh/Desktop/14_28.html",
+		"/Users/Mariogogh/Dropbox (Personal)/@CURSOS/CSS : HTML/about-sam/index.sublime-workspace",
+		"/Users/Mariogogh/Desktop/logo_2.svg",
+		"/Users/Mariogogh/Dropbox (Personal)/@mariogogh/OneMonthhtml/about-sam/index.html",
+		"/Users/Mariogogh/Dropbox (Personal)/@mariogogh/OneMonthhtml/about-sam/index.sublime-workspace"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/Mariogogh/Dropbox (Personal)/Cursos/CSS : HTML/portfolio/mariogogh.com"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Rust/Cargo.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

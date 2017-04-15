@@ -2,17 +2,21 @@
 <html>
 <head>
 	<title>Mariogogh Portfolio</title>
-	<link rel="stylesheet" type="text/css"
-	href="css/mg_header.css">
-</head>
-
+	<link rel="stylesheet" type="text/css" href="css/mg_header.css"> </head>
 <body>
 
-<div class="header">
-	<h1>
-	Designer, illustrator and maker at <a class= "link" href="http://www.startae.com/" rel="nofollow noreferrer">@startaeteam</a>
-	</h1>
+<div class="topnav" id="myTopnav">
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
 
+
+
+<div class="header">
+	<h1>Hello, my name is Mariogogh, Designer, illustrator and maker at<a class= "link" href="http://www.startae.com/" rel="nofollow noreferrer">@startaeteam</a> Texto continua aqui. E aqui. E aqui.
+	</h1>
 </div>
 
 
@@ -40,21 +44,16 @@
 </div> 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
 
 </body>
 </html>

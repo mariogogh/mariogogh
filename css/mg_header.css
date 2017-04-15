@@ -1,29 +1,64 @@
-.header{
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+}
 
-	width: auto;
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 10px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: BrandonGrotesque-Regular;
+	letter-spacing: -0.1px;
+	line-height: 12px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: grey;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.header{
+	 width: auto;
   	background-position: 50% 50%;
     background-size: cover;
     height: 60vh;
-    border: 45px solid #fff;
-    padding: 80px;
+    border: 25px solid #fff;
+    padding: 100px;
     background-color: #000000;
 
 }
 
 h1{
-	font-family: helvetica;
+	font-family: BrandonGrotesque-Regular;
+	color: #FFFFFF;
+	letter-spacing: -0.1px;
+	line-height: 70px;
+	font-size: 90px;
+	letter-spacing: -0.1px;
 	text-align: left;
 	color: #ffffff;
 	padding-left: auto;
-	font-size: 90px;
-	margin-top: 10%;
+	margin-top: auto;
 }
 
 
 a.link{
-	font-family: helvetica;
-	font-size: 90px;
-	color: red;
+	font-family: BrandonGrotesque-Regular;
+	color: #FFFFFF;
+	color: blue;
 }
 
 img {
@@ -42,10 +77,10 @@ img {
 	h1 {
 	color: #ffffff;
 	font-size: 50px;
+	line-height: 40px;
 	}
 
 	a.link{
-	font-family: helvetica;
 	font-size: 50px;
 	color: red;
 	}
@@ -53,12 +88,30 @@ img {
 	.header{
 	background-color: black;
 	width: auto;
-  	background-position: 50% 50%;
-    background-size: cover;
-    height: 60vh;
-    border: 20px solid #fff;
-    padding: 80px;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60vh;
+  border: 20px solid #fff;
+  padding: 80px;
 	}
+
+	.topnav a:not(:first-child) {display: right;;}
+  	.topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: right;
+    display: block;
+    text-align: right;
+  }
 }
 
 /* Mobile View */
@@ -71,7 +124,6 @@ img {
 	}
 
 	a.link{
-	font-family: helvetica;
 	font-size: 40px;
 	color: red;
 	}
@@ -79,11 +131,13 @@ img {
 	.header{
 	background-color: black;
 	width: auto;
-  	background-position: 50% 50%;
-    background-size: cover;
-    height: 60vh;
-    border: 10px solid #fff;
-    padding: 40px;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 60vh;
+  border: 10px solid #fff;
+  padding: 40px;
 	}
+
+
 }
 
