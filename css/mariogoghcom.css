@@ -1,8 +1,4 @@
 
-@font-face {
-  font-family: "build";
-  src: url('../fonts/build.ttf') format("truetype");
-}
 
 .mariogoghcom {
   width               : 100%;
@@ -12,7 +8,7 @@
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
-  background          : rgba(250, 250, 250, 1.0);
+  background          : rgba(0, 0, 0, 1.0);
 }
 a {
   text-decoration     : none;
@@ -22,18 +18,30 @@ div {
 }
 .mariogoghcom .group2 {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 42px;
-  height              : 163px;
-  width               : 974px;
-  position            : absolute;
+  pointer-events      : auto;
+  min-height          : 48px;
+  height              : 100%;
+  width               : 1344px;
+  min-width           : 286px;
+  position            : relative;
+}
+.mariogoghcom .group2-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 297px;
+  align-items         : center;
+  height              : 225px;
+  width               : 100%;
+  position            : relative;
   margin              : 0;
-  left                : 45px;
+  display             : flex;
+  left                : 0;
 }
 .mariogoghcom .group2 .group3 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 163px;
-  width               : 974px;
+  height              : 225px;
+  width               : 1344px;
   position            : relative;
   margin              : 0;
   left                : 0px;
@@ -41,101 +49,20 @@ div {
 .mariogoghcom .group2 .group3 .g-ogh {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 163px;
-  width               : 639px;
+  height              : 225px;
+  width               : 882px;
   position            : absolute;
   margin              : 0;
-  left                : 335px;
+  left                : 462px;
 }
 .mariogoghcom .group2 .group3 .m-ario {
   background          : rgba(255, 255, 255, 0.0);
-  top                 : 7px;
-  height              : 152px;
-  width               : 339px;
+  top                 : 9px;
+  height              : 210px;
+  width               : 468px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
-}
-.mariogoghcom .group4 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 231px;
-  height              : 19px;
-  width               : 327px;
-  position            : absolute;
-  margin              : 0;
-  left                : 45px;
-}
-.mariogoghcom .group4 .d-esigner {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 115px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.mariogoghcom .group4 .u-iux {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 1px;
-  height              : 18px;
-  width               : 52px;
-  position            : absolute;
-  margin              : 0;
-  left                : 115px;
-}
-.mariogoghcom .group4 .llustrator {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 19px;
-  width               : 157px;
-  position            : absolute;
-  margin              : 0;
-  left                : 170px;
-}
-.mariogoghcom .b-razilian {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 44px;
-  font-family         : "build", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : justify;
-  letter-spacing      : 0.9px;
-  line-height         : 29.0px;
-}
-.mariogoghcom .m-aker {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 246px;
-  height              : auto;
-  width               : 123px;
-  position            : absolute;
-  margin              : 0;
-  left                : 127px;
-  font-family         : "Futura-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : justify;
-  letter-spacing      : -2.05px;
-  line-height         : 32.0px;
-}
-.mariogoghcom .l-lustrator1 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 248px;
-  height              : auto;
-  width               : 193px;
-  position            : absolute;
-  margin              : 0;
-  left                : 213px;
-  font-family         : "LucidaGrande-Bold", Helvetica, Arial, serif;
-  font-size           : 24.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : justify;
-  letter-spacing      : 0.9px;
-  line-height         : 28.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
