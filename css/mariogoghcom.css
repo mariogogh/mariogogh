@@ -18,24 +18,12 @@ div {
 }
 .mariogoghcom .group2 {
   background          : rgba(255, 255, 255, 0.0);
-  pointer-events      : auto;
-  min-height          : 48px;
-  height              : 100%;
-  width               : 1344px;
-  min-width           : 286px;
-  position            : relative;
-}
-.mariogoghcom .group2-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
   top                 : 297px;
-  align-items         : center;
   height              : 225px;
-  width               : 100%;
+  width               : 1344px;
   position            : absolute;
   margin              : 0;
-  display             : flex;
-  left                : 0;
+  left                : 48px;
 }
 .mariogoghcom .group2 .group3 {
   background          : rgba(255, 255, 255, 0.0);
