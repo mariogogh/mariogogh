@@ -32,7 +32,7 @@ div {
   align-items         : center;
   height              : 225px;
   width               : 100%;
-  position            : relative;
+  position            : absolute;
   margin              : 0;
   display             : flex;
   left                : 0;
@@ -50,19 +50,159 @@ div {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 225px;
-  width               : 882px;
+  width               : 880px;
   position            : absolute;
   margin              : 0;
-  left                : 462px;
+  left                : 464px;
 }
 .mariogoghcom .group2 .group3 .m-ario {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 9px;
   height              : 210px;
-  width               : 468px;
+  width               : 469px;
   position            : absolute;
   margin              : 0;
   left                : 0px;
+}
+.mariogoghcom .icon-active-twitter {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 48px;
+}
+.mariogoghcom .icon-active-twitter .hover {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter .hover:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter .active {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter .active:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.mariogoghcom .icon-active-twitter-copy .hover1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy .hover1:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy .active1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy .active1:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 112px;
+}
+.mariogoghcom .icon-active-twitter-copy2 .hover2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy2 .hover2:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy2 .active2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy2 .active2:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 570px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 144px;
+}
+.mariogoghcom .icon-active-twitter-copy3 .hover3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy3 .hover3:hover {
+  opacity             : 0;
+}
+.mariogoghcom .icon-active-twitter-copy3 .active3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24px;
+  width               : 24px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transition          : all 0.2s ease-in-out;
+}
+.mariogoghcom .icon-active-twitter-copy3 .active3:hover {
+  opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
