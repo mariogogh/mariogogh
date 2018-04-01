@@ -1,2 +1,4 @@
 # mariogogh.com
-My personal website mariogogh.com
+My personal website 
+
+www.mariogogh.com
