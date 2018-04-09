@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="130px" height="23px" viewBox="0 0 130 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Mariogogh_Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="AkzidenzGroteskPro-Regular, Akzidenz-Grotesk Pro" font-size="18" font-weight="normal" letter-spacing="0.0349999964">
-        <g id="Hover" fill="#EF5350">
-            <text id="Link">
-                <tspan x="33.8005" y="18">Contact</tspan>
-            </text>
-        </g>
-    </g>
-</svg>
+<svg height="23" viewBox="0 0 130 23" width="130" xmlns="http://www.w3.org/2000/svg"><text fill="#ef5350" fill-rule="evenodd" font-family="AkzidenzGroteskPro-Regular, Akzidenz-Grotesk Pro" font-size="18" letter-spacing=".0349999964"><tspan x="33.8005" y="18">Contact</tspan></text></svg>
