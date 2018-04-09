@@ -8147,23 +8147,21 @@ div {
 }
 .bp5-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp5-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp5-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp5-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp5-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp5-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp5-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp5-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp5-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp5-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -8171,7 +8169,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp5-an-animation-enter11-frames {
@@ -8179,7 +8176,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -8187,7 +8183,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp5-an-animation-enter11-frames {
@@ -8195,7 +8190,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -8203,7 +8197,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp5-an-animation-enter11-frames {
@@ -8211,6 +8204,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp5-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp5-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -8222,37 +8242,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp5-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp5-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp5-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp5-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -8260,6 +8255,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp5-an-animation-enter12-frames {
@@ -8267,6 +8263,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -8274,6 +8271,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp5-an-animation-enter12-frames {
@@ -8281,6 +8279,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -8288,6 +8287,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp5-an-animation-enter13 {
@@ -8352,83 +8352,6 @@ div {
     }
 }
 @keyframes bp5-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp5-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp5-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp5-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp5-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp5-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp5-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp5-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp5-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp5-an-animation-enter14-frames {
   0%
    
   {
@@ -9384,125 +9307,6 @@ div {
 .bp5-screen3 .bp5-work .bp5-officeless .bp5-active8:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-group {
-  background          : rgba(255, 255, 255, 0.0);
-  right               : 16px;
-  top                 : 93px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy3 .bp5-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy3 .bp5-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy3 .bp5-active11:hover {
-  opacity             : 0;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy2 .bp5-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy2 .bp5-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy2 .bp5-active9:hover {
-  opacity             : 0;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy .bp5-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy .bp5-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp5-screen3 .bp5-group .bp5-stacked-group .bp5-mariogogh-copy .bp5-active10:hover {
-  opacity             : 0;
-}
-.bp5-screen3 .bp5-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 1920px;
-  position            : absolute;
-  margin              : 0;
-  left                : -592px;
-}
 .bp5-screen3 .bp5-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -9548,7 +9352,7 @@ div {
   margin              : 0;
   left                : 69px;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover12 {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 57px;
@@ -9558,10 +9362,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover12:hover {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover9:hover {
   opacity             : 1;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover12 .bp5-hellomariogoghcom1 {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-hover9 .bp5-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 55px;
@@ -9570,7 +9374,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active12 {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 57px;
@@ -9580,10 +9384,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active12:hover {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active9:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active12 .bp5-hellomariogoghcom2 {
+.bp5-screen3 .bp5-foottter .bp5-foottter1 .bp5-hellomariogoghcom .bp5-active9 .bp5-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 55px;
@@ -9674,7 +9478,7 @@ div {
 .bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy1 .bp5-hove:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy1 .bp5-active13 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy1 .bp5-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9684,7 +9488,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy1 .bp5-active13:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy1 .bp5-active10:hover {
   opacity             : 0;
 }
 .bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 {
@@ -9696,7 +9500,7 @@ div {
   margin              : 0;
   left                : 30px;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-hover13 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9706,10 +9510,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-hover13:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-hover10:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-active14 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9719,7 +9523,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-active14:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy2 .bp5-active11:hover {
   opacity             : 0;
 }
 .bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 {
@@ -9731,7 +9535,7 @@ div {
   margin              : 0;
   left                : 61px;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-hover14 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9741,10 +9545,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-hover14:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-hover11:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-active15 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9754,7 +9558,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-active15:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy3 .bp5-active12:hover {
   opacity             : 0;
 }
 .bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 {
@@ -9766,7 +9570,7 @@ div {
   margin              : 0;
   left                : 92px;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-hover15 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9776,10 +9580,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-hover15:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-hover12:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-active16 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9789,7 +9593,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-active16:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy4 .bp5-active13:hover {
   opacity             : 0;
 }
 .bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 {
@@ -9801,7 +9605,7 @@ div {
   margin              : 0;
   left                : 123px;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-hover16 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9811,10 +9615,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-hover16:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-hover13:hover {
   opacity             : 0;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-active17 {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 21px;
@@ -9824,7 +9628,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-active17:hover {
+.bp5-screen3 .bp5-foottter .bp5-icon-active-twitter48-px-copy .bp5-icon-active-twitter48-px-copy5 .bp5-active14:hover {
   opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
@@ -10753,23 +10557,21 @@ div {
 }
 .bp9-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp9-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp9-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp9-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp9-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp9-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp9-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp9-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp9-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp9-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -10777,7 +10579,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp9-an-animation-enter11-frames {
@@ -10785,7 +10586,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -10793,7 +10593,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp9-an-animation-enter11-frames {
@@ -10801,7 +10600,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -10809,7 +10607,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp9-an-animation-enter11-frames {
@@ -10817,6 +10614,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp9-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp9-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -10828,37 +10652,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp9-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp9-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp9-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp9-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -10866,6 +10665,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp9-an-animation-enter12-frames {
@@ -10873,6 +10673,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -10880,6 +10681,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp9-an-animation-enter12-frames {
@@ -10887,6 +10689,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -10894,6 +10697,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp9-an-animation-enter13 {
@@ -10958,83 +10762,6 @@ div {
     }
 }
 @keyframes bp9-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp9-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp9-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp9-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp9-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp9-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp9-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp9-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp9-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp9-an-animation-enter14-frames {
   0%
    
   {
@@ -11990,125 +11717,6 @@ div {
 .bp9-screen4 .bp9-work .bp9-officeless .bp9-active8:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-group {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 93px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-  left                : -359px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy3 .bp9-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy3 .bp9-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy3 .bp9-active11:hover {
-  opacity             : 0;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy2 .bp9-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy2 .bp9-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy2 .bp9-active9:hover {
-  opacity             : 0;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy .bp9-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy .bp9-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp9-screen4 .bp9-group .bp9-stacked-group .bp9-mariogogh-copy .bp9-active10:hover {
-  opacity             : 0;
-}
-.bp9-screen4 .bp9-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 1670px;
-  position            : absolute;
-  margin              : 0;
-  left                : -385px;
-}
 .bp9-screen4 .bp9-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -12154,7 +11762,7 @@ div {
   margin              : 0;
   left                : 99px;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover12 {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -12164,10 +11772,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover12:hover {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover9:hover {
   opacity             : 1;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover12 .bp9-hellomariogoghcom1 {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-hover9 .bp9-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -12176,7 +11784,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active12 {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -12186,10 +11794,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active12:hover {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active9:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active12 .bp9-hellomariogoghcom2 {
+.bp9-screen4 .bp9-foottter .bp9-foottter1 .bp9-hellomariogoghcom .bp9-active9 .bp9-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -12280,7 +11888,7 @@ div {
 .bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy1 .bp9-hove:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy1 .bp9-active13 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy1 .bp9-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12290,7 +11898,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy1 .bp9-active13:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy1 .bp9-active10:hover {
   opacity             : 0;
 }
 .bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 {
@@ -12302,7 +11910,7 @@ div {
   margin              : 0;
   left                : 44px;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-hover13 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12312,10 +11920,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-hover13:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-hover10:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-active14 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12325,7 +11933,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-active14:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy2 .bp9-active11:hover {
   opacity             : 0;
 }
 .bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 {
@@ -12337,7 +11945,7 @@ div {
   margin              : 0;
   left                : 88px;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-hover14 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12347,10 +11955,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-hover14:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-hover11:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-active15 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12360,7 +11968,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-active15:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy3 .bp9-active12:hover {
   opacity             : 0;
 }
 .bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 {
@@ -12372,7 +11980,7 @@ div {
   margin              : 0;
   left                : 132px;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-hover15 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12382,10 +11990,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-hover15:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-hover12:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-active16 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12395,7 +12003,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-active16:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy4 .bp9-active13:hover {
   opacity             : 0;
 }
 .bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 {
@@ -12407,7 +12015,7 @@ div {
   margin              : 0;
   left                : 177px;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-hover16 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12417,10 +12025,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-hover16:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-hover13:hover {
   opacity             : 0;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-active17 {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -12430,7 +12038,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-active17:hover {
+.bp9-screen4 .bp9-foottter .bp9-icon-active-twitter48-px-copy .bp9-icon-active-twitter48-px-copy5 .bp9-active14:hover {
   opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
@@ -13359,23 +12967,21 @@ div {
 }
 .bp4-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp4-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp4-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp4-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp4-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp4-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp4-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp4-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp4-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp4-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -13383,7 +12989,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp4-an-animation-enter11-frames {
@@ -13391,7 +12996,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -13399,7 +13003,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp4-an-animation-enter11-frames {
@@ -13407,7 +13010,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -13415,7 +13017,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp4-an-animation-enter11-frames {
@@ -13423,6 +13024,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp4-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp4-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -13434,37 +13062,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp4-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp4-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp4-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp4-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -13472,6 +13075,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp4-an-animation-enter12-frames {
@@ -13479,6 +13083,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -13486,6 +13091,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp4-an-animation-enter12-frames {
@@ -13493,6 +13099,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -13500,6 +13107,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp4-an-animation-enter13 {
@@ -13564,83 +13172,6 @@ div {
     }
 }
 @keyframes bp4-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp4-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp4-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp4-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp4-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp4-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp4-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp4-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp4-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp4-an-animation-enter14-frames {
   0%
    
   {
@@ -14586,125 +14117,6 @@ div {
 .bp4-screen5 .bp4-work .bp4-officeless .bp4-active8:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-group {
-  background          : rgba(255, 255, 255, 0.0);
-  right               : 0px;
-  top                 : 93px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy3 .bp4-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy3 .bp4-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy3 .bp4-active11:hover {
-  opacity             : 0;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy2 .bp4-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy2 .bp4-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy2 .bp4-active9:hover {
-  opacity             : 0;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy .bp4-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy .bp4-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp4-screen5 .bp4-group .bp4-stacked-group .bp4-mariogogh-copy .bp4-active10:hover {
-  opacity             : 0;
-}
-.bp4-screen5 .bp4-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 1679px;
-  position            : absolute;
-  margin              : 0;
-  left                : -340px;
-}
 .bp4-screen5 .bp4-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -14750,7 +14162,7 @@ div {
   margin              : 0;
   left                : 99px;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover12 {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -14760,10 +14172,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover12:hover {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover9:hover {
   opacity             : 1;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover12 .bp4-hellomariogoghcom1 {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-hover9 .bp4-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -14772,7 +14184,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active12 {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -14782,10 +14194,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active12:hover {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active9:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active12 .bp4-hellomariogoghcom2 {
+.bp4-screen5 .bp4-foottter .bp4-foottter1 .bp4-hellomariogoghcom .bp4-active9 .bp4-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -14876,7 +14288,7 @@ div {
 .bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy1 .bp4-hove:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy1 .bp4-active13 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy1 .bp4-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14886,7 +14298,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy1 .bp4-active13:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy1 .bp4-active10:hover {
   opacity             : 0;
 }
 .bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 {
@@ -14898,7 +14310,7 @@ div {
   margin              : 0;
   left                : 44px;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-hover13 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14908,10 +14320,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-hover13:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-hover10:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-active14 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14921,7 +14333,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-active14:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy2 .bp4-active11:hover {
   opacity             : 0;
 }
 .bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 {
@@ -14933,7 +14345,7 @@ div {
   margin              : 0;
   left                : 88px;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-hover14 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14943,10 +14355,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-hover14:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-hover11:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-active15 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14956,7 +14368,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-active15:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy3 .bp4-active12:hover {
   opacity             : 0;
 }
 .bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 {
@@ -14968,7 +14380,7 @@ div {
   margin              : 0;
   left                : 132px;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-hover15 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14978,10 +14390,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-hover15:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-hover12:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-active16 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -14991,7 +14403,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-active16:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy4 .bp4-active13:hover {
   opacity             : 0;
 }
 .bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 {
@@ -15003,7 +14415,7 @@ div {
   margin              : 0;
   left                : 177px;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-hover16 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -15013,10 +14425,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-hover16:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-hover13:hover {
   opacity             : 0;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-active17 {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -15026,7 +14438,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-active17:hover {
+.bp4-screen5 .bp4-foottter .bp4-icon-active-twitter48-px-copy .bp4-icon-active-twitter48-px-copy5 .bp4-active14:hover {
   opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
@@ -15955,23 +15367,21 @@ div {
 }
 .bp3-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp3-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp3-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp3-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -15979,7 +15389,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp3-an-animation-enter11-frames {
@@ -15987,7 +15396,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -15995,7 +15403,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp3-an-animation-enter11-frames {
@@ -16003,7 +15410,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -16011,7 +15417,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp3-an-animation-enter11-frames {
@@ -16019,6 +15424,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp3-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp3-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -16030,37 +15462,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp3-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp3-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp3-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -16068,6 +15475,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp3-an-animation-enter12-frames {
@@ -16075,6 +15483,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -16082,6 +15491,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp3-an-animation-enter12-frames {
@@ -16089,6 +15499,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -16096,6 +15507,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp3-an-animation-enter13 {
@@ -16160,83 +15572,6 @@ div {
     }
 }
 @keyframes bp3-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp3-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp3-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp3-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp3-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp3-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp3-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp3-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp3-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp3-an-animation-enter14-frames {
   0%
    
   {
@@ -17192,125 +16527,6 @@ div {
 .bp3-screen6 .bp3-work .bp3-officeless .bp3-active8:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-group {
-  background          : rgba(255, 255, 255, 0.0);
-  right               : 0px;
-  top                 : 93px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy3 .bp3-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy3 .bp3-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy3 .bp3-active11:hover {
-  opacity             : 0;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy2 .bp3-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy2 .bp3-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy2 .bp3-active9:hover {
-  opacity             : 0;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy .bp3-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy .bp3-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp3-screen6 .bp3-group .bp3-stacked-group .bp3-mariogogh-copy .bp3-active10:hover {
-  opacity             : 0;
-}
-.bp3-screen6 .bp3-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 1681px;
-  position            : absolute;
-  margin              : 0;
-  left                : -329px;
-}
 .bp3-screen6 .bp3-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -17356,7 +16572,7 @@ div {
   margin              : 0;
   left                : 99px;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover12 {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -17366,10 +16582,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover12:hover {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover9:hover {
   opacity             : 1;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover12 .bp3-hellomariogoghcom1 {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-hover9 .bp3-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -17378,7 +16594,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active12 {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 79px;
@@ -17388,10 +16604,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active12:hover {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active9:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active12 .bp3-hellomariogoghcom2 {
+.bp3-screen6 .bp3-foottter .bp3-foottter1 .bp3-hellomariogoghcom .bp3-active9 .bp3-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 77px;
@@ -17482,7 +16698,7 @@ div {
 .bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy1 .bp3-hove:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy1 .bp3-active13 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy1 .bp3-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17492,7 +16708,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy1 .bp3-active13:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy1 .bp3-active10:hover {
   opacity             : 0;
 }
 .bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 {
@@ -17504,7 +16720,7 @@ div {
   margin              : 0;
   left                : 44px;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-hover13 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17514,10 +16730,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-hover13:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-hover10:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-active14 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17527,7 +16743,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-active14:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy2 .bp3-active11:hover {
   opacity             : 0;
 }
 .bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 {
@@ -17539,7 +16755,7 @@ div {
   margin              : 0;
   left                : 88px;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-hover14 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17549,10 +16765,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-hover14:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-hover11:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-active15 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17562,7 +16778,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-active15:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy3 .bp3-active12:hover {
   opacity             : 0;
 }
 .bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 {
@@ -17574,7 +16790,7 @@ div {
   margin              : 0;
   left                : 132px;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-hover15 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17584,10 +16800,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-hover15:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-hover12:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-active16 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17597,7 +16813,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-active16:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy4 .bp3-active13:hover {
   opacity             : 0;
 }
 .bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 {
@@ -17609,7 +16825,7 @@ div {
   margin              : 0;
   left                : 177px;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-hover16 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17619,10 +16835,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-hover16:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-hover13:hover {
   opacity             : 0;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-active17 {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -17632,7 +16848,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-active17:hover {
+.bp3-screen6 .bp3-foottter .bp3-icon-active-twitter48-px-copy .bp3-icon-active-twitter48-px-copy5 .bp3-active14:hover {
   opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
@@ -18561,23 +17777,21 @@ div {
 }
 .bp2-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp2-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp2-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp2-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -18585,7 +17799,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp2-an-animation-enter11-frames {
@@ -18593,7 +17806,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -18601,7 +17813,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp2-an-animation-enter11-frames {
@@ -18609,7 +17820,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -18617,7 +17827,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp2-an-animation-enter11-frames {
@@ -18625,6 +17834,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp2-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp2-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -18636,37 +17872,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp2-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp2-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp2-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -18674,6 +17885,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp2-an-animation-enter12-frames {
@@ -18681,6 +17893,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -18688,6 +17901,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp2-an-animation-enter12-frames {
@@ -18695,6 +17909,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -18702,6 +17917,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp2-an-animation-enter13 {
@@ -18766,83 +17982,6 @@ div {
     }
 }
 @keyframes bp2-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp2-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp2-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp2-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp2-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp2-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp2-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp2-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp2-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp2-an-animation-enter14-frames {
   0%
    
   {
@@ -19798,125 +18937,6 @@ div {
 .bp2-screen7 .bp2-work .bp2-officeless .bp2-active8:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-group {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 92px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-  left                : 875px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy3 .bp2-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy3 .bp2-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy3 .bp2-active11:hover {
-  opacity             : 0;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy2 .bp2-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy2 .bp2-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy2 .bp2-active9:hover {
-  opacity             : 0;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy .bp2-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy .bp2-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp2-screen7 .bp2-group .bp2-stacked-group .bp2-mariogogh-copy .bp2-active10:hover {
-  opacity             : 0;
-}
-.bp2-screen7 .bp2-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 1920px;
-  position            : absolute;
-  margin              : 0;
-  left                : -240px;
-}
 .bp2-screen7 .bp2-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -19975,7 +18995,7 @@ div {
 .bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy .bp2-hove:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy .bp2-active12 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy .bp2-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -19985,7 +19005,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy .bp2-active12:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy .bp2-active9:hover {
   opacity             : 0;
 }
 .bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 {
@@ -19997,7 +19017,7 @@ div {
   margin              : 0;
   left                : 44px;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-hover12 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20007,10 +19027,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-hover12:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-hover9:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-active13 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20020,7 +19040,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-active13:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy2 .bp2-active10:hover {
   opacity             : 0;
 }
 .bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 {
@@ -20032,7 +19052,7 @@ div {
   margin              : 0;
   left                : 88px;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-hover13 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20042,10 +19062,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-hover13:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-hover10:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-active14 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20055,7 +19075,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-active14:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy3 .bp2-active11:hover {
   opacity             : 0;
 }
 .bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 {
@@ -20067,7 +19087,7 @@ div {
   margin              : 0;
   left                : 132px;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-hover14 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20077,10 +19097,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-hover14:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-hover11:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-active15 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20090,7 +19110,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-active15:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy4 .bp2-active12:hover {
   opacity             : 0;
 }
 .bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 {
@@ -20102,7 +19122,7 @@ div {
   margin              : 0;
   left                : 177px;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-hover15 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20112,10 +19132,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-hover15:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-hover12:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-active16 {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -20125,7 +19145,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-active16:hover {
+.bp2-screen7 .bp2-foottter .bp2-footter-links .bp2-icon-active-twitter48-px-copy5 .bp2-active13:hover {
   opacity             : 0;
 }
 .bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom {
@@ -20137,7 +19157,7 @@ div {
   margin              : 0;
   left                : 133px;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover16 {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 113px;
@@ -20147,10 +19167,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover16:hover {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover13:hover {
   opacity             : 1;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover16 .bp2-hellomariogoghcom1 {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-hover13 .bp2-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 110px;
@@ -20159,7 +19179,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active17 {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 113px;
@@ -20169,10 +19189,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active17:hover {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active14:hover {
   opacity             : 0;
 }
-.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active17 .bp2-hellomariogoghcom2 {
+.bp2-screen7 .bp2-foottter .bp2-hellomariogoghcom .bp2-active14 .bp2-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 1px;
   height              : 110px;
@@ -21158,23 +20178,21 @@ div {
 }
 .bp1-an-animation-enter11 {
   opacity             : 0;
-  transform           : translate(0, 25px);
   display             : block;
-  -webkit-animation   : bp1-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter11-frames 0.10000000149s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.899999976158s;
-  -moz-animation-delay: 0.899999976158s;
-  -o-animation-delay  : 0.899999976158s;
-  animation-delay     : 0.899999976158s;
+  -webkit-animation   : bp1-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter11-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.40000000596s;
+  -moz-animation-delay: 0.40000000596s;
+  -o-animation-delay  : 0.40000000596s;
+  animation-delay     : 0.40000000596s;
 }
 @-webkit-keyframes bp1-an-animation-enter11-frames {
   0%
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -21182,7 +20200,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-moz-keyframes bp1-an-animation-enter11-frames {
@@ -21190,7 +20207,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -21198,7 +20214,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @-o-keyframes bp1-an-animation-enter11-frames {
@@ -21206,7 +20221,6 @@ div {
    
   {
   opacity: 0;
-  transform: translate(0, 25px);
     }
   
     
@@ -21214,7 +20228,6 @@ div {
    
   {
   opacity: 1;
-  transform: translate(0,0);
     }
 }
 @keyframes bp1-an-animation-enter11-frames {
@@ -21222,6 +20235,33 @@ div {
    
   {
   opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+  opacity: 1;
+    }
+}
+.bp1-an-animation-enter12 {
+  opacity             : 0;
+  transform           : translate(0, 25px);
+  display             : block;
+  -webkit-animation   : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -moz-animation      : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -o-animation        : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  animation           : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
+  -webkit-animation-delay: 0.300000011921s;
+  -moz-animation-delay: 0.300000011921s;
+  -o-animation-delay  : 0.300000011921s;
+  animation-delay     : 0.300000011921s;
+}
+@-webkit-keyframes bp1-an-animation-enter12-frames {
+  0%
+   
+  {
+  opacity: 0;
   transform: translate(0, 25px);
     }
   
@@ -21233,37 +20273,12 @@ div {
   transform: translate(0,0);
     }
 }
-.bp1-an-animation-enter12 {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter12-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.40000000596s;
-  -moz-animation-delay: 0.40000000596s;
-  -o-animation-delay  : 0.40000000596s;
-  animation-delay     : 0.40000000596s;
-}
-@-webkit-keyframes bp1-an-animation-enter12-frames {
-  0%
-   
-  {
-  opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-    }
-}
 @-moz-keyframes bp1-an-animation-enter12-frames {
   0%
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -21271,6 +20286,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @-o-keyframes bp1-an-animation-enter12-frames {
@@ -21278,6 +20294,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -21285,6 +20302,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 @keyframes bp1-an-animation-enter12-frames {
@@ -21292,6 +20310,7 @@ div {
    
   {
   opacity: 0;
+  transform: translate(0, 25px);
     }
   
     
@@ -21299,6 +20318,7 @@ div {
    
   {
   opacity: 1;
+  transform: translate(0,0);
     }
 }
 .bp1-an-animation-enter13 {
@@ -21363,83 +20383,6 @@ div {
     }
 }
 @keyframes bp1-an-animation-enter13-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-.bp1-an-animation-enter14 {
-  opacity             : 0;
-  transform           : translate(0, 25px);
-  display             : block;
-  -webkit-animation   : bp1-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -moz-animation      : bp1-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -o-animation        : bp1-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  animation           : bp1-an-animation-enter14-frames 0.20000000298s ease-in-out 1 normal forwards;
-  -webkit-animation-delay: 0.300000011921s;
-  -moz-animation-delay: 0.300000011921s;
-  -o-animation-delay  : 0.300000011921s;
-  animation-delay     : 0.300000011921s;
-}
-@-webkit-keyframes bp1-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-moz-keyframes bp1-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@-o-keyframes bp1-an-animation-enter14-frames {
-  0%
-   
-  {
-  opacity: 0;
-  transform: translate(0, 25px);
-    }
-  
-    
-  100%
-   
-  {
-  opacity: 1;
-  transform: translate(0,0);
-    }
-}
-@keyframes bp1-an-animation-enter14-frames {
   0%
    
   {
@@ -22385,125 +21328,6 @@ div {
 .bp1-screen8 .bp1-work .bp1-officeless .bp1-active8:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-group {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 93px;
-  height              : 23px;
-  width               : 390px;
-  position            : fixed;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group {
-  /* Flexbox */
-  display: flex;
-  justify-content     : flex-start;
-  flex-direction      : row;
-  align-items         : center;
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : auto;
-  position            : relative;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy3 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0;
-  width               : 130px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy3 .bp1-hover11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy3 .bp1-active11 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy3 .bp1-active11:hover {
-  opacity             : 0;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy2 {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy2 .bp1-hover9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy2 .bp1-active9 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy2 .bp1-active9:hover {
-  opacity             : 0;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  height              : 23px;
-  margin              : 0 0 0 0px;
-  width               : 130px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy .bp1-hover10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy .bp1-active10 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 23px;
-  width               : 130px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transition          : all 0.2s ease-in-out;
-}
-.bp1-screen8 .bp1-group .bp1-stacked-group .bp1-mariogogh-copy .bp1-active10:hover {
-  opacity             : 0;
-}
-.bp1-screen8 .bp1-fade-box {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 205px;
-  width               : 3215px;
-  position            : absolute;
-  margin              : 0;
-  left                : -648px;
-}
 .bp1-screen8 .bp1-bg-fotter {
   background          : rgba(255, 255, 255, 1.0);
   bottom              : 0px;
@@ -22549,7 +21373,7 @@ div {
   margin              : 0;
   left                : 175px;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover12 {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 154px;
@@ -22559,10 +21383,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover12:hover {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover9:hover {
   opacity             : 1;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover12 .bp1-hellomariogoghcom1 {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-hover9 .bp1-hellomariogoghcom1 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 154px;
@@ -22571,7 +21395,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active12 {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active9 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 154px;
@@ -22581,10 +21405,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active12:hover {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active9:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active12 .bp1-hellomariogoghcom2 {
+.bp1-screen8 .bp1-foottter .bp1-foottter1 .bp1-hellomariogoghcom .bp1-active9 .bp1-hellomariogoghcom2 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 154px;
@@ -22675,7 +21499,7 @@ div {
 .bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy .bp1-hove:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy .bp1-active13 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy .bp1-active10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22685,7 +21509,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy .bp1-active13:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy .bp1-active10:hover {
   opacity             : 0;
 }
 .bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 {
@@ -22697,7 +21521,7 @@ div {
   margin              : 0;
   left                : 44px;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-hover13 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-hover10 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22707,10 +21531,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-hover13:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-hover10:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-active14 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-active11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22720,7 +21544,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-active14:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy2 .bp1-active11:hover {
   opacity             : 0;
 }
 .bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 {
@@ -22732,7 +21556,7 @@ div {
   margin              : 0;
   left                : 88px;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-hover14 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-hover11 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22742,10 +21566,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-hover14:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-hover11:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-active15 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-active12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22755,7 +21579,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-active15:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy3 .bp1-active12:hover {
   opacity             : 0;
 }
 .bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 {
@@ -22767,7 +21591,7 @@ div {
   margin              : 0;
   left                : 132px;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-hover15 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-hover12 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22777,10 +21601,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-hover15:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-hover12:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-active16 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-active13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22790,7 +21614,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-active16:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy4 .bp1-active13:hover {
   opacity             : 0;
 }
 .bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 {
@@ -22802,7 +21626,7 @@ div {
   margin              : 0;
   left                : 177px;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-hover16 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-hover13 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22812,10 +21636,10 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-hover16:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-hover13:hover {
   opacity             : 0;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-active17 {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-active14 {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
   height              : 28px;
@@ -22825,7 +21649,7 @@ div {
   left                : 0px;
   transition          : all 0.2s ease-in-out;
 }
-.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-active17:hover {
+.bp1-screen8 .bp1-foottter .bp1-footter-links .bp1-icon-active-twitter48-px-copy5 .bp1-active14:hover {
   opacity             : 0;
 }
 /* .anima-animate-appear prefix for appear animations */
