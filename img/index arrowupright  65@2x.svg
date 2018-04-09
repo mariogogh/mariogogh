@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10.8841777,2.05462185 L4.11275168,2.05462185 C3.54489917,2.05462185 3.08456376,1.59467908 3.08456376,1.02731092 C3.08456376,0.459942768 3.54489917,0 4.11275168,0 L13.366443,0 C13.9342955,0 14.3946309,0.459942768 14.3946309,1.02731092 L14.3946309,10.2731092 C14.3946309,10.8404774 13.9342955,11.3004202 13.366443,11.3004202 C12.7985904,11.3004202 12.338255,10.8404774 12.338255,10.2731092 L12.338255,3.50745889 L1.75522657,14.0814605 C1.35369421,14.4826504 0.702681628,14.4826504 0.301149269,14.0814605 C-0.10038309,13.6802707 -0.10038309,13.0298134 0.301149269,12.6286235 L10.8841777,2.05462185 Z" id="path-1"></path>
+    </defs>
+    <g id="Mariogogh_Index" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="arrow-up-right">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

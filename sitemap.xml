@@ -6,13 +6,13 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://www.mariogogh.com/</loc>
-  <lastmod>2018-04-01</lastmod>
+  <loc>http://https://mariogogh.com/</loc>
+  <lastmod>2018-04-09</lastmod>
 </url>
 
 <url>
-  <loc>http://www.mariogogh.com/mariogoghcom</loc>
-  <lastmod>2018-04-01</lastmod>
+  <loc>http://https://mariogogh.com/index</loc>
+  <lastmod>2018-04-09</lastmod>
 </url>
 
 </urlset>
