@@ -1104,11 +1104,17 @@ div {
 .bp8-index .bp8-intro-buttons .bp8-hero-text .bp8-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 315px;
-  width               : 300px;
-  position            : relative;
+  height              : auto;
+  width               : 302px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.04px;
+  line-height         : 26.0px;
 }
 .bp8-index .bp8-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -1945,7 +1951,7 @@ div {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 175px;
   height              : 18px;
-  width               : 108px;
+  width               : 107px;
   position            : absolute;
   margin              : 0;
   left                : 171px;
@@ -3595,11 +3601,17 @@ div {
 .bp7-screen1 .bp7-intro-buttons .bp7-hero-text .bp7-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 316px;
-  width               : 320px;
-  position            : relative;
+  height              : auto;
+  width               : 322px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.04px;
+  line-height         : 26.0px;
 }
 .bp7-screen1 .bp7-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -4436,7 +4448,7 @@ div {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 195px;
   height              : 18px;
-  width               : 119px;
+  width               : 118px;
   position            : absolute;
   margin              : 0;
   left                : 190px;
@@ -6086,11 +6098,17 @@ div {
 .bp6-screen2 .bp6-intro-buttons .bp6-hero-text .bp6-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 316px;
-  width               : 320px;
-  position            : relative;
+  height              : auto;
+  width               : 322px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.04px;
+  line-height         : 26.0px;
 }
 .bp6-screen2 .bp6-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -6927,7 +6945,7 @@ div {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 195px;
   height              : 19px;
-  width               : 119px;
+  width               : 118px;
   position            : absolute;
   margin              : 0;
   left                : 190px;
@@ -8577,11 +8595,17 @@ div {
 .bp5-screen3 .bp5-intro-buttons .bp5-hero-text .bp5-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 449px;
-  width               : 682px;
-  position            : relative;
+  height              : auto;
+  width               : 684px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.05px;
+  line-height         : 34.0px;
 }
 .bp5-screen3 .bp5-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -11059,11 +11083,17 @@ div {
 .bp9-screen4 .bp9-intro-buttons .bp9-hero-text .bp9-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 201px;
-  width               : 782px;
-  position            : relative;
+  height              : auto;
+  width               : 784px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.05px;
+  line-height         : 34.0px;
 }
 .bp9-screen4 .bp9-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -13541,11 +13571,17 @@ div {
 .bp4-screen5 .bp4-intro-buttons .bp4-hero-text .bp4-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 201px;
-  width               : 822px;
-  position            : relative;
+  height              : auto;
+  width               : 824px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.05px;
+  line-height         : 34.0px;
 }
 .bp4-screen5 .bp4-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -16013,11 +16049,17 @@ div {
 .bp3-screen6 .bp3-intro-buttons .bp3-hero-text .bp3-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 201px;
-  width               : 822px;
-  position            : relative;
+  height              : auto;
+  width               : 824px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.05px;
+  line-height         : 34.0px;
 }
 .bp3-screen6 .bp3-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -18495,11 +18537,17 @@ div {
 .bp2-screen7 .bp2-intro-buttons .bp2-hero-text .bp2-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 236px;
-  width               : 1200px;
-  position            : relative;
+  height              : auto;
+  width               : 1202px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.07px;
+  line-height         : 47.0px;
 }
 .bp2-screen7 .bp2-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
@@ -20977,11 +21025,17 @@ div {
 .bp1-screen8 .bp1-intro-buttons .bp1-hero-text .bp1-i-am-mrio-jr-as-kn {
   background          : rgba(255, 255, 255, 0.0);
   top                 : 0px;
-  height              : 205px;
-  width               : 1568px;
-  position            : relative;
+  height              : auto;
+  width               : 1570px;
+  position            : absolute;
   margin              : 0;
   left                : 0px;
+  font-family         : "AkzidenzGroteskPro-Regular", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.07px;
+  line-height         : 47.0px;
 }
 .bp1-screen8 .bp1-fadeshape {
   background          : rgba(255, 255, 255, 0.0);
