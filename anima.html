@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)https://projects.animaapp.com/#/p/DmNmIHP/mariogoghhome/prototype -->
+<html class="js-focus-visible"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./anima_files/recaptcha__pt_br.js"></script><script type="text/javascript" async="" src="./anima_files/id43h9l8"></script><script type="text/javascript" async="" src="./anima_files/analytics.js"></script><script type="text/javascript" async="" src="./anima_files/recaptcha__pt_br.js"></script><script src="./anima_files/collectedforms.js" type="text/javascript" id="CollectedForms-7205540" crossorigin="anonymous" data-leadin-portal-id="7205540" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="7205540" data-hsjs-env="prod"></script><script src="./anima_files/7205540.js" type="text/javascript" id="cookieBanner-7205540" data-loader="hs-scriptloader" data-hsjs-portal="7205540" data-hsjs-env="prod"></script><script src="./anima_files/7205540(1).js" type="text/javascript" id="hs-analytics"></script><script type="text/javascript" async="" src="./anima_files/mixpanel-2-latest.min.js"></script><script src="./anima_files/1619126221749999" async=""></script><script async="" src="./anima_files/fbevents.js"></script><script>!function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1619126221749999');
+  fbq('track', 'PageView');</script><noscript><img height=1 width=1 style=display:none src="https://www.facebook.com/tr?id=1619126221749999&ev=PageView&noscript=1"></noscript><meta name="viewport" content="width=device-width,initial-scale=1,minimal-ui"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Anima Prototype"><link rel="apple-touch-icon" href="https://animaapp.s3.amazonaws.com/home/previews/webapp-icon-180.png"><title>Anima</title><script src="./anima_files/jquery.min.js"></script><style></style><link rel="shortcut icon" type="image/png" href="https://animaapp.s3.amazonaws.com/home/favicon.png"><link rel="stylesheet" href="./anima_files/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"><link rel="stylesheet" href="./anima_files/default.min.css"><script src="./anima_files/highlight.min.js"></script><script src="./anima_files/postscribe.min.js"></script><script src="./anima_files/reconnecting-websocket.min.js"></script><script src="./anima_files/raven.min.js" crossorigin="anonymous"></script><link href="./anima_files/css" rel="stylesheet"><style type="text/css">@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+        .highlighted:before {
+      border: 2px solid yellow;
+      border-radius: 100px;
+    }
+
+    button:focus {outline:0;}
+    input:focus {outline:0;}
+    textarea:focus {outline:0;}
+    div:focus {outline:0;}
+    img:focus {outline:0;}
+    span:focus {outline:0;}
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+    }
+
+    .grecaptcha-badge {
+      width: 70px !important;
+      display: none;
+      overflow: hidden !important;
+      transition: all 0.3s ease !important;
+      left: 4px !important;
+    }
+
+    .grecaptcha-badge:hover {
+      width: 256px !important;
+    }
+
+    #app {
+        font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica !important;
+      height: 100%;
+    }
+
+    .el-checkbox__label {
+        font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica !important;
+        font-size: 12px !important;
+        font-weight: 300 !important;
+    }
+
+    .el-input__inner {
+        height: 32px !important;
+        border-radius: 2px !important;
+        font-size: 14px !important;
+    }
+
+    .el-input--mini .el-input__icon {
+        font-size: 14px;
+        font-weight: 800;
+    }
+
+    .el-icon-more-outline {
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 4'><g fill='%2366727F' fill-rule='evenodd'><circle cx='14' cy='2' r='2'/><circle cx='8' cy='2' r='2'/><circle cx='2' cy='2' r='2'/></g></svg>");
+        width: 16px !important;
+        height: 16px !important;
+    }
+
+    .el-icon-more-outline:before {
+        content: "" !important;
+    }
+
+    .el-card.is-always-shadow {
+        -webkit-box-shadow: 0px 1px 4px 0 rgba(148, 148, 148, 0.4) !important;
+        box-shadow: 0px 1px 4px 0 rgba(148, 148, 148, 0.4) !important;
+    }
+
+    .el-card {
+        border: 0px !important;
+    }
+
+    .project-box-card .el-card__body {
+        padding: 0;
+    }
+
+    .screen-box-card .el-card__body {
+        padding: 0;
+    }
+
+    body input, textarea, select, button, li, a, ul, div, span {
+      font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica;
+      font-size: 14px;
+      font-weight: 500;
+    }    
+
+    .icon-btn span {
+      font-size: 12px;
+    }
+
+    .anima-primary {
+      color: white !important;
+      border-radius: 2px !important;
+      border: 0 !important;
+      font-size: 14px !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica !important;
+      line-height: 16px !important;
+      background-color: #4254ff !important;
+      padding: 8px 16px !important;
+      letter-spacing: 0.3px !important;
+      height: 32px !important;
+    }
+
+    .anima-secondary {
+      color: #272833 !important;
+      border-radius: 2px !important;
+      border: 0 !important;
+      font-size: 14px !important;
+      font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica !important;
+      line-height: 16px !important;
+      background-color: #E4E6EA !important;
+      padding: 8px 16px !important;
+      letter-spacing: 0.3px !important;
+      height: 32px !important;
+    }
+
+    .anima-secondary:hover {
+      color: #272833 !important;
+      background-color: #d6dadd !important;  
+    }
+
+    .anima-secondary:active {
+      color: #272833 !important;
+      background-color: #c1c7cd !important;  
+    }
+
+    .anima-primary img {
+        margin: auto;
+        margin-right: 8px !important;
+    }
+
+    .anima-primary:hover {
+        background-color: #3049d2 !important;
+    }
+
+    .anima-primary:active {
+        background-color: #283cb3 !important;
+    }
+
+    .anima-tag {
+        height: 23px !important;    
+        background-color: rgba(1,1,1,0) !important;    
+        color: #fbb000 !important;
+        font-size: 12px !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Open Sans', Helvetica !important;
+        border-color: #fbb000 !important;
+        padding: 4px 8px !important;
+        line-height: 13px !important;
+        font-weight: 500 !important;
+        border-radius: 2px !important;
+    }
+
+    .anima-link-button:hover {
+        text-decoration: underline;
+    }
+
+    .anima-link-button {
+        text-decoration: none;
+    }
+
+    .anima-card-cover {
+        border-bottom: solid 1px #dcdfe6;
+    }
+
+    .el-header {
+        padding: 0 16px !important;
+    }
+
+    .el-message-box-width-auto {
+        width: auto !important;
+    }
+
+    #HW_frame_cont {
+        z-index: 99999;
+    }</style><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+    0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+    for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+    mixpanel.init("b0e73daa3c5bf70fb1ae7c179668f2a5");</script><link href="./anima_files/app.d272d0e735593209bd657e80812f3937.css" rel="stylesheet"><link href="https://www.googletagmanager.com/" rel="preconnect"><script async="" src="./anima_files/js" charset="utf-8"></script><link href="https://www.google-analytics.com/" rel="preconnect"><script async="" src="./anima_files/analytics.js" charset="utf-8"></script><script type="text/javascript" src="./anima_files/api.js"></script><style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}</style><script type="text/javascript" src="./anima_files/api.js"></script><style type="text/css">@keyframes resizeanim { from { opacity: 0; } to { opacity: 0; } } 
+      .resize-triggers { animation: 1ms resizeanim; visibility: hidden; opacity: 0; }
+      .resize-triggers, .resize-triggers > div, .contract-trigger:before { content: " "; display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; z-index: -1 }
+      .resize-triggers > div { background: #eee; overflow: auto; }
+      .contract-trigger:before { width: 200%; height: 200%; }</style></head><body data-gr-c-s-loaded="true" class="vsc-initialized" style=""><div id="app" class=""><div data-v-4f748180="" style="height: 100%;"><div data-v-4f748180="" style="margin: 0px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); display: none;">
+    
+  </div> <!----> <div data-v-4f748180="" style="display: flex; flex-direction: column; height: 100%; position: relative;"> <!----> <div data-v-ab645dae="" data-v-4f748180="" style="flex: 1 1 0%;"><iframe data-v-ab645dae="" src="./anima_files/mariogoghhome.html" style="height: 100%;"></iframe></div></div> <div data-v-4f748180="" class="el-dialog__wrapper" style="display: none;"><div class="el-dialog" style="width: 400px; margin-top: 15vh;"><div class="el-dialog__header"><span class="el-dialog__title">Awesome!</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><!----><!----></div></div></div></div><script type="text/javascript">var sc_project=11683448; 
+    var sc_invisible=1; 
+    var sc_security="1c07bdf3"; 
+    var sc_https=1;</script><script type="text/javascript" src="./anima_files/counter.js" async=""></script><script>hljs.initHighlightingOnLoad();</script><script>window.intercomSettings = {
+    app_id: "id43h9l8"
+  };</script><script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/id43h9l8';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script><script>(function () {
+
+    function generateUUID() {
+        var d = new Date().getTime();
+        if (typeof performance !== 'undefined' && typeof performance.now === 'function') {
+            d += performance.now(); //use high-precision timer if available
+        }
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = (d + Math.random() * 16) % 16 | 0;
+            d = Math.floor(d / 16);
+            return (c === 'x' ? r : (r & 0x3 | 0x8)).toString(16);
+        });
+    }
+
+    function createCookie(name, value, days) {
+        var expires;
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toGMTString();
+        }
+        else {
+            expires = "";
+        }
+        document.cookie = name + "=" + value + expires + "; path=/;domain=animaapp.com";
+    }
+
+    // Read cookie
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) === ' ') {
+                c = c.substring(1, c.length);
+            }
+            if (c.indexOf(nameEQ) === 0) {
+                return c.substring(nameEQ.length, c.length);
+            }
+        }
+        return null;
+    }
+
+    function parametize(object) {
+        var encodedString = '';
+        for (var prop in object) {
+            if (object.hasOwnProperty(prop)) {
+                if (encodedString.length > 0) {
+                    encodedString += '&';
+                }
+                encodedString += encodeURI(prop + '=' + object[prop]);
+            }
+        }
+        return encodedString;
+    }
+
+    function getVisitorId() {
+        var visitorId = readCookie('ana_visitorId');
+        if (!visitorId) {
+            visitorId = generateUUID();
+            createCookie('ana_visitorId', visitorId);
+        }
+        return visitorId;
+    }
+
+    window.trackEvent = function (eventAction, params) {
+
+        var visitorId = getVisitorId();
+
+        var args = {
+            'eventCategory': 'General',
+            'eventAction': eventAction,
+            'url': encodeURIComponent(window.location.href),
+            'host': window.location.hostname,
+            'path': window.location.pathname,
+            'referrer': document.referrer,
+            'uid': visitorId
+        };
+
+        if (params) {
+          args['params'] = JSON.stringify(params);
+        }
+
+        var data = parametize(args);
+        var http = new XMLHttpRequest();
+        var url = "//logs.animaapp.com/analytics/collect";
+        http.open("POST", url, true);
+
+        http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        http.setRequestHeader("X-Client-Id", 'com.animaapp.web');
+        http.send(data);
+    };
+
+    window.readCookie = readCookie;
+
+    window.submitted = function (event) {
+        //window.trackEvent('conversion');
+    }
+
+    //window.trackEvent('pageview');
+
+})();</script><script src="./anima_files/checkout.js"></script><script src="./anima_files/widget.js"></script><script>let widgetConfig = {
+    selector: ".headway",
+    account: "JrZ3qJ"
+  }
+  Headway.init(widgetConfig)</script><script src="./anima_files/bundle.min.js" crossorigin="anonymous"></script><script type="text/javascript" id="hs-script-loader" async="" defer="defer" src="./anima_files/7205540(2).js"><script id="profitwell-js" data-pw-auth="43e147f2f1740546d0c509671844d146">
+        (function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)};
+        a=s.createElement(g);m=s.getElementsByTagName(g)[0];a.async=1;a.src=r+'?auth='+
+        s.getElementById(o+'-js').getAttribute('data-pw-auth');m.parentNode.insertBefore(a,m);
+        })(window,document,'profitwell','script','https://public.profitwell.com/js/profitwell.js');</script><script type="text/javascript" src="./anima_files/manifest.2ae2e69a05c33dfc65f8.js"></script><script type="text/javascript" src="./anima_files/vendor.eb33835dff6c23617150.js"></script><script type="text/javascript" src="./anima_files/app.94690eb74cc016d8b60b.js"></script><style id="HW_styles_cont">#HW_badge_cont {
+  visibility: hidden;
+  pointer-events: none;
+  display: block;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+  position: relative;
+}
+
+#HW_badge_cont.HW_visible {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+#HW_badge {
+  display: block;
+  border-radius: 20px;
+  background: #CD4B5B;
+  height: 16px;
+  width: 16px;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  font-size: 11px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+
+#HW_badge.HW_softHidden {
+  background: #d4d4d4;
+  opacity: 1;
+  transform: scale(0.6);
+}
+
+#HW_badge.HW_hidden {
+  opacity: 0;
+  transform: scale(0);
+}
+
+#HW_badge.HW_visible {
+  opacity: 1;
+  transform: scale(1.0);
+}
+
+#HW_frame_cont {
+  pointer-events: none;
+  border-radius: 4px;
+  box-shadow: 0 0 1px rgba(99, 114, 130, 0.32), 0 8px 16px rgba(27, 39, 51, 0.08);
+  background: #fff;
+  border: none;
+  position: absolute;
+  top: -900em;
+  z-index: 2147483647;
+  width: 340px;
+  height: 0;
+  opacity: 0;
+  will-change: height, margin-top, opacity;
+  margin-top: -10px;
+  transition: margin-top 0.15s ease-out, opacity 0.1s ease-out, height 0.3s ease-out;
+}
+
+#HW_frame_cont.HW_visible {
+  opacity: 1;
+  pointer-events: auto;
+  margin-top: 0px;
+}
+
+#HW_frame {
+  background: #fff;
+  border: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2147483647;
+  transition: height 0.3s ease-out;
+}
+
+#HW_frame_cont.HW_embed {
+  position: static;
+  margin-top: 0;
+}</style><div id="HW_frame_cont" style="height: 313px;"><iframe id="HW_frame" src="./anima_files/JrZ3qJ.html" sandbox="allow-same-origin allow-scripts allow-top-navigation allow-popups allow-forms allow-popups-to-escape-sandbox" tabindex="-1" aria-hidden="true" style="height: 313px;"></iframe></div><div id="price-alert-wrapper"><link id="mz:css" rel="stylesheet" href="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/content-scripts/price-alert/loader.css"> <div id="mz:meliuz-reminder-price-alert" style="display:none"> <div class="mz-top-header"> <div class="mz-image-top-div"> <img class="mz-logo-header" src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/logo-full-meliuz-name.svg"> </div> <div id="price-alert-close-container" class="price-alert-close-container"> <img src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/alert-close-icon.svg" class="mz-new-reminder__close"> </div> <div class="mz-price-header-labels"> <div class="mz-too-expensive">Achou caro?</div> <div class="mz-informative-description">A gente te avisa por e-mail quando o preço&nbsp;baixar.</div> </div> </div> <div class="mz-mid-price-content"> <div class="mz-container-product"> <img id="price-alert-product-logo" class="price-alert-product-image"> <img id="price-alert-product-partner-logo" class="price-alert-product-partner-image"> </div> <div class="mz-product-name"> <div id="price-alert-product-name" class="price-alert-product-name"></div> </div> <div class="price-alert-info-row"> <div id="price-alert-left" class="price-alert-price-containers"> <div> <label id="mz-price-info" class="mz-price-info">Preço atual</label><br> <label id="price-alert-product-price"></label> </div> </div> <div id="price-alert-right" class="price-alert-price-containers"> <div> <label id="mz-price-cashback" class="mz-price-info">Ganhe</label><br> <label id="price-alert-product-cashback"></label> </div> </div> </div> <hr id="mz-divider" class="mz-divider"> </div> <div id="price-alert-footer" class="mz-price-alert-howmuch-section"> <div class="mz-price-alert-value-content"> <div id="mz-create-and-loading-status"> <div class="mz-price-reminder-alert-label"> <p class="mz-alert-price-label-pay">Quanto gostaria de pagar?</p> </div> <div class="mz-alert-form-inputs"> <input id="mz-price-input" class="mz-alert-input" placeholder="R$ " type="currency" name="" value=""> <button id="btn-create-alert" class="mz-alert-button mz-pointer" style="display:none"> Criar alerta </button> <button id="btn-create-alert-disabled" class="mz-alert-button mz-pointer" disabled="disabled"> <div class="mz-button-div"> <img id="mz-loading-img" class="mzrotate" src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/alert-loading-icon.png" style="display:none"> <p id="mz-button-disabled-text">Criar alerta</p> </div> </button> </div> <div id="mz-alert-form-error" class="mz-alert-form-error"> <div class="mz-warning-form-icon"> <img src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/alert-attention-circle.svg"> </div> <div id="mz-alert-input-error" class="mz-alert-input-error">O valor deve ser menor que o preço&nbsp;atual.</div> </div> </div> <div id="mz-created-status" style="display:none"> <div class="mz-create-alert-status-label"> <img id="mz-icon-success" src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/alert-check-circle.svg"> <div class="mz-success-title"> Alerta criado! </div> </div> <div class="mz-success-message"> Quando este produto chegar a R$ <span id="mz-success-target-price"></span>, você será avisado por e-mail. </div> </div> <div id="mz-failed-status" style="display:none"> <div class="mz-create-alert-status-label"> <img id="mz-icon-error" src="chrome-extension://jdcfmebflppkljibgpdlboifpcaalolg/images/alert-close-circle.svg"> <div id="mz-error-title" class="mz-error-title"> Não foi possível criar o alerta </div> </div> <div id="mz-try-again-container" class="mz-try-again-container"> <a id="mz-try-again"> Tentar novamente </a> </div> </div> </div> </div> </div></div><iframe owner="archetype" style="display: none; visibility: hidden;" src="./anima_files/saved_resource(2).html"></iframe><span id="buffer-extension-hover-button" style="display: none; position: absolute; z-index: 8675309; width: 100px; height: 25px; background-image: url(&quot;chrome-extension://noojglkidnpfjbincgijbaiedldjfbhh/data/shared/img/buffer-hover-icon@2x.png&quot;); background-size: 100px 25px; opacity: 0.9; cursor: pointer; top: 403px; left: 631.5px;"></span><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe src="./anima_files/anchor.html" width="256" height="60" role="presentation" name="a-npzsrsyvbmw2" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./anima_files/saved_resource(3).html"></iframe></div><iframe id="intercom-frame" style="position: absolute !important; opacity: 0 !important; width: 1px !important; height: 1px !important; top: 0 !important; left: 0 !important; border: none !important; display: block !important; z-index: -1 !important;" aria-hidden="true" tabindex="-1" title="Intercom" src="./anima_files/saved_resource(4).html"></iframe><div id="intercom-container" class="intercom-namespace"><style>html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body,html.intercom-modal-open,#intercom-container-body{overflow:hidden !important;}html.intercom-mobile-messenger-active,html.intercom-mobile-messenger-active > body{position:static !important;}html.intercom-mobile-messenger-active > body{height:0 !important;margin:0 !important;}iframe#intercom-frame{position:absolute !important;opacity:0 !important;width:1px !important;height:1px !important;top:0 !important;left:0 !important;border:none !important;display:block !important;z-index:-1 !important;}</style><div class="intercom-app" aria-live="polite"><div id="intercom-modal-container"></div></div></div><div id="intercom-css-container"><style data-emotion="intercom-global"></style><style data-emotion="intercom"></style></div><div><div class="grecaptcha-badge" data-style="none" style="width: 256px; height: 60px; position: fixed; visibility: hidden; display: block; transition: right 0.3s ease 0s; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe src="./anima_files/anchor(1).html" width="256" height="60" role="presentation" name="a-uaw0y4azu66" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100001" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./anima_files/saved_resource(5).html"></iframe></div><div data-v-f8b419f8="" class="el-dialog__wrapper" style="z-index: 2003; display: none;"><div class="el-dialog" style="width: 550px; margin-top: 15vh;"><div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><div class="el-dialog__body"><div data-v-f8b419f8="" style="font-size: 18px; color: rgb(54, 79, 107);">Share <span data-v-f8b419f8="" style="font-weight: bold;">teste</span></div> <div data-v-f8b419f8="" style="display: flex; align-items: center; justify-content: space-between;"><div data-v-f8b419f8="" style="display: flex; align-items: center; margin-top: 20px;"><div data-v-f8b419f8="" style="margin-right: 10px; color: rgb(39, 40, 51);">
+          Team
+        </div> <div data-v-f8b419f8="" class="el-select el-select--mini"><!----><div class="el-input el-input--mini el-input--suffix"><!----><input type="text" autocomplete="off" placeholder="Select team" readonly="readonly" class="el-input__inner"><!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----></span><!----></span><!----></div><div class="el-select-dropdown el-popper" style="display: none; min-width: 194px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;"><ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;"><!----><ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"><li data-v-f8b419f8="" class="el-select-dropdown__item selected"><span>Personal</span></li></ul></li></ul> <ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"></ul></li></ul> <ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"><li data-v-f8b419f8="" class="el-select-dropdown__item"><span>New team</span></li></ul></li></ul><div class="resize-triggers"><div class="expand-trigger"><div style="width: 1px; height: 1px;"></div></div><div class="contract-trigger"></div></div></ul></div><div class="el-scrollbar__bar is-horizontal"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!----></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 195px; height: 33px;"></div></div><div class="contract-trigger"></div></div></div></div> <!----></div> <hr data-v-f8b419f8="" style="border: 0.5px solid rgb(221, 221, 221); margin-top: 20px;"> <div data-v-f8b419f8="" style="color: rgb(39, 40, 51); font-size: 14px; margin-top: 20px;">Invite guests</div> <div data-v-f8b419f8="" style="display: flex; align-items: center; justify-content: space-between;"><div data-v-f8b419f8="" style="flex: 1 1 0%; margin-right: 10px;"><div data-v-f8b419f8="" class="el-input el-input--mini"><!----><input tabindex="0" type="email" autocomplete="off" placeholder="jill@design.com" required="required" class="el-input__inner"><!----><!----><!----></div></div> <div data-v-f8b419f8="" class="el-select el-select--mini" style="width: 120px;"><!----><div class="el-input el-input--mini el-input--suffix"><!----><input type="text" autocomplete="off" placeholder="Select team" readonly="readonly" class="el-input__inner"><!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----></span><!----></span><!----></div><div class="el-select-dropdown el-popper" style="display: none; min-width: 120px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;"><ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;"><!----><li data-v-f8b419f8="" class="el-select-dropdown__item selected"><span>Can view</span></li> <li data-v-f8b419f8="" class="el-select-dropdown__item"><span>Can edit</span></li><div class="resize-triggers"><div class="expand-trigger"><div style="width: 1px; height: 1px;"></div></div><div class="contract-trigger"></div></div></ul></div><div class="el-scrollbar__bar is-horizontal"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!----></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 121px; height: 33px;"></div></div><div class="contract-trigger"></div></div></div> <button data-v-f8b419f8="" type="button" class="el-button el-button--primary el-button--mini" tabindex="1" style="margin: 10px;"><!----><!----><span>Invite</span></button></div> <!----> <div data-v-f8b419f8="" style="color: red; font-size: 12px; padding: 20px; display: none;">
+      
+    </div>  <div data-v-f8b419f8="" style="display: flex; align-items: center; margin-top: 10px; justify-content: space-between;"><div data-v-f8b419f8="" style="font-size: 12px;">
+        Private Link
+      </div> <div data-v-f8b419f8="" class="link-input el-input el-input--mini" style="text-align: center; width: 80%;"><!----><input type="text" autocomplete="off" readonly="readonly" class="el-input__inner"><!----><!----><!----></div></div> <hr data-v-f8b419f8="" style="border: 0.5px solid rgb(221, 221, 221); margin-top: 20px;"> <div data-v-f8b419f8="" style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;"><div data-v-f8b419f8="" style="color: rgb(39, 40, 51); font-size: 14px;">Share with Public Link</div> <button data-v-f8b419f8="" style="border: 0px; color: rgb(67, 83, 255); font-size: 12px;">Enable Public Link</button></div> <!----></div><!----></div></div><div data-v-f8b419f8="" class="el-dialog__wrapper" style="z-index: 2005; display: none;"><div class="el-dialog" style="width: 550px; margin-top: 15vh;"><div class="el-dialog__header"><span class="el-dialog__title"></span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><div class="el-dialog__body"><div data-v-f8b419f8="" style="font-size: 18px; color: rgb(54, 79, 107);">Share <span data-v-f8b419f8="" style="font-weight: bold;">teste</span></div> <div data-v-f8b419f8="" style="display: flex; align-items: center; justify-content: space-between;"><div data-v-f8b419f8="" style="display: flex; align-items: center; margin-top: 20px;"><div data-v-f8b419f8="" style="margin-right: 10px; color: rgb(39, 40, 51);">
+          Team
+        </div> <div data-v-f8b419f8="" class="el-select el-select--mini"><!----><div class="el-input el-input--mini el-input--suffix"><!----><input type="text" autocomplete="off" placeholder="Select team" readonly="readonly" class="el-input__inner"><!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----></span><!----></span><!----></div><div class="el-select-dropdown el-popper" style="display: none; min-width: 194px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;"><ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;"><!----><ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"><li data-v-f8b419f8="" class="el-select-dropdown__item selected"><span>Personal</span></li></ul></li></ul> <ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"></ul></li></ul> <ul data-v-f8b419f8="" class="el-select-group__wrap"><li class="el-select-group__title"></li><li><ul class="el-select-group"><li data-v-f8b419f8="" class="el-select-dropdown__item"><span>New team</span></li></ul></li></ul><div class="resize-triggers"><div class="expand-trigger"><div style="width: 1px; height: 1px;"></div></div><div class="contract-trigger"></div></div></ul></div><div class="el-scrollbar__bar is-horizontal"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!----></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 195px; height: 33px;"></div></div><div class="contract-trigger"></div></div></div></div> <!----></div> <hr data-v-f8b419f8="" style="border: 0.5px solid rgb(221, 221, 221); margin-top: 20px;"> <div data-v-f8b419f8="" style="color: rgb(39, 40, 51); font-size: 14px; margin-top: 20px;">Invite guests</div> <div data-v-f8b419f8="" style="display: flex; align-items: center; justify-content: space-between;"><div data-v-f8b419f8="" style="flex: 1 1 0%; margin-right: 10px;"><div data-v-f8b419f8="" class="el-input el-input--mini"><!----><input tabindex="0" type="email" autocomplete="off" placeholder="jill@design.com" required="required" class="el-input__inner"><!----><!----><!----></div></div> <div data-v-f8b419f8="" class="el-select el-select--mini" style="width: 120px;"><!----><div class="el-input el-input--mini el-input--suffix"><!----><input type="text" autocomplete="off" placeholder="Select team" readonly="readonly" class="el-input__inner"><!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><i class="el-select__caret el-input__icon el-icon-arrow-up"></i><!----></span><!----></span><!----></div><div class="el-select-dropdown el-popper" style="display: none; min-width: 120px;"><div class="el-scrollbar" style=""><div class="el-select-dropdown__wrap el-scrollbar__wrap" style="margin-bottom: -15px; margin-right: -15px;"><ul class="el-scrollbar__view el-select-dropdown__list" style="position: relative;"><!----><li data-v-f8b419f8="" class="el-select-dropdown__item selected"><span>Can view</span></li> <li data-v-f8b419f8="" class="el-select-dropdown__item"><span>Can edit</span></li><div class="resize-triggers"><div class="expand-trigger"><div style="width: 1px; height: 1px;"></div></div><div class="contract-trigger"></div></div></ul></div><div class="el-scrollbar__bar is-horizontal"><div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div></div><div class="el-scrollbar__bar is-vertical"><div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div></div></div><!----></div><div class="resize-triggers"><div class="expand-trigger"><div style="width: 121px; height: 33px;"></div></div><div class="contract-trigger"></div></div></div> <button data-v-f8b419f8="" type="button" class="el-button el-button--primary el-button--mini" tabindex="1" style="margin: 10px;"><!----><!----><span>Invite</span></button></div> <!----> <div data-v-f8b419f8="" style="color: red; font-size: 12px; padding: 20px; display: none;">
+      
+    </div>  <div data-v-f8b419f8="" style="display: flex; align-items: center; margin-top: 10px; justify-content: space-between;"><div data-v-f8b419f8="" style="font-size: 12px;">
+        Private Link
+      </div> <div data-v-f8b419f8="" class="link-input el-input el-input--mini" style="text-align: center; width: 80%;"><!----><input type="text" autocomplete="off" readonly="readonly" class="el-input__inner"><!----><!----><!----></div></div> <hr data-v-f8b419f8="" style="border: 0.5px solid rgb(221, 221, 221); margin-top: 20px;"> <div data-v-f8b419f8="" style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;"><div data-v-f8b419f8="" style="color: rgb(39, 40, 51); font-size: 14px;">Share with Public Link</div> <button data-v-f8b419f8="" style="border: 0px; color: rgb(67, 83, 255); font-size: 12px;">Enable Public Link</button></div> <!----></div><!----></div></div></body><loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
