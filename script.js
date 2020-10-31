@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // array with texts to type in typewriter
   var dataText = [
     "Hello, stranger.",
-    "I am Mário, a multidisciplinarydesigner from Brasília, Brazil.",
+    "I am Mário, a multidisciplinary designer from Brasília, Brazil.",
     "Previously, I was an associate partner & senior product designer at Startaê.",
     "I have been working remotely for national and international startups, helping them launch their products.",
     "In the last 5 years, I had the pleasure to design for Evino, Prism.Ai, Moeda and Boomerang Commerce.",
