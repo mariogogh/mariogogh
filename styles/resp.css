@@ -1,0 +1,67 @@
+@media (max-width: 600px) {
+  body {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+
+  .artboard {
+    flex-wrap: wrap;
+  }
+
+  .form {
+  }
+
+  .card {
+    width: 320px;
+    height: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+  }
+
+  .card br {
+    display: show;
+  }
+
+  .space {
+    flex-grow: 0;
+    height: 30vh;
+  }
+
+  .space svg {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+  .artboard {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 320px;
+    height: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+  }
+
+  .space {
+    flex-grow: 0;
+    height: 30vh;
+  }
+
+  .space svg {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+  }
+}
