@@ -79,9 +79,11 @@ body {
 .space {
   display: flex;
   width: 100%;
-  flex-grow: 2;
+  flex-grow: 1;
   align-items: center;
   justfy-content: center;
+  position: relative;
+  z-index: -5;
 }
 
 span {
@@ -97,11 +99,15 @@ span {
 }
 
 .space svg {
-  width: 50vw;
+  width: 39%;
+  position: relative;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justfy-content: center;
-  z-index: -1;
-  fill: #FFC700;
+  z-index: -5;
+  fill: #EA4A26;
+  padding-bottom: 0px;
+  background-blend-mode: multiply;
+  filter: blur(90px);
 }

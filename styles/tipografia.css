@@ -1,17 +1,13 @@
-
-
-
-
 h1 {
-  font-size: 8vw;
+  font-size: 6.5vw;
   font-family: Inter, sans-serif;
   font-weight: 500;
   font-style: normal;
-  line-height: 8vw;
+  line-height: 7vw;
   letter-spacing: -0.05em;
   text-align: left;
   color: #BABABA;
-mix-blend-mode: multiply;
+  mix-blend-mode: multiply;
 }
 
 h2 {
