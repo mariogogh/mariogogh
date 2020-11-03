@@ -58,10 +58,11 @@
   }
 
   .space svg {
-    width: 100%;
+    width: 50vw;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justfy-content: center;
+    z-index: -1;
   }
 }
