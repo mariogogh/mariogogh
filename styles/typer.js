@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     "I have been working remotely for national and international startups, helping them launch their products.",
     "In the last 5 years, I had the pleasure to design for Evino, Cuckoo.team , Prism.Ai, Moeda and Boomerang.",
     "Currently, I am working at Accenture Interactive as a senior designer.",
-    "I'm open to chat about new opportunities.",
     "For a detailed portfolio: hello@mariogogh.com"
   ];
 
