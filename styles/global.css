@@ -1,0 +1,45 @@
+/* Todos os arquivos de css */
+@import "/styles/reset.css";
+
+@import "/styles/compo.css";
+
+@import "/styles/works.css";
+
+@import "/styles/svg.css";
+
+@import "/styles/header.css";
+
+@import "/styles/hero.css";
+
+@import "/styles/button.css";
+
+@import "/styles/sections.css";
+
+@import "/styles/footer.css";
+
+@import "/styles/tipografia.css";
+
+@import "/styles/queries.css";
+
+@import "/styles/links.css";
+
+@import "/styles/scroll.js";
+
+@import "/styles/script.js";
+
+@import "/styles/gallery.css";
+
+@import "/styles/carousel.css";
+
+@import "/styles/root.css";
+
+@import "/styles/images.css";
+
+@import "/styles/home-cover.css";
+@import "/styles/home-cover.js";
+
+@import "/styles/mansory.css";
+
+@import url("https://use.typekit.net/grn6fkm.css");
+
+/* CSS files add styling rules to your content */

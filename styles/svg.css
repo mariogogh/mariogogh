@@ -1,0 +1,43 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.svg-line-bar {
+  width: 100%;
+  fill: var(--main-w-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-about-svg {
+  width: 50%;
+  height: 16vw;
+  display: flex;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  fill: var(--links-color100);
+}
+
+.content-about-svg-full {
+  margin: auto;
+  
+  padding: 10px;
+}

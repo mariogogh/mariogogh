@@ -1,0 +1,143 @@
+header {
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  position: fixed;
+  align-items: left;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.hero-color {
+  background: ;
+}
+
+.svg-header-bar {
+  display: flex;
+  width: 100%;
+  fill: var(--main-100);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.box-logo {
+  width: 50%;
+  height: 50%;
+  font-size: 16px;
+  padding-top: 24px;
+}
+
+.box-links {
+  display: flex;
+  width: 50%;
+  height: 32%;
+  background: ;
+  padding-top: 16px;
+  justify-content: flex-start;
+  color: var(--main-100);
+}
+
+#navbar {
+  align-items: center;
+  position: fixed;
+  background: var(--main-100);
+  top: -60px;
+  display: block;
+  width: 100%;
+  transition: top 0.5s; /* Transition effect when sliding down (and up) */
+  display: block;
+  transition: top 0.3s;
+  z-index: 13;
+}
+
+#navbar a {
+}
+
+#navbar a:hover {
+}
+
+.svg-left {
+  padding-left: 26px;
+}
+
+#navbar svg {
+  padding-top: 24x;
+  padding-bottom: 16x;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links {
+  padding-right: 16px;
+}
+
+.links:last-child {
+  margin-right: 90px;
+}
+
+.links:last-child {
+  margin-right: 90px;
+}
+
+#navbar:first-child {
+}
+
+#navbar:last-child {
+}
+
+@media (max-width: 600px) {
+  #navbar:first-child {
+    width: 10%;
+    align-items: stretch;
+    padding-left: auto;
+    justify-content: flex-start;
+  }
+  #navbar:last-child {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #navbar .buttom:last-child {
+    margin-left: 24px;
+  }
+
+  .links {
+    padding-right: 16px;
+  }
+
+  .links:first-child {
+  }
+
+  .links:last-child {
+    margin-right: 16px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  header svg {
+    margin-left: 26px;
+  }
+
+  header #navbar {
+    padding-right: 84px;
+  }
+  header {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #navbar {
+    padding-left: 100px;
+  }
+}
