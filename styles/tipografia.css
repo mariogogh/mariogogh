@@ -33,7 +33,7 @@ p {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 139%;
   /* or 33px */
   letter-spacing: -0.03em;
@@ -56,7 +56,7 @@ p {
   font-family: var(--main-font);
   font-weight: 800;
   font-style: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 129%;
   /* or 33px */
   padding-top: 26px;
@@ -67,7 +67,7 @@ p {
   font-family: var(--main-font);
   color: var(--main-w-90);
   font-weight: bold;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 139%;
   /* or 33px */
 }

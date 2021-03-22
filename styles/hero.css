@@ -33,6 +33,43 @@
   position: relative;
 }
 
+
+.main-hero-img2 {
+  width: 102%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+  transition: transform 0.9s ease;
+  object-fit: cover;
+  background-size: cover;
+
+  position: relative;
+}
+
+.main-hero2 {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.2s ease-in-out;
+  transition: transform 0.9s ease;
+  object-fit: cover;
+  background-size: cover;
+
+  position: relative;
+}
+
 .full-image {
   background-position: center;
   background-repeat: no-repeat;

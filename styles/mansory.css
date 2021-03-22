@@ -20,8 +20,8 @@
   column-gap: 16px;
   width: 100%;
   margin-top: 16px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 @media (max-width: 1200px) {
   .masonry {

@@ -8,15 +8,12 @@ body {
 
 html {
   scroll-behavior: smooth;
-
 }
-
 
 img {
   transform: scale(1.01);
   opacity: 1;
-  cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FHover.png?v=1613352873201"),
-    auto;
+  cursor: var--(cursor-image);
   transition: transform 0.5s ease;
 }
 
@@ -50,9 +47,8 @@ img: hover {
   background: var(--links-color100);
 }
 
-
 .bg-color-hero {
- background: var(--links-color100);
+  background: var(--links-color100);
 }
 
 .space300 {
@@ -161,9 +157,29 @@ img: hover {
   flex-direction: row;
 }
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 100%) {
-  .modal-content {
+@media (max-width: 600px) {
+  .space300 {
     width: 100%;
+    height: 150px;
+  }
+
+  .space200 {
+    width: 100%;
+    height: 100px;
+  }
+
+  .space100 {
+    width: 100%;
+    height: 50px;
+  }
+
+  .space50 {
+    width: 100%;
+    height: 24px;
+  }
+
+  .space24 {
+    width: 100%;
+    height: 12px;
   }
 }

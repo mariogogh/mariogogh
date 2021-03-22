@@ -16,7 +16,7 @@
   text-align: left;
   flex-direction: column;
   padding-left: 24px;
-  padding-right: 24px;
+  padding-right: 0px;
   transition: opacity 0.2s ease-in-out;
   transition: transform 0.9s ease;
   opacity: 1;

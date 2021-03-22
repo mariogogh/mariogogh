@@ -7,7 +7,7 @@
   background: var(--links-color100);
   transition: background 0.2s ease;
   position: relative;
-  color: var(--Type-color-pink);
+  color: var(--Type-color-black);
   flex-direction: column;
 }
 
@@ -19,22 +19,23 @@
   text-align: center;
   padding-left: 0.9%;
   margin: 0 auto;
-  top: -16px;
+  top: 10vh;
   position: relative;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .cover h11 {
-  color: var(--Type-color-pink);
+  color: var(--Type-color-black);
   font-size: 23.5vw;
   position: relative;
   left: -24px;
   top: -4vh;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 .home-cover p {
-  color: var(--Type-color-pink);
+  color: var(--Type-color-black);
   font-size: 16px;
   position: relative;
   left: -24px;
@@ -42,14 +43,14 @@
 }
 
 .home-cover links {
-  color: var(--Type-color-pink);
+  color: var(--Type-color-black);
 }
 
 .cover-svg {
-
 }
 
-.home-cover .box-R {
+.home-cover .box-L {
+  padding-left: 24px;
 }
 
 .cover-svg svg {
@@ -79,14 +80,17 @@
   }
 
   .home-cover .box-R {
-    top: 10vh;
+    top: -70%;
     left: 24px;
     position: relative;
   }
 
-  .home-cover .box-R br {
-    display: none;
+
+  .home-cover .box-L {
+    position: relative;
   }
+
+
   .home-cover .section-hero-elements {
     height: 32vh;
   }
@@ -100,6 +104,6 @@
   }
 
   .cover-svg {
-    padding-top: 64%;
+    padding-top: 24%;
   }
 }
