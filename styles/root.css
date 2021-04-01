@@ -12,9 +12,9 @@
 
   --sec-font: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
 
-  --main-100: #000000;
-  --main-50: rgba(0, 0, 0, 0.5);
-  --main-25: rgba(0, 0, 0, 0.25);
+  --main-100: #222222;
+  --main-50: #575757;
+  --main-25: #6F6F6F;
 
   --main-w-100: #FFFFFF;
   --main-w-90: rgba(255, 255, 255, 0.8);
@@ -22,11 +22,16 @@
   --main-w-25: rgba(255, 255, 255, 0.25);
   --main-w-5: rgba(255, 255, 255, 0.1.9);
 
-  --links-color100: #F3D439;
+  --links-color100: #706F73;
   --links-color50: rgba(247, 92, 26, 0.5);
   --links-color10: rgba(247, 92, 26, 0.25);
 
+  --gold-color: #B19348;
+  --lab-bg: #F83434;
+  --lab-page-colors: #363D38;
+
   --Type-color-black: rgba(0, 0, 0, 0.7);
   --Type-color-white: rgba(0, 0, 0, 0.9);
-  --cursor-image:( url "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FHover.png?v=1613352873201"auto;);
+  --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"),
+    auto;
 }

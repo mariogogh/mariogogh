@@ -24,8 +24,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FHover.png?v=1613352873201"),
-    auto;
+ cursor: var(--cursor);
   transition: transform 1s;
 }
 

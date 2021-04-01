@@ -1,20 +1,37 @@
 <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css">
 
-span {
-  color: var(--links-color100);
-}
+
 
 .type-black {
   color: var(--main-100);
 }
 
+.type-white {
+  color: var(--main-w-100);
+}
 
-span3 {
+span {
   color: var(--links-color100);
+}
+
+span1 {
+  color: var(--main-w-100);
 }
 
 span2 {
   color: var(--main-w-50);
+}
+
+span3 {
+  color: var(--main-w-25);
+}
+
+span4 {
+  color: var(--main-w-90);
+}
+
+span5 {
+  color: var(--gold-color);
 }
 
 h1 {
@@ -22,9 +39,9 @@ h1 {
   font-style: normal;
   font-weight: 200;
   font-size: 5vw;
-  line-height: 105.5%;
+  line-height: 120.5%;
   /* or 79px */
-  letter-spacing: -0.07em;
+  letter-spacing: -0.06em;
   color: var(--main-w-100);
 }
 
@@ -33,18 +50,18 @@ p {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 139%;
   /* or 33px */
   letter-spacing: -0.03em;
 }
 
 .about {
-  color: var(--main-w-100);
+  color: var(--main-w-50);
   font-family: var(--main-font);
   font-weight: 800;
   font-style: normal;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 158%;
   /* or 22px */
 
@@ -56,7 +73,7 @@ p {
   font-family: var(--main-font);
   font-weight: 800;
   font-style: normal;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 129%;
   /* or 33px */
   padding-top: 26px;
@@ -65,11 +82,15 @@ p {
 
 .title {
   font-family: var(--main-font);
-  color: var(--main-w-90);
+  color: var(--main-w-100);
   font-weight: bold;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 139%;
   /* or 33px */
+}
+
+.title br {
+  display: none;
 }
 
 .about-bold {
@@ -77,7 +98,7 @@ p {
   font-style: normal;
   font-weight: bold;
   font-style: normal;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 158%;
   color: var(--main-w-100);
   letter-spacing: -0.03em;
@@ -188,6 +209,10 @@ h6 {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 7.5vw;
+    font-size: 10vw;
+  }
+
+ .box-R .title br {
+    display: flex;
   }
 }

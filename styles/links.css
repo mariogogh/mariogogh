@@ -1,16 +1,12 @@
 a {
-  font-size: 16px;
-  color: var(--main-w-50);
-  font-style: normal;
-  letter-spacing: -0.09em;
-  text-decoration: none;
   font-family: var(--main-font);
+  color: var(--main-w-50);
+
   font-style: normal;
   font-weight: normal;
-  line-height: 105.5%;
-  /* or 13px */
-  text-align: center;
-  letter-spacing: -0.02em;
+  font-size: 18px;
+  line-height: 132%;
+
   cursor: pointer;
 }
 
@@ -36,5 +32,3 @@ a:active {
 .link {
   color: var(--main-w-100);
 }
-
-
