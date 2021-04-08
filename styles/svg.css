@@ -18,10 +18,43 @@
 
 .svg-line-bar {
   width: 100%;
-  fill: var(--main-w-50);
+  fill: var(--main-w-100);
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 9;
+}
+
+.svg-link {
+  fill: var(--main-w-90);
+  color: var(--main-w-90);
+  font-color: var(--main-w-90);
+}
+
+a .svg-link {
+  fill: var(--main-w-90);
+  color: var(--main-w-90);
+  font-color: var(--main-w-90);
+  opacity: 70%;
+}
+
+a.svg-link: hover {
+  fill: var(--main-w-90);
+  color: var(--main-w-90);
+  font-color: var(--main-w-90);
+  opacity: 10%;
+}
+
+a.svg-link: focus {
+  fill: var(--main-w-90);
+  color: var(--main-w-90);
+  font-color: var(--main-w-90);
+  opacity: 0%;
+}
+.svg-link a {
+  fill: var(--main-w-100);
+  color: var(--main-w-100);
+  font-color: var(--main-w-100);
 }
 
 .content-about-svg {
@@ -53,7 +86,7 @@
 .svg-right-fixed {
   bottom: 24px;
   right: 24px;
-  z-index: 23;
+  z-index: 3;
   position: fixed;
 
   transition: top 5s;

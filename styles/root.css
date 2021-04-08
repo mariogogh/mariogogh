@@ -1,37 +1,166 @@
-@import url("https://use.typekit.net/guy1mtr.css");
+@import url("https://use.typekit.net/grn6fkm.css");
 
-@import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://use.typekit.net/grn6fkm.css");
 
 :root {
-  --main-color: #000000;
-  --main-span: rgba(0, 0, 0, 0.3);
-  --pane-padding: 5px 42px;
-  --main-font: AktivGrotesk-regular, sans-serif;
-  --main-font-bold: AktivGrotesk, sans-serif;
+  --main-font: aktiv-grotesk, sans-serif;
   font-weight: 800;
 
-  --sec-font: TimesNewRoman, Times New Roman, Times, Baskerville, Georgia, serif;
+  --alternate-font: cormorant-garamond, serif;
+
+  font-weight: 300;
+
+  font-style: italic;
 
   --main-100: #222222;
   --main-50: #575757;
   --main-25: #6F6F6F;
 
-  --main-w-100: #FFFFFF;
-  --main-w-90: rgba(255, 255, 255, 0.8);
-  --main-w-50: rgba(255, 255, 255, 0.5);
-  --main-w-25: rgba(255, 255, 255, 0.25);
-  --main-w-5: rgba(255, 255, 255, 0.1.9);
+  --main-w-100: #E9E8D6;
+  --main-w-90: #C5C6BC;
+  --main-w-50: #A2A6A3;
+  --main-w-25: #84898D;
+  --main-w-5: #656C77;
 
-  --links-color100: #706F73;
+/* WORKS COLORS */
+
+  --links-color1: #24595A;
+
+  /* FOOTER COLORS*/
+
+
   --links-color50: rgba(247, 92, 26, 0.5);
   --links-color10: rgba(247, 92, 26, 0.25);
 
+  --bg-green: #24595A;
+
   --gold-color: #B19348;
-  --lab-bg: #F83434;
+  --lab-bg: #3F8C94;
   --lab-page-colors: #363D38;
 
   --Type-color-black: rgba(0, 0, 0, 0.7);
   --Type-color-white: rgba(0, 0, 0, 0.9);
   --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"),
     auto;
+}
+
+/* WORKS COLORS */
+
+.bg-color-work {
+  background: var(--bg-green);
+  color: var(--main-w-100);
+}
+
+.bg-color-work p {
+  color: var(--main-w-100);
+}
+
+.bg-color-work span2 {
+  color: var(--main-w-50);
+}
+
+.bg-color-work h2 {
+  color: var(--main-w-100);
+}
+
+/* FOOTER COLORS*/
+
+.bg-color-footer {
+  background: var(--gold-color);
+  color: var(--main-w-100);
+}
+
+.bg-color-footer .links {
+  background: var(--gold-color);
+  color: var(--main-w-100);
+}
+
+.bg-color-footer p {
+  background: var(--gold-color);
+  color: var(--main-w-100);
+}
+
+.bg-color-footer .button {
+  color: var(--main-w-100);
+}
+
+.bg-color-footer span3 {
+  color: var(--main-w-100);
+}
+
+.type-black {
+  color: var(--main-100);
+}
+
+.type-white {
+  color: var(--main-w-100);
+}
+
+span {
+  color: var(--links-color100);
+}
+
+span1 {
+  color: var(--main-w-100);
+}
+
+span2 {
+  color: var(--main-w-50);
+}
+
+span3 {
+  color: var(--main-w-25);
+}
+
+span4 {
+  color: var(--main-w-90);
+}
+
+span5 {
+  color: var(--gold-color);
+}
+
+.bg-color-hero2 {
+  background: var(--lab-bg);
+}
+
+.lab-bg {
+  background: var(--lab-bg);
+}
+
+.lab-page-colors {
+  background: var(--main-100);
+  color: var(--main-w-100);
+}
+
+.lab-page-colors #navbar {
+  background: var(--main-100);
+  color: var(--main-w-100);
+}
+
+.lab-page-colors .button:hover {
+  border-bottom: 3px solid var(--lab-bg);
+}
+
+.lab-page-colors .button:active {
+  color: var(--lab-bg);
+}
+
+.lab-page-colors .button:focus {
+  border-bottom: 3px solid var(--lab-bg);
+}
+
+.lab-page-colors .active {
+  border-bottom: 3px solid var(--lab-bg);
+  color: var(--main-w-100);
+}
+
+.bg-color-gold {
+  background: var(--gold-color);
+  color: var(--main-100);
+}
+
+.bg-color-gold .button {
+  background: var(--gold-color);
+  color: red;
 }

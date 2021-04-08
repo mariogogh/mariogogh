@@ -53,7 +53,7 @@
 
 .content-about {
   width: 50%;
-  height: 100%;
+  height: 50%;
   display: flex;
   padding-top: 64px;
   flex-direction: column;
@@ -61,8 +61,8 @@
   padding-right: 64px;
 }
 
-.content-about h1 {
-  padding-left: -26px;
+.content-about h2 {
+  padding-left: 24px;
 }
 
 .content-about-left {
@@ -134,7 +134,7 @@
   width: 50%;
   height: 100%;
   font-size: 16px;
- 
+
   padding-top: 32px;
   padding-right: 12%;
   transition: opacity 0.2s ease-in-out;
@@ -303,8 +303,6 @@
     padding-right: 24px;
     padding-top: 32px;
   }
-
-
 
   .box-R-isoleted {
     padding-left: 24px;

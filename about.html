@@ -165,16 +165,16 @@
 
     <!-- HEADER -->
     <div
-      class="home-cover bg-color-hero"
+      class="home-cover bg-color-hero3"
       data-aos="zoom-out-up"
       data-aos-offset="200"
       data-aos-delay="80"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
-      <div class="section-hero-elements bg-color-hero">
+      <div class="section-hero-elements bg-color-hero3">
         <div class="box-L ">
-          <h1
+          <h3
             class="type-black"
             ata-aos="fade-up"
             data-aos-offset="400"
@@ -182,8 +182,8 @@
             data-aos-duration="600"
             data-aos-easing="ease-in-out"
           >
-            About.
-          </h1>
+            About<span2> me</span2>
+          </h3>
         </div>
         <div class="box-R">
           <p
@@ -202,26 +202,67 @@
           <br />
         </div>
       </div>
-      <div class="cover bg-color-hero">
-        <h11
-          data-aos="fade-up"
-          data-aos-offset="400"
-          data-aos-delay="100"
-          data-aos-duration="600"
-          data-aos-easing="ease-in-out-back"
-        ></h11>
-        <div class="">
+      <!-- HERO Image-->
+
+      <div
+        class="cover bg-color-work"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="300"
+        data-aos-easing="ease-in-out-back"
+      >
+        <div class="desktop">
           <div
-            class="all-content bg-color-hero"
+            class="bg-color-work"
             onload="randombg()"
             data-aos="fade-up"
-            data-aos-offset="400"
             data-aos-delay="90"
             data-aos-duration="100"
             data-aos-easing="ease-in-out"
           >
             <hero
-              class="main-hero2 bg-color-hero"
+              class="main-hero2 bg-color-work"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+            >
+              <script language="JavaScript">
+                             <!--
+
+                             /*
+                             Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
+                             Over 400+ free JavaScripts here!
+                             Keep this notice intact please
+                             */
+
+                             function random_imglink() {
+                                 var myimages = new Array()
+                                     //specify random images below. You can have as many as you wish
+                                 myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png.png?v=1617660850487"
+                                 myimages[2] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png.png?v=1617660850487"
+                myimages[3] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png.png?v=1617660850487"
+
+                                 var ry = Math.floor(Math.random() * myimages.length)
+                                 if (ry == 0)
+                                     ry = 1
+                                 document.write('<img  class="main-hero-img2" src="' + myimages[ry] + '" border=0>')
+                             }
+                             random_imglink()
+                                 //-->
+              </script>
+            </hero>
+          </div>
+        </div>
+        <div class="mobile">
+          <div
+            class="bg-color-work"
+            onload="randombg()"
+            data-aos="fade-up"
+            data-aos-delay="90"
+            data-aos-duration="100"
+            data-aos-easing="ease-in-out"
+          >
+            <hero
+              class="bg-color-work"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
             >
@@ -237,9 +278,9 @@
                 function random_imglink() {
                     var myimages = new Array()
                         //specify random images below. You can have as many as you wish
-                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FFrame%201.png?v=1617058253293"
-                    myimages[2] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FFrame%202.png?v=1616020186223"
-
+                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH-mobile.png.png?v=1617660856320"
+                    myimages[2] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH-mobile.png.png?v=1617660856320"
+                    myimages[3] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH-mobile.png.png?v=1617660856320"
 
                     var ry = Math.floor(Math.random() * myimages.length)
                     if (ry == 0)
@@ -252,26 +293,7 @@
             </hero>
           </div>
         </div>
-
         <div class="space200"></div>
-        <div class="svg-arrow">
-          <a href="#works">
-            <svg
-              width="40"
-              height="40"
-              viewbox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 15.8851L19.9951 25.9888L30 15.8851"
-                stroke="var(--main-w-100)"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
 
@@ -290,10 +312,26 @@
           <div class="navbar">
             <div class=" box-logo">
               <a href="index.html" target="_self">
-                              <svg width="42" height="26" viewbox="0 0 42 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="12.75" cy="12.75" r="12.75" fill="var(--gold-color)"/>
-<circle cx="29.25" cy="12.75" r="12.75" fill="var(--links-color100)"/>
-</svg>
+                <svg
+                  width="42"
+                  height="26"
+                  viewbox="0 0 42 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="12.75"
+                    cy="12.75"
+                    r="12.75"
+                    fill="var(--gold-color)"
+                  />
+                  <circle
+                    cx="29.25"
+                    cy="12.75"
+                    r="12.75"
+                    fill="var(--links-color100)"
+                  />
+                </svg>
               </a>
             </div>
             <div class="box-links">
@@ -313,6 +351,46 @@
           </div>
         </div>
       </header>
+    </div>
+
+    <!-- SVG - TOP BTN -->
+    <div
+      class="svg-right-fixed"
+      data-aos="fade-up"
+      data-aos-offset="700"
+      data-aos-delay="590"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+    >
+      <div>
+        <a href="#top">
+          <svg
+            width="64"
+            height="64"
+            viewbox="0 0 64 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="32" cy="32" r="32" fill="white" fill-opacity="0.25" />
+            <path
+              d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
+              stroke="white"
+              stroke-opacity="0.9"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <rect
+              x="21"
+              y="16"
+              width="22"
+              height="2"
+              rx="1"
+              fill="white"
+              fill-opacity="0.9"
+            />
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!-- RANDOMBG -->
@@ -447,8 +525,7 @@
       data-aos-easing="ease-in-out"
     >
       <div class="box-L">
-        <h1><span1>
-Honors & Awards</span1></h1>
+        <h1><span1> Honors & Awards</span1></h1>
       </div>
       <div class="box-R">
         <br />
@@ -557,7 +634,7 @@ Honors & Awards</span1></h1>
         </div>
       </div>
     </div>
-<div class="content-in-line ">
+    <div class="content-in-line ">
       <svg
         class="svg-line-bar"
         width="100%;"
@@ -601,7 +678,6 @@ Honors & Awards</span1></h1>
       </div>
     </div>
 
-
     <!-- FOOTER -->
 
     <div>
@@ -609,7 +685,7 @@ Honors & Awards</span1></h1>
     </div>
     <div class="space300"></div>
     <div
-      class="content-full-screen-footer bg-color-gold"
+      class="content-full-screen-footer bg-color-footer"
       data-aos="fade-u"
       data-aos-offset="100"
       data-aos-delay="50"
@@ -617,23 +693,23 @@ Honors & Awards</span1></h1>
       data-aos-easing="ease-in-out"
     >
       <div class="space100"></div>
-      <footer>
+      <footer class="bg-color-footer">
         <div class="navbar">
           <div class="wide">
-            <p class="type-white">
+            <p>
               ©2020
-              <a class="button" href="#" target="_blank">Mariogogh.</a>
+              <a class="button" href="#" _top="_blank">Mariogogh.</a>
               <br />All rights reserved.
             </p>
           </div>
         </div>
 
-        <div class="footer">
+        <div class="footer bg-color-footer">
           <div class="social-links">
             <div class="links">
               <a
                 href="https://twitter.com/mariogogh"
-                class="button button-white"
+                class="button"
                 target="_blank"
                 >Twitter</a
               >
@@ -642,7 +718,7 @@ Honors & Awards</span1></h1>
             <div class="links">
               <a
                 href="https://www.linkedin.com/in/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Linkedin</a
               >
@@ -650,7 +726,7 @@ Honors & Awards</span1></h1>
             <div class="links">
               <a
                 href="https://dribbble.com/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Dribbble</a
               >
@@ -658,7 +734,7 @@ Honors & Awards</span1></h1>
             <div class="links">
               <a
                 href="https://dribbble.com/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Savee</a
               >
@@ -669,54 +745,21 @@ Honors & Awards</span1></h1>
 
       <!-- E-MAIL -  FOOTER -->
 
-      <div class="footer-mail bg-color-gold">
+      <div class="footer-mail bg-color-footer">
         <div class="content-about">
-          <div class="space200"></div>
-          <h1>
-            <span2> Say hello:</span2>
-            <br />
-            hello@mariogogh.com
-          </h1>
+          <div class="space50"></div>
+          <h2>
+            Say hello:
+          </h2>
+          <a href="@mariogogh.com" class="button button-white" target="_blank"
+            ><h2>
+              hello<span3>@</span3>mariogogh.com
+            </h2></a
+          >
         </div>
         <div class="space100"></div>
         <div class="space100"></div>
-        <div class="svg-right-fixed">
-          <div>
-            <a href="#top">
-              <svg
-                width="64"
-                height="64"
-                viewbox="0 0 64 64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="32"
-                  cy="32"
-                  r="32"
-                  fill="white"
-                  fill-opacity="0.25"
-                />
-                <path
-                  d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
-                  stroke="white"
-                  stroke-opacity="0.9"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-                <rect
-                  x="21"
-                  y="16"
-                  width="22"
-                  height="2"
-                  rx="1"
-                  fill="white"
-                  fill-opacity="0.9"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
+
         <div class="space200"></div>
       </div>
     </div>

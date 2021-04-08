@@ -1,12 +1,9 @@
 a {
   font-family: var(--main-font);
-  color: var(--main-w-50);
-
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 132%;
-
   cursor: pointer;
 }
 
@@ -15,13 +12,11 @@ a:link {
 }
 
 a:visited {
-  color: var(--main-w-50);
   opacity: 70px;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--main-w-100);
   text-decoration: none;
 }
 
@@ -29,6 +24,11 @@ a:active {
   text-decoration: none;
 }
 
-.link {
-  color: var(--main-w-100);
+a .links {
+}
+
+@media (max-width: 600px) {
+  .link {
+    font-size: 18px;
+  }
 }

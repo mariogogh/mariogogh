@@ -103,6 +103,9 @@
 
     <!-- Font  -->
     <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css" />
+    <style>
+      @import url("https://use.typekit.net/grn6fkm.css");
+    </style>
 
     <!-- Titulo do site -->
     <title>
@@ -165,29 +168,32 @@
 
     <!-- HEADER -->
     <div
-      class="home-cover bg-color-hero"
+      class="home-cover bg-color-work"
       data-aos="zoom-out-up"
       data-aos-offset="200"
       data-aos-delay="80"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out-cubic"
     >
-      <div class="section-hero-elements bg-color-hero">
+      <div
+        class="section-hero-elements
+                "
+      >
         <div class="box-L ">
-          <p
-            class="type-black"
+          <h3
+            class="bold"
             ata-aos="fade-up"
             data-aos-offset="400"
-            data-aos-delay="70"
-            data-aos-duration="600"
+            data-aos-delay="5700"
+            data-aos-duration="6900"
             data-aos-easing="ease-in-out"
-          ><br>
-            MarioGogh.
-          </p>
+          >
+            mario<span2>gogh.</span2>
+          </h3>
         </div>
         <div class="box-R">
           <p
-            class="type-black"
+            class=""
             ata-aos="fade-up"
             data-aos-offset="400"
             data-aos-delay="70"
@@ -195,33 +201,34 @@
             data-aos-easing="ease-in-out"
           >
             A multidisciplinary Designer, <br />from Brasília, Brazil. Currently
-            working<br />at @designexperiencebr <br />
-            by Accenture Interactive.
+            working at <br />
+            @designexperiencebr by Accenture Interactive.
           </p>
 
           <br />
         </div>
       </div>
-      <div class="cover bg-color-hero">
-        <h11
-          data-aos="fade-up"
-          data-aos-offset="400"
-          data-aos-delay="100"
-          data-aos-duration="600"
-          data-aos-easing="ease-in-out-back"
-        ></h11>
-        <div class="">
+
+      <!-- HERO Image-->
+
+      <div
+        class="cover bg-color-work"
+        data-aos="fade-up"
+        data-aos-delay="400"
+        data-aos-duration="300"
+        data-aos-easing="ease-in-out-back"
+      >
+        <div class="desktop">
           <div
-            class="all-content bg-color-hero"
+            class="bg-color-work"
             onload="randombg()"
             data-aos="fade-up"
-            data-aos-offset="400"
             data-aos-delay="90"
             data-aos-duration="100"
             data-aos-easing="ease-in-out"
           >
             <hero
-              class="main-hero2 bg-color-hero"
+              class="main-hero2 bg-color-work"
               data-aos="fade-up"
               data-aos-anchor-placement="center-bottom"
             >
@@ -237,8 +244,46 @@
                 function random_imglink() {
                     var myimages = new Array()
                         //specify random images below. You can have as many as you wish
-                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png?v=1617251797709"
-                    myimages[2] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png?v=1617251609130"
+                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png.png?v=1617845595103"
+
+                    var ry = Math.floor(Math.random() * myimages.length)
+                    if (ry == 0)
+                        ry = 1
+                    document.write('<img  class="main-hero-img2" src="' + myimages[ry] + '" border=0>')
+                }
+                random_imglink()
+                    //-->
+              </script>
+            </hero>
+          </div>
+        </div>
+        <div class="mobile">
+          <div
+            class="bg-color-work"
+            onload="randombg()"
+            data-aos="fade-up"
+            data-aos-delay="90"
+            data-aos-duration="100"
+            data-aos-easing="ease-in-out"
+          >
+            <hero
+              class="bg-color-work"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+            >
+              <script language="JavaScript">
+                <!--
+
+                /*
+                Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
+                Over 400+ free JavaScripts here!
+                Keep this notice intact please
+                */
+
+                function random_imglink() {
+                    var myimages = new Array()
+                        //specify random images below. You can have as many as you wish
+                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH-mobile.png.png?v=1617845982887"
 
 
                     var ry = Math.floor(Math.random() * myimages.length)
@@ -252,26 +297,7 @@
             </hero>
           </div>
         </div>
-
         <div class="space200"></div>
-        <div class="svg-arrow">
-          <a href="#works">
-            <svg
-              width="40"
-              height="40"
-              viewbox="0 0 40 40"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M10 15.8851L19.9951 25.9888L30 15.8851"
-                stroke="var(--main-w-100)"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
 
@@ -290,24 +316,35 @@
           <div class="navbar">
             <div class=" box-logo">
               <a href="index.html" target="_self">
+                <h4
+                  class="bold desktop"
+                  ata-aos="fade-up"
+                  data-aos-offset="800"
+                  data-aos-delay="5700"
+                  data-aos-duration="6900"
+                  data-aos-easing="ease-in-out"
+                >
+                  mario<span2>gogh.</span2>
+                </h4>
                 <svg
-                  width="42"
+                  class="mobile"
+                  width="49"
                   height="26"
-                  viewbox="0 0 42 26"
+                  viewbox="0 0 49 26"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle
-                    cx="12.75"
-                    cy="12.75"
-                    r="12.75"
-                    fill="var(--gold-color)"
+                  <path
+                    d="M5.60254 6.517H8.93454V8.232C9.40821 7.51333 9.96354 6.9825 10.6005 6.6395C11.2375 6.2965 11.9072 6.125 12.6095 6.125C13.5405 6.125 14.3 6.31283 14.888 6.6885C15.476 7.06417 15.8925 7.61133 16.1375 8.33C16.7255 7.546 17.3462 6.9825 17.9995 6.6395C18.6529 6.2965 19.3715 6.125 20.1555 6.125C21.4785 6.125 22.4667 6.4925 23.12 7.2275C23.7897 7.94617 24.1245 9.12217 24.1245 10.7555V19.306H20.6945V11.221C20.6945 10.7637 20.6537 10.3962 20.572 10.1185C20.4904 9.8245 20.376 9.59583 20.229 9.4325C20.0984 9.26917 19.935 9.15483 19.739 9.0895C19.543 9.02417 19.3389 8.9915 19.1265 8.9915C18.7835 8.9915 18.465 9.04867 18.171 9.163C17.8934 9.27733 17.6157 9.47333 17.338 9.751C17.1094 9.97967 16.9215 10.241 16.7745 10.535C16.6439 10.829 16.5785 11.1393 16.5785 11.466V19.306H13.1485V11.221C13.1485 10.7637 13.1077 10.3962 13.026 10.1185C12.9444 9.8245 12.83 9.59583 12.683 9.4325C12.5524 9.26917 12.389 9.15483 12.193 9.0895C11.997 9.02417 11.7929 8.9915 11.5805 8.9915C11.2375 8.9915 10.919 9.04867 10.625 9.163C10.3474 9.27733 10.0697 9.47333 9.79204 9.751C9.56337 9.97967 9.37554 10.2573 9.22854 10.584C9.09787 10.8943 9.03254 11.2373 9.03254 11.613V19.306H5.60254V6.517Z"
+                    fill="white"
                   />
-                  <circle
-                    cx="29.25"
-                    cy="12.75"
-                    r="12.75"
-                    fill="var(--links-color100)"
+                  <path
+                    d="M30.6166 20.1145C30.682 20.4412 30.7718 20.7025 30.8861 20.8985C31.0168 21.0945 31.1801 21.2497 31.3761 21.364C31.5885 21.4783 31.8335 21.5518 32.1111 21.5845C32.4051 21.6335 32.7563 21.658 33.1646 21.658C33.8016 21.658 34.2998 21.5355 34.6591 21.2905C35.0185 21.0618 35.2798 20.7515 35.4431 20.3595C35.6228 19.9675 35.729 19.5183 35.7616 19.012C35.8106 18.5057 35.8351 17.983 35.8351 17.444V17.052C35.4105 17.6727 34.8633 18.1463 34.1936 18.473C33.5403 18.7833 32.7971 18.9385 31.9641 18.9385C30.1675 18.9385 28.82 18.3587 27.9216 17.199C27.0396 16.0393 26.5986 14.4795 26.5986 12.5195C26.5986 11.5885 26.7211 10.731 26.9661 9.947C27.2275 9.163 27.595 8.49333 28.0686 7.938C28.5423 7.36633 29.1221 6.92533 29.8081 6.615C30.5105 6.28833 31.2945 6.125 32.1601 6.125C32.8461 6.125 33.5076 6.25567 34.1446 6.517C34.798 6.77833 35.3941 7.26017 35.9331 7.9625V6.517H39.2651V17.5175C39.2651 18.5955 39.1508 19.551 38.9221 20.384C38.7098 21.2333 38.3586 21.952 37.8686 22.54C37.395 23.128 36.7661 23.569 35.9821 23.863C35.2145 24.1733 34.2753 24.3285 33.1646 24.3285C32.1356 24.3285 31.2536 24.2387 30.5186 24.059C29.8 23.8957 29.2038 23.6343 28.7301 23.275C28.2565 22.932 27.889 22.491 27.6276 21.952C27.3826 21.4293 27.2193 20.8168 27.1376 20.1145H30.6166ZM35.8596 12.4705C35.8596 11.7028 35.7698 11.0822 35.5901 10.6085C35.4268 10.1348 35.2063 9.7755 34.9286 9.5305C34.651 9.26917 34.3406 9.09767 33.9976 9.016C33.6546 8.93433 33.3116 8.8935 32.9686 8.8935C32.593 8.8935 32.2336 8.95883 31.8906 9.0895C31.564 9.22017 31.27 9.4325 31.0086 9.7265C30.7636 10.0205 30.5676 10.3962 30.4206 10.8535C30.2736 11.3108 30.2001 11.858 30.2001 12.495C30.2001 13.8507 30.4533 14.8143 30.9596 15.386C31.4823 15.9413 32.1275 16.219 32.8951 16.219C33.3198 16.219 33.7118 16.1618 34.0711 16.0475C34.4468 15.9168 34.7653 15.7208 35.0266 15.4595C35.288 15.1818 35.4921 14.8307 35.6391 14.406C35.7861 13.965 35.8596 13.4342 35.8596 12.8135V12.4705Z"
+                    fill="#B1B1B1"
+                  />
+                  <path
+                    d="M40.8335 17.2644C40.8335 16.1369 41.7476 15.2228 42.8752 15.2228V15.2228C44.0027 15.2228 44.9168 16.1369 44.9168 17.2644V17.2644C44.9168 18.392 44.0027 19.3061 42.8752 19.3061V19.3061C41.7476 19.3061 40.8335 18.392 40.8335 17.2644V17.2644Z"
+                    fill="#B1B1B1"
                   />
                 </svg>
               </a>
@@ -331,47 +368,43 @@
       </header>
     </div>
 
-    <!-- RANDOMBG -->
-
-    <div class="bg-color-hero">
-      <div
-        class="all-content"
-        onload="randombg()"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-      >
-        <hero class="main-hero">
-          <script language="JavaScript">
-            <!--
-
-            /*
-            Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
-            Over 400+ free JavaScripts here!
-            Keep this notice intact please
-            */
-
-            function random_imglink() {
-                var myimages = new Array()
-                    //specify random images below. You can have as many as you wish
-                myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F1d7a454ac55fd08a1d33876856483a6f.jpg?v=1617078524518"
-                myimages[2] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2Fimage_processing20210312-8877-11jw4vd.png?v=1617078526816"
-                myimages[3] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F4d8b07836aa12c0bdb0dcac552830737.png?v=1617078527920"
-                myimages[4] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F4d8b07836aa12c0bdb0dcac552830737.png?v=1617078527920"
-                myimages[5] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F4d8b07836aa12c0bdb0dcac552830737.png?v=1617078527920"
-                myimages[6] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F4d8b07836aa12c0bdb0dcac552830737.png?v=1617078527920"
-
-                var ry = Math.floor(Math.random() * myimages.length)
-                if (ry == 0)
-                    ry = 1
-                document.write('<img  class="main-hero-img" src="' + myimages[ry] + '" border=0>')
-            }
-            random_imglink()
-                //-->
-          </script>
-        </hero>
+    <!-- SVG - TOP BTN -->
+    <div
+      class="svg-right-fixed"
+      data-aos="fade-up"
+      data-aos-offset="700"
+      data-aos-delay="590"
+      data-aos-duration="600"
+      data-aos-easing="ease-in-out"
+    >
+      <div>
+        <a href="#top">
+          <svg
+            width="64"
+            height="64"
+            viewbox="0 0 64 64"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="32" cy="32" r="32" fill="white" fill-opacity="0.25" />
+            <path
+              d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
+              stroke="white"
+              stroke-opacity="0.9"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <rect
+              x="21"
+              y="16"
+              width="22"
+              height="2"
+              rx="1"
+              fill="white"
+              fill-opacity="0.9"
+            />
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -389,7 +422,7 @@
           data-aos-duration="600"
           data-aos-easing="ease-in-out"
         >
-          Select Works from
+          Select Works
           <br />
           <span2>2017⏤2020</span2>
         </h1>
@@ -451,77 +484,62 @@
 
     <!-- FIVE IMAGES SECTION -->
 
-    <div
-      id="#myCarousel"
-      class="carousel"
-      data-aos="fade-up"
-      data-aos-offset="400"
-      data-aos-delay="70"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out"
-    >
-      <div class="carousel-grid  s-type-1" role="slider">
-        <input type="radio" id="s-1" name="slider-control" checked="checked" />
-        <input type="radio" id="s-2" name="slider-control" />
-        <input type="radio" id="s-3" name="slider-control" />
-        <input type="radio" id="s-4" name="slider-control" />
-        <input type="radio" id="s-5" name="slider-control" />
-        <ul class="s-content">
-          <li class="s-item s-item-1">
-            <img
-              class="full-image-img"
-              src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.jpg?v=1613360071971"
-              alt=""
-            />
-          </li>
-          <li class="s-item s-item-2">
-            <img
-              class="full-image-img"
-              src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-2.jpg?v=1613360072108"
-              alt=""
-            />
-          </li>
-          <li class="s-item s-item-3">
-            <img
-              class="full-image-img"
-              src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-1.jpg?v=1613360071971"
-              alt=""
-            />
-          </li>
-          <li class="s-item s-item-4">
-            <img
-              class="full-image-img"
-              src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
-              alt=""
-            />
-          </li>
-          <li class="s-item s-item-5">
-            <img
-              class="full-image-img"
-              src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
-              alt=""
-            />
-          </li>
-        </ul>
-        <div class="s-control">
-          <label class="s-c-1" for="s-1"></label>
-          <label class="s-c-2" for="s-2"></label>
-          <label class="s-c-3" for="s-3"></label>
-          <label class="s-c-4" for="s-4"></label>
-          <label class="s-c-5" for="s-5"></label>
-        </div>
-        <div class="s-nav">
-          <label class="s-nav-1 right" for="s-2"></label>
-          <label class="s-nav-2 left" for="s-1"></label>
-          <label class="s-nav-2 right" for="s-3"></label>
-          <label class="s-nav-3 left" for="s-2"></label>
-          <label class="s-nav-3 right" for="s-4"></label>
-          <label class="s-nav-4 left" for="s-3"></label>
-          <label class="s-nav-4 right" for="s-5"></label>
-          <label class="s-nav-5 left" for="s-4"></label>
-        </div>
-      </div>
+    <div class="content-full-screen">
+      <img
+        class="full-image-img"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.jpg?v=1613360071971"
+        alt=""
+      />
+      <div class="space200"></div>
+      <img
+        class="full-image-img"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-2.jpg?v=1613360072108"
+        alt=""
+      />
+      <img
+        class="full-image-img"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-1.jpg?v=1613360071971"
+        alt=""
+      />
+      <div class="space200"></div>
+      <img
+        class="full-image-img"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
+        alt=""
+      />
+      <div class="space200"></div>
+      <img
+        class="full-image-img"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
+        alt=""
+      />
     </div>
+
     <!-- CAROUSEL -->
     <!-- CAROUSEL -->
     <!-- CAROUSEL -->
@@ -685,37 +703,10 @@
       <div class="box-R">
         <br />
 
-        <svg
-          width="75"
-          height="39"
-          viewbox="0 0 75 39"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M18.0382 2.97372C18.2872 2.25727 19.3004 2.25727 19.5495 2.97371L23.0297 12.986C23.1396 13.302 23.4345 13.5163 23.7691 13.5232L34.3668 13.7391C35.1251 13.7546 35.4382 14.7182 34.8338 15.1764L26.387 21.5803C26.1204 21.7825 26.0077 22.1292 26.1046 22.4495L29.1741 32.5952C29.3937 33.3212 28.574 33.9168 27.9514 33.4836L19.2508 27.4291C18.9761 27.238 18.6115 27.238 18.3369 27.4291L9.63621 33.4836C9.01362 33.9168 8.1939 33.3212 8.41354 32.5952L11.483 22.4495C11.5799 22.1292 11.4672 21.7825 11.2006 21.5803L2.75384 15.1764C2.14941 14.7182 2.46251 13.7546 3.22085 13.7391L13.8185 13.5232C14.1531 13.5163 14.448 13.302 14.5579 12.986L18.0382 2.97372Z"
-            fill="var(--gold-color)"
-          />
-          <path
-            d="M55.4508 2.97372C55.6998 2.25727 56.713 2.25727 56.9621 2.97371L60.4423 12.986C60.5522 13.302 60.8471 13.5163 61.1817 13.5232L71.7794 13.7391C72.5377 13.7546 72.8508 14.7182 72.2464 15.1764L63.7996 21.5803C63.533 21.7825 63.4203 22.1292 63.5172 22.4495L66.5867 32.5952C66.8063 33.3212 65.9866 33.9168 65.364 33.4836L56.6634 27.4291C56.3887 27.238 56.0241 27.238 55.7495 27.4291L47.0488 33.4836C46.4262 33.9168 45.6065 33.3212 45.8261 32.5952L48.8956 22.4495C48.9925 22.1292 48.8798 21.7825 48.6132 21.5803L40.1664 15.1764C39.562 14.7182 39.8751 13.7546 40.6335 13.7391L51.2311 13.5232C51.5657 13.5163 51.8606 13.302 51.9705 12.986L55.4508 2.97372Z"
-            fill="var(--gold-color)"
-          />
-        </svg>
-
         <div class="space50"></div>
 
         <!-- ABOUT THE PROJECT -->
 
-        <p>
-          <span class="title">
-            <br /><br />
-            Featured On:
-          </span>
-          Anybody can book it so we can talk about any questions you might have
-          regarding design, tech industry, startups. community is to open 30 min
-          time slots on my calendar.
-          <br />
-        </p>
         <div class="content-in-line ">
           <svg
             class="svg-line-bar"
@@ -738,9 +729,10 @@
         </p>
         <div>
           <br />
-          <a class="button link" href="#" target="_blank">
+          <a class="button link svg-link" href="#" target="_blank">
             View the Project
             <svg
+              class="svg-link"
               width="10"
               height="10"
               viewbox="0 0 14 14"
@@ -749,7 +741,7 @@
             >
               <path
                 d="M2.60529 13.9687L11.2047 5.36075L11.1877 11.8125H13.9831V0.54541H2.72461L2.70756 3.32382H9.16779L0.568359 11.9318L2.60529 13.9687Z"
-                fill="white"
+                fill="var(--main-w-90)"
               />
             </svg>
           </a>
@@ -766,7 +758,7 @@
     </div>
     <div class="space300"></div>
     <div
-      class="content-full-screen-footer bg-color-gold"
+      class="content-full-screen-footer bg-color-footer"
       data-aos="fade-u"
       data-aos-offset="100"
       data-aos-delay="50"
@@ -774,10 +766,10 @@
       data-aos-easing="ease-in-out"
     >
       <div class="space100"></div>
-      <footer>
+      <footer class="bg-color-footer">
         <div class="navbar">
           <div class="wide">
-            <p class="type-white">
+            <p>
               ©2020
               <a class="button" href="#" _top="_blank">Mariogogh.</a>
               <br />All rights reserved.
@@ -785,12 +777,12 @@
           </div>
         </div>
 
-        <div class="footer">
+        <div class="footer bg-color-footer">
           <div class="social-links">
             <div class="links">
               <a
                 href="https://twitter.com/mariogogh"
-                class="button button-white"
+                class="button"
                 target="_blank"
                 >Twitter</a
               >
@@ -799,7 +791,7 @@
             <div class="links">
               <a
                 href="https://www.linkedin.com/in/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Linkedin</a
               >
@@ -807,7 +799,7 @@
             <div class="links">
               <a
                 href="https://dribbble.com/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Dribbble</a
               >
@@ -815,7 +807,7 @@
             <div class="links">
               <a
                 href="https://dribbble.com/mariogogh"
-                class="button button-white"
+                class="button "
                 target="_blank"
                 >Savee</a
               >
@@ -826,54 +818,21 @@
 
       <!-- E-MAIL -  FOOTER -->
 
-      <div class="footer-mail bg-color-gold">
+      <div class="footer-mail bg-color-footer">
         <div class="content-about">
-          <div class="space200"></div>
-          <h1>
-            <span2> Say hello:</span2>
-            <br />
-            hello@mariogogh.com
-          </h1>
+          <div class="space50"></div>
+          <h2>
+            Say hello:
+          </h2>
+          <a href="@mariogogh.com" class="button button-white" target="_blank"
+            ><h2>
+              hello<span3>@</span3>mariogogh.com
+            </h2></a
+          >
         </div>
         <div class="space100"></div>
         <div class="space100"></div>
-        <div class="svg-right-fixed">
-          <div>
-            <a href="#top">
-              <svg
-                width="64"
-                height="64"
-                viewbox="0 0 64 64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="32"
-                  cy="32"
-                  r="32"
-                  fill="white"
-                  fill-opacity="0.25"
-                />
-                <path
-                  d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
-                  stroke="white"
-                  stroke-opacity="0.9"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                />
-                <rect
-                  x="21"
-                  y="16"
-                  width="22"
-                  height="2"
-                  rx="1"
-                  fill="white"
-                  fill-opacity="0.9"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
+
         <div class="space200"></div>
       </div>
     </div>

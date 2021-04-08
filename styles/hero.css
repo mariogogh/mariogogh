@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   paddding-top: 64px;
-  z-index: 3;
+  z-index: 30;
   overflow: hidden;
   position: sticky;
 }
@@ -10,15 +10,12 @@
 .main-hero-img img:hover {
 }
 
-.bg-color-hero {
-  background: var(--links-color100);
-}
+
 
 .main-hero-img {
   width: 100%;
 
   height: 100%;
-  z-index: 14;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -26,35 +23,17 @@
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: 0.2s ease-in-out;
+  transition: 9.2s ease-in-out;
   transition: transform 0.9s ease;
   object-fit: cover;
   background-size: cover;
 
   background: var(--main-100);
-
-  position: relative;
+  z-index: 4;
+  position: sticky;
 }
 
 .main-hero-img2 {
-  width: 100%;
-  height: 120%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-  transition: 0.2s ease-in-out;
-  transition: transform 0.9s ease;
-  object-fit: cover;
-  background-size: cover;
-z-index: 22;
-  position: relative;
-}
-
-.main-hero2 {
   width: 100%;
   height: 100%;
   padding: 0;
@@ -64,12 +43,30 @@ z-index: 22;
   align-items: center;
   justify-content: center;
   opacity: 1;
-  transition: top 9.2s ease-in-out;
-  animation-duration: 750ms;
-  transition: transform 10.9s ease;
+  transition: 8.2s ease-in-out;
+  transition: transform 8.9s ease;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  z-index: 2000;
+}
+
+.main-hero2 {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  opacity: 1;
+  align-content: flex-start;
   object-fit: cover;
   background-size: cover;
-
+  top: 32px;
   position: relative;
 
   transition-delay: 950ms;
@@ -83,14 +80,13 @@ z-index: 22;
 
 .full-image-img {
   width: 100%;
-  height: 60%;
+  height: 100%;
   padding-top: 124px;
   object-fit: cover;
   background-size: cover;
   transition: opacity 0.2s ease-in-out;
   transition: transform 0.9s ease;
   opacity: 1;
-  scale: (1.9);
 }
 
 .hero {

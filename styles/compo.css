@@ -25,11 +25,6 @@ img: hover {
   cursor: var(--cursor);
 }
 
-.color-black {
-  background: var(--main-w-100);
-  color: var(--main-100);
-}
-
 .all-content {
   margin: 0 auto;
   transition: background 5s ease;
@@ -39,49 +34,6 @@ img: hover {
   display: flex;
 }
 
-.bg-color-hero {
-  background: var(--links-color100);
-}
-
-.bg-color-hero2 {
-  background: var(--lab-bg);
-}
-
-.lab-bg {
-  background: var(--lab-bg);
-}
-
-.lab-page-colors {
-  background: var(--main-100);
-  color: var(--main-w-100);
-}
-
-.lab-page-colors #navbar {
-  background: var(--main-100);
-  color: var(--main-w-100);
-}
-
-.lab-page-colors .button:hover {
-  border-bottom: 3px solid var(--lab-bg);
-}
-
-.lab-page-colors .button:active {
-  color: var(--lab-bg);
-}
-
-.lab-page-colors .button:focus {
-  border-bottom: 3px solid var(--lab-bg);
-}
-
-.lab-page-colors .active {
-  border-bottom: 3px solid var(--lab-bg);
-  color: var(--main-w-100);
-}
-
-.bg-color-gold {
-  background: var(--gold-color);
-  color: var(--main-w-100);
-}
 .space300 {
   width: 100%;
   height: 300px;

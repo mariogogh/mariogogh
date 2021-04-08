@@ -10,14 +10,17 @@ footer {
   padding-left: 24px;
   padding-right: 24px;
   align-items: center;
-  color: var(--main-w-50);
   flex-wrap: wrap;
 }
 
-.content-full-screen .button {
-  color: var(--main-w-50);
+.wide a {
+font-size: 24px;
 }
 
+
+footer .button{
+font-size: 24px;
+}
 .footer-mail {
   width: 100%;
   display: flex;
@@ -57,48 +60,21 @@ footer {
 
 .BG-Color {
   background: var(--links-color100);
-  color: var(--main-w-100);
   z-indez: 3;
 }
 
 .content-full-screen-footer {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: var(--main-w-100);
   transition: transform 0.9s ease;
   opacity: 1;
   scale: (1.9);
   position: sticky;
   top: 0;
   z-index: 2;
-}
-
-footer .links {
-  font-family: var(--main-font);
-  color: var(--main-w-50);
-}
-
-footer a {
-  font-family: var(--main-font);
-  color: var(--main-w-50);
-}
-
-footer p {
-  font-family: var(--main-font);
-  color: var(--main-w-50);
-}
-
-footer .button {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 139%;
-  /* or 33px */
-  letter-spacing: -0.03em;
-  color: var(--main-w-50);
 }
 
 footer div {
@@ -108,12 +84,10 @@ footer div {
 
 .wide {
   width: 48.5vw;
-  color: var(--main-w-50);
 }
 
 .wide p {
   font-family: var(--main-font);
-  color: var(--main-w-50);
 }
 
 .wide br {
@@ -136,15 +110,27 @@ footer div {
     padding-bottom: 32px;
   }
 
+  footer p {
+    font-size: 18px;
+  }
+
+  footer .button {
+    font-size: 18px;
+  }
+
+  footer .social-links {
+    font-size: 18px;
+  }
+
   .wide {
-    width: 90vw;
+    width: 50vw;
   }
   .wide br {
     display: flex;
   }
 
   .links:last-child {
-    padding-left: 64px;
+    padding-left: 48px;
     width: 22px;
   }
 
