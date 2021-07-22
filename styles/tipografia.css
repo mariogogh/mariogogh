@@ -22,7 +22,7 @@ h1 {
   font-family: var(--hero-font);
   font-weight: 400;
   font-size: 5vw;
-  line-height: 110.5%;
+  line-height: 115.5%;
   letter-spacing: -0.06em;
   text-aling: right;
 }
@@ -33,6 +33,7 @@ h2 {
   font-weight: 100;
   font-size: 24vw;
   letter-spacing: -0.1em;
+
   color: var(--hero-text);
 }
 
@@ -136,6 +137,7 @@ h5 {
   font-size: 12px;
   padding-bottom: 16px;
   font-weight: bold;
+letter-spacing: 0.1em;
 }
 
 @media (max-width: 600px) {

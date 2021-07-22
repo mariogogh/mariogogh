@@ -27,7 +27,6 @@
 }
 
 .footer {
-
   position: sticky;
   font-size: 16px;
 }
@@ -47,10 +46,12 @@
 
 .footer p {
   font-size: 16px;
+  letter-spacing: 0em;
 }
 
 .footer a {
   font-size: 16px;
+  letter-spacing: 0em;
 }
 
 .main-hero2-footer {
@@ -165,10 +166,7 @@
   }
 
   .footer {
- 
-   
     width: 100%;
-  
 
     padding-left: 52px;
     padding-right: 0px;

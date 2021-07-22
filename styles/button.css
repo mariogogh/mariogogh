@@ -1,11 +1,10 @@
 /* unvisited link */
 
 .button {
-  letter-spacing: 0em;
-  transition-duration: 0.9s;
+  transition-duration: 0.3s;
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid transparent;
+  border-bottom: 5px solid transparent;
   cursor: pointer;
   display: inline-block;
   opacity: 1;
@@ -14,11 +13,11 @@
   padding-right: 0px;
   padding-top: 8px;
   font-family: var(--main-font);
-  color: var(--main-25);
+  color: var(--main-15);
   font-size: 12px;
   line-height: 139%;
-  /* or 33px */
-  letter-spacing: -0em;
+   letter-spacing: 0.1em;
+  font-weight: 600;
 }
 
 .button .normal {
@@ -30,16 +29,16 @@
 /* visited link */
 
 .button:visited {
-  color: var(--main-25);
+  color: var(--main-50%);
   opacity: 0.9;
 }
 
 /* mouse over link */
 
 .button:hover {
-  color: var(--main-25);
+  color: var(--main-100);
   opacity: 0.8;
-  border-bottom: 3px solid var(--header-active);
+  border-bottom: 5px solid var(--header-active);
 }
 
 /* selected link */
@@ -53,13 +52,13 @@
 .button:focus {
   color: var(--main-100);
   border: none;
-  border-bottom: 3px solid var(--hero-text);
+  border-bottom: 5px solid var(--hero-text);
   outline: none;
 }
 
 .active {
   opacity: 0.9;
-  border-bottom: 3px solid var(--hero-text);
+  border-bottom: 5px solid var(--hero-text);
   color: var(--main-100);
   text-decoration: bold;
   font-weight: 700;
@@ -78,11 +77,17 @@
 
 .hugelink a {
   font-size: 5vw;
-  height: 6.9vw;
-  transition-duration: 0.4s;
+  letter-spacing: -0.06em;
+  height: 7vw;
+
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 
+ 
+
+ 
 
 .button-huge {
   display: inline-block;
@@ -126,7 +131,7 @@
 .button-huge:hover span:after {
   color: var(--main-color);
   opacity: 0.9;
-  border-bottom: 3px solid white;
+  border-bottom: 5px solid white;
 }
 
 @media (max-width: 600px) {
@@ -144,5 +149,12 @@
     font-size: 9vw;
     height: 6.8vh;
     transition-duration: 0.4s;
+    padding-top: 10px;
+    height: 70px;
+    padding-bottom: 10px;
   }
 }
+
+font-size: 5vw;
+
+transition-duration: 0.4s;
