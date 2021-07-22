@@ -7,6 +7,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/npm/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -112,29 +113,13 @@
       Mário Gogh, a multidisciplinary designer from Brasília, Brazil.
     </title>
 
-    <!-- SCRIPT -->
-    <!-- SCRIPT -->
-
     <!-- STYLE-->
     <!-- STYLE -->
 
     <link rel="stylesheet" href="styles/global.css" />
     <!-- STYLE-->
     <!-- STYLE -->
-
-    <!-- Font  -->
-    <!-- Font  -->
-    <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
-    <!-- Font  -->
-    <!-- Font  -->
   </head>
-  <!-- HEAD -->
-  <!-- import the webpage's stylesheet -->
-
-  <!-- import the webpage's javascript file -->
-  <!-- HEAD -->
-
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <!-- AOS ANIMATION-->
 
@@ -167,200 +152,120 @@
     <!-- HEADER SCRIPT -->
 
     <!-- HEADER -->
+
     <div
-      class="home-cover bg-color-work"
+      class="newheader hero-work"
       data-aos="zoom-out-up"
-      data-aos-offset="200"
-      data-aos-delay="80"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out-cubic"
+      data-aos-offset="100"
+      data-aos-delay="0"
+      data-aos-duration="500"
+      data-aos-easing="ease-in"
     >
-      <div
-        class="section-hero-elements
-                "
-      >
-        <div class="box-L ">
-          <h3
-            class="bold"
-            ata-aos="fade-up"
-            data-aos-offset="400"
-            data-aos-delay="5700"
-            data-aos-duration="6900"
-            data-aos-easing="ease-in-out"
-          >
-            mario<span2>gogh.</span2>
-          </h3>
-        </div>
-        <div class="box-R">
-          <p
-            class=""
-            ata-aos="fade-up"
-            data-aos-offset="400"
-            data-aos-delay="70"
-            data-aos-duration="600"
-            data-aos-easing="ease-in-out"
-          >
-            A multidisciplinary Designer, <br />from Brasília, Brazil. Currently
-            working at <br />
-            @designexperiencebr by Accenture Interactive.
-          </p>
-
-          <br />
-        </div>
+      <div class="caption">
+        <p>
+          A multidisciplinary Designer, from Brasília, Brazil.
+          <br />Currently working at @designexperiencebr <br />
+          by Accenture Interactive.
+        </p>
       </div>
-
-      <!-- HERO Image-->
-
       <div
-        class="cover bg-color-work"
+        class="type-L"
+        onload="randombg()"
         data-aos="fade-up"
-        data-aos-delay="400"
-        data-aos-duration="300"
-        data-aos-easing="ease-in-out-back"
+        data-aos-delay="90"
+        data-aos-duration="100"
+        data-aos-easing="ease-in-out"
       >
-        <div class="desktop">
-          <div
-            class="bg-color-work"
-            onload="randombg()"
-            data-aos="fade-up"
-            data-aos-delay="90"
-            data-aos-duration="100"
-            data-aos-easing="ease-in-out"
-          >
-            <hero
-              class="main-hero2 bg-color-work"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-            >
-              <script language="JavaScript">
-                <!--
-
-                /*
-                Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
-                Over 400+ free JavaScripts here!
-                Keep this notice intact please
-                */
-
-                function random_imglink() {
-                    var myimages = new Array()
-                        //specify random images below. You can have as many as you wish
-                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH.png.png?v=1617845595103"
-
-                    var ry = Math.floor(Math.random() * myimages.length)
-                    if (ry == 0)
-                        ry = 1
-                    document.write('<img  class="main-hero-img2" src="' + myimages[ry] + '" border=0>')
-                }
-                random_imglink()
-                    //-->
-              </script>
-            </hero>
-          </div>
-        </div>
-        <div class="mobile">
-          <div
-            class="bg-color-work"
-            onload="randombg()"
-            data-aos="fade-up"
-            data-aos-delay="90"
-            data-aos-duration="100"
-            data-aos-easing="ease-in-out"
-          >
-            <hero
-              class="bg-color-work"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-            >
-              <script language="JavaScript">
-                <!--
-
-                /*
-                Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
-                Over 400+ free JavaScripts here!
-                Keep this notice intact please
-                */
-
-                function random_imglink() {
-                    var myimages = new Array()
-                        //specify random images below. You can have as many as you wish
-                    myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FMARIOGOGH-mobile.png.png?v=1617845982887"
-
-
-                    var ry = Math.floor(Math.random() * myimages.length)
-                    if (ry == 0)
-                        ry = 1
-                    document.write('<img  class="main-hero-img2" src="' + myimages[ry] + '" border=0>')
-                }
-                random_imglink()
-                    //-->
-              </script>
-            </hero>
-          </div>
-        </div>
-        <div class="space200"></div>
+        <h2>
+          MÁRIO
+        </h2>
+      </div>
+      <div
+        class="type-R"
+        onload="randombg()"
+        data-aos="fade-up"
+        data-aos-delay="90"
+        data-aos-duration="100"
+        data-aos-easing="ease-in-out"
+      >
+        <h2>
+          GOGH
+        </h2>
       </div>
     </div>
 
-    <!-- NAVBAR -->
+    <!-- RANDOMBG -->
 
-    <div>
-      <header
-        id="#top"
+    <div class="bg-color-hero">
+      <div
+        class="all-content"
+        onload="randombg()"
         data-aos="fade-up"
         data-aos-offset="400"
-        data-aos-delay="90"
+        data-aos-delay="70"
         data-aos-duration="600"
         data-aos-easing="ease-in-out"
       >
+        <hero class="main-hero">
+          <script language="JavaScript">
+            <!--
+
+            /*
+            Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
+            Over 400+ free JavaScripts here!
+            Keep this notice intact please
+            */
+
+            function random_imglink() {
+                var myimages = new Array()
+                    //specify random images below. You can have as many as you wish
+                myimages[1] = "https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FGroup%2041.png?v=1617246298977"
+
+
+                var ry = Math.floor(Math.random() * myimages.length)
+                if (ry == 0)
+                    ry = 1
+                document.write('<img  class="main-hero-img" src="' + myimages[ry] + '" border=0>')
+            }
+            random_imglink()
+                //-->
+          </script>
+        </hero>
+      </div>
+    </div>
+
+    <div>
+      <header id="#top">
         <div id="navbar">
           <div class="navbar">
             <div class=" box-logo">
               <a href="index.html" target="_self">
-                <h4
-                  class="bold desktop"
-                  ata-aos="fade-up"
-                  data-aos-offset="800"
-                  data-aos-delay="5700"
-                  data-aos-duration="6900"
-                  data-aos-easing="ease-in-out"
-                >
-                  mario<span2>gogh.</span2>
-                </h4>
-                <svg
-                  class="mobile"
-                  width="49"
-                  height="26"
-                  viewbox="0 0 49 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M5.60254 6.517H8.93454V8.232C9.40821 7.51333 9.96354 6.9825 10.6005 6.6395C11.2375 6.2965 11.9072 6.125 12.6095 6.125C13.5405 6.125 14.3 6.31283 14.888 6.6885C15.476 7.06417 15.8925 7.61133 16.1375 8.33C16.7255 7.546 17.3462 6.9825 17.9995 6.6395C18.6529 6.2965 19.3715 6.125 20.1555 6.125C21.4785 6.125 22.4667 6.4925 23.12 7.2275C23.7897 7.94617 24.1245 9.12217 24.1245 10.7555V19.306H20.6945V11.221C20.6945 10.7637 20.6537 10.3962 20.572 10.1185C20.4904 9.8245 20.376 9.59583 20.229 9.4325C20.0984 9.26917 19.935 9.15483 19.739 9.0895C19.543 9.02417 19.3389 8.9915 19.1265 8.9915C18.7835 8.9915 18.465 9.04867 18.171 9.163C17.8934 9.27733 17.6157 9.47333 17.338 9.751C17.1094 9.97967 16.9215 10.241 16.7745 10.535C16.6439 10.829 16.5785 11.1393 16.5785 11.466V19.306H13.1485V11.221C13.1485 10.7637 13.1077 10.3962 13.026 10.1185C12.9444 9.8245 12.83 9.59583 12.683 9.4325C12.5524 9.26917 12.389 9.15483 12.193 9.0895C11.997 9.02417 11.7929 8.9915 11.5805 8.9915C11.2375 8.9915 10.919 9.04867 10.625 9.163C10.3474 9.27733 10.0697 9.47333 9.79204 9.751C9.56337 9.97967 9.37554 10.2573 9.22854 10.584C9.09787 10.8943 9.03254 11.2373 9.03254 11.613V19.306H5.60254V6.517Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M30.6166 20.1145C30.682 20.4412 30.7718 20.7025 30.8861 20.8985C31.0168 21.0945 31.1801 21.2497 31.3761 21.364C31.5885 21.4783 31.8335 21.5518 32.1111 21.5845C32.4051 21.6335 32.7563 21.658 33.1646 21.658C33.8016 21.658 34.2998 21.5355 34.6591 21.2905C35.0185 21.0618 35.2798 20.7515 35.4431 20.3595C35.6228 19.9675 35.729 19.5183 35.7616 19.012C35.8106 18.5057 35.8351 17.983 35.8351 17.444V17.052C35.4105 17.6727 34.8633 18.1463 34.1936 18.473C33.5403 18.7833 32.7971 18.9385 31.9641 18.9385C30.1675 18.9385 28.82 18.3587 27.9216 17.199C27.0396 16.0393 26.5986 14.4795 26.5986 12.5195C26.5986 11.5885 26.7211 10.731 26.9661 9.947C27.2275 9.163 27.595 8.49333 28.0686 7.938C28.5423 7.36633 29.1221 6.92533 29.8081 6.615C30.5105 6.28833 31.2945 6.125 32.1601 6.125C32.8461 6.125 33.5076 6.25567 34.1446 6.517C34.798 6.77833 35.3941 7.26017 35.9331 7.9625V6.517H39.2651V17.5175C39.2651 18.5955 39.1508 19.551 38.9221 20.384C38.7098 21.2333 38.3586 21.952 37.8686 22.54C37.395 23.128 36.7661 23.569 35.9821 23.863C35.2145 24.1733 34.2753 24.3285 33.1646 24.3285C32.1356 24.3285 31.2536 24.2387 30.5186 24.059C29.8 23.8957 29.2038 23.6343 28.7301 23.275C28.2565 22.932 27.889 22.491 27.6276 21.952C27.3826 21.4293 27.2193 20.8168 27.1376 20.1145H30.6166ZM35.8596 12.4705C35.8596 11.7028 35.7698 11.0822 35.5901 10.6085C35.4268 10.1348 35.2063 9.7755 34.9286 9.5305C34.651 9.26917 34.3406 9.09767 33.9976 9.016C33.6546 8.93433 33.3116 8.8935 32.9686 8.8935C32.593 8.8935 32.2336 8.95883 31.8906 9.0895C31.564 9.22017 31.27 9.4325 31.0086 9.7265C30.7636 10.0205 30.5676 10.3962 30.4206 10.8535C30.2736 11.3108 30.2001 11.858 30.2001 12.495C30.2001 13.8507 30.4533 14.8143 30.9596 15.386C31.4823 15.9413 32.1275 16.219 32.8951 16.219C33.3198 16.219 33.7118 16.1618 34.0711 16.0475C34.4468 15.9168 34.7653 15.7208 35.0266 15.4595C35.288 15.1818 35.4921 14.8307 35.6391 14.406C35.7861 13.965 35.8596 13.4342 35.8596 12.8135V12.4705Z"
-                    fill="#B1B1B1"
-                  />
-                  <path
-                    d="M40.8335 17.2644C40.8335 16.1369 41.7476 15.2228 42.8752 15.2228V15.2228C44.0027 15.2228 44.9168 16.1369 44.9168 17.2644V17.2644C44.9168 18.392 44.0027 19.3061 42.8752 19.3061V19.3061C41.7476 19.3061 40.8335 18.392 40.8335 17.2644V17.2644Z"
-                    fill="#B1B1B1"
-                  />
-                </svg>
+                <div>
+                  <h1
+                    class="mobile"
+                    ata-aos="fade-up"
+                    data-aos-offset="800"
+                    data-aos-delay="5700"
+                    data-aos-duration="6900"
+                    data-aos-easing="ease-in-out"
+                  >
+                    MG.
+                  </h1>
+                </div>
               </a>
             </div>
-            <div class="box-links">
+            <div class="box-links hero-work-link">
               <div class="links">
-                <a href="index.html" class="button active" target="_self"
-                  >Work</a
+                <a href="index.html" class="button active " target="_self"
+                  >WORK</a
                 >
               </div>
 
               <div class="links">
-                <a href="about.html" class="button" target="_self">About</a>
+                <a href="about.html" class="button" target="_self">ABOUT</a>
               </div>
               <div class="links">
-                <a href="lab.html" class="button" target="_self">Lab</a>
+                <a href="lab.html" class="button" target="_self">LAB</a>
               </div>
             </div>
           </div>
@@ -386,10 +291,10 @@
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle cx="32" cy="32" r="32" fill="white" fill-opacity="0.25" />
+            <circle cx="32" cy="32" r="32" fill="var(--work)" fill-opacity="0.90" />
             <path
               d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
-              stroke="white"
+              stroke="var( --hero-text)"
               stroke-opacity="0.9"
               stroke-width="2"
               stroke-linecap="round"
@@ -400,7 +305,7 @@
               width="22"
               height="2"
               rx="1"
-              fill="white"
+              fill="var( --hero-text)"
               fill-opacity="0.9"
             />
           </svg>
@@ -410,430 +315,479 @@
 
     <!-- SELECT WORKS INTRO -->
 
-    <div id="works" class="space300"></div>
-    <div class="space100"></div>
-    <div class="section-hero-elements">
-      <div class="box-L"></div>
-      <div class="box-R">
-        <h1
+    <div class="GlobalPadding hero-work-link">
+      <div id="works" class="space300"></div>
+
+      <div
+        class="section-hero-elements"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="box-L">
+          <h1><span1>Selected Works</span1></h1>
+        </div>
+        <div class="box-R">
+          <br />
+          <p class="title">
+            2016 ⏤ 2021
+          </p>
+          <br />
+          <p>
+            <br />
+          </p>
+          <div>
+            <br />
+          </div>
+        </div>
+      </div>
+
+      <div class="space300"></div>
+      <div class="space100"></div>
+      <div class="content-in-line ">
+        <svg
+          class="svg-line-bar"
+          width="100%;"
+          height="2"
+          viewbox="0 0 100% 2"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="100%" height="2" fill-opacity="0.71" />
+        </svg>
+      </div>
+
+      <!-- INTRO PROJECT-->
+      <div class="space50"></div>
+      <div
+        class="section-hero-elements"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="box-L">
+          <p class="eyebrown">
+            PRISM.AI
+          </p>
+
+          <h1>
+            <span1>A robusted <br />& complex dashbaord</span1>
+          </h1>
+        </div>
+
+        <div class="box-R">
+          <div class="space100"></div>
+        </div>
+      </div>
+      <div class="space200"></div>
+      <!-- INTRO PROJECT-->
+
+      <!-- FIVE IMAGES SECTION -->
+
+      <div class="content-full-screen">
+        <img
+          class="full-image-img"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.jpg?v=1613360071971"
+          alt=""
+        />
+
+        <!-- ABOUT-->
+        <div class="space100"></div>
+        <div
+          class="section-hero-elements"
           data-aos="fade-up"
           data-aos-offset="400"
           data-aos-delay="70"
           data-aos-duration="600"
           data-aos-easing="ease-in-out"
         >
-          Select Works
-          <br />
-          <span2>2017⏤2020</span2>
-        </h1>
-      </div>
-    </div>
-
-    <div class="space300"></div>
-    <div class="space100"></div>
-    <div class="content-in-line ">
-      <svg
-        class="svg-line-bar"
-        width="100%;"
-        height="2"
-        viewbox="0 0 100% 2"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="100%" height="2" fill-opacity="0.71" />
-      </svg>
-    </div>
-
-    <!-- INTRO PROJECT-->
-
-    <div
-      class="section-hero-elements"
-      data-aos="fade-up"
-      data-aos-offset="400"
-      data-aos-delay="70"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out"
-    >
-      <div class="box-L">
-        <h1><span1>Prism.AI</span1></h1>
-      </div>
-      <div class="box-R">
-        <br />
-        <p class="title">
-          2020<span2> • </span2>Personal Project<br /><span2> • </span2>Design &
-          Code
-        </p>
-        <br /><br />
-        <p>
-          <span4>
-            Prism Ai - Dashboard. Anybody can book it so we can talk about any
-            questions you might have regarding design, tech industry, startups.
-            community is to open 30 min time slots on my calendar.
-            <br />
-          </span4>
-        </p>
-        <div>
-          <br />
-        </div>
-      </div>
-    </div>
-
-    <div class="space100"></div>
-    <div class="content-full-screen"></div>
-    <div class="space50"></div>
-
-    <!-- FIVE IMAGES SECTION -->
-
-    <div class="content-full-screen">
-      <img
-        class="full-image-img"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.jpg?v=1613360071971"
-        alt=""
-      />
-      <div class="space200"></div>
-      <img
-        class="full-image-img"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-2.jpg?v=1613360072108"
-        alt=""
-      />
-      <img
-        class="full-image-img"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-1.jpg?v=1613360071971"
-        alt=""
-      />
-      <div class="space200"></div>
-      <img
-        class="full-image-img"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
-        alt=""
-      />
-      <div class="space200"></div>
-      <img
-        class="full-image-img"
-        data-aos="fade-up"
-        data-aos-offset="400"
-        data-aos-delay="70"
-        data-aos-duration="600"
-        data-aos-easing="ease-in-out"
-        src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
-        alt=""
-      />
-    </div>
-
-    <!-- CAROUSEL -->
-    <!-- CAROUSEL -->
-    <!-- CAROUSEL -->
-    <!-- CAROUSEL -->
-
-    <div class="space300"></div>
-
-    <!-- MANSOURY GRID -->
-
-    <div
-      class="section-hero-elements"
-      data-aos="fade-up"
-      data-aos-offset="400"
-      data-aos-delay="70"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out"
-    >
-      <div class="masonry">
-        <div class="grid">
-          <!-- IMAGEM 01 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="100"
-            data-aos-duration="600"
-            src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FA.png?v=1614642057846"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 02 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="200"
-            data-aos-duration="600"
-            src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FB.png?v=1614642057798"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 03 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="300"
-            data-aos-duration="600"
-            src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FC.png?v=1614642059063"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 04 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="400"
-            data-aos-duration="600"
-            src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FD.png?v=1614642058771"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 05 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="500"
-            data-aos-duration="600"
-            src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FE.png?v=1614642057757"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" target="_blank"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 06 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="600"
-            data-aos-duration="600"
-            src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FF.png?v=1614642057222"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" target="_blank"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 07 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="700"
-            data-aos-duration="600"
-            src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FG.png?v=1614642058370"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" target="_blank"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-        <div class="grid">
-          <!-- IMAGEM 08 -->
-          <img
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-delay="800"
-            data-aos-duration="600"
-            src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FH.png?v=1614642055255"
-          />
-          <div class="grid__body">
-            <div class="relative">
-              <a class="grid__link" target="_blank"></a>
-            </div>
-            <div class="mt-auto"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- WORK INFO -->
-
-    <div
-      class="section-hero-work-info"
-      data-aos="fade-up"
-      data-aos-offset="400"
-      data-aos-delay="70"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out"
-    >
-      <div class="box-L"></div>
-      <div class="box-R">
-        <br />
-
-        <div class="space50"></div>
-
-        <!-- ABOUT THE PROJECT -->
-
-        <div class="content-in-line ">
-          <svg
-            class="svg-line-bar"
-            height="2"
-            viewbox="0 0 100% 2"
-            fill="var(--links-color100)"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <rect width="100%" height="2" fill-opacity="0.71" />
-          </svg>
-        </div>
-        <br />
-        <p>
-          <span class="title">
-            Design Team:
-          </span>
-          Anybody can book it so we can talk about any questions you might have
-          regarding design, tech industry, startups. community is to open 30 min
-          time slots on my calendar. Or try the new link.
-        </p>
-        <div>
-          <br />
-          <a class="button link svg-link" href="#" target="_blank">
-            View the Project
-            <svg
-              class="svg-link"
-              width="10"
-              height="10"
-              viewbox="0 0 14 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M2.60529 13.9687L11.2047 5.36075L11.1877 11.8125H13.9831V0.54541H2.72461L2.70756 3.32382H9.16779L0.568359 11.9318L2.60529 13.9687Z"
-                fill="var(--main-w-90)"
-              />
-            </svg>
-          </a>
-        </div>
-
-        <div class="space50"></div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-
-    <div>
-      <div class="space300"></div>
-    </div>
-    <div class="space300"></div>
-    <div
-      class="content-full-screen-footer bg-color-footer"
-      data-aos="fade-u"
-      data-aos-offset="100"
-      data-aos-delay="50"
-      data-aos-duration="600"
-      data-aos-easing="ease-in-out"
-    >
-      <div class="space100"></div>
-      <footer class="bg-color-footer">
-        <div class="navbar">
-          <div class="wide">
-            <p>
-              ©2020
-              <a class="button" href="#" _top="_blank">Mariogogh.</a>
-              <br />All rights reserved.
+          <div class="box-L"></div>
+          <div class="box-R">
+            <div class="space100"></div>
+            <p class="eyebrown">
+              ABOUT
             </p>
+
+            <p>
+              Prism Ai - Dashboard. Anybody can book it so we can talk about any
+              questions you might have regarding design, tech industry,
+              startups. community is to open 30 min time slots on my calendar.
+              <br />
+            </p>
+    <div class="space50"></div>
+            <div>
+              <a
+                href="https://dribbble.com/mariogogh"
+                class="button  "
+                target="_blank"
+                >VIEW FULL CASE
+                <svg
+                  width="9"
+                  height="9"
+                  viewbox="0 0 9 9"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.916449 9L7.73107 2.18253L7.71932 7.43937H9V0H1.56266L1.55091 1.26728H6.81462L0 8.08475L0.916449 9Z"
+                    fill="black"
+                    fill-opacity="0.5"
+                  />
+                </svg>
+              </a>
+              <div class="space50"></div>
+            </div>
+            <div class="space100"></div>
           </div>
         </div>
 
-        <div class="footer bg-color-footer">
-          <div class="social-links">
-            <div class="links">
-              <a
-                href="https://twitter.com/mariogogh"
-                class="button"
-                target="_blank"
-                >Twitter</a
-              >
-            </div>
+        <!-- ABOUT-->
+        <div class="space100"></div>
+        <img
+          class="full-image-img"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-2.jpg?v=1613360072108"
+          alt=""
+        />
+        <div class="space100"></div>
+        <img
+          class="full-image-img"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover-1.jpg?v=1613360071971"
+          alt=""
+        />
+        <div class="space100"></div>
+        <img
+          class="full-image-img"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
+          alt=""
+        />
+        <div class="space100"></div>
+        <img
+          class="full-image-img"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+          src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FCover.png?v=1613358844296"
+          alt=""
+        />
+      </div>
 
-            <div class="links">
+      <div class="space100"></div>
+
+      <div class="space300"></div>
+
+      <!-- MANSOURY GRID -->
+
+      <div
+        class="section-hero-elements"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="wall">
+          <div class="masonry">
+            <div class="grid">
+              <!-- IMAGEM 01 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="100"
+                data-aos-duration="600"
+                src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FA.png?v=1614642057846"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 02 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="200"
+                data-aos-duration="600"
+                src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FB.png?v=1614642057798"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 03 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="300"
+                data-aos-duration="600"
+                src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FC.png?v=1614642059063"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 04 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="400"
+                data-aos-duration="600"
+                src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FD.png?v=1614642058771"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 05 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="500"
+                data-aos-duration="600"
+                src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FE.png?v=1614642057757"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link" target="_blank"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 06 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="600"
+                data-aos-duration="600"
+                src="https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FF.png?v=1614642057222"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link" target="_blank"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 07 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="700"
+                data-aos-duration="600"
+                src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FG.png?v=1614642058370"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link" target="_blank"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+            <div class="grid">
+              <!-- IMAGEM 08 -->
+              <img
+                data-aos="fade-up"
+                data-aos-offset="100"
+                data-aos-delay="800"
+                data-aos-duration="600"
+                src=" https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FH.png?v=1614642055255"
+              />
+              <div class="grid__body">
+                <div class="relative">
+                  <a class="grid__link" target="_blank"></a>
+                </div>
+                <div class="mt-auto"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CREDITOS-->
+
+      <div
+        class="section-hero-elements"
+        data-aos="fade-up"
+        data-aos-offset="400"
+        data-aos-delay="70"
+        data-aos-duration="600"
+        data-aos-easing="ease-in-out"
+      >
+        <div class="box-L"></div>
+        <div class="box-R">
+          <p class="eyebrown">
+            CONTRIBUTIONS
+          </p>
+
+          <p>
+            Lead UX Designer Visual Designer Content Strategist
+            <br />
+          </p>
+          <div class="space100"></div>
+          <p class="eyebrown">
+            CONTEXT
+          </p>
+
+          <p>
+            italiaDesign fieldschool Jan 2018 — Aug 2018
+            <br />
+          </p>
+          <div class="space100"></div>
+          <p class="eyebrown">
+            TEAM
+          </p>
+
+          <p>
+            Shannon Boyd, Elizabeth Chan, Annette Cheung, Tobi Cheung, Kosuke
+            Futsukaichi, Sean Leach, Sabrina Ng, Summer-Lee Schoenfeld, Mark
+            Strathern, Sonia Yau, Rana Zokai, Russell Taylor — Field School
+            Director
+            <br />
+          </p>
+          <div class="space100"></div>
+        </div>
+      </div>
+
+      <!-- CREDITOS-->
+      <div class="space300 "></div>
+    </div>
+
+    <div
+      class="bg-black bg-div"
+      data-aos="fade-up"
+      data-aos-offset="400"
+      data-aos-delay="170"
+      data-aos-duration="900"
+      data-aos-easing="ease-in-out"
+    >
+      <!-- FOOTER -->
+      <!-- FOOTER -->
+      <!-- OTHER LINKS-->
+      <!-- OTHER LINKS-->
+      <div class="section-hero-elements bg-black">
+        <div class="box-L">
+
+          <div class="space50 "></div>
+        </div>
+        <div
+          class="box-R
+
+"
+          data-aos="fade-up"
+          data-aos-offset="400"
+          data-aos-delay="70"
+          data-aos-duration="600"
+          data-aos-easing="ease-in-out"
+        >
+          <h1 class="hugelink  hero-work-link">
+            <span1>
+              <br />
+              <br />
+              Say hi through
               <a
+                data-aos="fade-up"
+                data-aos-offset="40"
+                data-aos-delay="70"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
                 href="https://www.linkedin.com/in/mariogogh"
                 class="button "
                 target="_blank"
                 >Linkedin</a
-              >
-            </div>
-            <div class="links">
+              >,
+
               <a
-                href="https://dribbble.com/mariogogh"
-                class="button "
-                target="_blank"
-                >Dribbble</a
-              >
-            </div>
-            <div class="links">
-              <a
-                href="https://dribbble.com/mariogogh"
+                data-aos="fade-up"
+                data-aos-offset="30"
+                data-aos-delay="70"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                href="https://www.linkedin.com/in/mariogogh"
                 class="button "
                 target="_blank"
                 >Savee</a
+              >,
+
+              <a
+                data-aos="fade-up"
+                data-aos-offset="20"
+                data-aos-delay="70"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                href="https://www.linkedin.com/in/mariogogh"
+                class="button "
+                target="_blank"
+                >Dribble</a
               >
-            </div>
-          </div>
+              and
+              <a
+                data-aos="fade-up"
+                data-aos-offset="10"
+                data-aos-delay="70"
+                data-aos-duration="600"
+                data-aos-easing="ease-in-out"
+                href="https://www.linkedin.com/in/mariogogh"
+                class="button "
+                target="_blank"
+                >Behance</a
+              >.
+            </span1>
+          </h1>
         </div>
-      </footer>
-
-      <!-- E-MAIL -  FOOTER -->
-
-      <div class="footer-mail bg-color-footer">
-        <div class="content-about">
-          <div class="space50"></div>
-          <h2>
-            Say hello:
-          </h2>
-          <a href="@mariogogh.com" class="button button-white" target="_blank"
-            ><h2>
-              hello<span3>@</span3>mariogogh.com
-            </h2></a
-          >
+      </div>
+      <!-- OTHER LINKS-->
+      <div class="space100 "></div>
+      <div class="section-hero-elements footer ">
+        <div class=" bg-black box-L">
+          <p class=" hero-work-link bg-black">
+            ©2021
+            <a class="button" href="#" _top="_blank">@mariogogh.</a>
+            All rights reserved.
+          </p>
         </div>
-        <div class="space100"></div>
-        <div class="space100"></div>
 
-        <div class="space200"></div>
+        <div class="box-R"></div>
       </div>
     </div>
   </body>

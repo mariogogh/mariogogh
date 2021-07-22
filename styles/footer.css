@@ -1,44 +1,63 @@
-footer {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-  display: flex;
-  justify-content: flex-start;
-  padding-bottom: 64px;
-  padding-top: 16px;
-  height: 100%;
+.section-footer {
+  width: 100%;
+  height: 30vh;
   padding-left: 24px;
   padding-right: 24px;
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.9s ease;
+  z-indez: 1;
+  position: absolute;
+  font-size: 16px;
+}
+
+.bg-div {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  z-index: 3;
+  top: 2;
+}
+
+.bg-div .box-R,
+.Box-L {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer {
+
+  position: sticky;
+  font-size: 16px;
+}
+
+.social-links {
+  width: 100%;
+  height: 48px;
 }
 
 .wide a {
-font-size: 24px;
+  font-size: 16px;
 }
 
-
-footer .button{
-font-size: 24px;
+.footer .button {
+  font-size: 16px;
 }
-.footer-mail {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  text-align: left;
-  flex-direction: column;
-  padding-right: 0px;
-  transition: opacity 0.2s ease-in-out;
-  transition: transform 0.9s ease;
-  opacity: 1;
-  scale: (1.9);
+
+.footer p {
+  font-size: 16px;
+}
+
+.footer a {
+  font-size: 16px;
 }
 
 .main-hero2-footer {
   width: 103%;
   height: 100%;
   padding-left: 0px;
+  z-index: 5;
   top: 32px;
   margin: 0;
   list-style: none;
@@ -53,15 +72,6 @@ font-size: 24px;
   overflow: hidden;
   position: relative;
 }
-.content-full-screen .button:hover {
-  opacity: 0.8;
-  border-bottom: 3px solid var(--main-w-100);
-}
-
-.BG-Color {
-  background: var(--links-color100);
-  z-indez: 3;
-}
 
 .content-full-screen-footer {
   width: 100%;
@@ -74,16 +84,21 @@ font-size: 24px;
   scale: (1.9);
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 5;
 }
 
-footer div {
+.footer div {
   display: flex;
   justify-content: space-between;
 }
 
 .wide {
-  width: 48.5vw;
+  width: 46.5vw;
+  height: 48px;
+}
+
+.wide .button {
+  height: 48px;
 }
 
 .wide p {
@@ -94,36 +109,97 @@ footer div {
   display: none;
 }
 
+.desktop-footer {
+  display: show;
+}
+
+.mobile-footer {
+  display: none;
+  position: relative;
+  top: 16px;
+}
+
+.img-footer {
+  width: 100%;
+  height: 50vh;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  opacity: 1;
+  align-content: flex-start;
+  object-fit: cover;
+  background-size: cover;
+  top: -2px;
+  position: relative;
+}
+
+.img-footer img {
+  width: 99%;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+}
+
+.img-footer-img2 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+}
+
 @media (max-width: 600px) {
-  footer {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    flex-direction: column-reverse;
-    width: 50%;
-    padding-bottom: 64px;
+  .section-footer {
+    justify-content: space-between;
+    width: 100%;
+    height: 45vh;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
-  footer .social-links {
-    width: 50%;
+  .footer {
+ 
+   
+    width: 100%;
+  
+
+    padding-left: 52px;
+    padding-right: 0px;
+    padding-bottom: 16vh;
+    font-size: 16px;
+  }
+
+  .footer .social-links {
+    width: ;
     flex-wrap: wrap;
-    padding-bottom: 32px;
+    padding-bottom: 32%;
   }
 
-  footer p {
-    font-size: 18px;
+  .footer p {
+    font-size: 16px;
   }
 
-  footer .button {
-    font-size: 18px;
+  .footer .button {
+    font-size: 16px;
   }
 
-  footer .social-links {
-    font-size: 18px;
+  .footer .social-links {
+    font-size: 16px;
   }
 
+  .footer .links:last-child {
+    padding-left: 0%;
+  }
   .wide {
-    width: 50vw;
+    width: 100%;
+    height: 48px;
   }
   .wide br {
     display: flex;
@@ -131,27 +207,47 @@ footer div {
 
   .links:last-child {
     padding-left: 48px;
-    width: 22px;
   }
 
-  footer .space50 {
+  .footer .space50 {
     height: 10%;
   }
 
-  footer .button {
+  .footer .button {
     padding-bottom: 0px;
   }
-  footer div {
+  .footer div {
     display: flex;
     justify-content: space-between;
   }
 
-  footer .space200 {
+  .footer .space200 {
     width: 100%;
     height: 50px;
   }
 
   .content-about h1 {
     padding-left: 24px;
+  }
+
+  .img-footer {
+    top: -2px;
+    height: 100%;
+  }
+
+  .img-footer-img2 {
+    height: 100%;
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
+
+  .mobile-footer {
+    display: inline;
+    position: relative;
+    top: 16px;
   }
 }

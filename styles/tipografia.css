@@ -1,26 +1,43 @@
+@import url("https://use.typekit.net/grn6fkm.css");
+
 p {
-  color: var(--main-w-100);
+  color: var(--main-50);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 139%;
+  font-size: 18px;
+  line-height: 190%;
   /* or 33px */
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
+}
+
+span6 {
+  font-family: var(--main-font);
+  font-weight: 500;
+  text-decoration: bold;
 }
 
 h1 {
-  color: var(--main-w-100);
-  font-family: var(--main-font);
-  font-style: normal;
+  color: var(--main-100);
+  font-family: var(--hero-font);
   font-weight: 400;
-  font-size: 6vw;
-  line-height: 120.5%;
+  font-size: 5vw;
+  line-height: 110.5%;
   letter-spacing: -0.06em;
+  text-aling: right;
 }
 
 h2 {
-  color: var(--main-w-100);
+  font-family: var(--hero-font);
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24vw;
+  letter-spacing: -0.1em;
+  color: var(--hero-text);
+}
+
+h2Backup {
+  color: var(--main-100);
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
@@ -37,22 +54,29 @@ h3 {
   line-height: 120.5%;
   /* or 79px */
   letter-spacing: -0.06em;
-  color: var(--main-w-100);
+  color: var(--main-100);
 }
 
 h4 {
+  color: var(--main-100);
   font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 400;
+  font-size: 10vw;
+  line-height: 90.5%;
+  letter-spacing: -0.05em;
+}
+
+h5 {
+  color: var(--main-100);
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 24px;
   line-height: 120.5%;
-  /* or 79px */
   letter-spacing: -0.06em;
-  color: var(--main-w-100);
 }
 
 .about {
-  color: var(--main-w-50);
+  color: var(--main-50);
   font-family: var(--main-font);
   font-weight: 800;
   font-style: normal;
@@ -64,7 +88,7 @@ h4 {
 }
 
 .legenda {
-  color: var(--main-w-100);
+  color: var(--main-100);
   font-family: var(--main-font);
   font-weight: 800;
   font-style: normal;
@@ -77,15 +101,11 @@ h4 {
 
 .title {
   font-family: var(--main-font);
-  color: var(--main-w-100);
-  font-weight: bold;
-  font-size: 24px;
+  color: var(--main-50%);
+  font-weight: regular;
+  font-size: 18px;
   line-height: 139%;
-  /* or 33px */
-}
-
-.title br {
-  display: none;
+  padding-bottom: 32px;
 }
 
 .about-bold {
@@ -95,95 +115,26 @@ h4 {
   font-style: normal;
   font-size: 24px;
   line-height: 158%;
-  color: var(--main-w-100);
+  color: var(--main-100);
   letter-spacing: -0.03em;
 }
 
 .p-bold {
-  color: var(--main-w-100);
+  color: var(--main-100);
   font-family: var(--main-font);
   font-style: Bold;
 }
 
-.content-about-right h10 {
-  padding-top: 16px;
-  padding-bottom: 80px;
-}
-
-.content-about-left h10 {
-  padding-top: 16px;
-  padding-bottom: 80px;
-}
-
-h10 {
-  font-size: 3vw;
-  font-weight: 500;
-  font-family: var(--main-font);
-  font-style: normal;
-  line-height: 3.5vw;
-  letter-spacing: 0.1em;
-  color: rgba(0, 0, 0, 0.55);
-}
-
-h11 {
-  color: var(--main-100);
-
-  font-family: Aktiv Grotesk;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 341.38px;
-  line-height: 105.5%;
-  /* or 360px */
-
-  letter-spacing: -0.08em;
-}
-
-h11-- {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-size: 21.5vw;
-  font-weight: 400;
-  line-height: 102.5%;
-  /* or 106px */
-
-  letter-spacing: -0.06em;
-}
-
-h20 {
-  font-family: var(--main-font);
-  font-family: Aktiv Grotesk;
-  font-style: normal;
-  font-size: 28vw;
-  font-weight: 900;
-  line-height: 102.5%;
-  /* or 106px */
-
-  letter-spacing: -0.06em;
-
-  color: #000000;
-}
-
-h5 {
-  font-size: 2.5vw;
-  font-weight: 500;
-  font-family: var(--main-font);
-  font-style: normal;
-  line-height: 4vw;
-  color: rgba(0, 0, 0, 0.55);
-  letter-spacing: -0.09em;
-}
-
-h6 {
-  font-size: 18px;
-  font-weight: 300;
-  font-family: var(--main-font);
-  font-style: normal;
-  line-height: 1.5vw;
-  letter-spacing: 0.1em;
-}
-
 .bold {
   font-family: var(--main-font);
+  font-weight: bold;
+}
+
+.eyebrown {
+  color: var(--main-25);
+  opacity: 0.5;
+  font-size: 12px;
+  padding-bottom: 16px;
   font-weight: bold;
 }
 
@@ -200,45 +151,10 @@ h6 {
   }
 
   p {
-    color: var(--main-w-100);
-    font-family: var(--main-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 139%;
+    font-size: 16px;
+    line-height: 168%;
     /* or 33px */
-    letter-spacing: -0.03em;
-  }
-
-  .title {
-    font-family: var(--main-font);
-    color: var(--main-w-100);
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 139%;
-    /* or 33px */
-  }
-
-  span {
-    color: var(--links-color100);
-  }
-
-  span1 {
-    color: var(--main-w-100);
-  }
-
-  span2 {
-  }
-
-  span3 {
-    color: var(--main-w-25);
-  }
-
-  span4 {
-    color: var(--main-w-90);
-  }
-
-  span5 {
-    color: var(--gold-color);
   }
 }

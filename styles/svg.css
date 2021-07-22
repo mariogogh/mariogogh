@@ -18,7 +18,7 @@
 
 .svg-line-bar {
   width: 100%;
-  fill: var(--main-w-100);
+  fill: var(--svg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,8 +86,8 @@ a.svg-link: focus {
 .svg-right-fixed {
   bottom: 24px;
   right: 24px;
-  z-index: 3;
+  z-index: 10;
   position: fixed;
-
+  fill: red;
   transition: top 5s;
 }
