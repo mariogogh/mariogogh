@@ -1,282 +1,287 @@
 .section-hero-elements .masonry {
-  padding: 12px;
+    padding: 0px;
 }
 
 .grid {
-  transition: transform 0.5s ease;
-  opacity: 0.9.9;
-  padding-bottom: 224px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 38vw;
+    transition: transform 0.5s ease;
+    opacity: 0.9.9;
+    padding-bottom: 224px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40vw;
 }
 
 .GlobalPadding .masonry {
-  padding: 0%;
-  z-index: 10;
+    padding: 0%;
+    z-index: 10;
 }
 
 .wall {
-  width: 100vw;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  padding-left: 0%;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
 }
 
 .grid img {
-  object-fit: cover;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .grid:hover {
-  transform: scale(1);
-  opacity: 100;
-  cursor: var(--cursor);
+    transform: scale(1);
+    opacity: 100;
+    cursor: var(--cursor);
 }
 
 .masonry {
-  columns: 2;
-  column-gap: 0%;
-  width: 100%;
-  display: block;
-  justify-content: flex-start;
-  align-items: stretch;
+    columns: 2;
+    column-gap: 1%;
+    width: 100%;
+    display: block;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 .lab .grid:nth-child(even) {
-  right: 100%;
-  right: 100%;
-  position: relative;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-right: 0px;
-  padding-left: 0px;
+    right: 100%;
+    right: 100%;
+    position: relative;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .grid-left {
-  padding-right: 10px;
+    padding-right: 10px;
 }
 
 @media (max-width: 1200px) {
-  .masonry {
-    columns: 2;
-    column-gap: 4%;
-  }
-
-  .lab .grid:nth-child(even) {
-    right: 0%;
-    position: relative;
-  }
-
-  .grid-left {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+    .masonry {
+        columns: 2;
+        column-gap: 4%;
+    }
+    .lab .grid:nth-child(even) {
+        right: 0%;
+        position: relative;
+    }
+    .grid-left {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 992px) {
-  .section-hero-elements .masonry {
-    padding: 0px;
-  }
-  .masonry {
-    columns: 2;
-    column-gap: 4%;
-  }
-
-  .lab .grid:nth-child(even) {
-    right: 0%;
-    position: relative;
-  }
-
-  .grid-left {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+    .section-hero-elements .masonry {
+        padding: 0px;
+    }
+    .masonry {
+        columns: 2;
+        column-gap: 4%;
+    }
+    .lab .grid:nth-child(even) {
+        right: 0%;
+        position: relative;
+    }
+    .grid-left {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 600px) {
-  .masonry {
-    columns: 1;
-    padding-left: 0px;
-    padding-right: 0px;
-    column-gap: 4%;
-  }
+    .masonry {
+        columns: 1;
+        padding-left: 0px;
+        padding-right: 0px;
+        column-gap: 4%;
+    }
+    .section-hero-elements .masonry {
+        padding: 0px;
+    }
+    .wall {
+        width: 100%;
+    }
+    .grid {
+        padding-bottom: 32px;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .lab .grid:nth-child(even) {
+        right: 0%;
+        position: relative;
+    }
+    .grid-left {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
 
-  .section-hero-elements .masonry {
-    padding: 0px;
-  }
-
-  .wall {
-    width: 100%;
-  }
-
-  .grid {
-    padding-bottom: 32px;
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .lab .grid:nth-child(even) {
-    right: 0%;
+.masonry .grid {
+    display: inline-block;
+    margin-bottom: 8px;
     position: relative;
-  }
-
-  .grid-left {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
+    margin-top: 8px;
 }
 
 .masonry .grid {
-  display: inline-block;
-  margin-bottom: 8px;
-  position: relative;
-  margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+    position: relative;
+    margin-top: 8px;
 }
-.masonry .grid {
-  display: inline-block;
-  margin-bottom: 8px;
-  position: relative;
-  margin-top: 8px;
-}
+
 .masonry .grid:before {
-  border-radius: 5px;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+
 .masonry .grid img {
-  width: 100%;
+    width: 100%;
 }
+
 .masonry .grid__title {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0px 0px 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 0px 10px 0px;
 }
+
 .masonry .grid__author {
-  font-size: 14px;
-  font-weight: 300;
+    font-size: 14px;
+    font-weight: 300;
 }
+
 .masonry .grid__link {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  cursor: var(--cursor);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: var(--cursor);
 }
 
 .lab-masonry .grid {
-  display: inline-block;
-  margin-bottom: 8px;
-  position: relative;
-  margin-top: 8px;
+    display: inline-block;
+    margin-bottom: 8px;
+    position: relative;
+    margin-top: 8px;
 }
+
 .grid__link p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .masonry .grid:before {
-  border-radius: 5px;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+
 .grid__link a {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .lab-masonry .grid:before {
-  border-radius: 5px;
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
+
 .masonry .grid__body {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  bottom: 0;
-  padding: 64px 64px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    padding: 64px 64px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
+
 .masonry .grid__tag {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  border-radius: 5px;
-  padding: 5px 15px;
-  margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
 }
 
 .masonry .grid img {
-  width: 100%;
+    width: 100%;
 }
+
 .masonry .grid__title {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
 }
+
 .masonry .grid__author {
-  font-size: 14px;
-  font-weight: 300;
+    font-size: 14px;
+    font-weight: 300;
 }
+
 .masonry .grid__link {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  cursor: var(--cursor);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: var(--cursor);
 }
 
 .grid__link p {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .grid__link a {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .masonry .grid__body {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 100px;
-  bottom: 0;
-  padding: 64px 64px;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    padding: 64px 64px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 .masonry .grid__tag {
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  border-radius: 5px;
-  padding: 5px 15px;
-  margin-bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
 }
 
 .mt-auto {
-  margin-top: auto;
+    margin-top: auto;
 }
+
 .mt-auto {
-  margin-top: auto;
+    margin-top: auto;
 }
