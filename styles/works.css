@@ -11,39 +11,39 @@
 }
 
 .hero-work-link .button:focus {
-  border-bottom: 3px solid var(--work);
+  border-bottom: 5px solid var(--work);
 }
 
 .hero-work-link .active {
-  border-bottom: 3px solid var(--work);
+  border-bottom: 5px solid var(--work);
 }
 
 .hero-work-link .button:hover {
-  border-bottom: 3px solid var(--work);
+  border-bottom: 5px solid var(--work);
 }
 
 .hero-about-link .button:focus {
-  border-bottom: 3px solid var(--about);
+  border-bottom: 5px solid var(--about);
 }
 
 .hero-about-link .active {
-  border-bottom: 3px solid var(--about);
+  border-bottom: 5px solid var(--about);
 }
 
 .hero-about-link .button:hover {
-  border-bottom: 3px solid var(--about);
+  border-bottom: 5px solid var(--about);
 }
 
 .hero-lab-link .button:focus {
-  border-bottom: 3px solid var(--lab);
+  border-bottom: 5px solid var(--lab);
 }
 
 .hero-lab-link .active {
-  border-bottom: 3px solid var(--lab);
+  border-bottom: 5px solid var(--lab);
 }
 
 .hero-lab-link .button:hover {
-  border-bottom: 3px solid var(--lab);
+  border-bottom: 5px solid var(--lab);
 }
 
 .img-small-right {

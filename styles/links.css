@@ -5,6 +5,8 @@ a {
   font-size: 18px;
   line-height: 132%;
   cursor: pointer;
+  height: 38px;
+  color: var(--main-50%);
 }
 
 a:link {

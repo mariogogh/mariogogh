@@ -13,6 +13,8 @@
   --main-100: #191D2F;
   --main-50: #191D2Fe0;
   --main-25: #191D2Fc3;
+  --main-15: #A1A1A1;
+
   --main-50%: rgba(0, 0, 0, 0.15);
   --main-68: rgba(0, 0, 0, 0.68);
 
@@ -159,7 +161,17 @@ span4 {
 .bg-black p {
   background: var(--bg-footer);
   color: var(--main-w-100);
+    letter-spacing: 0.0em;
   z-indez: 1;
+}
+
+
+.bg-black a {
+text-decoration:none;
+ 
+
+   font-style: normal;
+  font-weight: normal;
 }
 
 .bg-black .button {
@@ -191,12 +203,12 @@ span4 {
 
 .bg-color-about .button .active {
   color: var(--links-color2);
-  border-bottom: 3px solid var(--links-color2);
+  border-bottom: 5px solid var(--links-color2);
 }
 
 .bg-color-about #navbar {
   color: var(--links-color2);
-  border-bottom: 3px solid var(--links-color2);
+  border-bottom: 5px solid var(--links-color2);
 }
 
 .type-black {
@@ -238,7 +250,7 @@ span5 {
 }
 
 .lab-page-colors .button:hover {
-  border-bottom: 3px solid var(--lab-bg);
+  border-bottom: 5px solid var(--lab-bg);
 }
 
 .lab-page-colors .button:active {
@@ -246,11 +258,11 @@ span5 {
 }
 
 .lab-page-colors .button:focus {
-  border-bottom: 3px solid var(--lab-bg);
+  border-bottom: 5px solid var(--lab-bg);
 }
 
 .lab-page-colors .active {
-  border-bottom: 3px solid var(--lab-bg);
+  border-bottom: 5px solid var(--lab-bg);
   color: var(--main-w-100);
 }
 
