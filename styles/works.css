@@ -1,3 +1,51 @@
+.hero-work {
+  background: var(--work);
+}
+
+.hero-about {
+  background: var(--about);
+}
+
+.hero-lab {
+  background: var(--lab);
+}
+
+.hero-work-link .button:focus {
+  border-bottom: 3px solid var(--work);
+}
+
+.hero-work-link .active {
+  border-bottom: 3px solid var(--work);
+}
+
+.hero-work-link .button:hover {
+  border-bottom: 3px solid var(--work);
+}
+
+.hero-about-link .button:focus {
+  border-bottom: 3px solid var(--about);
+}
+
+.hero-about-link .active {
+  border-bottom: 3px solid var(--about);
+}
+
+.hero-about-link .button:hover {
+  border-bottom: 3px solid var(--about);
+}
+
+.hero-lab-link .button:focus {
+  border-bottom: 3px solid var(--lab);
+}
+
+.hero-lab-link .active {
+  border-bottom: 3px solid var(--lab);
+}
+
+.hero-lab-link .button:hover {
+  border-bottom: 3px solid var(--lab);
+}
+
 .img-small-right {
   width: 50%;
   height: 50%;
@@ -82,8 +130,9 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-padding:24px;
+  padding: 24px;
   justify-content: space-between;
+  z-index: 2;
 }
 
 .section-hero-work-info {
@@ -185,16 +234,13 @@ img :hover {
   .section-hero-elements {
     width: 100%;
     display: block;
-
   }
 
-  .section-hero-work-info  {
+  .section-hero-work-info {
     width: 100%;
     display: block;
     padding-left: 24px;
   }
-
-
 
   .img-small-right {
     width: 100%;

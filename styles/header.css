@@ -1,62 +1,50 @@
 header {
   top: 0;
-  z-index: 2;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   padding-top: 8px;
   padding-bottom: 16px;
   position: fixed;
-  align-items: left;
   width: 100%;
+  height: 26px;
   margin: 0 auto;
-  font-size: 16px;
-}
-
-.hero-color {
-  background: ;
-}
-
-.svg-header-bar {
-  display: flex;
-  width: 100%;
-  fill: var(--main-100);
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  padding-left: 24px;
-  padding-right: 24px;
+  font-size: 12px;
+  z-index: 3;
 }
 
 .box-logo {
   width: 50%;
   height: 50%;
   font-size: 16px;
-  padding-top: 24px;
-padding-left: 24px;
+  padding-top: 6px;
+  padding-left: 24px;
+  padding-bottom: 16px;
 }
 
 .box-links {
   display: flex;
   width: 50%;
   height: 32%;
-  background: ;
-  padding-top: 16px;
+  background: var(--main-w-100);
+  padding-top: 4px;
   justify-content: flex-start;
-  color: var(--main-100);
+  z-index: 3;
+  position: relative;
 }
 
 #navbar {
   align-items: center;
   position: fixed;
-  background: var(--main-100);
-  top: -60px;
+  background: var(--main-w-100);
+  top: -64px;
   display: block;
   width: 100%;
+  height: 40px;
   transition: top 0.5s; /* Transition effect when sliding down (and up) */
   display: block;
-  transition: top 3.3s;
-  z-index: 13;
+  transition-delay: 2.5s;
+  z-index: 3;
 }
 
 #navbar a {
@@ -69,22 +57,15 @@ padding-left: 24px;
   padding-left: 26px;
 }
 
-#navbar svg {
-  padding-top: 24x;
-  padding-bottom: 16x;
-}
 header div {
   display: flex;
   justify-content: space-between;
 }
 
 .links {
-  padding-right: 16px;
+  padding-right: 32px;
 }
 
-.links:last-child {
-  margin-right: 90px;
-}
 
 .links:last-child {
   margin-right: 90px;
@@ -97,51 +78,41 @@ header div {
 }
 
 @media (max-width: 600px) {
-  #navbar:first-child {
-    width: 10%;
-    align-items: stretch;
-    padding-left: auto;
-    justify-content: flex-start;
-  }
-  #navbar:last-child {
+  #navbar {
     width: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  #navbar .buttom:last-child {
-    margin-left: 24px;
+    height: 42px;
   }
 
   .links {
-    padding-right: 24px;
+    padding-right: 16px;
+    font-size: 18px;
   }
 
-  .links:first-child {
+  .box-links {
+    width: 70%;
+    padding-top: 4px;
   }
 
-  .links:last-child {
-    margin-right: 16px;
-    display: flex;
-    justify-content: flex-end;
+  #navbar .button {
+    padding-bottom: 8px;
+    font-size: 12px;
   }
 
-.box-links {
-   width: 38%;
-  }
-  header svg {
-    margin-left:0px;
+  #navbar .button {
+    font-size: 12px;
   }
 
-  header #navbar {
-    padding-right: 0px;
-  }
-  header {
-    width: 100%;
-    margin: 0 auto;
+  #navbar .links:last-child {
+    padding-left: 32px;
+    width: 22px;
   }
 
-  #navbar {
-    padding-left:0px;
+  .box-logo {
+    width: 60%;
+    padding-left: 24px;
+    top: -16px;
+    padding-bottom: 24px;
+    position: relative;
+    font-size: 12px;
   }
 }

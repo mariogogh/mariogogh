@@ -1,6 +1,18 @@
 .workslide {
   width: 100%;
-  background: red;
+  height: 100%;
+  font-size: 16px;
+  padding-top: 32px;
+  padding-right: 64px;
+  padding-left: 16px;
+  transition: opacity 0.2s ease-in-out;
+  transition: transform 0.9s ease;
+  z-index: 1;
+  position: relative;
+}
+
+.workslide span1 {
+  color: var(--about);
 }
 
 .section-hero-2 img:hover {
@@ -21,6 +33,8 @@
   transition: transform 0.9s ease;
   opacity: 1;
   scale: (1.9);
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .card2 {
@@ -53,7 +67,7 @@
 
 .content-about {
   width: 50%;
-  height: 100%;
+  height: 50%;
   display: flex;
   padding-top: 64px;
   flex-direction: column;
@@ -61,8 +75,8 @@
   padding-right: 64px;
 }
 
-.content-about h1 {
-padding-left: -26px;
+.content-about h2 {
+  padding-left: 24px;
 }
 
 .content-about-left {
@@ -116,9 +130,23 @@ padding-left: -26px;
   font-size: 16px;
   padding-top: 32px;
   padding-right: 64px;
-  padding-left: 0px;
+  padding-left: 16px;
   transition: opacity 0.2s ease-in-out;
   transition: transform 0.9s ease;
+  z-index: 1;
+  position: relative;
+}
+.box-C {
+  width: 50%;
+  height: 100%;
+  font-size: 16px;
+  padding-top: 32px;
+  padding-right: 64px;
+  padding-left: 16px;
+  transition: opacity 0.2s ease-in-out;
+  transition: transform 0.9s ease;
+  z-index: 1;
+  position: relative;
 }
 
 .content-full-screen img:hover {
@@ -127,7 +155,6 @@ padding-left: -26px;
 .box-R img:hover {
 }
 
-
 .box-L img:hover {
 }
 
@@ -135,11 +162,13 @@ padding-left: -26px;
   width: 50%;
   height: 100%;
   font-size: 16px;
-  background: ;
+
   padding-top: 32px;
-  padding-right: 64px;
+  padding-right: 12%;
   transition: opacity 0.2s ease-in-out;
   transition: transform 0.9s ease;
+  z-index: 1;
+  position: relative;
 }
 
 .box-R-img {
@@ -164,6 +193,8 @@ padding-left: -26px;
   transition: transform 0.9s ease;
   opacity: 1;
   scale: (1.9);
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .content-full-screen-img {
@@ -285,8 +316,6 @@ padding-left: -26px;
     flex-wrap: wrap;
   }
 
-  
-
   .box-R {
     width: 100%;
     height: 100%;
@@ -296,8 +325,6 @@ padding-left: -26px;
     padding-right: 24px;
     padding-top: 32px;
   }
-
-  
 
   .box-L {
     width: 100%;

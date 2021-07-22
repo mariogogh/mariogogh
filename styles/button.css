@@ -2,13 +2,10 @@
 
 .button {
   letter-spacing: 0em;
-  font-weight: 500;
-  font-weight: bold;
-  transition-duration: 0.4s;
+  transition-duration: 0.9s;
   background-color: transparent;
-  color: var(--main-w-50);
   border: none;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid transparent;
   cursor: pointer;
   display: inline-block;
   opacity: 1;
@@ -17,27 +14,32 @@
   padding-right: 0px;
   padding-top: 8px;
   font-family: var(--main-font);
+  color: var(--main-25);
+  font-size: 12px;
+  line-height: 139%;
+  /* or 33px */
+  letter-spacing: -0em;
 }
 
 .button .normal {
-  font-size: 16px;
+  color: var(--main-25);
+  font-size: 24px;
   width: 400px;
 }
 
 /* visited link */
 
 .button:visited {
-  color: var(--main-w-50);
+  color: var(--main-25);
   opacity: 0.9;
 }
 
 /* mouse over link */
 
 .button:hover {
-  color: var(--main-w-100);
+  color: var(--main-25);
   opacity: 0.8;
-  border-bottom: 3px solid var(--links-color100);
-  text-decoration: bold;
+  border-bottom: 3px solid var(--header-active);
 }
 
 /* selected link */
@@ -45,28 +47,42 @@
 .button:active {
   border: none;
   outline: none;
-  text-decoration: bold;
-  color: var(--main-w-100);
+  color: var(--main-50);
 }
 
 .button:focus {
+  color: var(--main-100);
   border: none;
-  border-bottom: 3px solid var(--links-color100);
+  border-bottom: 3px solid var(--hero-text);
   outline: none;
-  text-decoration: bold;
 }
 
 .active {
   opacity: 0.9;
-  border-bottom: 3px solid var(--links-color100);
-  color: var(--main-w-100);
+  border-bottom: 3px solid var(--hero-text);
+  color: var(--main-100);
+  text-decoration: bold;
+  font-weight: 700;
+  transition-duration: 0.4s;
 }
 
 .disable {
   opacity: 0.2;
 }
 
+.huge {
+  font-size: 32px;
+}
+
 /* FOOTER LINKS */
+
+.hugelink a {
+  font-size: 5vw;
+  height: 6.9vw;
+  transition-duration: 0.4s;
+}
+
+
 
 .button-huge {
   display: inline-block;
@@ -95,7 +111,7 @@
 
 .button-huge span:after {
   content: "·";
-  color: var(--links-color100);
+  color: var(--header-links);
   position: absolute;
   opacity: 0;
   top: 0;
@@ -113,30 +129,20 @@
   border-bottom: 3px solid white;
 }
 
-.button-white {
-  font-size: 16px;
-  letter-spacing: 0em;
-  font-weight: 500;
-  font-weight: bold;
-  transition-duration: 0.4s;
-  background-color: transparent;
-  color: var(--main-w-50);
-  border: none;
-  border-bottom: 3px solid transparent;
-  cursor: pointer;
-  display: inline-block;
-  opacity: 1;
-  padding-bottom: 8px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 8px;
-  font-family: var(--main-font);
-}
-
 @media (max-width: 600px) {
   .button {
     padding-bottom: 24px;
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .button {
+    font-zize: 18px;
+  }
+
+  .hugelink a {
+    font-size: 9vw;
+    height: 6.8vh;
+    transition-duration: 0.4s;
   }
 }

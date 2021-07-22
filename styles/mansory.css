@@ -1,53 +1,130 @@
 .grid {
   transition: transform 0.5s ease;
-  opacity: 0.9;
+  opacity: 0.9.9;
+  padding-bottom: 224px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40vw;
+}
+
+.GlobalPadding .masonry {
+  padding: 0%;
+  z-index: 10;
+}
+
+.wall {
+  width: 100vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-left: 0%;
+}
+
+.grid img {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .grid:hover {
-  transform: scale(1.04);
-  opacity: 1;
-  cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FHover.png?v=1613352873201"),
-    auto;
-}
-
-.section-hero-elements .masonry {
-  height: 100%;
-
+  transform: scale(1);
+  opacity: 100;
+  cursor: var(--cursor);
 }
 
 .masonry {
-  columns: 4;
-  column-gap: 16px;
+  columns: 2;
+  column-gap: 4%;
   width: 100%;
-  margin-top: 16px;
-  padding-left: 0px;
-  padding-right: 0px;
+  display: block;
+  justify-content: flex-start;
+  align-items: stretch;
 }
+
+.lab .grid:nth-child(even) {
+  right: 100%;
+  right: 100%;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.grid-left {
+  padding-right: 08px;
+}
+
 @media (max-width: 1200px) {
   .masonry {
-    columns: 3;
+    columns: 2;
+  }
+
+  .lab .grid:nth-child(even) {
+    right: 0%;
+    position: relative;
+  }
+
+  .grid-left {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
+
 @media (max-width: 992px) {
   .masonry {
     columns: 2;
   }
-}
 
+  .lab .grid:nth-child(even) {
+    right: 0%;
+    position: relative;
+  }
+
+  .grid-left {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
 
 @media (max-width: 600px) {
   .masonry {
     columns: 2;
-  padding-left: 0px;
-  padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 16px;
+    column-gap: 8px;
   }
 
+  .wall {
+    width: 100%;
+  }
+
+  .grid {
+    padding-bottom: 32px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .lab .grid:nth-child(even) {
+    right: 0%;
+    position: relative;
+  }
+
+  .grid-left {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
-
-
-
-
+.masonry .grid {
+  display: inline-block;
+  margin-bottom: 8px;
+  position: relative;
+  margin-top: 8px;
+}
 .masonry .grid {
   display: inline-block;
   margin-bottom: 8px;
@@ -81,8 +158,40 @@
   right: 0;
   top: 0;
   bottom: 0;
-  cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2FHover.png?v=1613352873201"),
-    auto;
+  cursor: var(--cursor);
+}
+
+.lab-masonry .grid {
+  display: inline-block;
+  margin-bottom: 8px;
+  position: relative;
+  margin-top: 8px;
+}
+.grid__link p {
+  font-size: 14px;
+}
+
+.masonry .grid:before {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.grid__link a {
+  font-size: 14px;
+}
+
+.lab-masonry .grid:before {
+  border-radius: 5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 .masonry .grid__body {
   position: absolute;
@@ -103,6 +212,58 @@
   margin-bottom: 5px;
 }
 
+.masonry .grid img {
+  width: 100%;
+}
+.masonry .grid__title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+.masonry .grid__author {
+  font-size: 14px;
+  font-weight: 300;
+}
+.masonry .grid__link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  cursor: var(--cursor);
+}
+
+.grid__link p {
+  font-size: 14px;
+}
+
+.grid__link a {
+  font-size: 14px;
+}
+
+.masonry .grid__body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  padding: 64px 64px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.masonry .grid__tag {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin-bottom: 5px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
 .mt-auto {
   margin-top: auto;
 }
