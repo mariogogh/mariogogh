@@ -211,7 +211,7 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   z-index: 3;
-  align-items: flex-end;
+align-items: flex-end;
 }
 
 .type-L {
@@ -223,8 +223,9 @@ html {
   display: flex;
   left: -1%;
   padding: 16px;
-  display: flex;
-  align-items: flex-start;
+display: flex;
+   align-items: flex-start;
+
 }
 
 .type-R {
@@ -235,6 +236,7 @@ html {
   right: 2%;
   padding: 16px;
   align-items: flex-end;
+  
 }
 
 .caption {
@@ -257,8 +259,8 @@ html {
     width: 100%;
     height: 100vh;
     position: relative;
-    justify-content: flex-start;
-    align-items: flex-end;
+      justify-content: flex-start;
+       align-items: flex-end;
   }
 
   .type-L {
@@ -272,7 +274,7 @@ html {
   }
 
   .type-R h2 {
-    text-align: right;
+    text-align:  right;
     font-size: 32vw;
   }
   .caption {
@@ -293,11 +295,11 @@ html {
     width: 100%;
     justify-content: left;
     position: absolute;
-    top: 1%;
+    top: -1%;
     right: 0%;
-    left: 0%;
+    left: -2%;
     padding: 16px;
-    align-items: flex-end;
+   align-items: flex-end;
   }
 
   .type-L h2 {
@@ -307,31 +309,32 @@ html {
 
   .type-R h2 {
     text-align: right;
-    font-size: 8.5em;
+    font-size: 8em;
   }
 
   .type-R {
     width: 100%;
-    justify-content: right;
+justify-content: right;
     position: absolute;
     text-align: center;
     top: 68%;
     right: 0%;
     left: -1%;
     padding: 16px;
-    align-items: flex-end;
+   align-items: flex-end;
   }
 
   .caption {
     position: none;
-    justify-content: center;
+    justify-content: left;
     display: flex;
     width: 100%;
     height: 400px;
     color: white;
     padding: 4px;
     right: 0%;
-    left: -5vw;
+    left: 0px;
+padding-left: 24px;
     top: 60%;
   }
 
@@ -340,3 +343,5 @@ html {
     font-size: 16px;
   }
 }
+
+

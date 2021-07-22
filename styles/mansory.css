@@ -1,3 +1,7 @@
+.section-hero-elements .masonry {
+  padding: 12px;
+}
+
 .grid {
   transition: transform 0.5s ease;
   opacity: 0.9.9;
@@ -75,6 +79,9 @@
 }
 
 @media (max-width: 992px) {
+  .section-hero-elements .masonry {
+    padding: 0px;
+  }
   .masonry {
     columns: 2;
     column-gap: 4%;
@@ -93,10 +100,14 @@
 
 @media (max-width: 600px) {
   .masonry {
-    columns: 2;
+    columns: 1;
     padding-left: 0px;
-    padding-right: 16px;
+    padding-right: 0px;
     column-gap: 4%;
+  }
+
+  .section-hero-elements .masonry {
+    padding: 0px;
   }
 
   .wall {
