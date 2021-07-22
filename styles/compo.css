@@ -211,26 +211,30 @@ html {
   flex-direction: column;
   justify-content: flex-start;
   z-index: 3;
+  align-items: flex-end;
 }
 
 .type-L {
   position: absolute;
   width: 100vw;
   justify-content: flex-start;
-  top: 190px;
+  top: 10%;
   text-align: left;
   display: flex;
   left: -1%;
   padding: 16px;
+  display: flex;
+  align-items: flex-start;
 }
 
 .type-R {
   width: 100vw;
   position: absolute;
   text-align: right;
-  top: 55%;
+  top: 50%;
   right: 2%;
   padding: 16px;
+  align-items: flex-end;
 }
 
 .caption {
@@ -240,7 +244,7 @@ html {
   color: white;
   height: 65px;
   right: 20%;
-  top: 10%;
+  top: 5%;
 }
 
 .caption p {
@@ -253,26 +257,26 @@ html {
     width: 100%;
     height: 100vh;
     position: relative;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
   }
 
   .type-L {
     width: 100%;
-    top: 90px;
+    top: 10%;
   }
 
   .type-L h2 {
-    text-align: center;
-    font-size: 22vw;
+    text-align: left;
+    font-size: 32vw;
   }
 
   .type-R h2 {
-    text-align: center;
-    font-size: 22vw;
+    text-align: right;
+    font-size: 32vw;
   }
   .caption {
-    top: 10%;
+    top: 5%;
   }
 }
 
@@ -282,37 +286,40 @@ html {
     height: 100vh;
     position: relative;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-end;
   }
 
   .type-L {
     width: 100%;
-    justify-content: center;
+    justify-content: left;
     position: absolute;
     top: 1%;
     right: 0%;
     left: 0%;
     padding: 16px;
+    align-items: flex-end;
   }
 
   .type-L h2 {
-    text-align: center;
+    text-align: left;
     font-size: 8em;
   }
 
   .type-R h2 {
-    text-align: center;
+    text-align: right;
     font-size: 8.5em;
   }
 
   .type-R {
     width: 100%;
+    justify-content: right;
     position: absolute;
     text-align: center;
     top: 68%;
     right: 0%;
     left: -1%;
     padding: 16px;
+    align-items: flex-end;
   }
 
   .caption {
@@ -332,7 +339,4 @@ html {
     color: white;
     font-size: 16px;
   }
-}
-
-@media (max-width: 500px) {
 }
