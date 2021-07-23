@@ -31,7 +31,6 @@ header {
     justify-content: flex-start;
     z-index: 3;
     position: relative;
-    padding-right: 24px;
 }
 
 #navbar {
