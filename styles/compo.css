@@ -179,7 +179,7 @@ img: hover {
 
 @media (max-width: 600px) {
     .GlobalPadding {
-        padding: 2%;
+        padding: 4%;
         margin: auto;
     }
     .space300 {
