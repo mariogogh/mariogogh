@@ -1,193 +1,184 @@
 .main-hero {
-  width: 100%;
-  height: 100%;
-  paddding-top: 64px;
-  z-index: 30;
-  overflow: hidden;
-  position: sticky;
+    width: 100%;
+    height: 100%;
+    paddding-top: 64px;
+    z-index: 30;
+    overflow: hidden;
+    position: sticky;
 }
 
-.main-hero-img img:hover {
-}
+.main-hero-img img:hover {}
 
 .main-hero-img {
-  width: 100%;
-
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-  transition: 9.2s ease-in-out;
-  transition: transform 0.9s ease;
-  object-fit: cover;
-  background-size: cover;
-
-  background: var(--main-100);
-  z-index: 2;
-  position: sticky;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: 9.2s ease-in-out;
+    transition: transform 0.9s ease;
+    object-fit: cover;
+    background-size: cover;
+    background: var(--main-100);
+    z-index: 2;
+    position: sticky;
 }
 
 .main-hero-img2 {
-  margin: 0;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-  transition: 8.2s ease-in-out;
-  transition: transform 8.9s ease;
-  object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
-  background-size: cover;
-  z-index: 2000;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: 8.2s ease-in-out;
+    transition: transform 8.9s ease;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+    z-index: 2000;
 }
 
 .main-hero2 {
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;
-  opacity: 1;
-  align-content: flex-start;
-  object-fit: cover;
-  background-size: cover;
-  top: 190px;
-  position: relative;
-
-  transition-delay: 950ms;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    opacity: 1;
+    align-content: flex-start;
+    object-fit: cover;
+    background-size: cover;
+    top: 190px;
+    position: relative;
+    transition-delay: 950ms;
 }
 
 .full-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .full-image-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background-size: cover;
-  transition: opacity 0.2s ease-in-out;
-  transition: transform 0.9s ease;
-  opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
 }
 
 .hero {
-  width: 100%;
-  height: 90%;
-  padding-top: 3%;
-  display: flex;
-  align-items: flex-end;
-  text-align: left;
-  flex-direction: column;
-  transition: opacity 0.2s ease-in-out;
-  transition: transform 0.9s ease;
-  opacity: 1;
+    width: 100%;
+    height: 90%;
+    padding-top: 3%;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    flex-direction: column;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
 }
 
 .new-hero {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .left {
-  display: flex;
-  justify-content: flex-start;
-  padding-right: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 100%;
 }
 
 .right {
-  display: flex;
-  justify-content: flex-end;
-
-  padding-left: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 100%;
 }
 
 .hero .card :first-child {
-  padding-right: 32px;
+    padding-right: 32px;
 }
 
 .img-right {
-  width: 50%;
-  height: 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-top: 124px;
-  padding-bottom: 0px;
-  transition: opacity 0.2s ease-in-out;
-  transition: transform 0.9s ease;
-  opacity: 1;
-  scale: (1.9);
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 124px;
+    padding-bottom: 0px;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    opacity: 1;
+    scale: (1.9);
 }
 
 .img-right img {
-  width: 100%;
-  height: 90%;
-  background-size: cover;
+    width: 100%;
+    height: 90%;
+    background-size: cover;
 }
 
 @media (max-width: 600px) {
-  .main-hero {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .main-hero-img {
-    width: 100%;
-    height: 700px;
-    background-size: cover;
-    padding-left: 0px;
-    padding-rigth: 0px;
-  }
-
-  .section-hero-2 {
-    width: 100%;
-    height: 50%;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: right;
-    text-align: left;
-    flex-direction: column;
-  }
-
-  .img-right {
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    text-align: left;
-    flex-direction: column;
-  }
-
-  .img-right img {
-    width: 50%;
-    height: 100%;
-    background-size: cover;
-  }
+    .main-hero {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .main-hero-img {
+        width: 100%;
+        height: 600px;
+        background-size: cover;
+        padding-left: 0px;
+        padding-rigth: 0px;
+    }
+    .section-hero-2 {
+        width: 100%;
+        height: 50%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: right;
+        text-align: left;
+        flex-direction: column;
+    }
+    .img-right {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
+    .img-right img {
+        width: 50%;
+        height: 100%;
+        background-size: cover;
+    }
 }
