@@ -1,36 +1,48 @@
 a {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 132%;
-  cursor: pointer;
-  height: 38px;
-  color: var(--main-50%);
+    transition-duration: 0.3s;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0px solid transparent;
+    cursor: pointer;
+    display: inline-block;
+    opacity: 1;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    color: var(--main-50);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+    /* or 33px */
+    letter-spacing: -0.01em;
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
+    color: var(--main-50%);
 }
 
 a:visited {
-  opacity: 70px;
-  text-decoration: none;
+    opacity: 70px;
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+    color: var(--main-100);
+    opacity: 0.5;
 }
 
 a:active {
-  text-decoration: bold;
+    text-decoration: bold;
 }
 
-a .links {
-}
+a .links {}
 
 @media (max-width: 600px) {
-  .link {
-    font-size: 18px;
-  }
+    .link {
+        font-size: 18px;
+    }
 }
