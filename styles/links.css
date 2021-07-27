@@ -10,7 +10,7 @@ a {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
-    color: var(--main-50);
+    color: var(--main-100);
     font-family: var(--main-font);
     font-style: normal;
     font-weight: normal;
@@ -18,11 +18,13 @@ a {
     line-height: 190%;
     /* or 33px */
     letter-spacing: -0.01em;
+    text-decoration: none;
 }
 
 a:link {
+    color: var(--main-100);
     text-decoration: none;
-    color: var(--main-50%);
+    font-weight: 400;
 }
 
 a:visited {
@@ -36,10 +38,22 @@ a:hover {
 }
 
 a:active {
-    text-decoration: bold;
+    text-decoration: none;
 }
 
 a .links {}
+
+.link-only {
+    border-bottom: 0.1px solid var(--main-25);
+    color: var(--main-50);
+    text-decoration: bold;
+    font-weight: 900;
+}
+
+.link-only p {
+    color: var(--main-100);
+    font-weight: 900;
+}
 
 @media (max-width: 600px) {
     .link {
