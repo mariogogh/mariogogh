@@ -1,6 +1,6 @@
 @import url("https://use.typekit.net/grn6fkm.css");
 p {
-    color: var(--main-50);
+    color: var(--main-100);
     font-family: var(--main-font);
     font-style: normal;
     font-weight: normal;
@@ -129,8 +129,7 @@ h5 {
 }
 
 .eyebrown {
-    color: var(--main-25);
-    opacity: 0.5;
+    color: var(--eyebrown);
     font-size: 12px;
     padding-bottom: 16px;
     font-weight: bold;

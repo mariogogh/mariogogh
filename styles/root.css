@@ -1,277 +1,258 @@
 @import url("https://use.typekit.net/grn6fkm.css");
-
 :root {
-  --main-font: aktiv-grotesk, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-
-  --hero-font: acumin-pro-wide, sans-serif;
-  font-style: normal;
-  font-weight: 100;
-
-  /* BLACK */
-  --main-100: #191D2F;
-  --main-50: #191D2Fe0;
-  --main-25: #191D2Fc3;
-  --main-15: #A1A1A1;
-
-  --main-50%: rgba(0, 0, 0, 0.15);
-  --main-68: rgba(0, 0, 0, 0.68);
-
-  /* WHITE */
-
-  --main-w-100: #FFFFFF;
-  --main-w-90: #C5C6BC;
-  --main-w-50: #A2A6A3;
-  --main-w-25: #84898D;
-  --main-w-5: #656C77;
-
-  /* PAGE COLORS */
-  --work: #5A1622;
-  --about: #3A1CB3;
-  --lab: #0B4E63;
-
-  /* COLORS NAMES */
-  --hero-text: #F998C0;
-
-  /* HEADER COLORS */
-  --links-color1: red;
-  --header-links: #355C36;
-  --header-active: #d6aa3a;
-
-  /* LINKS */
-  --links-svg: #647CD4;
-
-  /* WORKS FROM. COLORS */
-  --span4: #9A9EB2;
-  --span3: #355C36;
-  font-weight: 500;
-  font-style: bold;
-
-  /* SECTION WORKS COLORS */
-  --span1: #191919;
-  --svg: #989898;
-
-  /* WORKS COLORS */
-
-  --color-blue: #D6AA3A;
-  --bg-works: #D6AA3A;
-  --bg-works2: #293872;
-  --text-work: #FFFFFFcc;
-
-  /* ABOUT COLORS */
-
-  --links-color2: #3F8C94;
-
-  /* FOOTER COLORS*/
-
-  --text-work: #FFFFFFcc;
-  --bg-footer: #191919;
-
-  --links-color50: rgba(247, 92, 26, 0.5);
-  --links-color10: rgba(247, 92, 26, 0.25);
-
-  --lab-bg: #3F8C94;
-  --lab-page-colors: #363D38;
-
-  --Type-color-black: rgba(0, 0, 0, 0.7);
-  --Type-color-white: rgba(0, 0, 0, 0.9);
-  --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"),
-    auto;
+    --main-font: aktiv-grotesk, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    --hero-font: acumin-pro-wide, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    /* BLACK */
+    --main-100: #000000;
+    --main-50: #808080;
+    --main-25: #BFBFBF;
+    --main-15: #D9D9D9;
+    --main-50%: rgba(0, 0, 0, 0.15);
+    --main-68: rgba(0, 0, 0, 0.68);
+    --eyebrown: #8F99B2;
+    /* WHITE */
+    --main-w-100: #FFFFFF;
+    --main-w-90: #C5C6BC;
+    --main-w-50: #A2A6A3;
+    --main-w-25: #84898D;
+    --main-w-5: #656C77;
+    /* PAGE COLORS */
+    --work: #5A1622;
+    --about: #3A1CB3;
+    --lab: #0B4E63;
+    /* COLORS NAMES */
+    --hero-text: #F998C0;
+    /* HEADER COLORS */
+    --links-color1: red;
+    --header-links: #355C36;
+    --header-active: #d6aa3a;
+    /* LINKS */
+    --links-svg: #647CD4;
+    /* WORKS FROM. COLORS */
+    --span4: #9A9EB2;
+    --span3: #355C36;
+    font-weight: 500;
+    font-style: bold;
+    /* SECTION WORKS COLORS */
+    --span1: #191919;
+    --svg: #989898;
+    /* WORKS COLORS */
+    --color-blue: #D6AA3A;
+    --bg-works: #D6AA3A;
+    --bg-works2: #293872;
+    --text-work: #FFFFFFcc;
+    /* ABOUT COLORS */
+    --links-color2: #3F8C94;
+    /* FOOTER COLORS*/
+    --text-work: #FFFFFFcc;
+    --bg-footer: #151718;
+    --links-color50: rgba(247, 92, 26, 0.5);
+    --links-color10: rgba(247, 92, 26, 0.25);
+    --lab-bg: #3F8C94;
+    --lab-page-colors: #363D38;
+    --Type-color-black: rgba(0, 0, 0, 0.7);
+    --Type-color-white: rgba(0, 0, 0, 0.9);
+    --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), auto;
 }
+
 
 /* SPANS */
 
 span1 {
-  color: var(--span1);
+    color: var(--span1);
 }
 
 span3 {
-  color: var(--gold: );
-  font-size: 18px;
+    color: var(--gold: );
+    font-size: 18px;
 }
 
 span4 {
-  color: var(--span4);
+    color: var(--span4);
 }
+
 
 /* LINKS WITH SVG */
 
 .links-svg {
-  color: var(--links-svg);
+    color: var(--links-svg);
 }
 
 .links-svg a {
-  color: var(--links-svg);
+    color: var(--links-svg);
 }
 
 .links-svg svg {
-  color: var(--links-svg);
+    color: var(--links-svg);
 }
+
 
 /* WORKS COLORS */
 
 .bg-color-work {
-  background: var(--bg-works);
-  color: var(--text-work);
+    background: var(--bg-works);
+    color: var(--text-work);
 }
 
 .bg-color-work p {
-  color: var(--text-work);
+    color: var(--text-work);
 }
 
 .bg-color-work span2 {
-  color: var(--main-68);
+    color: var(--main-68);
 }
 
 .bg-color-work h3 {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
+
 
 /* FOOTER COLORS*/
 
 .bg-black .box-L {
-  background: var(--bg-footer);
-  color: var(--main-w-100);
-  z-indez: 1;
+    background: var(--bg-footer);
+    color: var(--main-w-100);
+    z-indez: 1;
 }
 
 .bg-black {
-  background: var(--bg-footer);
-  color: var(--main-w-100);
-  z-indez: 1;
+    background: var(--bg-footer);
+    color: var(--main-w-100);
+    z-indez: 1;
 }
 
 .bg-black .links {
-  background: var(--bg-footer);
-  color: var(--main-w-100);
-  z-indez: 1;
+    background: var(--bg-footer);
+    color: var(--main-w-100);
+    z-indez: 1;
 }
 
 .bg-black span1 {
-  color: var(--main-w-100);
-  z-indez: 1;
+    color: var(--main-w-100);
+    z-indez: 1;
 }
 
 .bg-black h1 {
-  color: var(--main-w-100);
-  z-indez: 1;
+    color: var(--main-w-100);
+    z-indez: 1;
 }
 
 .bg-black p {
-  background: var(--bg-footer);
-  color: var(--main-w-100);
+    background: var(--bg-footer);
+    color: var(--main-w-100);
     letter-spacing: 0.0em;
-  z-indez: 1;
+    z-indez: 1;
 }
 
-
 .bg-black a {
-text-decoration:none;
- 
-
-   font-style: normal;
-  font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
 }
 
 .bg-black .button {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
 
 .bg-black span3 {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
+
 
 /* ABOUT COLORS */
 
 .bg-color-about {
-  background: var(--links-color2);
-  color: var(--main-w-100);
+    background: var(--links-color2);
+    color: var(--main-w-100);
 }
 
 .bg-color-about p {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
 
 .bg-color-about span2 {
-  color: var(--main-w-90);
+    color: var(--main-w-90);
 }
 
 .bg-color-about h2 {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
 
 .bg-color-about .button .active {
-  color: var(--links-color2);
-  border-bottom: 5px solid var(--links-color2);
+    color: var(--links-color2);
+    border-bottom: 2px solid var(--links-color2);
 }
 
 .bg-color-about #navbar {
-  color: var(--links-color2);
-  border-bottom: 5px solid var(--links-color2);
+    color: var(--links-color2);
+    border-bottom: 2px solid var(--links-color2);
 }
 
 .type-black {
-  color: var(--main-100);
+    color: var(--main-100);
 }
 
 .type-white {
-  color: var(--main-w-100);
+    color: var(--main-w-100);
 }
 
 span {
-  color: var(--links-color100);
+    color: var(--links-color100);
 }
 
 span2 {
-  color: var(--main-68);
+    color: var(--main-68);
 }
 
 span5 {
-  color: var(--gold-color);
+    color: var(--gold-color);
 }
 
 .bg-color-hero2 {
-  background: var(--lab-bg);
+    background: var(--lab-bg);
 }
 
 .lab-bg {
-  background: var(--lab-bg);
+    background: var(--lab-bg);
 }
 
 .lab-page-colors {
-  background: var(--main-100);
-  color: var(--main-w-100);
+    background: var(--main-100);
+    color: var(--main-w-100);
 }
 
 .lab-page-colors #navbar {
-  background: var(--main-100);
-  color: var(--main-w-100);
+    background: var(--main-100);
+    color: var(--main-w-100);
 }
 
 .lab-page-colors .button:hover {
-  border-bottom: 5px solid var(--lab-bg);
+    border-bottom: 2px solid var(--lab-bg);
 }
 
 .lab-page-colors .button:active {
-  color: var(--lab-bg);
+    color: var(--lab-bg);
 }
 
 .lab-page-colors .button:focus {
-  border-bottom: 5px solid var(--lab-bg);
+    border-bottom: 2px solid var(--lab-bg);
 }
 
 .lab-page-colors .active {
-  border-bottom: 5px solid var(--lab-bg);
-  color: var(--main-w-100);
+    border-bottom: 2px solid var(--lab-bg);
+    color: var(--main-w-100);
 }
 
 .bg-color-gold {
-  background: var(--gold-color);
-  color: var(--main-100);
+    background: var(--gold-color);
+    color: var(--main-100);
 }
 
 .bg-color-gold .button {
-  background: var(--gold-color);
-  color: red;
+    background: var(--gold-color);
+    color: red;
 }

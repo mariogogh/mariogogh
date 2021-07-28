@@ -7,7 +7,7 @@ header {
     padding-bottom: 16px;
     position: fixed;
     width: 100%;
-    height: 38px;
+    height: 52px;
     margin: 0 auto;
     font-size: 12px;
     z-index: 4;
@@ -17,17 +17,18 @@ header {
     width: 50%;
     height: 50%;
     font-size: 16px;
-    padding-top: 6px;
+    padding-top: 10px;
     padding-left: 24px;
-    padding-bottom: 16px;
+    padding-bottom: 0px;
+    background: var(--main-w-100);
 }
 
 .box-links {
     display: flex;
     width: 50%;
-    height: 32%;
+    height: 46px;
     background: var(--main-w-100);
-    padding-top: 5px;
+    padding-top: 8px;
     justify-content: flex-start;
     z-index: 3;
     position: relative;
@@ -40,7 +41,7 @@ header {
     top: -64px;
     display: block;
     width: 100%;
-    height: 43px;
+    height: 46px;
     transition: top 0.5s;
     /* Transition effect when sliding down (and up) */
     display: block;
@@ -76,7 +77,8 @@ header div {
 @media (max-width: 600px) {
     #navbar {
         width: 100%;
-        height: 42px;
+        height: 32px;
+        padding: 1%;
     }
     .links {
         padding-right: 16px;
@@ -84,7 +86,7 @@ header div {
     }
     .box-links {
         width: 70%;
-        padding-top: 4px;
+        padding-top: 11px;
     }
     #navbar .button {
         padding-bottom: 8px;
@@ -98,11 +100,11 @@ header div {
         width: 22px;
     }
     .box-logo {
-        width: 60%;
-        padding-left: 24px;
-        top: -16px;
-        padding-bottom: 24px;
+        width: 50%;
+        height: 38px;
+        padding: 4%;
         position: relative;
-        font-size: 12px;
+        top: 11px;
+        padding-top: 2px;
     }
 }

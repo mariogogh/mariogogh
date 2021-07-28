@@ -1,160 +1,155 @@
 /* unvisited link */
 
-.button {
-  transition-duration: 0.3s;
-  background-color: transparent;
-  border: none;
-  border-bottom: 5px solid transparent;
-  cursor: pointer;
-  display: inline-block;
-  opacity: 1;
-  padding-bottom: 8px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 8px;
-  font-family: var(--main-font);
-  color: var(--main-15);
-  font-size: 12px;
-  line-height: 139%;
-   letter-spacing: 0.1em;
-  font-weight: 600;
+.navbar .button {
+    font-size: 14px;
+    font-weight: semi-bold;
+    letter-spacing: -0.01em;
 }
 
-.button .normal {
-  color: var(--main-25);
-  font-size: 24px;
-  width: 400px;
+.navbar .active {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--main-100);
+}
+
+.button {
+    color: var(--main-100);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 190%;
+    letter-spacing: -0.01em;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0px;
+    /* or 33px */
+}
+
+.button transition-duration: 0.3s;
+background-color: transparent;
+border: none;
+border-bottom: 5px solid transparent;
+cursor: pointer;
+display: inline-block;
+opacity: 1;
+padding-bottom: 8px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 8px;
+font-family: var(--main-font);
+color: var(--main-50);
+font-size: 12px;
+line-height: 139%;
+letter-spacing: 0.1em;
+font-weight: 900;
+
+}
+svg: hover {
+    fill-opacity: "1.9";
 }
 
 /* visited link */
-
 .button:visited {
-  color: var(--main-50%);
-  opacity: 0.9;
+    color: var(--main-100);
 }
 
 /* mouse over link */
-
 .button:hover {
-  color: var(--main-100);
-  opacity: 0.8;
-  border-bottom: 5px solid var(--header-active);
+    color: var(--main-100);
+    opacity: 0.8;
+    border-bottom: 1px solid var(--header-active);
 }
 
 /* selected link */
-
 .button:active {
-  border: none;
-  outline: none;
-  color: var(--main-50);
+    border: none;
+    outline: none;
+    color: var(--main-100);
 }
-
 .button:focus {
-  color: var(--main-100);
-  border: none;
-  border-bottom: 5px solid var(--hero-text);
-  outline: none;
+    color: var(--main-100);
+    border: none;
+    border-bottom: 1px solid var(--hero-text);
+    outline: none;
 }
-
 .active {
-  opacity: 0.9;
-  border-bottom: 5px solid var(--hero-text);
-  color: var(--main-100);
-  text-decoration: bold;
-  font-weight: 700;
-  transition-duration: 0.4s;
+    border-bottom: 1px solid var(--hero-text);
+    font-weight: bold;
+    transition-duration: 0.4s;
+    color: var(--main-100);
 }
-
 .disable {
-  opacity: 0.2;
+    opacity: 0.2;
 }
-
 .huge {
-  font-size: 32px;
+    font-size: 32px;
 }
 
 /* FOOTER LINKS */
-
 .hugelink a {
-  font-size: 5vw;
-  letter-spacing: -0.06em;
-  height: 7vw;
-
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-
- 
-
- 
-
-.button-huge {
-  display: inline-block;
-  border: none;
-
-  transition-duration: 0.9s;
-  background-color: transparent;
-  color: var(--main-w-50);
-  border: none;
-  border-bottom: 1px solid transparent;
-  cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"),
-    auto;
-  display: inline-block;
-  padding-bottom: 8px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-top: 8px;
-}
-
-.button-huge span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.9s;
-}
-
-.button-huge span:after {
-  content: "·";
-  color: var(--header-links);
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -8px;
-  transition: 0.9s;
-}
-
-.button-huge:hover span {
-  padding-right: 128px;
-}
-
-.button-huge:hover span:after {
-  color: var(--main-color);
-  opacity: 0.9;
-  border-bottom: 5px solid white;
-}
-
-@media (max-width: 600px) {
-  .button {
-    padding-bottom: 24px;
+    font-size: 5vw;
+    letter-spacing: -0.06em;
+    height: 7vw;
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .button {
-    font-zize: 18px;
-  }
-
-  .hugelink a {
-    font-size: 9vw;
-    height: 6.8vh;
-    transition-duration: 0.4s;
-    padding-top: 10px;
-    height: 70px;
-    padding-bottom: 10px;
-  }
 }
-
+.button-huge {
+    display: inline-block;
+    border: none;
+    transition-duration: 0.9s;
+    background-color: transparent;
+    color: var(--main-w-50);
+    border: none;
+    border-bottom: 1px solid transparent;
+    cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), auto;
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 8px;
+}
+.button-huge span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.9s;
+}
+.button-huge span:after {
+    content: "·";
+    color: var(--header-links);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -8px;
+    transition: 0.9s;
+}
+.button-huge:hover span {
+    padding-right: 128px;
+}
+.button-huge:hover span:after {
+    color: var(--main-color);
+    opacity: 0.9;
+    border-bottom: 1px solid white;
+}
+@media (max-width: 600px) {
+    .button {
+        padding-bottom: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .button {
+        font-zize: 18px;
+    }
+    
+    .hugelink a {
+        font-size: 9vw;
+        height: 6.8vh;
+        transition-duration: 0.4s;
+        padding-top: 10px;
+        height: 70px;
+        padding-bottom: 10px;
+    }
+}
 font-size: 5vw;
-
 transition-duration: 0.4s;

@@ -2,10 +2,9 @@ a {
     transition-duration: 0.3s;
     background-color: transparent;
     border: none;
-    border-bottom: 0px solid transparent;
+    border-bottom: 2px solid transparent;
     cursor: pointer;
     display: inline-block;
-    opacity: 1;
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -13,8 +12,7 @@ a {
     color: var(--main-100);
     font-family: var(--main-font);
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+    font-weight: 900;
     line-height: 190%;
     /* or 33px */
     letter-spacing: -0.01em;
@@ -28,12 +26,12 @@ a:link {
 }
 
 a:visited {
-    opacity: 70px;
     text-decoration: none;
 }
 
 a:hover {
     color: var(--main-100);
+    text-decoration: bold;
     opacity: 0.5;
 }
 
@@ -44,7 +42,7 @@ a:active {
 a .links {}
 
 .link-only {
-    border-bottom: 0.1px solid var(--main-25);
+    border-bottom: 1px solid var(--main-25);
     color: var(--main-50);
     text-decoration: bold;
     font-weight: 900;
@@ -53,6 +51,8 @@ a .links {}
 .link-only p {
     color: var(--main-100);
     font-weight: 900;
+    transition-duration: 0.3s;
+    background-color: transparent;
 }
 
 @media (max-width: 600px) {
