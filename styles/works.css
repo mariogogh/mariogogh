@@ -136,6 +136,15 @@
     z-index: 1;
 }
 
+.section-hero-elements-img {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
 .section-hero-work-info {
     width: 100%;
     display: flex;
@@ -231,6 +240,10 @@ img :hover {
         flex-wrap: wrap;
     }
     .section-hero-elements {
+        width: 100%;
+        display: block;
+    }
+    .section-hero-elements-img {
         width: 100%;
         display: block;
     }
