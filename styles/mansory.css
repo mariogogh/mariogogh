@@ -40,7 +40,7 @@
 
 .masonry {
     columns: 2;
-    column-gap: 0.4%;
+    column-gap: 0.3%;
     width: 100%;
     display: block;
     justify-content: flex-start;
