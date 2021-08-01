@@ -219,6 +219,19 @@
     padding-right: 24px;
 }
 
+.content-full-screen-mansoury {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.9s ease;
+    opacity: 1;
+    scale: (1.9);
+    padding-left: 0px;
+    padding-right: 24px;
+}
+
 .content-full-screen-img {
     width: 100%;
     height: 100%;
