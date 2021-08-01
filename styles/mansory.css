@@ -40,7 +40,7 @@
 
 .masonry {
     columns: 2;
-    column-gap: 10%;
+    column-gap: 0%;
     width: 100%;
     display: block;
     justify-content: flex-start;
@@ -65,6 +65,8 @@
     .masonry {
         columns: 2;
         column-gap: 4%;
+        padding-left: 12px;
+        padding-right: 24px;
     }
     .lab .grid:nth-child(even) {
         right: 0%;
@@ -83,6 +85,8 @@
     .masonry {
         columns: 2;
         column-gap: 4%;
+        padding-left: 12px;
+        padding-right: 24px;
     }
     .lab .grid:nth-child(even) {
         right: 0%;
@@ -97,9 +101,9 @@
 @media (max-width: 600px) {
     .masonry {
         columns: 1;
-        padding-left: 0px;
-        padding-right: 0px;
         column-gap: 4%;
+        padding-left: 24px;
+        padding-right: 48px;
     }
     .section-hero-elements .masonry {
         padding: 0px;

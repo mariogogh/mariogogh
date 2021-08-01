@@ -48,15 +48,15 @@ html {
 img {
     transform: scale(1.01);
     opacity: 1;
-    cursor: var(--cursor);
     transition: transform 0.5s ease;
+    cursor: var(--cursor-img);
 }
 
 img: hover {
     transform: scale(1.01);
     opacity: 1;
     transition: transform 0.5s ease;
-    cursor: var(--cursor);
+    cursor: var(--cursor-img);
 }
 
 .all-content {

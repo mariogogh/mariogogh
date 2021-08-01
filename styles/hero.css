@@ -77,6 +77,8 @@
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     opacity: 1;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .hero {

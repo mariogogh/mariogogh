@@ -57,6 +57,7 @@
     --Type-color-black: rgba(0, 0, 0, 0.7);
     --Type-color-white: rgba(0, 0, 0, 0.9);
     --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), auto;
+    --cursor-img: url('path-to-image.png'), auto;
 }
 
 
