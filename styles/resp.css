@@ -1,0 +1,119 @@
+@media (max-width: 2560px) {
+  .space svg {
+    width: 31%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+    z-index: -1;
+    padding-bottom: 72px;
+  }
+
+  h1 {
+    font-size: 5vw;
+    line-height: 6.5vw;
+  }
+}
+
+@media (max-width: 2000px) {
+  .space svg {
+    width: 31%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+    z-index: -1;
+    padding-bottom: 72px;
+  }
+
+  h1 {
+    font-size: 5vw;
+    line-height: 6.5vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  .space svg {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+    z-index: -1;
+    padding-bottom: 72px;
+  }
+
+  h1 {
+    font-size: 5vw;
+    line-height: 6.5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+
+  .artboard {
+    flex-wrap: wrap;
+  }
+
+  .form {
+  }
+
+  .card {
+    width: 320px;
+    height: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+  }
+
+  .card br {
+    display: show;
+  }
+
+  .space {
+    flex-grow: 0;
+    height: 30vh;
+  }
+
+  .space svg {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+  }
+}
+
+@media (min-width: 375px) {
+  body {
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+  .artboard {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 320px;
+    height: 70px;
+    flex-wrap: wrap;
+    padding-bottom: 56px;
+  }
+
+  .space {
+    flex-grow: 0;
+    height: 30vh;
+  }
+
+  .space svg {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justfy-content: center;
+    z-index: -1;
+  }
+}

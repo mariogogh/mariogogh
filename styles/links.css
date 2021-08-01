@@ -1,63 +1,35 @@
-a {
-    transition-duration: 0.3s;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid transparent;
-    cursor: pointer;
-    display: inline-block;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    color: var(--main-100);
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 900;
-    line-height: 190%;
-    /* or 33px */
-    letter-spacing: -0.01em;
-    text-decoration: none;
-}
-
+/* unvisited link */
 a:link {
-    color: var(--main-100);
-    text-decoration: none;
-    font-weight: 400;
-    cursor: var(--cursor);
+color: #000000;
+  text-decoration: none;
+  opacity: 70%;
 }
 
+/* visited link */
 a:visited {
-    text-decoration: none;
+color: #000000;
+  opacity: 85%;
 }
 
+/* mouse over link */
 a:hover {
-    color: var(--main-100);
-    text-decoration: bold;
-    opacity: 0.5;
+color: #000000;
+  opacity: 50%;
+  text-decoration: underline;
 }
 
+/* selected link */
 a:active {
-    text-decoration: none;
+color: #000000;
+  opacity: 85%;
 }
 
-a .links {}
-
-.link-only {
-    border-bottom: 1px solid var(--main-25);
-    color: var(--main-50);
-    text-decoration: bold;
-    font-weight: 900;
+.section-intro a {
+color: #000000;
+  opacity: 85%;
 }
 
-.link-only p {
-    color: var(--main-100);
-    font-weight: 900;
-    transition-duration: 0.3s;
-    background-color: transparent;
-}
-
-@media (max-width: 600px) {
-    .link {
-        font-size: 18px;
-    }
+.box a {
+  font-size: 20px;
+color: #000000;
 }
