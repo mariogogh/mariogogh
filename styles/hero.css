@@ -81,6 +81,10 @@
     padding-left: 24px;
 }
 
+.box-R-image p {
+    padding: 24px;
+}
+
 .hero {
     width: 100%;
     height: 90%;
