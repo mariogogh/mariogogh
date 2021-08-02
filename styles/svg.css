@@ -92,3 +92,8 @@ a.svg-link: focus {
     fill: red;
     transition: top 5s;
 }
+
+a:link svg-right-fixed {
+    text-decoration: none;
+    opacity: 100%;
+}
