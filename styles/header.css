@@ -28,7 +28,7 @@ header {
     width: 50%;
     height: 46px;
     background: var(--main-w-100);
-    padding-top: 8px;
+    padding-top: 16px;
     justify-content: flex-start;
     z-index: 3;
     position: relative;
