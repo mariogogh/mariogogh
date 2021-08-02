@@ -6,7 +6,7 @@ I'am Mário Gogh, a multidisciplinary Designer, from Brasília, Brazil.🇧🇷
 
 ## Portfolio Made by [Mariogogh](https://mariogogh.com/)
 
-![Screenshot of Trello board and site](https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/Readme%20-%20Img.png?raw=true"Screenshot of Respire Site")
+![Screenshot of Trello board and site](https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/Readme%20-%20Img.png?raw=true"Screenshot of Mariogogh's Site")
 
 
 
