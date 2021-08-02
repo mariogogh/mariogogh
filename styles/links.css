@@ -1,7 +1,14 @@
+.link-only:link {
+    display: inline-block;
+    color: var(--main-100);
+    border-bottom: 2px solid rgb(186, 186, 186);
+    padding-bottom: 0px;
+}
+
+
 /* unvisited link */
 
 a:link {
-    color: #000000;
     text-decoration: none;
     opacity: 70%;
 }
@@ -39,4 +46,13 @@ a:active {
 .box a {
     font-size: 20px;
     color: #000000;
+}
+
+@media (max-width: 600px) {
+    br p {
+        display: none;
+    }
+    .link-only:link {
+        font-size: 16px;
+    }
 }

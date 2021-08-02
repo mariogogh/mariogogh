@@ -32,6 +32,7 @@ header {
     justify-content: flex-start;
     z-index: 3;
     position: relative;
+    text-decoration: none;
 }
 
 #navbar {
@@ -47,6 +48,7 @@ header {
     display: block;
     transition-delay: 2.5s;
     z-index: 3;
+    text-decoration: none;
 }
 
 #navbar a {}

@@ -363,6 +363,9 @@
         padding-right: 0px;
         padding-top: 32px;
     }
+    .box-L-img p {
+        padding-left: 24px;
+    }
     .box-R-isoleted {
         padding-left: 24px;
     }

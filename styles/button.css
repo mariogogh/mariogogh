@@ -4,11 +4,13 @@
     font-size: 14px;
     font-weight: semi-bold;
     letter-spacing: -0.01em;
+    text-decoration: none;
 }
 
 .navbar .active {
     font-size: 14px;
     font-weight: bold;
+    text-decoration: none;
     color: var(--main-100);
 }
 
@@ -17,10 +19,11 @@
     font-family: var(--main-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: -0.01em;
     border-bottom: 2px solid transparent;
     padding-bottom: 0px;
+    text-decoration: none;
     /* or 33px */
 }
 
@@ -135,10 +138,7 @@ svg: hover {
         padding-bottom: 24px;
         padding-left: 0px;
         padding-right: 0px;
-    }
-    
-    .button {
-        font-zize: 18px;
+        font-size: 16px;
     }
     
     .hugelink a {
@@ -150,5 +150,3 @@ svg: hover {
         padding-bottom: 10px;
     }
 }
-font-size: 5vw;
-transition-duration: 0.4s;
