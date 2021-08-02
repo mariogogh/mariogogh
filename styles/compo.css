@@ -17,34 +17,6 @@ html {
     z-index: 10;
 }
 
-
-/* width */
-
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-
-/* Track */
-
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-
-/* Handle */
-
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-
-
-/* Handle on hover */
-
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
 img {
     transform: scale(1.01);
     opacity: 1;
@@ -223,7 +195,7 @@ html {
     position: absolute;
     width: 100vw;
     justify-content: flex-start;
-    top: 10%;
+    top: 22%;
     text-align: left;
     display: flex;
     left: -1%;
@@ -236,7 +208,7 @@ html {
     width: 100vw;
     position: absolute;
     text-align: right;
-    top: 50%;
+    top: 57%;
     right: 2%;
     padding: 16px;
     align-items: flex-end;
@@ -267,7 +239,7 @@ html {
     }
     .type-L {
         width: 100%;
-        top: 10%;
+        top: 22%;
     }
     .type-L h2 {
         text-align: left;
@@ -296,17 +268,17 @@ html {
         position: absolute;
         top: -1%;
         right: 0%;
-        left: -2%;
+        left: -3%;
         padding: 16px;
         align-items: flex-end;
     }
     .type-L h2 {
         text-align: left;
-        font-size: 7.8em;
+        font-size: 7.7em;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 7.8em;
+        font-size: 7.7em;
     }
     .type-R {
         width: 100%;
@@ -315,7 +287,7 @@ html {
         text-align: center;
         top: 68%;
         right: 0%;
-        left: -1%;
+        left: -2%;
         padding: 16px;
         align-items: flex-end;
     }
