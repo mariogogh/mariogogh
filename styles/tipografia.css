@@ -10,10 +10,9 @@ p {
 }
 
 .paragraph {
-    color: var(--main-50);
+    color: var(--main-100);
     font-family: var(--main-font);
-    font-style: regular;
-    font-weight: 300;
+    font-style: re400;
     font-size: 40px;
     line-height: 130%;
     /* or 33px */
@@ -41,6 +40,7 @@ h2 {
     font-weight: 100;
     font-size: 24vw;
     letter-spacing: -0.1em;
+    line-height: 140%;
     color: var(--hero-text);
 }
 
@@ -164,5 +164,22 @@ h5 {
     }
     span1 br {
         display: none;
+    }
+    .paragraph {
+        color: var(--main-100);
+        font-family: var(--main-font);
+        font-style: regular;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 130%;
+        /* or 33px */
+        letter-spacing: -0.0em;
+    }
+    .eyebrown {
+        color: var(--eyebrown);
+        font-size: 12px;
+        padding-bottom: 16px;
+        font-weight: regular;
+        letter-spacing: 0.0em;
     }
 }

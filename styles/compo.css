@@ -195,10 +195,10 @@ html {
     position: absolute;
     width: 100vw;
     justify-content: flex-start;
-    top: 16%;
+    top: 4vh;
     text-align: left;
     display: flex;
-    left: -1%;
+    left: -0.9%;
     padding: 16px;
     display: flex;
     align-items: flex-start;
@@ -208,7 +208,7 @@ html {
     width: 100vw;
     position: absolute;
     text-align: right;
-    top: 52%;
+    top: 44vh;
     right: 2%;
     padding: 16px;
     align-items: flex-end;
