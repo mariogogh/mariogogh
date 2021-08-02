@@ -249,6 +249,7 @@ img :hover {
     .section-hero-elements {
         width: 100%;
         display: block;
+        padding: 24px;
     }
     .section-mansoury {
         width: 100%;

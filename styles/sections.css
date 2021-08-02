@@ -415,4 +415,7 @@
         padding-right: 8px;
         padding-left: 0px;
     }
+    .content-full-screen .section-hero-elements {
+        padding: 0px;
+    }
 }

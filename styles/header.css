@@ -88,6 +88,7 @@ header div {
     }
     .box-links {
         width: 70%;
+        height: 38px;
         padding-top: 11px;
     }
     #navbar .button {
@@ -102,11 +103,11 @@ header div {
         width: 22px;
     }
     .box-logo {
-        width: 50%;
-        height: 38px;
+        width: 74%;
+        height: 32px;
         padding: 4%;
         position: relative;
-        top: 11px;
+        top: 6px;
         padding-top: 2px;
     }
 }
