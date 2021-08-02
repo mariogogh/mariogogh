@@ -10,10 +10,10 @@ p {
 }
 
 .paragraph {
-    color: var( --about);
+    color: var(--main-50);
     font-family: var(--main-font);
-    font-style: bold;
-    font-weight: 500;
+    font-style: regular;
+    font-weight: 300;
     font-size: 40px;
     line-height: 130%;
     /* or 33px */
