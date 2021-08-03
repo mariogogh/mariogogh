@@ -353,13 +353,15 @@
         width: 100%;
         padding-left: 0px;
         background: ;
-        padding-right: 0px;
         padding-top: 32px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .box-L-image {
         width: 100%;
         padding-left: 0px;
         background: ;
+        padding-left: 0px;
         padding-right: 0px;
         padding-top: 32px;
     }
@@ -401,8 +403,8 @@
         justify-content: center;
         transition: transform 0.9s ease;
         opacity: 1;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .workslide {
         line-height: 150%;
@@ -417,5 +419,45 @@
     }
     .content-full-screen .section-hero-elements {
         padding: 0px;
+    }
+    .section-hero-elements {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .box-L h2 {
+        padding-left: 24px;
+    }
+    .box-L h1 {
+        padding-left: 24px;
+    }
+    .box-L .eyebrown {
+        padding-left: 24px;
+    }
+    .box-L-image .full-image-img {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .CUCKOO .box-L-image .full-image-img {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .CUCKOO .box-R-image .full-image-img {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .box-R h2 {
+        padding-left: 24px;
+    }
+    .box-R p {
+        padding-left: 24px;
+    }
+    .section-hero-elements .hugelink {
+        padding-left: 16spx;
+    }
+    .content-full-screen .section-hero-elements p {
+        padding: 0px;
+    }
+    .section-hero-elements .full-image-img {
+        padding: 24px;
     }
 }

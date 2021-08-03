@@ -55,4 +55,7 @@ a:active {
     .link-only:link {
         font-size: 16px;
     }
+    .link-left {
+        padding-left: 24px;
+    }
 }
