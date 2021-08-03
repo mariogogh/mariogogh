@@ -239,15 +239,119 @@ html {
     }
     .type-L {
         width: 100%;
+        top: 3%;
+    }
+    .type-R {
+        width: 100%;
+        top: 42%;
+    }
+    .type-L h2 {
+        text-align: left;
+        font-size: 26vw;
+    }
+    .type-R h2 {
+        text-align: right;
+        font-size: 26vw;
+    }
+    .caption {
+        top: 5%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .newheader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .type-L {
+        width: 100%;
+        top: 8%;
+    }
+    .type-L h2 {
+        text-align: left;
+        font-size: 26vw;
+    }
+    .type-R h2 {
+        text-align: right;
+        font-size: 26vw;
+    }
+    .caption {
+        top: 5%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .newheader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .type-L {
+        width: 100%;
         top: 22%;
     }
     .type-L h2 {
         text-align: left;
-        font-size: 32vw;
+        font-size: 26vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 32vw;
+        font-size: 26vw;
+    }
+    .caption {
+        top: 5%;
+    }
+    .type-L {
+        width: 100%;
+        justify-content: left;
+        position: absolute;
+        top: 4%;
+        right: 0%;
+        left: -3%;
+        padding: 16px;
+        align-items: flex-end;
+    }
+    .type-R {
+        width: 100%;
+        justify-content: right;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        right: 0%;
+        left: -2%;
+        padding: 16px;
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1280px) {
+    .newheader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .type-L {
+        width: 100%;
+        top: 16%;
+    }
+    .type-R {
+        width: 100%;
+        top: 48%;
+    }
+    .type-L h2 {
+        text-align: left;
+        font-size: 26vw;
+    }
+    .type-R h2 {
+        text-align: right;
+        font-size: 26vw;
     }
     .caption {
         top: 5%;
