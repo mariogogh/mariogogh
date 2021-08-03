@@ -460,4 +460,7 @@
     .section-hero-elements .full-image-img {
         padding: 24px;
     }
+    .box-R iframe {
+        padding-left: 24px;
+    }
 }
