@@ -103,6 +103,7 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <body>
+
     <!-- HEADER SCRIPT -->
     <script>
         AOS.init();
@@ -115,12 +116,13 @@
 
         function scrollFunction() {
             if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
+                document.body.scrollTop > 40 ||
+                document.documentElement.scrollTop > 40
             ) {
-                document.getElementById("navbar").style.top = "0";
+                document.getElementById("navbar").style.top = "0px";
+                // WHE THE NAVBAR RETURNS
             } else {
-                document.getElementById("navbar").style.top = "-100px";
+                document.getElementById("navbar").style.top = "-400px";
             }
         }
     </script>
@@ -128,66 +130,123 @@
     <!-- HEADER SCRIPT -->
 
     <!-- HEADER -->
+    <div class="bg-div-all">
+        <div class="newheader hero-work" data-aos="zoom-in" data-aos-delay="20">
+            <div class="caption" data-aos="fade-left" data-aos-delay="100">
+                <p>
+                    A multidisciplinary Designer,
+                    <br />currently working at Fjord<br>by Accenture Interactive.
+                </p>
+            </div>
+            <div class="type-L" onload="randombg()" data-aos="fade-left">
+                <h2>
+                    MÁRIO
+                </h2>
+            </div>
+            <div class="type-R" onload="randombg()" data-aos="fade-right">
+                <h2>
+                    GOGH
+                </h2>
+            </div>
+        </div>
 
-    <div class="newheader hero-work" data-aos="zoom-in">
-        <div class="caption">
-            <p>
-                A multidisciplinary Designer,
-                <br />currently working at Fjord<br>by Accenture Interactive.
-            </p>
+        <!-- RANDOMBG -->
+        <!-- RANDOMBG -->
+        <!-- RANDOMBG -->
+        <!-- RANDOMBG -->
+        <div class="bg-color-hero">
+            <div class="all-content" onload="randombg()" data-aos="fade-up" data-aos-offset="400" data-aos-delay="70" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <hero class="main-hero">
+                    <script language="JavaScript">
+                        < !--
+
+                        /*
+                        Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
+                        Over 400+ free JavaScripts here!
+                        Keep this notice intact please
+                        */
+
+                        function random_imglink() {
+                            var myimages = new Array()
+                                //specify random images below. You can have as many as you wish
+                            myimages[1] = ""
+                            myimages[2] = ""
+
+                            var ry = Math.floor(Math.random() * myimages.length)
+                            if (ry == 0)
+                                ry = 1
+                            document.write('<img  class="main-hero-img" src="' + myimages[ry] + '" border=0>')
+                        }
+                        random_imglink()
+                            //-->
+                    </script>
+                </hero>
+            </div>
         </div>
-        <div class="type-L" onload="randombg()" data-aos="fade-left">
-            <h2>
-                MÁRIO
-            </h2>
+        <!-- RANDOMBG -->
+        <!-- RANDOMBG -->
+        <!-- RANDOMBG -->
+
+
+
+
+        <!-- SELECT WORKS INTRO -->
+        <div class="GlobalPadding hero-work workslide-work ">
+            <div class=" space200 "></div>
+            <div class="content-full-screen hero-work workslide-work" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <div data-aos="fade-up" data-aos-offset="400" data-aos-delay="70" data-aos-duration="600" data-aos-easing="ease-in-out">
+                    <h1 class=" workslide-work">
+                        <span1>Mário Gogh, based in Brasília/Brazil, working remotely since 2016. Focused on Product Design, Brand Identity, and Product Illustrations. </span1>
+                    </h1>
+                </div>
+                <div class=" space100 "></div>
+            </div>
+            <div class="section-hero-elements workslide-work" data-aos="fade-up" data-aos-easing="ease-in-out">
+                <div class="box-L" data-aos="fade-up" data-aos-offset="40" data-aos-delay="40" data-aos-duration="600" data-aos-easing="ease-in-out">
+
+
+                    <p class="link-left"> <a href="about" class="button  " target=""> Full Bio
+                    <svg width="12 " height="12 " viewbox="0 0 9 9 " fill="none "
+                    xmlns="http://www.w3.org/2000/svg ">
+                    <path
+                        d="M0.916449 9L7.73107 2.18253L7.71932 7.43937H9V0H1.56266L1.55091 1.26728H6.81462L0 8.08475L0.916449 9Z "
+                        fill="white " fill-opacity="0.9 " />
+                </svg></p>
+            </div>
+            <div class="box-R workslide-work" link-left data-aos="fade-up" data-aos-offset="40" data-aos-delay="90" data-aos-duration="600" data-aos-easing="ease-in-out">
+                <p class="full-image-img-about-R">Find me on
+                    <a href="https://www.linkedin.com/in/mariogogh/ " class="button " target="_blank "> Linkedin</a>,
+                        <br> <a href="https://savee.it/mariogogh/ " class="button " target="_blank "> Savee</a>,
+                        <a href="https://www.behance.net/mariogogh " class="button " target="_blank "> Behance</a><br> or
+                        <a href="https://dribbble.com/mariogogh " class="button " target="_blank "> Dribbble</a>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+            <div class=" space100 "></div>
+
+
         </div>
-        <div class="type-R" onload="randombg()" data-aos="fade-right">
-            <h2>
-                GOGH
-            </h2>
+
+
+
+
+
+    </div>
+    <!-- SVG - TOP BTN -->
+    <div class="svg-right-fixed " data-aos="fade-up" data-aos-offset="700" data-aos-delay="590" data-aos-duration="600" data-aos-easing="ease-in-out">
+        <div>
+            <a href="#top">
+                <svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="32" cy="32" r="32" fill="var(--work)" fill-opacity="100" />
+                <path d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
+                    stroke="var( --hero-text)" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" />
+                <rect x="21" y="16" width="22" height="2" rx="1" fill="var( --hero-text)" fill-opacity="0.9" />
+            </svg>
+            </a>
         </div>
     </div>
-
-    <!-- RANDOMBG -->
-    <!-- RANDOMBG -->
-    <!-- RANDOMBG -->
-    <!-- RANDOMBG -->
-    <div class="bg-color-hero">
-        <div class="all-content" onload="randombg()" data-aos="fade-up" data-aos-offset="400" data-aos-delay="70" data-aos-duration="600" data-aos-easing="ease-in-out">
-            <hero class="main-hero">
-                <script language="JavaScript">
-                    < !--
-
-                    /*
-                    Random Image Script- By JavaScript Kit (http://www.javascriptkit.com)
-                    Over 400+ free JavaScripts here!
-                    Keep this notice intact please
-                    */
-
-                    function random_imglink() {
-                        var myimages = new Array()
-                            //specify random images below. You can have as many as you wish
-                        myimages[1] = ""
-                        myimages[2] = ""
-
-                        var ry = Math.floor(Math.random() * myimages.length)
-                        if (ry == 0)
-                            ry = 1
-                        document.write('<img  class="main-hero-img" src="' + myimages[ry] + '" border=0>')
-                    }
-                    random_imglink()
-                        //-->
-                </script>
-            </hero>
-        </div>
-    </div>
-    <!-- RANDOMBG -->
-    <!-- RANDOMBG -->
-    <!-- RANDOMBG -->
-
-
-
-
     <div>
         <header id="#top">
             <div id="navbar">
@@ -222,24 +281,11 @@
         </header>
     </div>
 
-    <!-- SVG - TOP BTN -->
-    <div class="svg-right-fixed" data-aos="fade-up" data-aos-offset="700" data-aos-delay="590" data-aos-duration="600" data-aos-easing="ease-in-out">
-        <div>
-            <a href="#top">
-                <svg width="64" height="64" viewbox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="32" cy="32" r="32" fill="var(--work)" fill-opacity="100" />
-                    <path d="M42 37.1149L32.8576 27.8731C32.3881 27.3985 31.6215 27.3983 31.1518 27.8727L22 37.1149"
-                        stroke="var( --hero-text)" stroke-opacity="0.9" stroke-width="2" stroke-linecap="round" />
-                    <rect x="21" y="16" width="22" height="2" rx="1" fill="var( --hero-text)" fill-opacity="0.9" />
-                </svg>
-            </a>
-        </div>
-    </div>
-
-    <!-- SELECT WORKS INTRO -->
-
-    <div class="GlobalPadding hero-work-link">
+    <div class="GlobalPadding">
         <div id="works" class="space300"></div>
+
+
+
 
         <div class="section-hero-elements" data-aos="fade-up" data-aos-easing="ease-in-out">
             <div class="box-L" data-aos="fade-up" data-aos-offset="400" data-aos-delay="70" data-aos-duration="600" data-aos-easing="ease-in-out">
@@ -1061,14 +1107,14 @@
         <div class=" space300 "></div>
     </div>
     <!-- FOOTER -->
-    <div class="bg-black bg-div " data-aos="zoom-in-down ">
+    <div class="bg-black bg-div section-footer " data-aos="zoom-in-down ">
 
 
         <div class="space50 "></div>
 
         <!-- OTHER LINKS-->
         <!-- OTHER LINKS-->
-        <div class="section-hero-elements bg-black " data-aos=" zoom-in-down ">
+        <div class="section-hero-elements bg-black" data-aos=" zoom-in-down ">
 
             <div class=" box-L " data-aos="fade-right ">
                 <div class="space100 "></div>
@@ -1096,7 +1142,7 @@
         </div>
         <!-- OTHER LINKS-->
 
-        <div class="section-hero-elements footer ">
+        <div class=" bg-black section-hero-elements footer ">
             <div class=" bg-black box-L ">
                 <p class=" hero-work-link bg-black ">
                     ©2021
@@ -1107,10 +1153,11 @@
             <div class="box-R "></div>
 
         </div>
-        <div class="space50 "></div>
+        <div class=" bg-black space50 "></div>
 
     </div>
     <!-- FOOTER -->
+
 </body>
 
 </html>
