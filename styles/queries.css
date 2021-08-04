@@ -1,7 +1,5 @@
 @media (max-width: 600px) {
-    body {
-        transition: background 5s ease;
-    }
+    body {}
     .content-about br {
         display: none;
     }

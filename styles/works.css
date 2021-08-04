@@ -1,3 +1,7 @@
+.CUCKOO {}
+
+.EVINO {}
+
 .hero-work {
     background: var(--work);
 }
@@ -44,6 +48,38 @@
 
 .hero-lab-link .button:hover {
     border-bottom: 2px solid var(--lab);
+}
+
+.workslide-work {
+    z-index: 5;
+    position: sticky;
+}
+
+.workslide-work span1 {
+    color: var( --hero-text);
+}
+
+.workslide-work p {
+    color: var( --main-w-100);
+}
+
+.workslide-work a {
+    color: var( --main-w-100);
+}
+
+.workslide-work svg {
+    color: var( --main-w-100);
+}
+
+.workslide-work a:visited {
+    color: var( --main-w-100);
+}
+
+.bg-div-all {
+    background: var( --hero-text);
+    z-index: 1;
+    position: sticky;
+    transition: background 5s ease;
 }
 
 .img-small-right {
@@ -133,7 +169,7 @@
     flex-direction: row;
     padding: 24px;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 0;
 }
 
 .section-mansoury {
@@ -141,7 +177,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 0;
 }
 
 .section-hero-elements-img {
@@ -150,7 +186,7 @@
     flex-direction: row;
     padding: 0px;
     justify-content: space-between;
-    z-index: 1;
+    z-index: 0;
 }
 
 .section-hero-work-info {
