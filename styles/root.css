@@ -60,6 +60,10 @@
     --cursor-img: url("https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/cursor.png?raw=true"), auto;
 }
 
+.bg-space-color {
+    background: var(--main-w-100);
+}
+
 
 /* SPANS */
 
