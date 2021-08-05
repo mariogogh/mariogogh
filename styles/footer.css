@@ -3,6 +3,10 @@
     position: sticky;
 }
 
+.footer br {
+    display: none;
+}
+
 .bg-div {
     width: 100%;
     height: 100%;
@@ -225,5 +229,8 @@
         display: inline;
         position: relative;
         top: 16px;
+    }
+    .footer br {
+        display: block;
     }
 }

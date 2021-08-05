@@ -75,6 +75,41 @@
     color: var( --main-w-100);
 }
 
+.workslide-about {
+    z-index: 5;
+    position: sticky;
+}
+
+.workslide-about span1 {
+    color: var( --hero-text);
+}
+
+.workslide-about p {
+    color: var( --main-w-100);
+    ;
+}
+
+.content-full-screen .workslide-about {
+    padding-left: 24px;
+}
+
+.workslide-about .box-L {
+    color: var( --main-w-100);
+    ;
+}
+
+.workslide-about a {
+    color: var( --main-w-100);
+}
+
+.workslide-about svg {
+    color: var( --main-w-100);
+}
+
+.workslide-about a:visited {
+    color: var( --main-w-100);
+}
+
 .bg-div-all {
     background: var( --hero-text);
     z-index: 1;
@@ -320,5 +355,11 @@ img :hover {
         object-fit: cover;
         background-size: cover;
         background: #yellow;
+    }
+    .workslide-about p {
+        padding-left: 24px;
+    }
+    .content-full-screen .workslide-about {
+        padding-left: 0px;
     }
 }

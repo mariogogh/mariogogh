@@ -78,7 +78,7 @@ header div {
 @media (max-width: 600px) {
     #navbar {
         width: 100%;
-        height: 32px;
+        height: 42px;
         padding: 1%;
     }
     .links {
