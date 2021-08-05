@@ -212,8 +212,8 @@
     justify-content: center;
     transition: transform 0.9s ease;
     opacity: 1;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 26px;
+    padding-right: 26px;
 }
 
 .content-full-screen-mansoury {
@@ -224,8 +224,9 @@
     justify-content: center;
     transition: transform 0.9s ease;
     opacity: 1;
-    padding-left: 52px;
-    padding-right: 52px;
+    padding-left: 26px;
+    padding-right: 26px;
+    ;
 }
 
 .content-full-screen-img {
