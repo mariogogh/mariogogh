@@ -75,6 +75,31 @@
     color: var( --main-w-100);
 }
 
+.workslide-lab {
+    z-index: 5;
+    position: sticky;
+}
+
+.workslide-lab span1 {
+    color: var( --hero-text);
+}
+
+.workslide-lab p {
+    color: var( --main-w-100);
+}
+
+.workslide-lab a {
+    color: var( --main-w-100);
+}
+
+.workslide-lab svg {
+    color: var( --main-w-100);
+}
+
+.workslide-lab a:visited {
+    color: var( --main-w-100);
+}
+
 .workslide-about {
     z-index: 5;
     position: sticky;

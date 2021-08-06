@@ -21,6 +21,9 @@
 @import "/styles/home-cover.css";
 @import "/styles/home-cover.js";
 @import "/styles/mansory.css";
+@import "/styles/masonry-lab.css";
+@import "/styles/random-img.css";
+@import "/styles/random-img.js";
 @import url("https://use.typekit.net/grn6fkm.css");
 @import ".htaccess";
 

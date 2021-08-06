@@ -18,6 +18,7 @@
 .Desktop {
     font-size: 14px;
     color: var(--main-100);
+    font-weight: 400;
 }
 
 .cover img {

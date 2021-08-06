@@ -1,11 +1,7 @@
 @import url("https://use.typekit.net/grn6fkm.css");
 :root {
     --main-font: aktiv-grotesk, sans-serif;
-    font-weight: 500;
-    font-style: normal;
     --hero-font: acumin-pro-wide, sans-serif;
-    font-style: normal;
-    font-weight: 100;
     /* BLACK */
     --main-100: #000000;
     --main-50: #808080;
@@ -35,8 +31,6 @@
     /* WORKS FROM. COLORS */
     --span4: #9A9EB2;
     --span3: #355C36;
-    font-weight: 500;
-    font-style: bold;
     /* SECTION WORKS COLORS */
     --span1: #191919;
     --svg: #989898;
@@ -156,7 +150,7 @@ span4 {
 .bg-black a {
     text-decoration: none;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .bg-black .button {
