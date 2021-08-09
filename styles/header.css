@@ -86,7 +86,7 @@ header div {
         font-size: 18px;
     }
     .box-links {
-        width: 70%;
+        width: 56%;
         height: 38px;
         padding-top: 11px;
     }
@@ -98,14 +98,14 @@ header div {
         font-size: 12px;
     }
     #navbar .links:last-child {
-        padding-left: 32px;
+        padding-left: 0px;
         width: 22px;
     }
     .box-logo {
         width: 74%;
         height: 32px;
         padding: 4%;
-        padding-left: 7.5vw;
+        padding-left: 6.5vw;
         position: relative;
         top: 6px;
         padding-top: 2px;

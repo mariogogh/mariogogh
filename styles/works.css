@@ -387,4 +387,9 @@ img :hover {
     .content-full-screen .workslide-about {
         padding-left: 0px;
     }
+    .about-works {
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
