@@ -17,11 +17,12 @@
     --main-w-25: #84898D;
     --main-w-5: #656C77;
     /* PAGE COLORS */
-    --work: #0B4E63;
-    --about: #355C36;
-    --lab: #755F27;
+    --work: #1F2E55;
+    --about: #153334;
+    --lab: #3D2956;
+    --bg-footer: #272727;
     /* COLORS NAMES */
-    --hero-text: #F4C858;
+    --hero-text: #F9E4CB;
     /* HEADER COLORS */
     --links-color1: red;
     --header-links: #355C36;
@@ -43,7 +44,6 @@
     --links-color2: #3F8C94;
     /* FOOTER COLORS*/
     --text-work: #FFFFFFcc;
-    --bg-footer: #151718;
     --links-color50: rgba(247, 92, 26, 0.5);
     --links-color10: rgba(247, 92, 26, 0.25);
     --lab-bg: #3F8C94;
