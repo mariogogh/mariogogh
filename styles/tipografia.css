@@ -24,14 +24,14 @@ p {
 
 span6 {
     font-family: var(--main-font);
-    font-weight: 600;
+    font-weight: 200;
     text-decoration: bold;
 }
 
 h1 {
     color: var(--main-100);
     font-family: var(--hero-font);
-    font-weight: 200;
+    font-weight: 400;
     font-size: 5vw;
     line-height: 124%;
     letter-spacing: -0.06em;
