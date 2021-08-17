@@ -224,12 +224,13 @@ html {
     display: flex;
     height: 65px;
     right: 72.6%;
-    top: 5%;
+    top: 9%;
 }
 
 .caption p {
     color: var (--hero-text);
     font-size: 16px;
+    transform: rotate(-15deg);
 }
 
 @media (max-width: 1440px) {
