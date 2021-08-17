@@ -89,6 +89,10 @@ svg:hover {
     padding-right: 0px;
 }
 
+.hugelink h1 {
+    letter-spacing: -0.06em;
+}
+
 .button-huge {
     display: inline-block;
     border: none;
