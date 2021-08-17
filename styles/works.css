@@ -51,7 +51,7 @@
 }
 
 .workslide-work {
-    z-index: 5;
+    z-index: 1;
     position: sticky;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .workslide-about span1 {
-    color: var( --hero-text);
+    color: var( --main-w-100);
 }
 
 .workslide-about p {

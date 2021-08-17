@@ -1,7 +1,8 @@
 @import url("https://use.typekit.net/grn6fkm.css");
 :root {
-    --main-font: aktiv-grotesk, sans-serif;
+    --main-font: acumin-pro, sans-serif;
     --hero-font: acumin-pro-wide, sans-serif;
+    --hero-font-2: gopher, sans-serif;
     /* BLACK */
     --main-100: #000000;
     --main-50: #808080;
@@ -17,12 +18,12 @@
     --main-w-25: #84898D;
     --main-w-5: #656C77;
     /* PAGE COLORS */
-    --work: #1F2E55;
-    --about: #153334;
-    --lab: #3D2956;
-    --bg-footer: #272727;
+    --work: #123286;
+    --about: #123286;
+    --lab: #123286;
+    --bg-footer: #121F44;
     /* COLORS NAMES */
-    --hero-text: #F9E4CB;
+    --hero-text: #BDCADD;
     /* HEADER COLORS */
     --links-color1: red;
     --header-links: #355C36;

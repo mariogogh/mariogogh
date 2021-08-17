@@ -36,23 +36,6 @@
     padding-right: 24px;
 }
 
-.card2 {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    heigh: 100vh;
-    padding-top: 32px;
-    padding-bottom: 64px;
-    background: #pink;
-    justify-content: space-between;
-    padding-left: 24px;
-    padding-right: 24px;
-    transition: opacity 0.2s ease-in-out;
-    transition: transform 0.9s ease;
-    opacity: 1;
-    scale: (1.9);
-}
-
 .card2 img {
     width: 70%;
     height: 100vh;
