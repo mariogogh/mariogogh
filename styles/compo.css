@@ -378,11 +378,11 @@ html {
     }
     .type-L h2 {
         text-align: left;
-        font-size: 9.7em;
+        font-size: 31.7vh;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 9.7em;
+        font-size: 31.7vh;
     }
     .type-R {
         width: 100%;
@@ -421,11 +421,11 @@ html {
     .type-L h2 {
         top: 68%;
         text-align: left;
-        font-size: 12.7em;
+        font-size: 20.7vh;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 12.7em;
+        font-size: 20.7vh;
     }
     .caption {
         padding-left: 88px;
