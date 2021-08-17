@@ -16,9 +16,10 @@
 }
 
 .Desktop {
-    font-size: 14px;
+    font-size: 16px;
     color: var(--main-100);
-    font-weight: 400;
+    font-weight: 600;
+    font-family: var(--hero-font-2);
 }
 
 .cover img {
@@ -146,6 +147,8 @@
     .mobile {
         display: block;
         font-size: 14px;
+        font-weight: 600;
+        font-family: var(--hero-font-2);
     }
     .mobile .main-hero-img2 {
         position: relative;
