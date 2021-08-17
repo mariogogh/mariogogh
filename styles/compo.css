@@ -243,7 +243,7 @@ html {
     }
     .type-L {
         width: 100%;
-        top: 18%;
+        top: 12%;
     }
     .type-R {
         width: 100%;
@@ -251,11 +251,11 @@ html {
     }
     .type-L h2 {
         text-align: left;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .caption {
         top: 5%;
@@ -272,15 +272,15 @@ html {
     }
     .type-L {
         width: 100%;
-        top: 15%;
+        top: 14%;
     }
     .type-L h2 {
         text-align: left;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .caption {
         top: 5%;
@@ -297,11 +297,11 @@ html {
     }
     .type-L h2 {
         text-align: left;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 26vw;
+        font-size: 30vw;
     }
     .caption {
         top: 5%;
@@ -310,7 +310,7 @@ html {
         width: 100%;
         justify-content: left;
         position: absolute;
-        top: 199%;
+        top: 149%;
         right: 0%;
         left: -3%;
         padding: 16px;
@@ -339,7 +339,7 @@ html {
     }
     .type-L {
         width: 100%;
-        top: 22%;
+        top: 25%;
     }
     .type-R {
         width: 100%;
@@ -371,18 +371,18 @@ html {
         justify-content: left;
         position: absolute;
         top: -3%;
-        right: 0%;
-        left: -3%;
+        right: 90%;
+        left: -10%;
         padding: 16px;
         align-items: flex-end;
     }
     .type-L h2 {
         text-align: left;
-        font-size: 31.7vh;
+        font-size: 42.7vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 31.7vh;
+        font-size: 42.7vw;
     }
     .type-R {
         width: 100%;
@@ -390,8 +390,8 @@ html {
         position: absolute;
         text-align: center;
         top: 56%;
-        right: 0%;
-        left: -2%;
+        right: 78%;
+        left: -0%;
         padding: 16px;
         align-items: flex-end;
     }
@@ -417,15 +417,15 @@ html {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width:375px) {
     .type-L h2 {
         top: 68%;
         text-align: left;
-        font-size: 20.7vh;
+        font-size: 35.7vw;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 20.7vh;
+        font-size: 35.7vw;
     }
     .caption {
         padding-left: 88px;
