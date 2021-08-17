@@ -247,7 +247,7 @@ html {
     }
     .type-R {
         width: 100%;
-        top: 42%;
+        top: 48%;
     }
     .type-L h2 {
         text-align: left;
@@ -404,7 +404,7 @@ html {
         color: white;
         padding: 4px;
         right: 0%;
-        left: 0px;
+        left: 64px;
         padding-left: 24px;
         top: 60%;
     }
@@ -426,6 +426,9 @@ html {
     .type-R h2 {
         text-align: right;
         font-size: 7.4em;
+    }
+    .caption {
+        padding-left: 88px;
     }
     .GlobalPadding {
         padding: 2%;
