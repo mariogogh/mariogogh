@@ -406,7 +406,7 @@ html {
         right: 0%;
         left: 64px;
         padding-left: 24px;
-        top: 60%;
+        top: 52%;
     }
     .caption p {
         color: white;
@@ -421,11 +421,11 @@ html {
     .type-L h2 {
         top: 68%;
         text-align: left;
-        font-size: 7.4em;
+        font-size: 9.4em;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 7.4em;
+        font-size: 9.4em;
     }
     .caption {
         padding-left: 88px;
