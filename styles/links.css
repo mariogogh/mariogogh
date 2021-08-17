@@ -2,12 +2,11 @@
     display: inline-block;
     color: var(--main-90);
     border-bottom: 1px solid var(--hero-text);
+    ;
 }
 
 .link-only {
-    display: inline-block;
     color: var(--main-90);
-    border-bottom: 1px solid var(--hero-text) opacity 3%;
 }
 
 .link-only:active {
@@ -18,8 +17,20 @@
 
 .link-only:hover {
     display: inline-block;
-    opacity: 90%;
-    border-bottom: 1px solid var(--hero-text);
+    opacity: 100%;
+    text-decoration: underline 1px solid var(--main-100);
+}
+
+.link-only.button:hover {
+    display: inline-block;
+    opacity: 60%;
+    text-decoration: underline 0px solid var(--main-w-100);
+}
+
+.link-only.a:hover {
+    display: inline-block;
+    opacity: 60%;
+    text-decoration: underline 0px solid var(--main-w-100);
 }
 
 
