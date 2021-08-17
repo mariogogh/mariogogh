@@ -370,7 +370,7 @@ html {
         width: 100%;
         justify-content: left;
         position: absolute;
-        top: -1%;
+        top: -3%;
         right: 0%;
         left: -3%;
         padding: 16px;
@@ -389,7 +389,7 @@ html {
         justify-content: right;
         position: absolute;
         text-align: center;
-        top: 68%;
+        top: 56%;
         right: 0%;
         left: -2%;
         padding: 16px;
@@ -406,7 +406,7 @@ html {
         right: 0%;
         left: 64px;
         padding-left: 24px;
-        top: 52%;
+        top: 48%;
     }
     .caption p {
         color: white;
@@ -421,11 +421,11 @@ html {
     .type-L h2 {
         top: 68%;
         text-align: left;
-        font-size: 9.4em;
+        font-size: 9.7em;
     }
     .type-R h2 {
         text-align: right;
-        font-size: 9.4em;
+        font-size: 9.7em;
     }
     .caption {
         padding-left: 88px;
