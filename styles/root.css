@@ -138,6 +138,7 @@ span4 {
 
 .bg-black h1 {
     color: var(--main-w-100);
+    padding-top: 43px;
     z-index: 2;
 }
 
