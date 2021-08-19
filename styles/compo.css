@@ -1,20 +1,18 @@
 body {
-    background: var(--hero-text);
-    transition: background 5s ease;
+    background: var(--bg-footer);
+    transition: background 1s ease;
     color: var(--main-100);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility !important;
-    font-family: var(--main-font), var(--hero-font) sans-serif;
+    font-family: var(--main-font), var(--hero-font), var(--hero-font-2) sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+::-webkit-scrollbar {}
 
 .GlobalPadding {
     padding: 8%;
