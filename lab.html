@@ -30,6 +30,16 @@
 
         gtag("config", "UA-179017903-1");
     </script>
+    <script>
+        AOS.init({
+            startEvent: 'load'
+        });
+
+        $(window).on('load', function() {
+            AOS.refresh();
+        });
+    </script>
+
     <!-- Primary Meta Tags -->
     <!-- COMMON TAGS -->
     <meta charset="utf-8">
