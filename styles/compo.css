@@ -12,6 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .GlobalPadding {
     padding: 8%;
     margin: auto;
