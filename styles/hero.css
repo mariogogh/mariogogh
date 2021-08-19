@@ -17,6 +17,7 @@
 .random-img {
     object-fit: cover;
     margin: 0;
+    opacity: 90%;
     background-size: cover;
 }
 
