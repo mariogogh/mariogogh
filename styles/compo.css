@@ -223,6 +223,7 @@ html {
 .caption {
     position: absolute;
     justify-content: center;
+    color: var (--bg-footer);
     display: flex;
     height: 65px;
     right: 72.6%;
@@ -230,7 +231,7 @@ html {
 }
 
 .caption p {
-    color: var (--hero-text);
+    color: var (--bg-footer);
     font-size: 16px;
     transform: rotate(-15deg);
 }

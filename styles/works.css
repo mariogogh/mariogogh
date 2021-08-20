@@ -14,6 +14,18 @@
     background: var(--lab);
 }
 
+.hero-about .caption p {
+    color: var(--bg-footer);
+}
+
+.hero-lab .caption p {
+    color: var(--bg-footer);
+}
+
+.hero-work .caption p {
+    color: var(--bg-footer);
+}
+
 .hero-work-link .button:focus {
     border-bottom: 2px solid var(--work);
 }

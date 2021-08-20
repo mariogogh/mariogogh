@@ -16,9 +16,12 @@
 }
 
 .Desktop {
-    font-size: 16px;
-    color: var(--main-100);
+    font-size: 18px;
+    color: var(--bg-footer);
     font-weight: 600;
+    background: var(--hero-text);
+    padding: 8px;
+    border-radius: 30px;
     font-family: var(--hero-font-2);
 }
 
@@ -149,10 +152,15 @@
         font-size: 14px;
         font-weight: 600;
         font-family: var(--hero-font-2);
+        color: var(--bg-footer);
+        font-weight: 600;
+        background: var(--hero-text);
+        padding: 10px;
+        border-radius: 30px;
     }
     .mobile .main-hero-img2 {
         position: relative;
-        top: -2;
+        top: 0;
     }
     .home-cover p {
         font-size: 18px;

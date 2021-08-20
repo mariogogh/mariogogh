@@ -11,15 +11,16 @@ header {
     margin: 0 auto;
     font-size: 12px;
     z-index: 1;
+    transition-delay: 2.5s;
 }
 
 .box-logo {
     width: 50%;
     height: 50%;
-    font-size: 14px;
-    padding-top: 14px;
+    padding-top: 4px;
     padding-left: 1.2vw;
     padding-bottom: 0px;
+    position: relative;
     background: var(--main-w-100);
 }
 
@@ -42,7 +43,7 @@ header {
     top: -64px;
     display: block;
     width: 100%;
-    height: 46px;
+    height: 48px;
     transition: top 0.9s;
     /* Transition effect when sliding down (and up) */
     display: block;
@@ -104,10 +105,10 @@ header div {
     .box-logo {
         width: 74%;
         height: 32px;
-        padding: 4%;
+        padding: 0%;
         padding-left: 6.9vw;
         position: relative;
-        top: 6px;
+        top: -2px;
         padding-top: 2px;
     }
 }
