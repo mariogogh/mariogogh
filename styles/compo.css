@@ -12,7 +12,26 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.434);
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0);
+}
 
 .GlobalPadding {
     padding: 8%;
