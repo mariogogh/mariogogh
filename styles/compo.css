@@ -1,5 +1,5 @@
 body {
-    background: var(--bg-footer);
+    background: var(--main-w-100);
     transition: background 1s ease;
     color: var(--main-100);
     -webkit-font-smoothing: antialiased;
@@ -16,7 +16,7 @@ html {
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0);
+    background: transparent;
 }
 
 
