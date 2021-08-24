@@ -18,12 +18,13 @@
     --main-w-25: #84898D;
     --main-w-5: #656C77;
     /* PAGE COLORS */
-    --work: #ED2525;
-    --about: #ED2525;
-    --lab: #ED2525;
-    --bg-footer: #0F2575;
+    --work: #29468B;
+    --about: #29468B;
+    --lab: #29468B;
+    --bg-footer: #0F1E41;
     /* COLORS NAMES */
-    --hero-text: #FFA7E1;
+    --hero-text: #ffffff;
+    --hero-accent: #B8C6DB;
     /* HEADER COLORS */
     --links-color1: red;
     --header-links: #355C36;

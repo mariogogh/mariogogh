@@ -7,38 +7,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://cdn.jsdelivr.net/npm/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G09KW2NXF9"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
 
-        gtag("config", "G-G09KW2NXF9");
-    </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-
-        gtag("config", "UA-179017903-1");
-    </script>
-    <script>
-        AOS.init({
-            startEvent: 'load'
-        });
-
-        $(window).on('load', function() {
-            AOS.refresh();
-        });
-    </script>
 
     <!-- Primary Meta Tags -->
     <!-- HTML Meta Tags -->
@@ -100,7 +73,7 @@
     <!-- STYLE-->
     <!-- STYLE -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <script src="https://use.fontawesome.com/a8ffa83bf4.js"></script>
+
     <link rel="stylesheet" href="styles/global.css" />
     <!-- STYLE-->
     <!-- STYLE -->
@@ -108,10 +81,13 @@
 
 <!-- AOS ANIMATION-->
 
+
+
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 <body>
+
     <!-- HEADER SCRIPT -->
     <script>
         AOS.init();
@@ -124,16 +100,18 @@
 
         function scrollFunction() {
             if (
-                document.body.scrollTop > 20 ||
-                document.documentElement.scrollTop > 20
+                document.body.scrollTop > 40 ||
+                document.documentElement.scrollTop > 40
             ) {
-                document.getElementById("navbar").style.top = "0";
+                document.getElementById("navbar").style.top = "0px";
+                // WHE THE NAVBAR RETURNS
             } else {
-                document.getElementById("navbar").style.top = "-100px";
+                document.getElementById("navbar").style.top = "-400px";
             }
         }
     </script>
 
+    <!-- HEADER SCRIPT -->
 
 
 
@@ -837,7 +815,7 @@
 
             <div class=" box-L " data-aos="fade-right ">
                 <div class="space100 "></div>
-                <h2>
+                <h2 class="accent">
                     ✹
                 </h2>
                 <div class="space50 "></div>

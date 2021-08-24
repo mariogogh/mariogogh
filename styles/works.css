@@ -15,15 +15,19 @@
 }
 
 .hero-about .caption p {
-    color: var(--bg-footer);
+    color: var(--hero-accent);
 }
 
 .hero-lab .caption p {
-    color: var(--bg-footer);
+    color: var(--hero-accent);
 }
 
 .hero-work .caption p {
-    color: var(--bg-footer);
+    color: var(--hero-accent);
+}
+
+.accent {
+    color: var(--hero-accent);
 }
 
 .hero-work-link .button:focus {
@@ -68,7 +72,7 @@
 }
 
 .workslide-work span1 {
-    color: var( --hero-text);
+    color: var(--hero-accent);
 }
 
 .workslide-work p {

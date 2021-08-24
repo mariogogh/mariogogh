@@ -15,7 +15,6 @@
 @import "/styles/scroll.js";
 @import "/styles/script.js";
 @import "/styles/gallery.css";
-@import "/styles/carousel.css";
 @import "/styles/root.css";
 @import "/styles/images.css";
 @import "/styles/home-cover.css";
@@ -23,6 +22,5 @@
 @import "/styles/mansory.css";
 @import "/styles/masonry-lab.css";
 @import url("https://use.typekit.net/grn6fkm.css");
-@import ".htaccess";
 
 /* CSS files add styling rules to your content */
