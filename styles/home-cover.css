@@ -19,7 +19,6 @@
     font-size: 18px;
     color: var(--bg-footer);
     font-weight: 600;
-    background: var(--hero-text);
     padding: 8px;
     border-radius: 30px;
     font-family: var(--hero-font-2);
@@ -154,8 +153,7 @@
         font-family: var(--hero-font-2);
         color: var(--bg-footer);
         font-weight: 600;
-        background: var(--hero-text);
-        padding: 10px;
+        padding: 6px;
         border-radius: 30px;
     }
     .mobile .main-hero-img2 {

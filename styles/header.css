@@ -17,11 +17,10 @@ header {
 .box-logo {
     width: 50%;
     height: 50%;
-    padding-top: 4px;
     padding-left: 1.2vw;
+    padding-top: 4px;
     padding-bottom: 0px;
     position: relative;
-    background: var(--main-w-100);
 }
 
 .box-links {
@@ -108,7 +107,5 @@ header div {
         padding: 0%;
         padding-left: 6.9vw;
         position: relative;
-        top: -2px;
-        padding-top: 2px;
     }
 }
