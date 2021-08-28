@@ -1,0 +1,21 @@
+.hero_2 {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    background: #008559;
+    z-index: 1;
+    position: sticky;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    margin: auto;
+}
+
+.hero_image_A {
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
