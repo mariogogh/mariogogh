@@ -153,9 +153,9 @@
 
 .bg-div-all {
     background: var( --hero-text);
-    z-index: 1;
+    z-index: 331;
     position: sticky;
-    transition: background 5s ease;
+    background: var(--work);
 }
 
 .img-small-right {

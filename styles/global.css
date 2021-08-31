@@ -1,6 +1,7 @@
 /* Todos os arquivos de css */
 
 @import "/styles/reset.css";
+@import "/styles/thumbs.css";
 @import "/styles/compo.css";
 @import "/styles/works.css";
 @import "/styles/svg.css";
