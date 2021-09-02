@@ -1,45 +1,73 @@
 .thumb_section {
     width: 100%;
     height: 100%;
-    background: red;
     display: flex;
 }
 
 .thumb {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    background: rgb(0, 255, 187);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.thumb-L {
+    width: 95%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-right: 0px;
+    padding-left: 0px;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    z-index: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.thumb-R {
+    width: 95%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-right: 0px;
+    padding-left: 0px;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    z-index: 0;
+    position: relative;
+    cursor: pointer;
 }
 
 .thumb-img {}
 
 .thumbnail {
     display: inline-block;
-    width: 50%;
-    height: 100%;
     background-size: cover;
-    padding-right: 32px;
+    margin-right: 32px;
 }
 
 .thumbnail img {
     width: 50%;
     background-size: cover;
+    margin-right: 32px;
 }
 
 .figure_img {
+    width: 100%;
     opacity: 1;
     background-size: cover;
-    position: relative;
+    position: absolute;
     display: inline-block;
 }
 
 .figure_gif {
+    width: 100%;
     opacity: 0;
     background-size: cover;
     position: absolute;
+    display: inline-block;
 }
 
 .figure_img:hover {
@@ -52,8 +80,12 @@
 
 .thumb_info {
     width: 100%;
-    padding-top: 65%;
-    background: red;
+    padding-top: 85%;
     display: flex;
     align-items: flex-end;
+}
+
+.thumb_info P {
+    padding-top: 16px;
+    padding-left: 24px;
 }
