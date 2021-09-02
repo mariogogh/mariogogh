@@ -100,10 +100,13 @@ a:link svg-right-fixed {
 
 .fixed_back {
     left: 24px;
-    bottom: 24px;
+    top: 24px;
     z-index: 3;
     position: fixed;
     align-items: flex-end;
     transition: top 5s;
     cursor: pointer;
+    fill: red;
+    background: red;
+    border-radius: 100px;
 }
