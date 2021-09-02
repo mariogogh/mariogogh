@@ -97,3 +97,13 @@ a:link svg-right-fixed {
     text-decoration: none;
     opacity: 100%;
 }
+
+.fixed_back {
+    left: 24px;
+    bottom: 24px;
+    z-index: 3;
+    position: fixed;
+    align-items: flex-end;
+    transition: top 5s;
+    cursor: pointer;
+}
