@@ -173,6 +173,20 @@
     position: relative;
 }
 
+.box-R-2collumn {
+    width: 25%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 32px;
+    padding-right: 12%;
+    display: block;
+    align-items: flex-start;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    z-index: 0;
+    position: relative;
+}
+
 .box-R-img {
     width: 60%;
 }

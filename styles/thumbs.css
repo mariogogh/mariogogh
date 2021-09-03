@@ -88,6 +88,8 @@
 
 .thumb_info h1 {
     padding-top: 0%;
+    position: relative;
+    left: -1%;
 }
 
 @media (max-width: 600px) {
@@ -103,5 +105,13 @@
     .thumb_info h1 {
         padding-top: 2%;
         padding-left: -1%;
+    }
+    .thumb-R {
+        width: 90%;
+        align-items: center;
+    }
+    .thumb-L {
+        width: 90%;
+        align-items: center;
     }
 }
