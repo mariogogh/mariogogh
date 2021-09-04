@@ -110,3 +110,11 @@ a:link svg-right-fixed {
     background: red;
     border-radius: 100px;
 }
+
+@media (max-width: 600px) {
+    .svg-line-bar {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 9px;
+    }
+}
