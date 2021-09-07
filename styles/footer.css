@@ -1,6 +1,49 @@
 .section-footer {
     z-index: 2;
     position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0px;
+}
+
+.section-footer p {
+    font-size: 14px;
+}
+
+.section-footer a {
+    font-size: 14px;
+}
+
+.padding-footer .content-in-line {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.box1 {
+    width: 50%;
+    display: flex;
+    padding-right: 24px;
+}
+
+.box2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+.padding-footer {
+    padding: 0px;
+}
+
+.footer-links {
+    padding-right: 0px;
 }
 
 .footer br {
