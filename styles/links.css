@@ -76,6 +76,21 @@ a:active {
     color: #000000;
 }
 
+.button .white:hover {
+    color: #ffffff;
+    opacity: 85%;
+}
+
+.white:hover {
+    color: #ffffff;
+    opacity: 85%;
+}
+
+.button .white:hover {
+    font-size: 20px;
+    color: #ffffff;
+}
+
 @media (max-width: 600px) {
     br p {
         display: none;

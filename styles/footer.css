@@ -7,6 +7,10 @@
     padding: 0px;
 }
 
+.box1 br {
+    display: none;
+}
+
 .section-footer p {
     font-size: 14px;
 }
@@ -35,7 +39,7 @@
 
 .uppercase {
     text-transform: uppercase;
-    color: blueviolet;
+    color: var (--main-50)
 }
 
 .padding-footer {
@@ -199,11 +203,37 @@
 
 @media (max-width: 600px) {
     .section-footer {
-        justify-content: space-between;
+        z-index: 2;
+        position: sticky;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-items: stretch;
+        padding: 24px;
+    }
+    .section-footer p {
+        font-size: 14px;
+    }
+    .section-footer a {
+        font-size: 14px;
+    }
+    .box1 {
         width: 100%;
-        height: 45vh;
-        padding-left: 0px;
-        padding-right: 0px;
+        display: block;
+        padding-right: 24px;
+        padding-bottom: 64px;
+    }
+    .box1 br {
+        display: show;
+    }
+    .box2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 64px;
+    }
+    .box2 a {
+        padding-right: 24px;
     }
     .footer {
         width: 100%;
@@ -234,7 +264,7 @@
         height: 48px;
     }
     .wide br {
-        display: flex;
+        display: inline;
     }
     .links:last-child {
         padding-left: 48px;

@@ -24,7 +24,6 @@
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
-    margin-right: 322px;
 }
 
 .thumb-R {
@@ -110,10 +109,12 @@
     }
     .thumb-R {
         width: 100%;
+        height: 100%;
         align-items: center;
     }
     .thumb-L {
         width: 100%;
+        height: 100%;
         align-items: center;
     }
 }
