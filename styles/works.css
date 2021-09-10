@@ -4,6 +4,7 @@
 
 .hero-work {
     background: var(--work);
+    color: var(--hero-accent);
 }
 
 .hero-about {
@@ -76,19 +77,31 @@
 }
 
 .workslide-work p {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-work a {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
+}
+
+.workslide-work .button {
+    color: var(--main-w-100);
 }
 
 .workslide-work svg {
-    color: var( --main-w-100);
+    fill: var( --main-w-100);
 }
 
 .workslide-work a:visited {
     color: var( --main-w-100);
+}
+
+.workslide-work a:link {
+    color: var(--main-w-100);
+}
+
+.workslide-work a:hover {
+    color: white;
 }
 
 .workslide-lab {

@@ -12,28 +12,31 @@
     transition: transform 0.9s ease;
     flex-direction: column;
     justify-content: space-between;
-    cursor: pointer;
+    cursor: var(--cursor);
     z-index: 0;
 }
 
 .thumb-L {
-    width: 95%;
+    width: 100%;
     height: 100%;
     padding-right: 0px;
     padding-left: 0px;
+    margin-right: 300px;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
+    cursor: var(--cursor);
 }
 
 .thumb-R {
-    width: 95%;
+    width: 100%;
     height: 100%;
     padding-right: 0px;
     padding-left: 0px;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
+    cursor: var(--cursor);
 }
 
 .thumbnail {
@@ -43,14 +46,14 @@
 }
 
 .thumbnail img {
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-size: cover;
     margin-right: 32px;
 }
 
 .figure_img {
-    width: 100%;
+    width: 99%;
     opacity: 1;
     background-size: cover;
     position: absolute;
@@ -58,7 +61,7 @@
 }
 
 .figure_gif {
-    width: 100.1%;
+    width: 99.1%;
     opacity: 0;
     background-size: cover;
     position: absolute;

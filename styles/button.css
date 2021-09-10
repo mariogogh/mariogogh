@@ -24,6 +24,10 @@
     /* or 33px */
 }
 
+.button-white {
+    color: var(--hero-text);
+}
+
 svg:hover {
     fill-opacity: "1.9";
 }

@@ -1,5 +1,6 @@
 .section-footer {
     z-index: 2;
+    height: 24px;
     position: sticky;
     display: flex;
     flex-direction: row;
@@ -17,6 +18,7 @@
 
 .section-footer a {
     font-size: 14px;
+    color: var(--main-50);
 }
 
 .padding-footer .content-in-line {
@@ -39,7 +41,7 @@
 
 .uppercase {
     text-transform: uppercase;
-    color: var (--main-50)
+    color: var(--main-100);
 }
 
 .padding-footer {
