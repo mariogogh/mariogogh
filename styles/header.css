@@ -15,10 +15,9 @@ header {
 }
 
 .box-logo {
-    width: 50%;
     height: 50%;
-    padding-left: 1.2vw;
-    padding-top: 4px;
+    padding-left: 8.2vw;
+    padding-top: 11px;
     padding-bottom: 0px;
     position: relative;
 }
@@ -101,9 +100,8 @@ header div {
         width: 36px;
     }
     .box-logo {
-        width: 74%;
-        height: 32px;
-        padding: 0%;
+        height: 35px;
+        padding: 2%;
         padding-left: 6.9vw;
         position: relative;
     }

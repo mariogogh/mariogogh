@@ -91,6 +91,8 @@ a.svg-link: focus {
     position: fixed;
     align-items: flex-end;
     transition: top 5s;
+    cursor: pointer;
+    fill: #0F1E40;
 }
 
 a:link svg-right-fixed {
@@ -100,7 +102,7 @@ a:link svg-right-fixed {
 
 .fixed_back {
     left: 24px;
-    top: 24px;
+    bottom: 24px;
     z-index: 1;
     position: fixed;
     align-items: flex-end;
