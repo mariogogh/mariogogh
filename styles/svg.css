@@ -101,14 +101,13 @@ a:link svg-right-fixed {
 }
 
 .fixed_back {
+    z-index: 13;
     left: 24px;
-    bottom: 24px;
-    z-index: 1;
-    position: fixed;
+    bottom: 56px;
+    position: relative;
     align-items: flex-end;
     transition: top 5s;
     cursor: pointer;
-    transition: top 5s;
     border-radius: 100px;
 }
 
@@ -117,5 +116,16 @@ a:link svg-right-fixed {
         padding-left: 24px;
         padding-right: 24px;
         height: 9px;
+    }
+    .fixed_back {
+        z-index: 13;
+        left: 24px;
+        bottom: 56px;
+        top: 24px;
+        position: relative;
+        align-items: flex-end;
+        transition: top 5s;
+        cursor: pointer;
+        border-radius: 100px;
     }
 }
