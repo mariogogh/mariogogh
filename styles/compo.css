@@ -19,13 +19,12 @@ html {
     transition: background 5s ease;
 }
 
-
-}
 img {
     opacity: 1;
     transition: transform 0.5s ease;
     cursor: var(--cursor-img);
 }
+
 .all-content {
     margin: 0 auto;
     transition: background 5s ease;
@@ -34,26 +33,32 @@ img {
     align-items: center;
     display: flex;
 }
+
 .space300 {
     width: 100%;
     height: 300px;
 }
+
 .space200 {
     width: 100%;
     height: 200px;
 }
+
 .space100 {
     width: 100%;
     height: 100px;
 }
+
 .space50 {
     width: 100%;
     height: 50px;
 }
+
 .space24 {
     width: 100%;
     height: 24px;
 }
+
 .arrow {
     width: 90%;
     margin: 0 auto;
@@ -64,55 +69,71 @@ img {
     align-items: center;
 }
 
+
 /* Os itens não se expandem para ocupar o container. */
+
 .grow0 {
     flex-grow: 0;
 }
 
+
 /* Os itens se expandem igualmente para ocupar o container. Utilizando apenas o flex-grow, o crescimento é distribuído igualmente antes e depois do conteúdo de cada elemento. (pois por padrão o flex-basis é auto) */
+
 .grow1 {
     flex-grow: 1;
 }
 
+
 /* Os itens se expandem duas vezes mais que aqueles com flex-grow: 1; */
+
 .grow2 {
     flex-grow: 2;
 }
+
 * {
     box-sizing: border-box;
 }
+
 .arrow :last-child {
     padding: 200px;
 }
+
 .hero .card :first-child {
     padding-right: 32px;
 }
+
 .card-image {
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
     position: relative;
 }
+
 .info {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     padding-top: 16px;
 }
+
 .color1 {
     background: #EE4DA2;
 }
+
 .color2 {
     background: #ffffff;
 }
+
 .color3 {
     background: #EFB8D5;
 }
+
 .card-image-hero {
     width: 50%;
     height: auto;
     padding-top: 48px;
 }
+
 .hero3 {
     width: 100%;
     height: auto;
@@ -121,46 +142,45 @@ img {
     text-align: left;
     flex-direction: row;
 }
+
 @media (max-width: 600px) {
     .GlobalPadding {
         padding: 4%;
         margin: auto;
     }
-    
     .space300 {
         width: 100%;
         height: 150px;
     }
-    
     .space200 {
         width: 100%;
         height: 100px;
     }
-    
     .space100 {
         width: 100%;
         height: 50px;
     }
-    
     .space50 {
         width: 100%;
         height: 24px;
     }
-    
     .space24 {
         width: 100%;
         height: 12px;
     }
 }
+
 html.has-scroll-smooth {
     overflow: hidden;
 }
+
 html.has-scroll-dragging {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
+
 .newheader {
     display: flex;
     width: 100%;
@@ -174,6 +194,7 @@ html.has-scroll-dragging {
     transition: background 5s ease;
     overflow: hidden;
 }
+
 .type-L {
     position: absolute;
     width: 100vw;
@@ -186,6 +207,7 @@ html.has-scroll-dragging {
     display: flex;
     align-items: flex-start;
 }
+
 .type-R {
     width: 100vw;
     position: absolute;
@@ -195,6 +217,7 @@ html.has-scroll-dragging {
     padding: 16px;
     align-items: flex-end;
 }
+
 .caption {
     position: absolute;
     justify-content: center;
@@ -204,11 +227,13 @@ html.has-scroll-dragging {
     right: 72.6%;
     top: 9%;
 }
+
 .caption p {
     font-size: 16px;
     transform: rotate(-15deg);
     color: var(--hero-accent);
 }
+
 @media (max-width: 1440px) {
     .newheader {
         width: 100%;
@@ -217,31 +242,27 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
-    
     .type-L {
         width: 100%;
         top: 12%;
     }
-    
     .type-R {
         width: 100%;
         top: 48%;
     }
-    
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
-    
     .caption {
         top: 5%;
     }
 }
+
 @media (max-width: 1366px) {
     .newheader {
         width: 100%;
@@ -250,26 +271,23 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
-    
     .type-L {
         width: 100%;
         top: 14%;
     }
-    
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
-    
     .caption {
         top: 5%;
     }
 }
+
 @media (max-width: 1024px) {
     .newheader {
         width: 100%;
@@ -278,21 +296,17 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
-    
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
-    
     .caption {
         top: 5%;
     }
-    
     .type-L {
         width: 100%;
         justify-content: left;
@@ -303,7 +317,6 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
-    
     .type-R {
         width: 100%;
         justify-content: right;
@@ -316,6 +329,7 @@ html.has-scroll-dragging {
         align-items: flex-end;
     }
 }
+
 @media (max-width: 1280px) {
     .newheader {
         width: 100%;
@@ -324,31 +338,27 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
-    
     .type-L {
         width: 100%;
         top: 25%;
     }
-    
     .type-R {
         width: 100%;
         top: 48%;
     }
-    
     .type-L h2 {
         text-align: left;
         font-size: 26vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 26vw;
     }
-    
     .caption {
         top: 5%;
     }
 }
+
 @media (max-width: 600px) {
     .newheader {
         width: 100%;
@@ -357,7 +367,6 @@ html.has-scroll-dragging {
         justify-content: space-around;
         align-items: flex-end;
     }
-    
     .type-L {
         width: 100%;
         justify-content: left;
@@ -368,17 +377,14 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
-    
     .type-L h2 {
         text-align: left;
         font-size: 42.7vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 42.7vw;
     }
-    
     .type-R {
         width: 100%;
         justify-content: right;
@@ -390,7 +396,6 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
-    
     .caption {
         position: none;
         justify-content: left;
@@ -404,32 +409,28 @@ html.has-scroll-dragging {
         padding-left: 24px;
         top: 48%;
     }
-    
     .caption p {
         color: white;
         font-size: 16px;
     }
-    
     .remove br {
         display: none;
     }
 }
+
 @media (max-width:375px) {
     .type-L h2 {
         top: 68%;
         text-align: left;
         font-size: 35.7vw;
     }
-    
     .type-R h2 {
         text-align: right;
         font-size: 35.7vw;
     }
-    
     .caption {
         padding-left: 88px;
     }
-    
     .GlobalPadding {
         padding: 2%;
         margin: auto;
