@@ -33,6 +33,13 @@ h1 {
     letter-spacing: -0.06em;
 }
 
+span19 {
+    font-size: 2vw;
+    left: -16px;
+    vertical-align: text-top;
+    position: relative;
+}
+
 
 /* HERO HUGE FONT */
 
@@ -160,6 +167,11 @@ h9 {
 @media (max-width: 600px) {
     h1 {
         font-size: 9vw;
+    }
+    span19 {
+        font-size: 4vw;
+        left: -10px;
+        position: relative;
     }
     h3 {
         font-size: 5vw;
