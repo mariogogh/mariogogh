@@ -1,8 +1,8 @@
-@import url("https://use.typekit.net/grn6fkm.css");
+@import url("https://use.typekit.net/ret3spf.css");
 :root {
     --main-font: acumin-pro, sans-serif;
     --hero-font: acumin-pro-wide, sans-serif;
-    --hero-font-2: gopher, sans-serif;
+    --body-font: acumin-pro, sans-serif;
     /* BLACK */
     --main-100: #000000;
     --main-50: #808080;
@@ -18,11 +18,11 @@
     --main-w-25: #84898D;
     --main-w-5: #656C77;
     /* PAGE COLORS FINAL */
+    --hero: #000000;
     --work: #1A2035;
     --about: #1A2035;
     --lab: #1A2035;
     --bg-footer: #1A2035;
-    --hero: #000000;
     /* COLORS NAMES */
     --hero-text: #FFFFFF;
     --hero-accent: #FFFFFF;

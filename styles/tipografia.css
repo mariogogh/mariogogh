@@ -1,17 +1,17 @@
 p {
     color: var(--main-100);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
-    line-height: 160%;
+    line-height: 175%;
     /* or 33px */
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
 }
 
 .paragraph {
     color: var(--main-100);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-style: 400;
     font-size: 40px;
     line-height: 130%;
@@ -19,9 +19,10 @@ p {
 }
 
 span6 {
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-weight: 600;
     text-decoration: bold;
+    line-height: 200%;
 }
 
 h1 {
@@ -30,7 +31,7 @@ h1 {
     font-weight: 400;
     font-size: 5vw;
     line-height: 124%;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.05em;
 }
 
 span19 {
@@ -105,7 +106,7 @@ h9 {
 
 .about {
     color: var(--main-50);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-weight: 800;
     font-style: normal;
     font-size: 24px;
@@ -116,7 +117,7 @@ h9 {
 
 .legenda {
     color: var(--main-100);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-weight: 800;
     font-style: normal;
     font-size: 24px;
@@ -127,7 +128,7 @@ h9 {
 }
 
 .title {
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     color: var(--main-50%);
     font-weight: regular;
     font-size: 18px;
@@ -136,7 +137,7 @@ h9 {
 }
 
 .about-bold {
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-style: normal;
     font-weight: bold;
     font-style: normal;
@@ -148,12 +149,12 @@ h9 {
 
 .p-bold {
     color: var(--main-100);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-style: Bold;
 }
 
 .bold {
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-weight: bold;
 }
 
@@ -195,7 +196,7 @@ h9 {
     }
     .paragraph {
         color: var(--main-100);
-        font-family: var(--main-font);
+        font-family: var(--body-font);
         font-style: regular;
         font-weight: 400;
         font-size: 26px;
