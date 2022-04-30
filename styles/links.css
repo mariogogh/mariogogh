@@ -36,6 +36,12 @@
 
 /* unvisited link */
 
+.featured a:link {
+    text-decoration: underline;
+    text-decoration: 0.03em color #ff0000;
+    text-decoration-thickness: 1px;
+}
+
 a:link {
     text-decoration: none;
     opacity: 85%;

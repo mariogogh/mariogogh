@@ -280,6 +280,9 @@
         text-align: left;
         flex-direction: column;
     }
+    .content-full-screen .section-hero-elements h1 {
+        padding: 0px;
+    }
     .content-full-screen {
         padding-left: 24px;
         padding-right: 24px;

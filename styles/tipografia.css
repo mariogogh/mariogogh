@@ -3,8 +3,8 @@ p {
     font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 175%;
+    font-size: 18px;
+    line-height: 148%;
     /* or 33px */
     letter-spacing: -0.02em;
 }
@@ -28,15 +28,15 @@ span6 {
 h1 {
     color: var(--main-100);
     font-family: var(--hero-font);
-    font-weight: 400;
+    font-weight: 100;
     font-size: 5vw;
-    line-height: 124%;
-    letter-spacing: -0.05em;
+    line-height: 100%;
+    letter-spacing: -0.07em;
 }
 
 span19 {
-    font-size: 2vw;
-    left: -16px;
+    font-size: 1.4vw;
+    left: 1%;
     vertical-align: text-top;
     position: relative;
     letter-spacing: -0.05em;
@@ -160,7 +160,7 @@ h9 {
 
 .eyebrown {
     color: var(--eyebrown);
-    font-size: 16px;
+    font-size: 12px;
     padding-bottom: 16px;
     font-weight: 400;
     letter-spacing: 0.0em;
@@ -172,7 +172,8 @@ h9 {
     }
     span19 {
         font-size: 4vw;
-        left: -10px;
+        left: 1%;
+        top: 4px;
         position: relative;
     }
     h3 {
@@ -206,7 +207,7 @@ h9 {
     }
     .eyebrown {
         color: var(--eyebrown);
-        font-size: 14px;
+        font-size: 12px;
         padding-bottom: 16px;
         font-weight: regular;
         letter-spacing: 0.0em;

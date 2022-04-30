@@ -1,14 +1,13 @@
 .navbar .button {
     font-size: 18px;
     font-weight: semi-bold;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.04em;
     text-decoration: none;
 }
 
 .navbar .active {
-    font-size: 18px;
     font-weight: bold;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.04em;
     text-decoration: none;
     color: var(--main-100);
 }
@@ -18,10 +17,10 @@
     font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    letter-spacing: -0.01em;
+    font-size: 18px;
+    letter-spacing: -0.04em;
     border-bottom: 1px solid transparent;
-    text-decoration: none;
+    text-decoration: underline;
     /* or 33px */
 }
 
@@ -44,8 +43,10 @@ svg:hover {
 /* mouse over link */
 
 .button:hover {
-    color: var(--main-100);
+    color: var(--main-50);
     opacity: 0.8;
+    transition: color 1s;
+    transition: border-bottom 1s;
     border-bottom: 1px solid var(--hero-text);
 }
 

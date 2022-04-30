@@ -1,8 +1,8 @@
 @import url("https://use.typekit.net/ret3spf.css");
 :root {
-    --main-font: acumin-pro, sans-serif;
+    --main-font: acumin-pro-wide, sans-serif;
     --hero-font: acumin-pro-wide, sans-serif;
-    --body-font: acumin-pro, sans-serif;
+    --body-font: acumin-pro-wide, sans-serif;
     /* BLACK */
     --main-100: #000000;
     --main-50: #808080;
