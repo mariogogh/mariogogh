@@ -6,7 +6,7 @@ p {
     font-size: 18px;
     line-height: 148%;
     /* or 33px */
-    letter-spacing: -0.02em;
+    letter-spacing: -0.04em;
 }
 
 .paragraph {
@@ -15,7 +15,7 @@ p {
     font-style: 400;
     font-size: 40px;
     line-height: 130%;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.00em;
 }
 
 span6 {
@@ -30,8 +30,8 @@ h1 {
     font-family: var(--hero-font);
     font-weight: 100;
     font-size: 5vw;
-    line-height: 100%;
-    letter-spacing: -0.07em;
+    line-height: 116%;
+    letter-spacing: -0.02em;
 }
 
 span19 {
@@ -50,7 +50,7 @@ h2 {
     font-style: normal;
     font-weight: 800;
     font-size: 32vw;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.04em;
     line-height: 140%;
     color: var(--hero-text);
     transform: rotate(-15deg);
@@ -63,7 +63,7 @@ h2Backup {
     font-weight: 400;
     font-size: 5vw;
     line-height: 120.5%;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.04em;
 }
 
 h3 {
@@ -73,7 +73,7 @@ h3 {
     font-size: 2vw;
     line-height: 120.5%;
     /* or 79px */
-    letter-spacing: -0.06em;
+    letter-spacing: -0.04em;
     color: var(--main-100);
 }
 
@@ -92,7 +92,7 @@ h5 {
     font-weight: 200;
     font-size: 24px;
     line-height: 120.5%;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.04em;
 }
 
 h9 {
@@ -101,7 +101,7 @@ h9 {
     font-weight: 200;
     font-size: 9vw;
     line-height: 124%;
-    letter-spacing: -0.06em;
+    letter-spacing: -0.04em;
 }
 
 .about {
@@ -112,7 +112,7 @@ h9 {
     font-size: 24px;
     line-height: 158%;
     /* or 22px */
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
 }
 
 .legenda {
@@ -124,7 +124,7 @@ h9 {
     line-height: 129%;
     /* or 33px */
     padding-top: 26px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
 }
 
 .title {
@@ -134,6 +134,7 @@ h9 {
     font-size: 18px;
     line-height: 139%;
     padding-bottom: 32px;
+    letter-spacing: -0.04em;
 }
 
 .about-bold {
@@ -144,7 +145,7 @@ h9 {
     font-size: 24px;
     line-height: 158%;
     color: var(--main-100);
-    letter-spacing: -0.03em;
+    letter-spacing: -0.04em;
 }
 
 .p-bold {
@@ -160,10 +161,10 @@ h9 {
 
 .eyebrown {
     color: var(--eyebrown);
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 16px;
     font-weight: 400;
-    letter-spacing: 0.0em;
+    letter-spacing: -0.0em;
 }
 
 @media (max-width: 600px) {

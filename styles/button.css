@@ -1,13 +1,13 @@
 .navbar .button {
     font-size: 18px;
     font-weight: semi-bold;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.00em;
     text-decoration: none;
 }
 
 .navbar .active {
     font-weight: bold;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.00em;
     text-decoration: none;
     color: var(--main-100);
 }
@@ -18,7 +18,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.00em;
     border-bottom: 1px solid transparent;
     text-decoration: underline;
     /* or 33px */
