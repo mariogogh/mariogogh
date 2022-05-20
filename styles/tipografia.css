@@ -4,9 +4,9 @@ p {
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 148%;
+    line-height: 172%;
     /* or 33px */
-    letter-spacing: -0.04em;
+    letter-spacing: 0em;
 }
 
 .paragraph {
@@ -14,8 +14,8 @@ p {
     font-family: var(--body-font);
     font-style: 400;
     font-size: 40px;
-    line-height: 130%;
-    letter-spacing: -0.00em;
+    line-height: 172%;
+    letter-spacing: 0em;
 }
 
 span6 {
