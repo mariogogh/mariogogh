@@ -10,7 +10,7 @@
 /* Step 2: center things inside the grid and clear some space around it by setting a device based max-width and margin*/
 
 .grid {
-    text-align: center;
+    text-align: left;
     max-width: 95vw;
     margin: 2.5vw auto;
     align-items: center;
@@ -25,6 +25,14 @@
     padding: 8px;
     box-sizing: border-box;
     display: inline;
+}
+
+.text-lab {
+    padding: 8px;
+}
+
+.text-lab p {
+    font-size: 16px;
 }
 
 
