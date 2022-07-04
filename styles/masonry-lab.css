@@ -13,7 +13,7 @@
     text-align: left;
     max-width: 95vw;
     margin: 2.5vw auto;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     transition: transform 0.5s ease;
 }
