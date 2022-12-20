@@ -1,11 +1,14 @@
-@import url("https://use.typekit.net/grn6fkm.css");
+@import url("https://use.typekit.net/ret3spf.css");
 :root {
-    --main-font: aktiv-grotesk, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    --hero-font: acumin-pro-wide, sans-serif;
-    font-style: normal;
-    font-weight: 100;
+    --main-font: Helveticaneue, sans-serif;
+    acumin-pro-wide,
+    sans-serif;
+    --hero-font: Helveticaneue, sans-serif;
+    acumin-pro-wide,
+    sans-serif;
+    --body-font: Helveticaneue, sans-serif;
+    acumin-pro-wide,
+    sans-serif;
     /* BLACK */
     --main-100: #000000;
     --main-50: #808080;
@@ -20,12 +23,15 @@
     --main-w-50: #A2A6A3;
     --main-w-25: #84898D;
     --main-w-5: #656C77;
-    /* PAGE COLORS */
-    --work: #0B4E63;
-    --about: #355C36;
-    --lab: #755F27;
+    /* PAGE COLORS FINAL */
+    --hero: #066455;
+    --work: #022720;
+    --about: #022720;
+    --lab: #022720;
+    --bg-footer: #022720;
     /* COLORS NAMES */
-    --hero-text: #F4C858;
+    --hero-text: #FFFFFF;
+    --hero-accent: #FFFFFF;
     /* HEADER COLORS */
     --links-color1: red;
     --header-links: #355C36;
@@ -35,8 +41,6 @@
     /* WORKS FROM. COLORS */
     --span4: #9A9EB2;
     --span3: #355C36;
-    font-weight: 500;
-    font-style: bold;
     /* SECTION WORKS COLORS */
     --span1: #191919;
     --svg: #989898;
@@ -49,7 +53,6 @@
     --links-color2: #3F8C94;
     /* FOOTER COLORS*/
     --text-work: #FFFFFFcc;
-    --bg-footer: #151718;
     --links-color50: rgba(247, 92, 26, 0.5);
     --links-color10: rgba(247, 92, 26, 0.25);
     --lab-bg: #3F8C94;
@@ -60,6 +63,10 @@
     --cursor-img: url("https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/cursor.png?raw=true"), auto;
 }
 
+.bg-space-color {
+    background: var(--main-w-100);
+}
+
 
 /* SPANS */
 
@@ -68,7 +75,7 @@ span1 {
 }
 
 span3 {
-    color: var(--gold: );
+    color: var(--gold);
     font-size: 18px;
 }
 
@@ -117,42 +124,41 @@ span4 {
 .bg-black .box-L {
     background: var(--bg-footer);
     color: var(--main-w-100);
-    z-indez: 1;
+    z-index: 2;
 }
 
 .bg-black {
     background: var(--bg-footer);
     color: var(--main-w-100);
-    z-indez: 1;
+    z-index: 2;
 }
 
 .bg-black .links {
     background: var(--bg-footer);
     color: var(--main-w-100);
-    z-indez: 1;
+    z-index: 2;
 }
 
 .bg-black span1 {
     color: var(--main-w-100);
-    z-indez: 1;
+    z-index: 2;
 }
 
 .bg-black h1 {
     color: var(--main-w-100);
-    z-indez: 1;
+    padding-top: 43px;
+    z-index: 2;
 }
 
 .bg-black p {
     background: var(--bg-footer);
     color: var(--main-w-100);
     letter-spacing: 0.0em;
-    z-indez: 1;
+    z-index: 2;
 }
 
 .bg-black a {
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
 }
 
 .bg-black .button {

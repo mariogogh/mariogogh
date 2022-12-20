@@ -87,13 +87,45 @@ a.svg-link: focus {
 .svg-right-fixed {
     bottom: 24px;
     right: 24px;
-    z-index: 10;
+    z-index: 50;
     position: fixed;
-    fill: red;
+    align-items: flex-end;
     transition: top 5s;
+    cursor: pointer;
+    fill: #0F1E40;
 }
 
 a:link svg-right-fixed {
     text-decoration: none;
     opacity: 100%;
+}
+
+.fixed_back {
+    z-index: 13;
+    left: 24px;
+    bottom: 56px;
+    position: relative;
+    align-items: flex-end;
+    transition: top 5s;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+@media (max-width: 600px) {
+    .svg-line-bar {
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 9px;
+    }
+    .fixed_back {
+        z-index: 13;
+        left: 24px;
+        bottom: 56px;
+        top: 24px;
+        position: relative;
+        align-items: flex-end;
+        transition: top 5s;
+        cursor: pointer;
+        border-radius: 100px;
+    }
 }

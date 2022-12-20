@@ -1,93 +1,89 @@
-/* unvisited link */
-
 .navbar .button {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: semi-bold;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.00em;
     text-decoration: none;
 }
 
 .navbar .active {
-    font-size: 14px;
     font-weight: bold;
+    letter-spacing: -0.00em;
     text-decoration: none;
     color: var(--main-100);
 }
 
 .button {
     color: var(--main-100);
-    font-family: var(--main-font);
+    font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    letter-spacing: -0.01em;
-    border-bottom: 2px solid transparent;
-    padding-bottom: 0px;
-    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: -0.00em;
+    border-bottom: 1px solid transparent;
+    text-decoration: underline;
     /* or 33px */
 }
 
-.button transition-duration: 0.3s;
-background-color: transparent;
-border: none;
-border-bottom: 5px solid transparent;
-cursor: pointer;
-display: inline-block;
-opacity: 1;
-padding-bottom: 8px;
-padding-left: 0px;
-padding-right: 0px;
-padding-top: 8px;
-font-family: var(--main-font);
-color: var(--main-50);
-font-size: 12px;
-line-height: 139%;
-letter-spacing: 0.1em;
-font-weight: 900;
-
+.button-white {
+    color: var(--hero-text);
 }
-svg: hover {
+
+svg:hover {
     fill-opacity: "1.9";
 }
 
+
 /* visited link */
+
 .button:visited {
     color: var(--main-100);
 }
 
+
 /* mouse over link */
+
 .button:hover {
-    color: var(--main-100);
+    color: var(--main-50);
     opacity: 0.8;
-    border-bottom: 1px solid var(--header-active);
+    transition: color 1s;
+    transition: border-bottom 1s;
+    border-bottom: 1px solid var(--hero-text);
 }
 
+
 /* selected link */
+
 .button:active {
     border: none;
     outline: none;
     color: var(--main-100);
 }
+
 .button:focus {
     color: var(--main-100);
     border: none;
     border-bottom: 1px solid var(--hero-text);
     outline: none;
 }
+
 .active {
     border-bottom: 1px solid var(--hero-text);
     font-weight: bold;
     transition-duration: 0.4s;
     color: var(--main-100);
 }
+
 .disable {
     opacity: 0.2;
 }
+
 .huge {
     font-size: 32px;
 }
 
+
 /* FOOTER LINKS */
+
 .hugelink a {
     font-size: 5vw;
     letter-spacing: -0.06em;
@@ -95,6 +91,11 @@ svg: hover {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.hugelink h1 {
+    letter-spacing: -0.06em;
+}
+
 .button-huge {
     display: inline-block;
     border: none;
@@ -110,43 +111,55 @@ svg: hover {
     padding-right: 0px;
     padding-top: 8px;
 }
+
 .button-huge span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.9s;
 }
+
 .button-huge span:after {
     content: "·";
-    color: var(--header-links);
+    color: var(--hero-text);
     position: absolute;
     opacity: 0;
     top: 0;
     right: -8px;
     transition: 0.9s;
 }
+
 .button-huge:hover span {
     padding-right: 128px;
 }
+
 .button-huge:hover span:after {
-    color: var(--main-color);
+    color: var(--hero-text);
     opacity: 0.9;
     border-bottom: 1px solid white;
 }
+
 @media (max-width: 600px) {
     .button {
-        padding-bottom: 24px;
+        padding-bottom: px;
         padding-left: 0px;
         padding-right: 0px;
         font-size: 16px;
     }
-    
     .hugelink a {
         font-size: 9vw;
         height: 6.8vh;
         transition-duration: 0.4s;
         padding-top: 10px;
         height: 70px;
-        padding-bottom: 10px;
+        padding-bottom: 8px;
     }
+}
+
+.button mailto {
+    color: var(--hero-text);
+}
+
+.button mailto:hover {
+    color: var(--hero-text);
 }

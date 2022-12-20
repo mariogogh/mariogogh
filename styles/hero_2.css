@@ -1,0 +1,151 @@
+.hero_A {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+    background: var(--hero);
+    padding-left: 8%;
+    padding-right: 8%;
+    bottom: 0%;
+    z-index: 50;
+    position: sticky;
+    /* Create the parallax scrolling effect */
+}
+
+.type_white {
+    color: var( --hero-text)
+}
+
+.img_hero_A {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    bottom: -3px;
+}
+
+.img_hero_B {
+    height: 50%;
+    width: 100%;
+}
+
+.hero_B .desktop {
+    display: show;
+}
+
+.hero_B .mobile {
+    display: none;
+}
+
+.hero_B {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: var(--work);
+    z-index: 20;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 0px;
+    z-index: 49;
+    position: sticky;
+}
+
+.hero_image_A {
+    height: 50%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_img_B {
+    width: 100%;
+    height: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    object-fit: cover;
+}
+
+.box-A {
+    width: 50%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 64px;
+    padding-right: 0%;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    z-index: 0;
+}
+
+.hero_A .section-hero-elements {
+    padding-left: 0px;
+}
+
+.box-B {
+    width: 50%;
+    height: 100%;
+    font-size: 16px;
+    padding-top: 64px;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    z-index: 0;
+}
+
+@media (max-width: 600px) {
+    .hero_A {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+    }
+    .img_hero_A {
+        height: 50%;
+        width: 100%;
+    }
+    .img_hero_B {
+        height: 50%;
+        width: 100%;
+    }
+    .hero_B .desktop {
+        display: show;
+    }
+    .hero_B .mobile {
+        display: none;
+    }
+    .hero_B {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+    }
+    .hero_image_A {
+        height: 59vh;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .hero_img_AB {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .box-A {
+        width: 100%;
+        height: 50%;
+    }
+    .box-B {
+        width: 100%;
+        height: 50%;
+    }
+    .hero_B .desktop {
+        display: none;
+    }
+    .hero_B .mobile {
+        display: flex;
+        padding: 0px;
+    }
+}
