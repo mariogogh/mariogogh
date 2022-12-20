@@ -21,9 +21,13 @@
     padding-top: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
-    padding-left: 5px;
-    font-size: 24;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 24px;
+}
+
+p .caixa-texto {
+    font-size: 16px;
+    color: var(--main-100);
+    font-family: var(--body-font);
 }
 
 .wall {
