@@ -1,0 +1,5 @@
+{
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.autoGuessEncoding": false
+}
