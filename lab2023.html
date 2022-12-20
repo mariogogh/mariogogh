@@ -300,241 +300,249 @@
             </div>
         </header>
 
-
-
-
-
     </div>
 
     <div class="GlobalPadding hero-lab-link">
         <div id="works"></div>
 
-      <div class="grid-lab">
+        <div class="grid-lab">
+            <!-- Part 1: Scripts -->
+
+            <!-- Step 1: Let's start by loading jQuery. jQuery is not required for masonary to function but makes things easier  -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js "></script>
+
+            <!-- Step 2: Then load imagesloaded. imagesloaded makes sure the images are not displayed until they are fully loaded -->
+            <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js "></script>
+
+            <!-- Step 3: we load masonry -->
+            <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js "></script>
 
 
-                <!-- Part 1: Scripts -->
-
-                <!-- Step 1: Let's start by loading jQuery. jQuery is not required for masonary to function but makes things easier  -->
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js "></script>
-
-                <!-- Step 2: Then load imagesloaded. imagesloaded makes sure the images are not displayed until they are fully loaded -->
-                <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js "></script>
-
-                <!-- Step 3: we load masonry -->
-                <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js "></script>
+            <!-- Part 2: Create the grid -->
 
 
-                <!-- Part 2: Create the grid -->
+            <!-- Step 1: Start with a the main grid wrapper-->
 
+            <div class="grid " data-aos=" zoom-in " data-aos-offset="10 " data-aos-delay="70 " data-aos-duration="2600 " data-aos-easing="ease-in-out ">
 
-                <!-- Step 1: Start with a the main grid wrapper-->
+                <!-- Step 2: Add grid items--->
 
-                <div class="grid " data-aos=" zoom-in " data-aos-offset="10 " data-aos-delay="70 " data-aos-duration="2600 " data-aos-easing="ease-in-out ">
+                <div class="grid-item">
 
-                    <!-- Step 2: Add grid items--->
-
-                    <div class="grid-item">
-                        <div class="caixa-texto">
-
-                            <p class="eyebrown">
-                                ILLUSTRATIONS / ALBUM COVER
-                            </p>
-                            <p class="title">
-                                Illustrations for my personal Project Past Alarm™️ ⏤ A Tale of Love & Heroism. All songs were inspired by Italian Folk tales selected and writer by Italo Calvino.
-                                <br> <br> In this project, I had an opportunity to create a soundtrack (Zenza Paura) exclusive for the podcast "Bobagens imperdíveis" from the talented friend and writer
-                                <a href="https://www.domestika.org/pt/courses/1981-tecnicas-criativas-para-transformar-ideias-em-textos/alinevalek" class="button  link-only " target="_blank ">Aline Valek.
-                            </p>
-                            </a></p>
-                        </div>
+                    <!-- INFO 01--->
+                    <div class="caixa-texto">
+                        <p class="eyebrown">
+                            ILLUSTRATIONS / ALBUM COVER
+                        </p>
+                        <p class="title">
+                            Illustrations for my personal Project Past Alarm™️ ⏤ A Tale of Love & Heroism. All songs were inspired by Italian Folk tales selected and writer by Italo Calvino.
+                            <br> <br> In this project, I had an opportunity to create a soundtrack (Zenza Paura) exclusive for the podcast "Bobagens imperdíveis" from the talented friend and writer
+                            <a href="https://www.domestika.org/pt/courses/1981-tecnicas-criativas-para-transformar-ideias-em-textos/alinevalek" class="button  link-only " target="_blank ">Aline Valek.
+                        </p>
+                        </a></p>
                     </div>
+                </div>
 
-                    <div class="grid-item ">
-                        <!-- IMAGE GRID 01--->
-                        <img src="Link Here " />
-                    </div>
-                    <!-- IMAGE GRID 02--->
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <!-- IMAGE GRID 01--->
+                    <img src="Link Here " />
+                </div>
+                <!-- IMAGE GRID 02--->
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <!-- Step 3: repeat...--->
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-
-                    <div class="grid-item">
-                        <div class="caixa-texto">
-
-                            <p class="eyebrown">
-                                ILLUSTRATIONS / ALBUM COVER
-                            </p>
-                            <p class="title">
-                                Illustrations for my personal Project Past Alarm™️ ⏤ A Tale of Love & Heroism. All songs were inspired by Italian Folk tales selected and writer by Italo Calvino.
-                                <br> <br> In this project, I had an opportunity to create a soundtrack (Zenza Paura) exclusive for the podcast "Bobagens imperdíveis" from the talented friend and writer
-                                <a href="https://www.domestika.org/pt/courses/1981-tecnicas-criativas-para-transformar-ideias-em-textos/alinevalek" class="button  link-only " target="_blank ">Aline Valek.
-                            </p>
-                            </a></p>
-                        </div>
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <!-- Step 3: repeat...--->
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
 
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
+                <div class="grid-item">
+                    <div class="caixa-texto">
 
+                        <p class="eyebrown">
+                            ILLUSTRATIONS / ALBUM COVER
+                        </p>
+                        <p class="title">
+                            Illustrations for my personal Project Past Alarm™️ ⏤ A Tale of Love & Heroism. All songs were inspired by Italian Folk tales selected and writer by Italo Calvino.
+                            <br> <br> In this project, I had an opportunity to create a soundtrack (Zenza Paura) exclusive for the podcast "Bobagens imperdíveis" from the talented friend and writer
+                            <a href="https://www.domestika.org/pt/courses/1981-tecnicas-criativas-para-transformar-ideias-em-textos/alinevalek" class="button  link-only " target="_blank ">Aline Valek.
+                        </p>
+                        </a></p>
                     </div>
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
-                    <div class="grid-item ">
-                        <img src="Link Here " />
-                    </div>
 
-                    <div class="grid-item ">
-                        <img src="Link Here " />
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src="Link Here " />
+                </div>
+
+                <!--Fjord Posters / Map-->
+                <div class="grid-item ">
+                    <img src="https://cdn.dribbble.com/users/475562/screenshots/18324300/media/45e71e9067c84511f0f08694f1393884.png?compress=1&resize=1600x1200&vertical=top " />
+                </div>
+
+                <div class="grid-item ">
+                    <img src=" https://cdn.dribbble.com/users/475562/screenshots/18295933/media/4d0322cb3dcce92931ef2a7e3b969cc8.png?compress=1&resize=1600x1200&vertical=top " />
+                </div>
+
+                <div class=" grid-item ">
+                    <a href="Link do Driible here" class="buttonimage"></a> <img src=" https://cdn.dribbble.com/users/475562/screenshots/18295933/media/4d0322cb3dcce92931ef2a7e3b969cc8.png?compress=1&resize=1600x1200&vertical=top " />
+                    <div class="caixa-texto">
+
+                        <p class="eyebrown">
+                            ILLUSTRATIONS / ALBUM COVER
+                        </p>
+                        <p class="title">
+                            Illustrations for my personal Project Past Alarm™️ ⏤ A Tale of Love & Heroism. All songs were inspired by Italian Folk tales selected and writer by Italo Calvino.
+                            <br> <br> In this project, I had an opportunity to create a soundtrack (Zenza Paura) exclusive for the podcast "Bobagens imperdíveis" from the talented friend and writer
+                            <a href="https://www.domestika.org/pt/courses/1981-tecnicas-criativas-para-transformar-ideias-em-textos/alinevalek" class="button  link-only " target="_blank ">Aline Valek.
+                        </p>
+                        </a></p>
                     </div>
-                    <!--Fjord Posters / Map-->
-                    <div class="grid-item ">
-                        <img src="https://cdn.dribbble.com/users/475562/screenshots/18324300/media/45e71e9067c84511f0f08694f1393884.png?compress=1&resize=1600x1200&vertical=top " />
-                    </div>
+                </div>
 
-                    <div class="grid-item ">
-                        <img src=" https://cdn.dribbble.com/users/475562/screenshots/18295933/media/4d0322cb3dcce92931ef2a7e3b969cc8.png?compress=1&resize=1600x1200&vertical=top " />
-                    </div>
+                <!--Fjord Posters / Map-->
 
-                    <div class=" grid-item ">
-                        <img src=" https://cdn.dribbble.com/users/475562/screenshots/18295933/media/4d0322cb3dcce92931ef2a7e3b969cc8.png?compress=1&resize=1600x1200&vertical=top " />
-                    </div>
+                <div class=" grid-item ">
 
-                    <!--Fjord Posters / Map-->
+                </div>
+                <!-- Part 3: the script call -->
 
-                    <div class=" grid-item ">
-
-                    </div>
-                    <!-- Part 3: the script call -->
-
-                    <!-- Now that everything is loaded we create a script to trigger masonary on $grid. Note that this simply says: " if the images are fully loaded, trigger masnory on $grid. -->
-                    <script>
-                        $(".grid").imagesLoaded(function() {
-                            $(".grid").masonry({
-                                itemSelector: ".grid-item"
-                            });
+                <!-- Now that everything is loaded we create a script to trigger masonary on $grid. Note that this simply says: " if the images are fully loaded, trigger masnory on $grid. -->
+                <script>
+                    $(".grid").imagesLoaded(function() {
+                        $(".grid").masonry({
+                            itemSelector: ".grid-item"
                         });
-                    </script>
+                    });
+                </script>
 
 
-
-                </div>
-                <!-- GRID PROJECT 01 - NOVATICS -->
-                <!-- GRID PROJECT 01 - NOVATICS -->
-
-
-                <!-- FIVE IMAGES SECTION -->
 
             </div>
+            <!-- GRID PROJECT 01 - NOVATICS -->
+            <!-- GRID PROJECT 01 - NOVATICS -->
 
 
+            <!-- FIVE IMAGES SECTION -->
 
-            <!-- PROJETOS-->
-            <!-- FOOTER -->
-            <div class="padding-footer" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out">
-
-                <div class="content-in-line " data-aos="zoom-in ">
-                    <svg class="svg-line-bar " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                            <rect width="100% " height="2 " fill-opacity="0.71 " />
-                        </svg>
-                </div>
-                <div class="section-footer">
-                    <div class="box1">
-                        <p>@2022 All Rights Reserved. <br> Design & Code By Mario Gogh.</p>
-                    </div>
-                    <div class="box2 footer-links">
-
-                        <a href="https://www.linkedin.com/in/mariogogh " class="button" target="_blank ">Linkedin</a>
-                        <div class="space50"></div>
-                        <a href="https://savee.it/mariogogh " class="button" target="_blank ">Savee</a>
-                        <div class="space50"></div>
-                        <a href="https://dribbble.com/mariogogh " class="button" target="_blank ">Dribbble</a>
-                        <div class="space50"></div>
-                        <a href="https://www.behance.net/mariogogh " class="button" target="_blank ">Behance</a>
-
-
-                    </div>
-                </div>
-            </div>
-            <!-- FOOTER -->
         </div>
+
+
+
+        <!-- PROJETOS-->
+        <!-- FOOTER -->
+        <div class="padding-footer" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-easing="ease-in-out">
+
+            <div class="content-in-line " data-aos="zoom-in ">
+                <svg class="svg-line-bar " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                    <rect width="100% " height="2 " fill-opacity="0.71 " />
+                </svg>
+            </div>
+            <div class="section-footer">
+                <div class="box1">
+                    <p>@2022 All Rights Reserved. <br> Design & Code By Mario Gogh.</p>
+                </div>
+                <div class="box2 footer-links">
+
+                    <a href="https://www.linkedin.com/in/mariogogh " class="button" target="_blank ">Linkedin</a>
+                    <div class="space50"></div>
+                    <a href="https://savee.it/mariogogh " class="button" target="_blank ">Savee</a>
+                    <div class="space50"></div>
+                    <a href="https://dribbble.com/mariogogh " class="button" target="_blank ">Dribbble</a>
+                    <div class="space50"></div>
+                    <a href="https://www.behance.net/mariogogh " class="button" target="_blank ">Behance</a>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+    </div>
 </body>
 
 </html>
