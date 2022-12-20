@@ -12,6 +12,16 @@
     color: var(--main-100);
 }
 
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.03);
+    /* (150% zoom - Note: if theffffjdjasda zoom is too large, it will go outside of the viewport) */
+}
+
 .button {
     color: var(--main-100);
     font-family: var(--body-font);
