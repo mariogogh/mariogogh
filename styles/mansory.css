@@ -17,6 +17,12 @@
     z-index: 0;
 }
 
+.caixa-texto {
+    padding: 24px;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .wall {
     width: 100vw;
     margin: 0 auto;
