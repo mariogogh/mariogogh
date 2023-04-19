@@ -80,6 +80,7 @@
 
 .workslide-work p {
     color: var(--main-w-100);
+    padding-left: 0px;
 }
 
 .workslide-work a {
@@ -143,6 +144,10 @@
 .workslide-about p {
     color: var( --main-w-100);
     ;
+}
+
+.info_intro {
+    padding-left: 390px;
 }
 
 .content-full-screen .workslide-about {

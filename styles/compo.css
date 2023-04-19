@@ -13,7 +13,7 @@ html {
 }
 
 .GlobalPadding {
-    padding: 8%;
+    padding: 7%;
     margin: auto;
     background: var(--main-w-100);
     transition: background 5s ease;

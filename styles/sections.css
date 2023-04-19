@@ -202,6 +202,10 @@
     padding-left: 24px;
 }
 
+.box-L .link-left {
+    padding-left: 0px;
+}
+
 .content-full-screen {
     width: 100%;
     height: 100%;
