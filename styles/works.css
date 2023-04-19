@@ -2,6 +2,8 @@
 
 .EVINO {}
 
+.ame-digital {}
+
 .hero-work {
     background: var(--work);
     color: var(--hero-accent);
@@ -417,8 +419,14 @@ img :hover {
         padding-left: 0px;
     }
     .about-works {
-        display: block;
-        padding-left: 16px;
-        padding-right: 16px;
+        display: blt: 16px;
+        padding-righock;
     }
+}
+
+padding-left: 16px;
+padding-right: 16px;
+
+}
+
 }

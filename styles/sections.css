@@ -166,7 +166,7 @@
     height: 100%;
     font-size: 16px;
     padding-top: 32px;
-    padding-right: 12%;
+    padding-right: 0%;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     z-index: 0;
@@ -199,6 +199,7 @@
 
 .box-L p {
     padding-top: 0px;
+    padding-left: 24px;
 }
 
 .content-full-screen {
@@ -465,6 +466,9 @@
         padding-left: 24px;
     }
     .box-R p {
+        padding-left: 24px;
+    }
+    .box-R h1 {
         padding-left: 24px;
     }
     .section-hero-elements .hugelink {
