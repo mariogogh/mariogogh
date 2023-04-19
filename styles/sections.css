@@ -275,6 +275,9 @@
         z-index: 0;
         position: relative;
     }
+    .box-L .link-left {
+        padding-left: 24px;
+    }
     .section-hero-2 {
         width: 100%;
         padding-top: 32px;
