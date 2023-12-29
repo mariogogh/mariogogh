@@ -314,6 +314,9 @@
 
 img {
     transition: opacity 0.2s ease-in-out;
+    border-radius:24px;
+    border-image: 150%;
+
 }
 
 img :hover {
