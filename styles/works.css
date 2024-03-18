@@ -4,6 +4,21 @@
 
 .ame-digital {}
 
+
+.hero_img_A {
+    border-radius:0px;
+
+}
+
+.hero_img_AB {
+    border-radius:0px;
+
+}
+
+.full-image-img-about {
+    border-radius:0px;
+}
+
 .hero-work {
     background: var(--work);
     color: var(--hero-accent);
@@ -315,7 +330,7 @@
 img {
     transition: opacity 0.2s ease-in-out;
     border-radius:24px;
-    border-image: 150%;
+   
 
 }
 
