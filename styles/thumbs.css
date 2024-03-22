@@ -21,7 +21,7 @@
     height: 100%;
     padding-right: 0px;
     padding-left: 0px;
-    margin-right: 300px;
+
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
@@ -33,6 +33,7 @@
     height: 100%;
     padding-right: 0px;
     padding-left: 0px;
+
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
