@@ -310,4 +310,20 @@
     .footer br {
         display: block;
     }
+
+
+    .iframe-responsive {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; /* Proporção 16:9 (altere conforme necessário) */
+        height: 0;
+      }
+    
+      .iframe-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
 }
