@@ -21,4 +21,7 @@ Other Projects
 Design & Code by [Mariogogh](respire.mariogogh.com) | Made with [Glitch](https://glitch.com/)
 
 
+Netlify Badge:[![Netlify Status](https://api.netlify.com/api/v1/badges/63faaea6-13d4-478f-af16-7719beff69f3/deploy-status)](https://app.netlify.com/sites/mariogogh/deploys)
+
+
 
