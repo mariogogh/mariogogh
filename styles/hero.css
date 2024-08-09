@@ -93,9 +93,11 @@
     background-size: cover;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
-    opacity: 1;
-    padding-right: 24px;
-    padding-left: 24px;
+    border-radius: 32px;
+    padding: 1px;
+    border: 16px solid transparent;
+
+
 }
 
 .full-image-img-about {
@@ -165,16 +167,19 @@
         width: 100vw;
         height: 50vh;
     }
+
     .box-random {
         width: 100%;
         height: 50%;
         display: flex;
     }
+
     .random-img {
         object-fit: cover;
         padding: 26px;
         background-size: cover;
     }
+
     .main-hero {
         height: 100%;
         background-position: center;
@@ -184,6 +189,7 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
     .main-hero-img {
         width: 100%;
         height: 600px;
@@ -191,6 +197,7 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .section-hero-2 {
         width: 100%;
         height: 50%;
@@ -202,6 +209,7 @@
         text-align: left;
         flex-direction: column;
     }
+
     .img-right {
         width: 100%;
         background-position: center;
@@ -216,11 +224,13 @@
         text-align: left;
         flex-direction: column;
     }
+
     .img-right img {
         width: 50%;
         height: 100%;
         background-size: cover;
     }
+
     .full-image-img-about {
         width: 100%;
         height: 100%;
@@ -232,9 +242,11 @@
         padding-right: 24px;
         padding-left: 24px;
     }
+
     .full-image-img-about p {
         padding-left: 24px;
     }
+
     .full-image-img {
         width: 100%;
         height: 100%;
