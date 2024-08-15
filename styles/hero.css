@@ -257,5 +257,7 @@
         opacity: 1;
         padding-right: 0px;
         padding-left: 0px;
+        border-radius: 16px;
+        border: 0px solid transparent;
     }
 }

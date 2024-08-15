@@ -214,8 +214,8 @@
     justify-content: center;
     transition: transform 0.9s ease;
     opacity: 1;
-    padding-left: 26px;
-    padding-right: 26px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .content-full-screen-mansoury {
