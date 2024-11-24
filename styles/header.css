@@ -16,7 +16,7 @@ header {
 
 .box-logo {
     height: 50%;
-    padding-left: 8.2vw;
+    padding-left: 7.0vw;
     padding-top: 11px;
     padding-bottom: 0px;
     position: relative;
@@ -79,26 +79,32 @@ header div {
         height: 42px;
         padding: 1%;
     }
+
     .links {
         padding-right: 16px;
         font-size: 18px;
     }
+
     .box-links {
         width: 56%;
         height: 38px;
         padding-top: 11px;
     }
+
     #navbar .button {
         padding-bottom: 8px;
         font-size: 12px;
     }
+
     #navbar .button {
         font-size: 12px;
     }
+
     #navbar .links:last-child {
         padding-left: 0px;
         width: 36px;
     }
+
     .box-logo {
         height: 35px;
         padding: 1%;

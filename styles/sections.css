@@ -214,8 +214,8 @@
     justify-content: center;
     transition: transform 0.9s ease;
     opacity: 1;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .content-full-screen-mansoury {
@@ -275,9 +275,11 @@
         z-index: 0;
         position: relative;
     }
+
     .box-L .link-left {
         padding-left: 24px;
     }
+
     .section-hero-2 {
         width: 100%;
         padding-top: 32px;
@@ -288,21 +290,26 @@
         text-align: left;
         flex-direction: column;
     }
+
     .content-full-screen .section-hero-elements h1 {
         padding: 0px;
     }
+
     .content-full-screen {
         padding-left: 24px;
         padding-right: 24px;
     }
+
     .content-about br {
         display: ;
     }
+
     .content-about {
         width: 100%;
         display: flex;
         justify-content: center;
     }
+
     .content-about-svg {
         display: flex;
         height: 56px;
@@ -311,32 +318,39 @@
         justify-content: flex-end;
         align-items: center;
     }
+
     .content-titulo {
         width: 100%;
         height: 25vh;
         display: flex;
     }
+
     .content-titulo h4 {
         font-size: 48px;
     }
+
     .content-about h4 {
         font-size: 32px;
         line-height: 14vw;
     }
+
     .card-text {
         width: 100%;
     }
+
     .card-text h3 {
         font-size: 26px;
         line-height: 12vw;
         letter-spacing: -0.08em;
         flex-wrap: wrap;
     }
+
     .card-text svg {
         margin: auto;
         width: 50%;
         padding: 10px;
     }
+
     .content-about-left {
         width: 100%;
         height: 100%;
@@ -346,17 +360,20 @@
         justify-content: flex-start;
         padding-right: 0px;
     }
+
     .content-about-right {
         width: 100%;
         height: 100%;
         justify-content: flex-start;
         margin-left: 0px;
     }
+
     .content-in-line {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
     }
+
     .box-R {
         width: 100%;
         height: 100%;
@@ -365,6 +382,7 @@
         padding-right: 24px;
         padding-top: 32px;
     }
+
     .box-L {
         width: 100%;
         height: 100%;
@@ -373,6 +391,7 @@
         padding-right: 24px;
         padding-top: 32px;
     }
+
     .box-R-image {
         width: 100%;
         padding-left: 0px;
@@ -381,6 +400,7 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .box-L-image {
         width: 100%;
         padding-left: 0px;
@@ -389,12 +409,15 @@
         padding-right: 0px;
         padding-top: 32px;
     }
+
     .box-L-img p {
         padding-left: 24px;
     }
+
     .box-R-isoleted {
         padding-left: 24px;
     }
+
     .content-full-screen .main-hero-img {
         width: 100%;
         height: 100%;
@@ -407,6 +430,7 @@
         opacity: 1;
         scale: (1.9);
     }
+
     .content-full-screen .main-hero {
         width: 100%;
         height: 100%;
@@ -419,6 +443,7 @@
         opacity: 1;
         scale: (1.9);
     }
+
     .content-full-screen-mansoury {
         width: 100%;
         height: 100%;
@@ -430,63 +455,80 @@
         padding-left: 24px;
         padding-right: 24px;
     }
+
     .workslide {
         line-height: 150%;
         padding-right: 0px;
         padding-left: 16px;
     }
+
     .workslide h1 {
         font-size: 8vw;
         line-height: 150%;
         padding-right: 8px;
         padding-left: 0px;
     }
+
     .content-full-screen .section-hero-elements {
         padding: 0px;
     }
+
     .section-hero-elements {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .box-L h2 {
         padding-left: 24px;
     }
+
     .box-L h1 {
         padding-left: 24px;
     }
+
     .box-L .eyebrown {
         padding-left: 24px;
     }
+
     .box-L-image .full-image-img {
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .CUCKOO .box-L-image .full-image-img {
         padding-left: 24px;
         padding-right: 24px;
     }
+
     .CUCKOO .box-R-image .full-image-img {
         padding-left: 24px;
         padding-right: 24px;
     }
+
     .box-R h2 {
         padding-left: 24px;
     }
+
     .box-R p {
         padding-left: 24px;
     }
+
     .box-R h1 {
         padding-left: 24px;
     }
+
     .section-hero-elements .hugelink {
         padding-left: 16spx;
     }
+
     .content-full-screen .section-hero-elements p {
         padding: 0px;
     }
+
     .section-hero-elements .full-image-img {
         padding: 24px;
     }
+
     .box-R iframe {
         padding-left: 24px;
     }
