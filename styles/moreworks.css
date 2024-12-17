@@ -27,8 +27,7 @@
 }
 
 .moreworks .seta {
-    background: rgb(251, 46, 46);
     width: 25%;
-    transform: rotate(90deg);
-    flex-shrink: 0;
+
+
 }
