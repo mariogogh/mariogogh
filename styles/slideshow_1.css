@@ -5,6 +5,22 @@
     height: 100vh;
 }
 
+.image-container {
+
+    background: var(--work);
+    color: var(--hero-accent);
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    border-radius: 32px;
+    padding: 1px;
+    border: 16px solid t
+}
+
 .slideshow {
     display: flex;
     transition: transform 0.5s ease-in-out;
@@ -13,15 +29,13 @@
 }
 
 .slide {
-    min-width: 100vw;
-    height: 100%;
+    display: none;
 }
 
-.slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.slide.active {
+    display: block;
 }
+
 
 .control {
     position: absolute;

@@ -1,44 +1,22 @@
-const slideshow = document.querySelector('.slideshow');
-const slides = document.querySelectorAll('.slide');
-const nextButton = document.getElementById('next');
-const prevButton = document.getElementById('prev');
-const indicators = document.querySelectorAll('.indicator');
-let currentSlide = 0;
+document.addEventListener('DOMContentLoaded', () => {
+    const slides = document.querySelectorAll('.slide');
+    let currentIndex = 0;
 
-function updateSlidePosition() {
-    slideshow.style.transform = `translateX(-${currentSlide * 100}vw)`;
-    updateIndicators();
-}
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = i === index ? 'block' : 'none';
+        });
+    }
 
-function updateIndicators() {
-    indicators.forEach((indicator, index) => {
-        indicator.classList.toggle('active', index === currentSlide);
+    document.getElementById('prev').addEventListener('click', () => {
+        currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+        showSlide(currentIndex);
     });
-}
 
-function nextSlide() {
-    currentSlide = (currentSlide + 1) % slides.length;
-    updateSlidePosition();
-}
-
-function prevSlide() {
-    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-    updateSlidePosition();
-}
-
-nextButton.addEventListener('click', nextSlide);
-prevButton.addEventListener('click', prevSlide);
-
-indicators.forEach((indicator, index) => {
-    indicator.addEventListener('click', () => {
-        currentSlide = index;
-        updateSlidePosition();
+    document.getElementById('next').addEventListener('click', () => {
+        currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+        showSlide(currentIndex);
     });
-});
 
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'ArrowRight') nextSlide();
-    if (e.key === 'ArrowLeft') prevSlide();
+    showSlide(currentIndex);
 });
-
-updateSlidePosition();
