@@ -8,7 +8,7 @@
         /* or 33px */
         letter-spacing: 0em;
     }
-    
+
     li {
         color: var(--main-100);
         font-family: var(--body-font);
@@ -19,7 +19,7 @@
         letter-spacing: 0em;
         padding-bottom: 32px;
     }
-    
+
     .paragraph {
         color: var(--main-100);
         font-family: var(--body-font);
@@ -28,14 +28,14 @@
         line-height: 172%;
         letter-spacing: 0em;
     }
-    
+
     span6 {
         font-family: var(--body-font);
         font-weight: 600;
         text-decoration: bold;
         line-height: 200%;
     }
-    
+
     h1 {
         color: var(--main-100);
         font-family: var(--hero-font);
@@ -44,7 +44,7 @@
         line-height: 110%;
         letter-spacing: -0.02em;
     }
-    
+
     span19 {
         font-size: 1.4vw;
         left: 1%;
@@ -52,19 +52,19 @@
         position: relative;
         letter-spacing: -0.05em;
     }
+
     /* HERO HUGE FONT */
-    
+
     h2 {
-        font-family: var(--hero-font-2);
-        font-style: normal;
-        font-weight: 800;
-        font-size: 32vw;
-        letter-spacing: -0.04em;
-        line-height: 140%;
-        color: var(--hero-text);
-        transform: rotate(-15deg);
+        color: var(--main-100);
+        font-family: var(--hero-font);
+        font-weight: 100;
+        font-size: 6vw;
+        line-height: 110%;
+        letter-spacing: -0.02em;
+
     }
-    
+
     h2Backup {
         color: var(--main-100);
         font-family: var(--main-font);
@@ -74,7 +74,7 @@
         line-height: 120.5%;
         letter-spacing: -0.04em;
     }
-    
+
     h3 {
         font-family: var(--main-font);
         font-style: normal;
@@ -85,7 +85,7 @@
         letter-spacing: -0.04em;
         color: var(--main-100);
     }
-    
+
     h4 {
         color: var(--main-100);
         font-family: var(--main-font);
@@ -94,7 +94,7 @@
         line-height: 90.5%;
         letter-spacing: -0.05em;
     }
-    
+
     h5 {
         color: var(--main-100);
         font-family: var(--main-font);
@@ -103,7 +103,7 @@
         line-height: 120.5%;
         letter-spacing: -0.04em;
     }
-    
+
     h9 {
         color: var(--main-100);
         font-family: var(--hero-font);
@@ -112,7 +112,7 @@
         line-height: 124%;
         letter-spacing: -0.04em;
     }
-    
+
     .about {
         color: var(--main-50);
         font-family: var(--body-font);
@@ -123,7 +123,7 @@
         /* or 22px */
         letter-spacing: -0.04em;
     }
-    
+
     .legenda {
         color: var(--main-100);
         font-family: var(--body-font);
@@ -135,7 +135,7 @@
         padding-top: 26px;
         letter-spacing: -0.04em;
     }
-    
+
     .title {
         font-family: var(--body-font);
         color: var(--main-50%);
@@ -145,7 +145,7 @@
         padding-bottom: 32px;
         letter-spacing: -0.04em;
     }
-    
+
     .about-bold {
         font-family: var(--body-font);
         font-style: normal;
@@ -156,18 +156,18 @@
         color: var(--main-100);
         letter-spacing: -0.04em;
     }
-    
+
     .p-bold {
         color: var(--main-100);
         font-family: var(--body-font);
         font-style: Bold;
     }
-    
+
     .bold {
         font-family: var(--body-font);
         font-weight: bold;
     }
-    
+
     .eyebrown {
         color: var(--eyebrown);
         font-size: 14px;
@@ -175,23 +175,27 @@
         font-weight: 400;
         letter-spacing: -0.0em;
     }
-    
+
     @media (max-width: 600px) {
         h1 {
             font-size: 9vw;
         }
+
         span19 {
             font-size: 4vw;
             left: 1%;
             top: 4px;
             position: relative;
         }
+
         h3 {
             font-size: 5vw;
         }
+
         .box-R .title br {
             display: flex;
         }
+
         p {
             font-style: normal;
             font-weight: normal;
@@ -199,12 +203,15 @@
             line-height: 168%;
             /* or 33px */
         }
+
         span1 br {
             display: none;
         }
+
         .paragraph br {
             display: none;
         }
+
         .paragraph {
             color: var(--main-100);
             font-family: var(--body-font);
@@ -215,6 +222,7 @@
             /* or 33px */
             letter-spacing: -0.0em;
         }
+
         .eyebrown {
             color: var(--eyebrown);
             font-size: 12px;

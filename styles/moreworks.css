@@ -1,0 +1,34 @@
+.moreworks {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    transition: transform 0.9s ease;
+    opacity: 1;
+
+
+
+
+    background: red;
+}
+
+
+
+.moreworks .titulo {
+    background: rgb(197, 235, 27);
+    width: 50%;
+}
+
+
+.moreworks .descrição {
+    background: rgb(93, 46, 204);
+    width: 25%;
+}
+
+.moreworks .seta {
+    background: rgb(251, 46, 46);
+    width: 25%;
+    transform: rotate(90deg);
+    flex-shrink: 0;
+}

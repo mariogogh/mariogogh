@@ -137,7 +137,7 @@
     font-size: 16px;
     padding-top: 20%;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 0.8%;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     position: relative;
@@ -172,6 +172,8 @@
     z-index: 0;
     position: relative;
 }
+
+
 
 .box-R-2collumn {
     width: 25%;
@@ -214,8 +216,8 @@
     justify-content: center;
     transition: transform 0.9s ease;
     opacity: 1;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .content-full-screen-mansoury {
@@ -483,7 +485,7 @@
     }
 
     .box-L h1 {
-        padding-left: 24px;
+        padding-left: 16px;
     }
 
     .box-L .eyebrown {
