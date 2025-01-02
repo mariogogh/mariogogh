@@ -1,62 +1,29 @@
-const projects = document.querySelector(".projects");
-const preview = document.querySelector(".preview");
-const previewImg = document.querySelector(".preview-img");
+const gridItems = document.querySelectorAll(".grid-item_2");
+const preview = document.querySelector(".image-preview");
 
-let isInside = false;
+gridItems.forEach((item) => {
+    item.addEventListener("mouseenter", () => {
+        const imageUrl = item.getAttribute("data-image");
+        preview.style.backgroundImage = `url(${imageUrl})`;
+        preview.style.opacity = "1";
 
-const bgPositions = {
-    p1: "0 0",
-    p2: "0 25%",
-    p3: "0 50%",
-    p4: "0 75%",
-    p5: "0 100%",
-};
-
-const moveStuff = (e) => {
-    const mouseInside = isMouseInsideContainer(e);
-
-    if (mouseInside !== isInside) {
-        isInside = mouseInside;
-        if (isInside) {
-            gsap.to(preview, { duration: 0.3, scale: 1 });
-        } else {
-            gsap.to(preview, { duration: 0.3, scale: 0 });
-        }
-    }
-};
-
-const moveProject = (e) => {
-    const previewRect = preview.getBoundingClientRect();
-    const offsetX = previewRect.width / 2;
-    const offsetY = previewRect.height / 2;
-
-    preview.style.left = e.pageX - offsetX + "px";
-    preview.style.top = e.pageY - offsetY + "px";
-};
-
-const moveProjectImg = (project) => {
-    const projectId = project.id;
-    gsap.to(previewImg, {
-        duration: 0.4,
-        backgroundPosition: bgPositions[projectId] || "0 0",
+        // Get the position of the grid item
+        const itemRect = item.getBoundingClientRect();
+        const itemCenterX = itemRect.left + itemRect.width / 2;
+        const itemCenterY = itemRect.top + itemRect.height / 2;
+        preview.style.left = `${itemCenterX + window.scrollX}px`;
+        preview.style.top = `${itemCenterY + window.scrollY}px`;
+        preview.style.transform = "translate(-50%, -50%)"; // Center the preview
     });
-};
 
-const isMouseInsideContainer = (e) => {
-    const containerRect = projects.getBoundingClientRect();
-    return (
-        e.pageX >= containerRect.left &&
-        e.pageX <= containerRect.right &&
-        e.pageY >= containerRect.top &&
-        e.pageY <= containerRect.bottom
-    );
-};
-
-window.addEventListener("mousemove", moveStuff);
-
-if (projects && projects.children) {
-    Array.from(projects.children).forEach((project) => {
-        project.addEventListener("mousemove", moveProject);
-        project.addEventListener("mousemove", moveProjectImg.bind(null, project));
+    item.addEventListener("mouseleave", () => {
+        preview.style.opacity = "0";
     });
-}
+
+    item.addEventListener("mousemove", (e) => {
+        const mouseX = e.pageX + 10; // Adjust for closer position
+        const mouseY = e.pageY + 10; // Adjust for closer position
+        preview.style.left = `${mouseX}px`;
+        preview.style.top = `${mouseY}px`;
+    });
+});
