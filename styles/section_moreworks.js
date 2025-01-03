@@ -1,4 +1,4 @@
-const gridItems = document.querySelectorAll(".grid-item_2");
+const gridItems = document.querySelectorAll(".project_grid");
 const preview = document.querySelector(".image-preview");
 
 gridItems.forEach((item) => {

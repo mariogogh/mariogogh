@@ -1,5 +1,6 @@
     @import url("https://use.typekit.net/ret3spf.css");
-     :root {
+
+    :root {
         --main-font: Helveticaneue, sans-serif;
         acumin-pro-wide,
         sans-serif;
@@ -14,6 +15,7 @@
         --main-50: #808080;
         --main-25: #BFBFBF;
         --main-15: #D9D9D9;
+        --main-5: #F6F6F6;
         --main-50%: rgba(0, 0, 0, 0.15);
         --main-68: rgba(0, 0, 0, 0.68);
         --eyebrown: #ADADAD;
@@ -24,8 +26,8 @@
         --main-w-25: #84898D;
         --main-w-5: #656C77;
         /* PAGE COLORS FINAL */
-        --hero:  #066455;
-        --work:  #022720;
+        --hero: #066455;
+        --work: #022720;
         --about: #022720;
         --lab: #022720;
         --bg-footer: #022720;
@@ -62,197 +64,202 @@
         --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), auto;
         --cursor-img: url("https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/cursor.png?raw=true"), auto;
     }
-    
+
     .bg-space-color {
         background: var(--main-w-100);
     }
+
     /* SPANS */
-    
+
     span1 {
         color: var(--span1);
     }
-    
+
     spaname {
         color: #DF2253;
     }
-    
+
     span3 {
         color: var(--gold);
         font-size: 18px;
     }
-    
+
     span4 {
         color: var(--span4);
     }
+
     /* LINKS WITH SVG */
-    
+
     .links-svg {
         color: var(--links-svg);
     }
-    
+
     .links-svg a {
         color: var(--links-svg);
     }
-    
+
     .links-svg svg {
         color: var(--links-svg);
     }
+
     /* WORKS COLORS */
-    
+
     .bg-color-work {
         background: var(--bg-works);
         color: var(--text-work);
     }
-    
+
     .bg-color-work p {
         color: var(--text-work);
     }
-    
+
     .bg-color-work span2 {
         color: var(--main-68);
     }
-    
+
     .bg-color-work h3 {
         color: var(--main-w-100);
     }
+
     /* FOOTER COLORS*/
-    
+
     .bg-black .box-L {
         background: var(--bg-footer);
         color: var(--main-w-100);
         z-index: 2;
     }
-    
+
     .bg-black {
         background: var(--bg-footer);
         color: var(--main-w-100);
         z-index: 2;
     }
-    
+
     .bg-black .links {
         background: var(--bg-footer);
         color: var(--main-w-100);
         z-index: 2;
     }
-    
+
     .bg-black span1 {
         color: var(--main-w-100);
         z-index: 2;
     }
-    
+
     .bg-black h1 {
         color: var(--main-w-100);
         padding-top: 43px;
         z-index: 2;
     }
-    
+
     .bg-black p {
         background: var(--bg-footer);
         color: var(--main-w-100);
         letter-spacing: 0.0em;
         z-index: 2;
     }
-    
+
     .bg-black a {
         text-decoration: none;
     }
-    
+
     .bg-black .button {
         color: var(--main-w-100);
     }
-    
+
     .bg-black span3 {
         color: var(--main-w-100);
     }
+
     /* ABOUT COLORS */
-    
+
     .bg-color-about {
         background: var(--links-color2);
         color: var(--main-w-100);
     }
-    
+
     .bg-color-about p {
         color: var(--main-w-100);
     }
-    
+
     .bg-color-about span2 {
         color: var(--main-w-90);
     }
-    
+
     .bg-color-about h2 {
         color: var(--main-w-100);
     }
-    
+
     .bg-color-about .button .active {
         color: var(--links-color2);
         border-bottom: 2px solid var(--links-color2);
     }
-    
+
     .bg-color-about #navbar {
         color: var(--links-color2);
         border-bottom: 2px solid var(--links-color2);
     }
-    
+
     .type-black {
         color: var(--main-100);
     }
-    
+
     .type-white {
         color: var(--main-w-100);
     }
-    
+
     span {
         color: var(--links-color100);
     }
-    
+
     span2 {
         color: var(--main-68);
     }
-    
+
     span5 {
         color: var(--gold-color);
     }
-    
+
     .bg-color-hero2 {
         background: var(--lab-bg);
     }
-    
+
     .lab-bg {
         background: var(--lab-bg);
     }
-    
+
     .lab-page-colors {
         background: var(--main-100);
         color: var(--main-w-100);
     }
-    
+
     .lab-page-colors #navbar {
         background: var(--main-100);
         color: var(--main-w-100);
     }
-    
+
     .lab-page-colors .button:hover {
         border-bottom: 2px solid var(--lab-bg);
     }
-    
+
     .lab-page-colors .button:active {
         color: var(--lab-bg);
     }
-    
+
     .lab-page-colors .button:focus {
         border-bottom: 2px solid var(--lab-bg);
     }
-    
+
     .lab-page-colors .active {
         border-bottom: 2px solid var(--lab-bg);
         color: var(--main-w-100);
     }
-    
+
     .bg-color-gold {
         background: var(--gold-color);
         color: var(--main-100);
     }
-    
+
     .bg-color-gold .button {
         background: var(--gold-color);
         color: red;
