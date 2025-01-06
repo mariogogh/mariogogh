@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.video {
+    border-radius: 24px;
+}
 
 
 #text {
