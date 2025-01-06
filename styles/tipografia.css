@@ -59,7 +59,7 @@
         color: var(--main-100);
         font-family: var(--hero-font);
         font-weight: 100;
-        font-size: 6vw;
+        font-size: 7vw;
         line-height: 110%;
         letter-spacing: -0.02em;
 
@@ -178,7 +178,14 @@
 
     @media (max-width: 600px) {
         h1 {
-            font-size: 9vw;
+            font-size: 8vw;
+        }
+
+        h2 {
+
+            font-size: 10vw;
+
+
         }
 
         span19 {

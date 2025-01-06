@@ -1,7 +1,9 @@
 .section-footer {
-    z-index: 2;
+    z-index: auto;
     height: 24px;
-    position: sticky;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: stretch;
@@ -214,21 +216,26 @@
         align-items: stretch;
         padding: 24px;
     }
+
     .section-footer p {
         font-size: 14px;
     }
+
     .section-footer a {
         font-size: 14px;
     }
+
     .box1 {
         width: 100%;
         display: block;
         padding-right: 24px;
         padding-bottom: 64px;
     }
+
     .box1 br {
         display: show;
     }
+
     .box2 {
         width: 100%;
         display: flex;
@@ -236,9 +243,11 @@
         justify-content: space-between;
         padding-bottom: 64px;
     }
+
     .box2 a {
         padding-right: 24px;
     }
+
     .footer {
         width: 100%;
         padding-left: 24px;
@@ -246,67 +255,85 @@
         padding-bottom: 16vh;
         font-size: 16px;
     }
+
     .footer .social-links {
         width: ;
         flex-wrap: wrap;
         padding-bottom: 32%;
     }
+
     .footer p {
         font-size: 16px;
     }
+
     .footer .button {
         font-size: 16px;
     }
+
     .footer .social-links {
         font-size: 16px;
     }
+
     .footer .links:last-child {
         padding-left: 0%;
     }
+
     .wide {
         width: 100%;
         height: 48px;
     }
+
     .wide br {
         display: inline;
     }
+
     .links:last-child {
         padding-left: 48px;
     }
+
     .footer .space50 {
         height: 10%;
     }
+
     .footer .button {
         padding-bottom: 0px;
     }
+
     .footer div {
         display: flex;
         justify-content: space-between;
     }
+
     .footer .space200 {
         width: 100%;
         height: 50px;
     }
+
     .content-about h1 {
         padding-left: 24px;
     }
+
     .img-footer {
         top: -2px;
         height: 100%;
     }
+
     .img-footer-img2 {
         height: 100%;
         margin-left: 0px;
         margin-left: 0px;
     }
+
     .desktop-footer {
         display: none;
     }
+
     .mobile-footer {
         display: inline;
         position: relative;
         top: 16px;
     }
+
     .footer br {
         display: block;
     }
@@ -315,15 +342,16 @@
     .iframe-responsive {
         position: relative;
         width: 100%;
-        padding-bottom: 56.25%; /* Proporção 16:9 (altere conforme necessário) */
+        padding-bottom: 56.25%;
+        /* Proporção 16:9 (altere conforme necessário) */
         height: 0;
-      }
-    
-      .iframe-responsive iframe {
+    }
+
+    .iframe-responsive iframe {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-      }
+    }
 }
