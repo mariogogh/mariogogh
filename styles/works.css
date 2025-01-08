@@ -6,19 +6,19 @@
 
 
 .hero_img_A {
-    border-radius:1px;
-    border-radius: 32px 32px 0px 0px;
+
+    border-radius: 16px 16px 0px 0px;
 
 }
 
 .hero_img_AB {
-    border-radius:1px;
-    border-radius:  0px 0px 32px 32px;
+    border-radius: 1px;
+    border-radius: 0px 0px 16px 16px;
 
 }
 
 .full-image-img-about {
-    border-radius:0px;
+    border-radius: 0px;
 }
 
 .hero-work {
@@ -109,11 +109,11 @@
 }
 
 .workslide-work svg {
-    fill: var( --main-w-100);
+    fill: var(--main-w-100);
 }
 
 .workslide-work a:visited {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-work a:link {
@@ -130,23 +130,23 @@
 }
 
 .workslide-lab span1 {
-    color: var( --hero-text);
+    color: var(--hero-text);
 }
 
 .workslide-lab p {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-lab a {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-lab svg {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-lab a:visited {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-about {
@@ -155,11 +155,11 @@
 }
 
 .workslide-about span1 {
-    color: var( --hero-text);
+    color: var(--hero-text);
 }
 
 .workslide-about p {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
     ;
 }
 
@@ -172,27 +172,41 @@
 }
 
 .workslide-about .box-L {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
     ;
 }
 
 .workslide-about a {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-about svg {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-about a:visited {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .bg-div-all {
-    background: var( --hero-text);
+    background: var(--hero-text);
     z-index: 331;
     position: sticky;
     background: var(--work);
+    cursor: var(--cursor);
+}
+
+.bg-div-all a {
+
+    cursor: var(--cursor);
+}
+
+.bg-div-all svg {
+    cursor: var(--cursor);
+}
+
+.bg-div-all .svg {
+    cursor: var(--cursor);
 }
 
 .img-small-right {
@@ -331,14 +345,16 @@
 
 img {
     transition: opacity 0.2s ease-in-out;
-    border-radius:24px;
-   
+    border-radius: 16px;
+
+
 
 }
 
 img :hover {
     opacity: 1 !important;
     spandisplay: none;
+
     before {
         content: "Reply!";
     }
@@ -398,24 +414,29 @@ img :hover {
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .section-hero-elements {
         width: 100%;
         display: block;
         padding: 24px;
     }
+
     .section-mansoury {
         width: 100%;
         display: block;
     }
+
     .section-hero-elements-img {
         width: 100%;
         display: block;
     }
+
     .section-hero-work-info {
         width: 100%;
         display: block;
         padding-left: 24px;
     }
+
     .img-small-right {
         width: 100%;
         height: 100%;
@@ -423,6 +444,7 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .img-small-left {
         width: 100%;
         height: 100%;
@@ -430,6 +452,7 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .img-small-in-full {
         width: 100%;
         height: 100%;
@@ -437,15 +460,17 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .workslide-about p {
         padding-left: 24px;
     }
+
     .content-full-screen .workslide-about {
         padding-left: 0px;
     }
+
     .about-works {
         display: blt: 16px;
         padding-righock;
     }
 }
-

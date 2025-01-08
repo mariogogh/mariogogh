@@ -9,6 +9,11 @@
     padding-bottom: 50px;
     margin: 0 auto;
     z-index: 1;
+    cursor: var(--cursor);
+}
+
+.more_works a {
+    cursor: var(--cursor);
 }
 
 .work-list .svg-line-bar {
@@ -22,6 +27,7 @@
 .work-list {
     width: 100%;
     display: flex;
+    cursor: var(--cursor);
 
 }
 

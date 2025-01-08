@@ -31,6 +31,7 @@
     letter-spacing: -0.00em;
     border-bottom: 1px solid transparent;
     text-decoration: underline;
+    cursor: var(--cursor);
     /* or 33px */
 }
 
@@ -156,6 +157,7 @@ svg:hover {
         padding-right: 0px;
         font-size: 16px;
     }
+
     .hugelink a {
         font-size: 9vw;
         height: 6.8vh;

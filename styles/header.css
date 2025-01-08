@@ -12,6 +12,11 @@ header {
     font-size: 12px;
     z-index: 1;
     transition-delay: 2.5s;
+    cursor: var(--cursor);
+}
+
+svg a {
+    cursor: var(--cursor);
 }
 
 .box-logo {

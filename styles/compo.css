@@ -22,7 +22,7 @@ html {
 img {
     opacity: 1;
     transition: transform 0.5s ease;
-    cursor: var(--cursor-img);
+    cursor: var(--cursor);
 }
 
 .all-content {
@@ -148,22 +148,27 @@ img {
         padding: 4%;
         margin: auto;
     }
+
     .space300 {
         width: 100%;
         height: 150px;
     }
+
     .space200 {
         width: 100%;
         height: 100px;
     }
+
     .space100 {
         width: 100%;
         height: 50px;
     }
+
     .space50 {
         width: 100%;
         height: 24px;
     }
+
     .space24 {
         width: 100%;
         height: 12px;
@@ -242,22 +247,27 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
+
     .type-L {
         width: 100%;
         top: 12%;
     }
+
     .type-R {
         width: 100%;
         top: 48%;
     }
+
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
+
     .caption {
         top: 5%;
     }
@@ -271,18 +281,22 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
+
     .type-L {
         width: 100%;
         top: 14%;
     }
+
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
+
     .caption {
         top: 5%;
     }
@@ -296,17 +310,21 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
+
     .type-L h2 {
         text-align: left;
         font-size: 30vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 30vw;
     }
+
     .caption {
         top: 5%;
     }
+
     .type-L {
         width: 100%;
         justify-content: left;
@@ -317,6 +335,7 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
+
     .type-R {
         width: 100%;
         justify-content: right;
@@ -338,22 +357,27 @@ html.has-scroll-dragging {
         justify-content: flex-start;
         align-items: flex-end;
     }
+
     .type-L {
         width: 100%;
         top: 25%;
     }
+
     .type-R {
         width: 100%;
         top: 48%;
     }
+
     .type-L h2 {
         text-align: left;
         font-size: 26vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 26vw;
     }
+
     .caption {
         top: 5%;
     }
@@ -367,6 +391,7 @@ html.has-scroll-dragging {
         justify-content: space-around;
         align-items: flex-end;
     }
+
     .type-L {
         width: 100%;
         justify-content: left;
@@ -377,14 +402,17 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
+
     .type-L h2 {
         text-align: left;
         font-size: 42.7vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 42.7vw;
     }
+
     .type-R {
         width: 100%;
         justify-content: right;
@@ -396,6 +424,7 @@ html.has-scroll-dragging {
         padding: 16px;
         align-items: flex-end;
     }
+
     .caption {
         position: none;
         justify-content: left;
@@ -409,10 +438,12 @@ html.has-scroll-dragging {
         padding-left: 24px;
         top: 48%;
     }
+
     .caption p {
         color: white;
         font-size: 16px;
     }
+
     .remove br {
         display: none;
     }
@@ -424,13 +455,16 @@ html.has-scroll-dragging {
         text-align: left;
         font-size: 35.7vw;
     }
+
     .type-R h2 {
         text-align: right;
         font-size: 35.7vw;
     }
+
     .caption {
         padding-left: 88px;
     }
+
     .GlobalPadding {
         padding: 2%;
         margin: auto;
