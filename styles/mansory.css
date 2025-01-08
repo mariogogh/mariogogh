@@ -10,6 +10,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    border-radius: 16px;
 }
 
 .GlobalPadding .masonry {
@@ -43,6 +44,15 @@ p .caixa-texto {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.grid .video {
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
 }
 
 .grid:hover {
@@ -83,10 +93,12 @@ p .caixa-texto {
         padding-left: 12px;
         padding-right: 24px;
     }
+
     .lab .grid:nth-child(even) {
         right: 0%;
         position: relative;
     }
+
     .grid-left {
         padding-right: 0px;
         padding-left: 0px;
@@ -97,16 +109,19 @@ p .caixa-texto {
     .section-hero-elements .masonry {
         padding: 0px;
     }
+
     .masonry {
         columns: 2;
         column-gap: 4%;
         padding-left: 12px;
         padding-right: 24px;
     }
+
     .lab .grid:nth-child(even) {
         right: 0%;
         position: relative;
     }
+
     .grid-left {
         padding-right: 0px;
         padding-left: 0px;
@@ -120,22 +135,28 @@ p .caixa-texto {
         padding-left: 24px;
         padding-right: 48px;
     }
+
     .section-hero-elements .masonry {
         padding: 0px;
     }
+
     .wall {
         width: 100%;
     }
+
     .grid {
         padding-bottom: 32px;
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
+        border-radius: 16px;
     }
+
     .lab .grid:nth-child(even) {
         right: 0%;
         position: relative;
     }
+
     .grid-left {
         padding-right: 0px;
         padding-left: 0px;
@@ -157,7 +178,7 @@ p .caixa-texto {
 }
 
 .masonry .grid:before {
-    border-radius: 5px;
+    border-radius: 1px;
     content: "";
     position: absolute;
     top: 0;
