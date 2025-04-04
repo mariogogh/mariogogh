@@ -11,7 +11,9 @@
         acumin-pro-wide,
         sans-serif;
         /* BLACK */
-        --main-100: #000000;
+        --main-100: #131313;
+        --main-90: #222020;
+        --main-75: #353333a8;
         --main-50: #808080;
         --main-25: #BFBFBF;
         --main-15: #D9D9D9;
@@ -21,6 +23,7 @@
         --eyebrown: #ADADAD;
         /* WHITE */
         --main-w-100: #FFFFFF;
+        --main-w-95: #D9D9D9;
         --main-w-90: #C5C6BC;
         --main-w-50: #A2A6A3;
         --main-w-25: #84898D;
@@ -45,6 +48,7 @@
         --span3: #355C36;
         /* SECTION WORKS COLORS */
         --span1: #191919;
+
         --svg: #989898;
         /* WORKS COLORS */
         --color-blue: #D6AA3A;
@@ -72,7 +76,7 @@
     /* SPANS */
 
     span1 {
-        color: var(--span1);
+        color: var(--main-w-100);
     }
 
     spaname {

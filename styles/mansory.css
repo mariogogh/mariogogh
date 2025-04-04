@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     width: 100%;
     border-radius: 16px;
+
 }
 
 .GlobalPadding .masonry {
@@ -44,7 +45,8 @@ p .caixa-texto {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 16px;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
 }
 
 .grid .video {
@@ -52,14 +54,31 @@ p .caixa-texto {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 16px;
+    border-radius: 12px;
+    transition: transform 0.5s ease;
 }
 
 .grid:hover {
     transform: scale(1);
     opacity: 100;
     cursor: var(--cursor-img);
+    transition: transform 0.5s ease;
 }
+
+.grid img:hover {
+    transform: scale(1.05);
+    opacity: 100;
+    cursor: var(--cursor);
+    transition: transform 0.5s ease;
+}
+
+.grid img {
+    transform: scale(1);
+    opacity: 100;
+    cursor: var(--cursor);
+    transition: transform 0.5s ease;
+}
+
 
 .masonry {
     columns: 2;

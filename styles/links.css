@@ -1,32 +1,32 @@
 .link-only:link {
     display: inline-block;
-    color: var(--main-90);
-    border-bottom: 1px solid var(--hero-text);
+    color: var(--main-w-90);
+
     ;
 }
 
 
 
 .link-only {
-    color: var(--main-90);
+    color: var(--main-w-90);
 }
 
 .link-only:active {
     display: inline-block;
     color: var(--main-90);
-    border-bottom: 1px solid var(--hero-text);
+
 }
 
 .link-only:hover {
     display: inline-block;
     opacity: 100%;
-    text-decoration: underline 1px solid var(--main-100);
+    border-bottom: 1px solid var(--hero-text);
 }
 
 .link-only.button:hover {
     display: inline-block;
     opacity: 60%;
-    text-decoration: underline 0px solid var(--main-w-100);
+
 }
 
 .link-only.a:hover {

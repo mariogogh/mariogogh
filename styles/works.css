@@ -5,6 +5,8 @@
 .ame-digital {}
 
 
+
+
 .hero_img_A {
 
     border-radius: 16px 16px 0px 0px;
@@ -51,11 +53,11 @@
 }
 
 .hero-work-link .button:focus {
-    border-bottom: 2px solid var(--work);
+    border-bottom: 2px solid var(--hero);
 }
 
 .hero-work-link .active {
-    border-bottom: 2px solid var(--work);
+    border-bottom: 2px solid var(--hero);
 }
 
 .hero-work-link .button:hover {
@@ -346,6 +348,7 @@
 img {
     transition: opacity 0.2s ease-in-out;
     border-radius: 16px;
+
 
 
 

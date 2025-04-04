@@ -1,6 +1,6 @@
 .navbar .button {
     font-size: 18px;
-    font-weight: semi-bold;
+    transition: background 1s ease;
     letter-spacing: -0.00em;
     text-decoration: none;
 }
@@ -9,21 +9,24 @@
     font-weight: bold;
     letter-spacing: -0.00em;
     text-decoration: none;
-    color: var(--main-100);
+    color: var(--main-w-100);
+    transition: background 1s ease;
 }
 
 .zoom {
     transition: transform .4s;
+    transition: background 1s ease;
     /* Animation */
 }
 
 .zoom:hover {
     transform: scale(1.03);
+    transition: background 1s ease;
     /* (150% zoom - Note: if theffffjdjasda zoom is too large, it will go outside of the viewport) */
 }
 
 .button {
-    color: var(--main-100);
+    color: var(--main-w-50);
     font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
@@ -32,6 +35,7 @@
     border-bottom: 1px solid transparent;
     text-decoration: underline;
     cursor: var(--cursor);
+    transition: color 1s ease;
     /* or 33px */
 }
 
@@ -46,19 +50,19 @@ svg:hover {
 
 /* visited link */
 
-.button:visited {
-    color: var(--main-100);
-}
+.button:visited {}
 
 
 /* mouse over link */
 
 .button:hover {
     color: var(--main-50);
+    transition: background 1s ease;
     opacity: 0.8;
     transition: color 1s;
     transition: border-bottom 1s;
     border-bottom: 1px solid var(--hero-text);
+    transition: color 1s ease;
 }
 
 
@@ -67,22 +71,39 @@ svg:hover {
 .button:active {
     border: none;
     outline: none;
-    color: var(--main-100);
+    color: var(--main-w-100);
 }
 
 .button:focus {
-    color: var(--main-100);
+    color: var(--main-w-100);
+    transition: background 1s ease;
     border: none;
     border-bottom: 1px solid var(--hero-text);
     outline: none;
 }
 
 .active {
-    border-bottom: 1px solid var(--hero-text);
-    font-weight: bold;
+
     transition-duration: 0.4s;
-    color: var(--main-100);
+    color: var(--main-w-100);
+    transition: background 1s ease;
 }
+
+.active svg {
+    fill: var(--main-25)
+}
+
+
+.active:hover {
+    color: var(--main-50);
+    transition: background 1s ease;
+    opacity: 0.8;
+    transition: color 1s;
+    transition: border-bottom 1s;
+    border-bottom: 1px solid var(--hero-text);
+    transition: color 1s ease;
+}
+
 
 .disable {
     opacity: 0.2;

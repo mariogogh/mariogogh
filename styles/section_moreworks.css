@@ -20,6 +20,7 @@
     width: 85.6vw;
     height: 10px;
     display: flex;
+    fill: var(--main-75);
     margin-left: 0px;
     flex-direction: row;
 }
@@ -63,6 +64,13 @@
     transition: background-color 0.3s ease;
 }
 
+.svg-color {
+    color: var(--main-w-100);
+
+}
+
+
+
 .project_grid .svg-line-bar {
     width: 100%;
 }
@@ -88,7 +96,7 @@
 
 
 .project_grid:hover {
-    background: var(--main-5);
+    background: var(--main-90);
 }
 
 .project_grid .title {

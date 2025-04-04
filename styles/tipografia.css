@@ -1,9 +1,9 @@
     p {
-        color: var(--main-100);
+        color: var(--main-w-95);
         font-family: var(--body-font);
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 172%;
         /* or 33px */
         letter-spacing: 0em;
@@ -21,7 +21,7 @@
     }
 
     .paragraph {
-        color: var(--main-100);
+        color: var(--main-w-100);
         font-family: var(--body-font);
         font-style: 400;
         font-size: 40px;
@@ -29,20 +29,30 @@
         letter-spacing: 0em;
     }
 
+    span30 {
+        color: var(--main-w-100);
+
+        font-size: 16px;
+    }
+
+
+
     span6 {
         font-family: var(--body-font);
-        font-weight: 600;
+
+        color: var(--main-w-100);
         text-decoration: bold;
-        line-height: 200%;
+
     }
 
     h1 {
-        color: var(--main-100);
+        color: var(--main-w-100);
         font-family: var(--hero-font);
         font-weight: 100;
         font-size: 5vw;
         line-height: 110%;
-        letter-spacing: -0.02em;
+
+        letter-spacing: -0.04em;
     }
 
     span19 {
@@ -56,7 +66,7 @@
     /* HERO HUGE FONT */
 
     h2 {
-        color: var(--main-100);
+        color: var(--main-w-100);
         font-family: var(--hero-font);
         font-weight: 100;
         font-size: 7vw;
@@ -170,7 +180,7 @@
 
     .eyebrown {
         color: var(--eyebrown);
-        font-size: 14px;
+        font-size: 12px;
         padding-bottom: 16px;
         font-weight: 400;
         letter-spacing: -0.0em;
