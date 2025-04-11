@@ -6,18 +6,9 @@
 }
 
 .carousele {
-    padding: 0;
-    width: 100vw;
-    height: auto;
-    position: relative;
-    cursor: var(--cursor);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
 
-    background-size: cover;
-    background-position: center;
+    cursor: var(--cursor);
+
 }
 
 
@@ -29,13 +20,8 @@
 
 .slideshow-container {
     position: relative;
-    width: 90vw;
-    height: 90vh;
-    margin: auto;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-
+    max-width: 100vw;
+    max-height: 100vh;
     background-size: cover;
     background-position: center;
     cursor: var(--cursor);
@@ -57,26 +43,19 @@
 }
 
 .slide {
-
-    display: flex;
-    justify-content: center;
-
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100%;
+    max-width: 1600px;
+    max-height: 100%;
     text-decoration: none;
     border: none;
 }
 
 .slide img {
-    display: flex;
-    justify-content: center;
+    object-fit: cover;
+
     background-size: cover;
     background-position: center;
-    text-decoration: none;
-    border: none;
-    width: 100%;
     opacity: 1;
 }
 
@@ -171,6 +150,7 @@
 .yt-frame-container {
     width: 100vw;
     height: 90vh;
+
     cursor: var(--cursor);
     border: none;
     contain: strict;
@@ -182,6 +162,7 @@
 .iframe-slide {
     object-fit: cover;
     width: 100%;
+
     height: 108%;
     cursor: var(--cursor);
     border: none;
@@ -197,28 +178,33 @@
 
 
 
-
-@media screen and (max-width: 767px) {
-
+@media screen and (min-width: 768px) {
+    .yt-wrapper {
+        overflow: hidden;
+        max-width: 100%;
+    }
 
     .yt-frame-container {
-        width: 100vw;
-        height: 41.2vh;
         position: relative;
-        overflow: hidden;
-
-        cursor: var(--cursor);
-        background-color: #000;
-        border: none;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        width: 300%;
+        left: -100%;
     }
 
-    .iframe-slide {
-        object-fit: cover;
-        width: 320vw;
-        height: 41.80vh;
-        padding-top: 2px;
-        transform: scale(1.30);
-        /* Aumenta o tamanho do iframe */
-        overflow: visible;
-        /* Garante que o conteúdo maior que o div seja visível */
+    .yt-frame-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .yt-frame-container iframe {
+        aspect-ratio: 16/9;
+        pointer-events: none;
+    }
+}

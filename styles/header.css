@@ -10,9 +10,7 @@ header {
     height: 52px;
     margin: 0 auto;
     font-size: 12px;
-    background: var(--main-100);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.37) 30.61%, rgba(0, 0, 0, 0.00) 99.61%);
-    backdrop-filter: blur(3px);
+    background: rgba(0, 0, 0, 0.77);
     z-index: 1;
     transition-delay: 2.5s;
     cursor: var(--cursor);
