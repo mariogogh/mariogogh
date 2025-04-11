@@ -30,7 +30,7 @@
     padding-right: 0px;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
-    opacity: 1;
+
     scale: (1.9);
     padding-left: 24px;
     padding-right: 24px;
@@ -88,7 +88,7 @@
     padding-right: 24px;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
-    opacity: 1;
+
     scale: (1.9);
 }
 
@@ -101,7 +101,7 @@
     padding-top: 100px;
     flex-direction: column;
     justify-content: center;
-    padding-left:0px;
+    padding-left: 0px;
     padding-right: 0px;
 }
 
@@ -215,7 +215,7 @@
     flex-direction: column;
     justify-content: center;
     transition: transform 0.9s ease;
-    opacity: 1;
+
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -227,7 +227,7 @@
     flex-direction: column;
     justify-content: center;
     transition: transform 0.9s ease;
-    opacity: 1;
+
     padding-left: 26px;
     padding-right: 26px;
     ;
@@ -242,7 +242,7 @@
     padding-left: 0px;
     padding-right: 0px;
     transition: transform 0.9s ease;
-    opacity: 1;
+
     scale: (1.9);
 }
 

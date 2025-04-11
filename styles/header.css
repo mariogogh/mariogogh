@@ -11,6 +11,8 @@ header {
     margin: 0 auto;
     font-size: 12px;
     background: var(--main-100);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.37) 30.61%, rgba(0, 0, 0, 0.00) 99.61%);
+    backdrop-filter: blur(3px);
     z-index: 1;
     transition-delay: 2.5s;
     cursor: var(--cursor);
@@ -49,7 +51,7 @@ svg a {
     display: block;
     width: 100%;
     transition: top 0.9s;
-    background: var(--main-100);
+
     /* Transition effect when sliding down (and up) */
     display: block;
     transition-delay: 2.5s;

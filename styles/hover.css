@@ -10,4 +10,5 @@
 
 .hover_img a:hover span {
     display: block;
+    text-decoration: none;
 }

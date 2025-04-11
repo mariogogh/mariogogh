@@ -345,17 +345,13 @@
     padding-bottom: 332px;
 }
 
-img {
-    transition: opacity 0.2s ease-in-out;
-    border-radius: 16px;
 
 
 
 
-}
 
 img :hover {
-    opacity: 1 !important;
+
     spandisplay: none;
 
     before {
@@ -473,7 +469,7 @@ img :hover {
     }
 
     .about-works {
-        display: blt: 16px;
-        padding-righock;
+        display: 16px;
+
     }
 }

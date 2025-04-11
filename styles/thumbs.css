@@ -55,7 +55,7 @@
 
 .figure_img {
     width: 99.1%;
-    opacity: 0.7;
+
     background-size: cover;
     position: absolute;
     display: inline-block;
@@ -68,7 +68,7 @@
 
 .figure_gif {
     width: 99.1%;
-    opacity: 0;
+
     background-size: cover;
     position: absolute;
     display: inline-block;
@@ -83,13 +83,13 @@
 }
 
 .figure_img:hover {
-    opacity: 0.1;
+
     transition: border 5s ease;
 
 }
 
 .figure_gif:hover {
-    opacity: 1;
+
     transition: border 5s ease;
 }
 

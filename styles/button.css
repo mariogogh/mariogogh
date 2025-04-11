@@ -83,7 +83,7 @@ svg:hover {
 }
 
 .active {
-
+    opacity: 100%;
     transition-duration: 0.4s;
     color: var(--main-w-100);
     transition: background 1s ease;
@@ -97,7 +97,7 @@ svg:hover {
 .active:hover {
     color: var(--main-50);
     transition: background 1s ease;
-    opacity: 0.8;
+    opacity: 1;
     transition: color 1s;
     transition: border-bottom 1s;
     border-bottom: 1px solid var(--hero-text);

@@ -1,0 +1,49 @@
+/* Loading screen styles */
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 11, 1);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: opacity 0.5s ease;
+}
+
+#loading-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.loading-image {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.loading-image.visible {
+    opacity: 1;
+    transform: scale(1.5);
+}
+
+#loading-percentage {
+    color: white;
+    font-size: 4rem;
+    margin-top: 0px;
+    position: absolute;
+
+
+
+    text-align: left;
+    bottom: 0;
+    left: 0;
+    padding: 0 50px 50px 50px;
+}

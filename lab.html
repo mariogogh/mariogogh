@@ -25,7 +25,10 @@
         gtag('config', 'G-X3QP882YD6');
     </script>
 
-
+    <!-- NEW PAGE EFFECTS -->
+    <script src="/styles/page_transitions.js"></script>
+    <script src="/styles/loading_page.js"></script>
+    <!-- NEW PAGE EFFECTS -->
     <!-- Primary Meta Tags -->
     <!-- HTML Meta Tags -->
     <title> Mário Gogh · LAB </title>
@@ -97,6 +100,8 @@
 
     <!-- HEADER SCRIPT -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
     <script>
         AOS.init();
     </script>
@@ -117,6 +122,20 @@
                 document.getElementById("navbar").style.top = "-400px";
             }
         }
+    </script>
+    <script>
+        // Reduce scroll velocity
+        let lastScrollTime = 0;
+        const scrollDelay = 50; // Adjust delay to control scroll velocity
+
+        window.addEventListener('scroll', (event) => {
+            const currentTime = new Date().getTime();
+            if (currentTime - lastScrollTime < scrollDelay) {
+                event.preventDefault();
+                return;
+            }
+            lastScrollTime = currentTime;
+        }, { passive: false });
     </script>
     <!-- HEADER SCRIPT -->
     <!-- HERO -->

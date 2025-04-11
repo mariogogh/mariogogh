@@ -13,7 +13,7 @@ html {
 }
 
 .GlobalPadding {
-    padding: 7%;
+    padding: 8%;
     margin: auto;
     background: var(--main-100);
     transition: background 5s ease;
@@ -23,6 +23,19 @@ img {
     opacity: 1;
     transition: transform 0.5s ease;
     cursor: var(--cursor);
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.active img:hover {
+    opacity: 1;
+}
+
+img:hover {
+    text-decoration: none;
+    border: none;
+    opacity: 1;
 }
 
 .all-content {
@@ -88,10 +101,6 @@ img {
 
 .grow2 {
     flex-grow: 2;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .arrow :last-child {

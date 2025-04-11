@@ -11,16 +11,139 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3QP882YD6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-    <!-- NEW PAGE EFFECTS -->
-    <script src="/styles/page_transitions.js"></script>
-    <script src="/styles/loading_page.js"></script>
-    <!-- NEW PAGE EFFECTS -->
+        gtag('config', 'G-X3QP882YD6');
+    </script>
 
+    <style>
+        /* Loading screen styles */
+        #loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(1, 11, 1);
+            z-index: 9999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            transition: opacity 0.5s ease;
+        }
 
+        #progress-bar-container {
+            width: 100%;
+            height: 100%;
+            background-color: #1d1d1d;
+            overflow: hidden;
 
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
 
+        #progress-bar {
+            width: 0;
+            height: 100%;
+            background-color: rgb(14, 92, 50);
+            transition: width 0.3s ease;
+        }
+
+        #loading-images {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+
+        .loading-image {
+            position: absolute;
+            opacity: 0;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .loading-image.visible {
+            opacity: 1;
+            transform: rotate(0deg) scale(1);
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const loadingScreen = document.createElement("div");
+            loadingScreen.id = "loading-screen";
+
+            const progressBarContainer = document.createElement("div");
+            progressBarContainer.id = "progress-bar-container";
+
+            const progressBar = document.createElement("div");
+            progressBar.id = "progress-bar";
+
+            const loadingImagesContainer = document.createElement("div");
+            loadingImagesContainer.id = "loading-images";
+
+            const imageUrls = [
+                "https://e7.pngegg.com/pngimages/435/283/png-clipart-sticker-pokemon-go-telegram-food-pokemon-go-food-human.png",
+                "https://wallpapers-clan.com/wp-content/uploads/2023/09/cute-eevee-pokemon-sticker-cover.jpg",
+                "https://mystickermania.com/cdn/stickers/pokemon/pikachu-makes-face-512x512.png",
+                "https://www.pngfind.com/pngs/m/321-3211403_anime-pokemon-png-picture-pokemon-line-sticker-png.png",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_wkznJUSxQCXieKuMYxRsy435lOFm5lU17g&s"
+            ];
+
+            imageUrls.forEach((url, index) => {
+                for (let i = 0; i < 10; i++) { // Repeat each sticker 10 times
+                    const img = document.createElement("img");
+                    img.src = url;
+                    img.className = "loading-image";
+                    img.style.width = Math.random() > 0.5 ? "500px" : "200px"; // Randomize size
+                    img.style.transform = `rotate(${Math.random() * 30 - 15}deg) scale(${Math.random() * 0.5 + 0.5})`;
+                    img.style.top = `${Math.random() * 90}%`;
+                    img.style.left = `${Math.random() * 90}%`;
+                    loadingImagesContainer.appendChild(img);
+
+                    setTimeout(() => {
+                        img.classList.add("visible");
+                    }, index * 500 + i * 250);
+                }
+            });
+
+            progressBarContainer.appendChild(progressBar);
+            loadingScreen.appendChild(progressBarContainer);
+            loadingScreen.appendChild(loadingImagesContainer);
+            document.body.appendChild(loadingScreen);
+
+            setTimeout(() => {
+                progressBarContainer.style.opacity = "1";
+            }, 100);
+
+            let progress = 0;
+            const interval = setInterval(() => {
+                progress += 12.5;
+                progressBar.style.width = `${progress}%`;
+
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    setTimeout(() => {
+                        loadingScreen.style.opacity = "0";
+                        setTimeout(() => {
+                            loadingScreen.remove();
+                        }, 500);
+                    }, 500);
+                }
+            }, 500);
+        });
+    </script>
+
+    <!-- Primary Meta Tags -->
     <!-- HTML Meta Tags -->
     <title> Mário Gogh · LAB #2 </title>
     <meta name="description"

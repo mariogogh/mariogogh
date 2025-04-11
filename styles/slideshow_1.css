@@ -1,83 +1,224 @@
+/* CSS files add styling rules to your content */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.carousele {
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    position: relative;
+    cursor: var(--cursor);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.carousele .active:hover {
+    border-bottom: 0px solid;
+}
+
+
+
 .slideshow-container {
     position: relative;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
     overflow: hidden;
-    width: 100vw;
-    height: 100vh;
-}
-
-.image-container {
-
-    background: var(--work);
-    color: var(--hero-accent);
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-size: cover;
-    transition: opacity 0.2s ease-in-out;
-    transition: transform 0.9s ease;
-    border-radius: 32px;
-    padding: 1px;
-    border: 16px solid t
-}
-
-.slideshow {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    will-change: transform;
-    height: 100%;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+    cursor: var(--cursor);
+
+}
+
+@media (max-width: 768px) {
+    .slideshow-container {
+        max-height: 80vh;
+
+    }
+}
+
+@media (max-width: 500px) {
+    .slideshow-container {
+        max-height: 70vh;
+
+    }
 }
 
 .slide {
-    display: none;
+
+    display: flex;
+    justify-content: center;
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border: none;
 }
 
-.slide.active {
-    display: block;
+.slide img {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    border: none;
+    width: 100%;
+    opacity: 1;
 }
 
-
-.control {
+.prev,
+.next {
+    cursor: var(--cursor);
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 2rem;
-    cursor: pointer;
+    padding: 16px;
+    color: rgba(255, 255, 255, 0.454);
+    font-size: 22px;
+    font-weight: bold;
+    user-select: none;
     z-index: 10;
-    font-size: 1rem;
-    border-radius: 80%;
+    border-radius: 8px;
 }
 
-.control.left_1 {
-    left: 1rem;
+.prev {
+    left: 10px;
+    border-radius: 8px;
 }
 
-.control.right_1 {
-    right: 1rem;
+.next {
+    right: 10px;
+    border-radius: 8px;
 }
 
-.indicators {
+.progress-bars {
     position: absolute;
-    bottom: 1rem;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 0.5rem;
+    gap: 10px;
+
 }
 
-.indicator {
-    width: 125px;
-    height: 3px;
-    background: white;
-    opacity: 0.5;
-    border-radius: 12%;
+.progress-bar {
+    width: 50px;
+    height: 5px;
+    background-color: #ffffff6a;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+
 }
 
-.indicator.active {
-    opacity: 1;
+.progress-bar.active {
+    background-color: #ffffff;
+
+
 }
+
+.dots {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #717171;
+}
+
+.slideshow-container img {
+    text-decoration: none;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    /* Remove underline */
+}
+
+.slideshow-container img:hover {
+    text-decoration: none;
+    opacity: 1;
+    border: none;
+
+    /* Ensure no underline on hover */
+}
+
+.yt-frame-container {
+    width: 100vw;
+    height: 90vh;
+    cursor: var(--cursor);
+    border: none;
+    contain: strict;
+    /* Helps with performance */
+    image-rendering: -webkit-optimize-contrast;
+    /* Ensures high-quality rendering */
+}
+
+.iframe-slide {
+    object-fit: cover;
+    width: 100%;
+    height: 108%;
+    cursor: var(--cursor);
+    border: none;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+
+    .yt-frame-container {
+        width: 100vw;
+        height: 41.2vh;
+        position: relative;
+        overflow: hidden;
+
+        cursor: var(--cursor);
+        background-color: #000;
+        border: none;
+    }
+
+    .iframe-slide {
+        object-fit: cover;
+        width: 320vw;
+        height: 41.80vh;
+        padding-top: 2px;
+        transform: scale(1.30);
+        /* Aumenta o tamanho do iframe */
+        overflow: visible;
+        /* Garante que o conteúdo maior que o div seja visível */
+    }
