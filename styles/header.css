@@ -10,7 +10,7 @@ header {
     height: 52px;
     margin: 0 auto;
     font-size: 12px;
-    background: rgba(0, 0, 0, 0.77);
+    background: var(--main-100);
     z-index: 1;
     transition-delay: 2.5s;
     cursor: var(--cursor);
@@ -33,7 +33,7 @@ svg a {
     display: flex;
 
     width: 50%;
-    height: 56px;
+    height: 52px;
     padding-top: 16px;
     justify-content: flex-start;
     z-index: 1;

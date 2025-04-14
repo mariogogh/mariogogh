@@ -5,10 +5,24 @@
     box-sizing: border-box;
 }
 
+
+.portfolio {
+    padding-left: 52px;
+}
+
+.brandproject {
+    padding: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 52px;
+}
+
+
 .carousele {
 
-    cursor: var(--cursor);
 
+    padding: 50px;
+    border-radius: 20px;
 }
 
 
@@ -16,19 +30,20 @@
     border-bottom: 0px solid;
 }
 
-
-
 .slideshow-container {
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    cursor: var(--cursor);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 90vw;
+    max-height: 932%;
+    /* Defina um tamanho máximo para o container */
 
+    cursor: var(--cursor);
 }
 
 @media (max-width: 768px) {
+
+
     .slideshow-container {
         max-height: 80vh;
 
@@ -36,6 +51,12 @@
 }
 
 @media (max-width: 500px) {
+
+    .carousele {
+        padding: 28px;
+    }
+
+
     .slideshow-container {
         max-height: 70vh;
 
@@ -43,21 +64,78 @@
 }
 
 .slide {
-    background-size: cover;
-    background-position: center;
-    max-width: 1600px;
-    max-height: 100%;
-    text-decoration: none;
-    border: none;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    max-height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    /* Altura fixa para o slide */
+
+
 }
 
 .slide img {
+    width: 100%;
+    height: 90vh;
+    /* Mantém a proporção da imagem */
     object-fit: cover;
+}
 
-    background-size: cover;
-    background-position: center;
+.video {
+    cursor: var(--cursor);
+    width: 100%;
+    height: 90vh;
+    /* Match the height of the .slide class */
+    margin-bottom: 3px;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0);
+    object-position: 50% 50%;
+}
+
+
+.carousel-image {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-image.active {
     opacity: 1;
 }
+
+
+
+
+.slide_grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+}
+
+.item {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.slide-grid .item {
+
+    /* Dois itens lado a lado com espaçamento */
+    background-color: #f0f0f0;
+
+    /* Altura fixa para os itens da grid */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .prev,
 .next {
@@ -66,12 +144,14 @@
     top: 50%;
     transform: translateY(-50%);
     padding: 16px;
-    color: rgba(255, 255, 255, 0.454);
-    font-size: 22px;
-    font-weight: bold;
+    color: rgba(255, 255, 255, 0.229);
+    font-size: 32px;
+    font-family: font-family: var(--body-font);
+    font-weight: 300;
     user-select: none;
     z-index: 10;
     border-radius: 8px;
+
 }
 
 .prev {
@@ -85,23 +165,30 @@
 }
 
 .progress-bars {
+    width: 50%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: -32px;
+
     display: flex;
-    gap: 10px;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    cursor: var(--cursor);
 
 }
 
 .progress-bar {
-    width: 50px;
-    height: 5px;
-    background-color: #ffffff6a;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    border-radius: 8px;
+    width: 32%;
+    height: 2px;
+    background-color: #ffffff3c;
 
+    transition: background-color 0.3s ease;
+    border-radius: 1px;
+    cursor: var(--cursor);
 }
 
 .progress-bar.active {
@@ -110,25 +197,7 @@
 
 }
 
-.dots {
-    text-align: center;
-    padding: 10px 0;
-}
 
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.dot.active {
-    background-color: #717171;
-}
 
 .slideshow-container img {
     text-decoration: none;
@@ -147,64 +216,42 @@
     /* Ensure no underline on hover */
 }
 
-.yt-frame-container {
-    width: 100vw;
-    height: 90vh;
 
-    cursor: var(--cursor);
-    border: none;
-    contain: strict;
-    /* Helps with performance */
-    image-rendering: -webkit-optimize-contrast;
-    /* Ensures high-quality rendering */
-}
-
-.iframe-slide {
-    object-fit: cover;
-    width: 100%;
-
-    height: 108%;
-    cursor: var(--cursor);
-    border: none;
-    pointer-events: none;
-    transition: all 0.3s ease-in-out;
-
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width: 768px) {
-    .yt-wrapper {
-        overflow: hidden;
-        max-width: 100%;
-    }
-
-    .yt-frame-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 25px;
-        width: 300%;
-        left: -100%;
-    }
-
-    .yt-frame-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
+@media screen and (max-width: 768px) {
+    .slideshow-container img {
         width: 100%;
-        height: 100%;
-        pointer-events: none;
+        height: auto;
+        max-height: 90vh;
+        /* Ajusta a altura máxima para telas menores */
     }
-}
 
-@media screen and (max-width: 767px) {
-    .yt-frame-container iframe {
-        aspect-ratio: 16/9;
-        pointer-events: none;
+    .video {
+        width: 100%;
+        height: auto;
+        max-height: 90vh;
+        min-height: 23vh;
     }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+        max-height: 90vh;
+    }
+
+    .slide-grid .item {
+        width: 100%;
+        height: auto;
+        max-height: 90vh;
+    }
+
+    .portfolio {
+        padding: 0px;
+    }
+
+    .prev,
+    .next {
+        padding: 8px;
+        font-size: 14px;
+    }
+
 }

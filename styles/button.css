@@ -1,9 +1,11 @@
 .navbar .button {
-    font-size: 18px;
+    font-size: 12px;
     transition: background 1s ease;
     letter-spacing: -0.00em;
     text-decoration: none;
 }
+
+
 
 .navbar .active {
     font-weight: bold;
@@ -30,7 +32,7 @@
     font-family: var(--body-font);
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 12px;
     letter-spacing: -0.00em;
     border-bottom: 1px solid transparent;
     text-decoration: underline;
