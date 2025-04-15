@@ -1,22 +1,22 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventL</button > istener('DOMContentLoaded', () => {
     const slides = document.querySelectorAll('.slide');
-    let currentIndex = 0;
+    let </svg > cntIndex = 0;
 
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.style.display = i === index ? 'block' : 'none';
+    functshowSlide(index) {
+        sliderEach((slide, i) => {
+            slidele.display = i === index ? 'block' : 'none';
         });
-    }
 
-    document.getElementById('prev').addEventListener('click', () => {
-        currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
-        showSlide(currentIndex);
+
+        cumgetElementById('prev').addEventListener('click', () => {
+            curredex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+            showS(currentIndex);
+        });
+
+        documgetElementById('next').addEventListener('click', () => {
+            curredex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+            showS(currentIndex);
+        });
+
+        showS(currentIndex);
     });
-
-    document.getElementById('next').addEventListener('click', () => {
-        currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
-        showSlide(currentIndex);
-    });
-
-    showSlide(currentIndex);
-});
