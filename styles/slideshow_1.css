@@ -7,7 +7,7 @@
 
 
 .portfolio {
-    padding-left: 52px;
+    padding-left: 0px;
 }
 
 .brandproject {
@@ -21,7 +21,7 @@
 .carousele {
 
 
-    padding: 50px;
+    padding: 0px;
     border-radius: 20px;
 }
 
@@ -152,6 +152,7 @@
     z-index: 10;
     border-radius: 12px;
 
+
 }
 
 .prev {
@@ -166,10 +167,10 @@
 
 .progress-bars {
     width: 50%;
-    height: 40px;
+    height: 50px;
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    bottom: -32px;
+    bottom: -52px;
 
     display: flex;
     justify-content: flex-start;
@@ -177,23 +178,23 @@
     align-content: flex-end;
     align-items: center;
     gap: 5px;
-    cursor: var(--cursor);
+    cursor: pointer;
 
 }
 
 .progress-bar {
     width: 32%;
-    height: 2px;
+    height: 4px;
     background-color: #ffffff3c;
 
     transition: background-color 0.3s ease;
     border-radius: 1px;
-    cursor: var(--cursor);
+    cursor: pointer;
 }
 
 .progress-bar.active {
     background-color: #ffffff;
-
+    cursor: pointer;
 
 }
 
