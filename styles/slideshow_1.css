@@ -83,7 +83,7 @@
     object-fit: cover;
 }
 
-.video {
+.slide .video {
     cursor: var(--cursor);
     width: 100vw;
     height: 100vh;
