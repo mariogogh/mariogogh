@@ -7,7 +7,7 @@ header {
     padding-bottom: 16px;
     position: fixed;
     width: 100%;
-    height: 52px;
+    height: 40px;
     margin: 0 auto;
     font-size: 12px;
     background: var(--main-100);
@@ -33,7 +33,7 @@ svg a {
     display: flex;
 
     width: 50%;
-    height: 52px;
+    height: 40px;
     padding-top: 16px;
     justify-content: flex-start;
     z-index: 1;

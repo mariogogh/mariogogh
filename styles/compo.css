@@ -22,10 +22,10 @@ html {
 img {
     opacity: 1;
     transition: transform 0.5s ease;
-    cursor: var(--cursor);
+
     text-decoration: none;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .active img:hover {
