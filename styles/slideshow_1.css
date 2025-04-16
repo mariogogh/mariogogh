@@ -38,7 +38,7 @@
     max-height: 932%;
     /* Defina um tamanho máximo para o container */
 
-    cursor: var(--cursor);
+    cursor: var(--cursor), pointer;
 }
 
 @media (max-width: 768px) {
@@ -84,7 +84,7 @@
 }
 
 .slide .video {
-    cursor: var(--cursor);
+    cursor: var(--cursor), pointer;
     width: 100vw;
     height: 100vh;
 
@@ -141,7 +141,7 @@
 
 .prev,
 .next {
-    cursor: var(--cursor);
+    cursor: var(--cursor), pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
