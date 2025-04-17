@@ -181,8 +181,8 @@ svg-right-fixed a {
 
 @media (max-width: 600px) {
     .svg-line-bar {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
         height: 9px;
     }
 

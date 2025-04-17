@@ -143,10 +143,14 @@
     }
 
     .more_works .box-R-2collumn {
-        padding-left: 13%;
+        padding-left: 10%;
         padding-right: 0px;
+        padding-top: 16px;
 
     }
+
+
+
 
     .more_works .content-full-screen {
         padding: 18px;

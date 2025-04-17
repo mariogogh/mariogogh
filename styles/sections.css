@@ -279,7 +279,11 @@
     }
 
     .box-L .link-left {
-        padding-left: 24px;
+        padding-left: 20px;
+    }
+
+    .link-right p {
+        padding-left: 20px;
     }
 
     .section-hero-2 {
@@ -298,8 +302,8 @@
     }
 
     .content-full-screen {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .content-about br {
@@ -512,11 +516,11 @@
     }
 
     .box-R p {
-        padding-left: 24px;
+        padding-left: 20px;
     }
 
     .box-R h1 {
-        padding-left: 24px;
+        padding-left: 20px;
     }
 
     .section-hero-elements .hugelink {

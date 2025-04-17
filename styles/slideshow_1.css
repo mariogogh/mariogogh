@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+.w-resize {
+    cursor: w-resize;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
 
 .portfolio {
     padding-left: 0px;
@@ -34,7 +41,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 90vw;
+    max-width: 95vw;
     max-height: 932%;
     /* Defina um tamanho máximo para o container */
 
@@ -45,7 +52,7 @@
 
 
     .slideshow-container {
-        max-height: 100vh;
+        max-height: 95vh;
 
     }
 }
@@ -53,7 +60,7 @@
 @media (max-width: 500px) {
 
     .carousele {
-        padding: 28px;
+        padding: 20px;
     }
 
 
@@ -71,7 +78,9 @@
     display: flex;
     flex-wrap: wrap;
     border-radius: 2px;
-    /* Altura fixa para o slide */
+    cursor: var(--cursor), link;
+    cursor:
+        /* Altura fixa para o slide */
 
 
 }
@@ -81,14 +90,15 @@
     height: 90vh;
     /* Mantém a proporção da imagem */
     object-fit: cover;
+    cursor: var(--cursor);
 }
 
 .slide .video {
-    cursor: var(--cursor), pointer;
+    cursor: var(--cursor);
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 
-    max-height: 90vh;
+    max-height: 95vh;
     /* Match the height of the .slide class */
     margin-bottom: 3px;
     display: block;
@@ -141,12 +151,15 @@
 
 .prev,
 .next {
-    cursor: var(--cursor), pointer;
+    cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    padding: 16px;
-    color: rgba(255, 255, 255, 0.229);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgba(255, 255, 255, 0.028);
     font-size: 32px;
     font-family: font-family: var(--body-font);
     font-weight: 300;
@@ -160,11 +173,13 @@
 .prev {
     left: 10px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .next {
     right: 10px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .progress-bars {
@@ -173,7 +188,7 @@
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     bottom: -40px;
-
+    cursor: pointer;
     display: flex;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -312,7 +327,6 @@
 
             .slide-grid .item {
                 width: 100%;
-
                 max-height: 90vh;
             }
         }
@@ -321,19 +335,18 @@
             .slide img {
                 width: 100%;
 
-                max-height: 90vh;
+
             }
 
-            .video {
+            .slide .video {
                 width: 100%;
 
-                max-height: 90vh;
-                min-height: 23vh;
+                height: auto;
+
             }
 
             .slide-grid .item {
                 width: 100%;
-
                 max-height: 90vh;
             }
         }
