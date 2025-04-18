@@ -1,3 +1,9 @@
+.archive_works {
+    padding: 0px;
+}
+
+
+
 .more_works {
     position: relative height: 100%;
     width: 106vw;
@@ -20,7 +26,7 @@
     width: 85.6vw;
     height: 10px;
     display: flex;
-    fill: var(--main-75);
+    fill: var(--main-50);
     margin-left: 0px;
     flex-direction: row;
 }
