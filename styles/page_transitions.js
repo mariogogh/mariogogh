@@ -1,31 +1,46 @@
+// Function to preload all images and videos on the page
+function preloadMedia() {
+    const mediaElements = [...document.querySelectorAll('img'), ...document.querySelectorAll('video')];
 
-document.addEventListener("DOMContentLoaded", function () {
-    const links = document.querySelectorAll(".button");
-    links.forEach(link => {
-        link.addEventListener("click", function (event) {
-            event.preventDefault();
-            const targetUrl = this.href;
+    mediaElements.forEach((media) => {
+        if (media.tagName === 'IMG') {
+            const tempImg = new Image();
+            tempImg.src = media.src;
 
-            const transitionOverlay = document.createElement("div");
-            transitionOverlay.style.position = "fixed";
-            transitionOverlay.style.top = "0";
-            transitionOverlay.style.left = "0";
-            transitionOverlay.style.width = "100%";
-            transitionOverlay.style.height = "100%";
-            transitionOverlay.style.backgroundColor = "black";
-            transitionOverlay.style.zIndex = "9999";
-            transitionOverlay.style.opacity = "0";
-            transitionOverlay.style.transition = "opacity 0.5s ease";
+            // Add a fallback effect for images that fail to load
+            tempImg.onerror = () => {
+                media.style.filter = 'blur(5px)';
+                media.style.opacity = '0.5';
+            };
 
-            document.body.appendChild(transitionOverlay);
+            tempImg.onload = () => {
+                media.style.filter = 'none';
+                media.style.opacity = '1';
+            };
+        } else if (media.tagName === 'VIDEO') {
+            media.addEventListener('loadeddata', () => {
+                media.style.opacity = '1';
+            });
 
-            setTimeout(() => {
-                transitionOverlay.style.opacity = "1";
-            }, 10);
+            media.addEventListener('error', () => {
+                media.style.filter = 'blur(5px)';
+                media.style.opacity = '0.5';
+            });
 
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 500);
-        });
+            // Preload video
+            media.preload = 'auto';
+        }
     });
-});
+}
+
+// Use requestIdleCallback for better performance
+function onLoad() {
+    if ('requestIdleCallback' in window) {
+        requestIdleCallback(preloadMedia);
+    } else {
+        setTimeout(preloadMedia, 0);
+    }
+}
+
+// Call the function when the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', onLoad);
