@@ -1,15 +1,18 @@
     @import url("https://use.typekit.net/ret3spf.css");
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+
+
 
     :root {
-        --main-font: Helveticaneue, sans-serif;
-        acumin-pro-wide,
-        sans-serif;
-        --hero-font: Helveticaneue, sans-serif;
-        acumin-pro-wide,
-        sans-serif;
-        --body-font: Helveticaneue, sans-serif;
-        acumin-pro-wide,
-        sans-serif;
+        --main-font: "DM Sans", sans-serif;
+        /* BLACK */
+        --hero-font: "DM Sans", sans-serif, weight 400, style normal;
+        /* BLACK */
+        --hero-font: "DM Sans", sans-serif;
+        --body-font: "DM Sans", sans-serif;
+
         /* BLACK */
         --main-100: #131313;
         --main-90: #222020;

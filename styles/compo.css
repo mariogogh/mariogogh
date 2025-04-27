@@ -12,11 +12,22 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+.GlobalPadding .active:hover {
+    border-bottom: 0px solid;
+}
+
 .GlobalPadding {
     padding: 8%;
     margin: auto;
     background: var(--main-100);
     transition: background 5s ease;
+    border: 0px;
+    border-bottom: 0px solid var(--hero-text);
+    transition: color 1s ease;
+    outline: none;
+    box-sizing: border-box;
 }
 
 img {

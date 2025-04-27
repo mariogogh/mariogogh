@@ -8,14 +8,12 @@
 
 
 .hero_img_A {
-
-    border-radius: 16px 16px 0px 0px;
-
+    border-radius: 6px 6px 0px 0px;
 }
 
 .hero_img_AB {
-    border-radius: 1px;
-    border-radius: 0px 0px 16px 16px;
+
+    border-radius: 0px 0px 6px 6px;
 
 }
 
@@ -191,17 +189,14 @@
 }
 
 .bg-div-all {
-    background: var(--hero-text);
+
     z-index: 331;
     position: sticky;
-    background: var(--work);
-    cursor: var(--cursor);
+
+
 }
 
-.bg-div-all a {
-
-    cursor: var(--cursor);
-}
+.bg-div-all a {}
 
 .bg-div-all svg {
     cursor: var(--cursor);

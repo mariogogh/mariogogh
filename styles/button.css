@@ -18,6 +18,7 @@
 .zoom {
     transition: transform .4s;
     transition: background 1s ease;
+    cursor: var(--cursor);
     /* Animation */
 }
 

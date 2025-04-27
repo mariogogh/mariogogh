@@ -9,9 +9,27 @@
     padding-right: 8%;
     bottom: 0%;
     z-index: 50;
+    padding-bottom: -2px;
     position: sticky;
     /* Create the parallax scrolling effect */
 }
+
+.hero25 {
+    padding-right: 32px;
+    padding-top: 18px;
+}
+
+.hero-padding {
+    padding-left: 118px;
+}
+
+
+.hero_A.newnew {
+    padding-top: 5%;
+}
+
+
+
 
 .type_white {
     color: var(--hero-text)
@@ -72,7 +90,7 @@
     width: 50%;
     height: 100%;
     font-size: 16px;
-    padding-top: 64px;
+    padding-top: 100px;
     padding-right: 0%;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
@@ -87,13 +105,18 @@
     width: 50%;
     height: 100%;
     font-size: 16px;
-    padding-top: 64px;
+    padding-top: 100px;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
     z-index: 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800, 700, 600px) {
+
+    .hero-padding {
+        padding-left: 0px;
+    }
+
     .hero_A {
         display: flex;
         flex-direction: column;
