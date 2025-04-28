@@ -7,12 +7,14 @@
 @media (max-width: 768px) {
     .gallery {
         column-count: 2;
+        padding: 2rem;
     }
 }
 
 @media (max-width: 480px) {
     .gallery {
-        column-count: 1;
+        column-count: 2;
+        padding: 2rem;
     }
 }
 
