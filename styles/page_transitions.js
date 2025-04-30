@@ -93,3 +93,101 @@ document.addEventListener('DOMContentLoaded', () => {
     prioritizeHeaderAndMain();
     lazyLoadMedia();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const isMobile = () => window.innerWidth <= 768;
+    const slideshows = document.querySelectorAll(".slideshow");
+
+    // Lazy load images inside .slideshow
+    const lazyLoadImages = () => {
+        const images = document.querySelectorAll(".slideshow img[data-src]");
+        if ("IntersectionObserver" in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.removeAttribute("data-src");
+                        observer.unobserve(img);
+                    }
+                });
+            });
+
+            images.forEach(img => imageObserver.observe(img));
+        } else {
+            // Fallback: load all images
+            images.forEach(img => {
+                img.src = img.dataset.src;
+                img.removeAttribute("data-src");
+            });
+        }
+    };
+
+    // Pause or play slideshow based on visibility
+    const handleSlideshowVisibility = () => {
+        if (!("IntersectionObserver" in window)) return;
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                const slideshow = entry.target;
+                if (entry.isIntersecting) {
+                    slideshow.classList.add("play");
+                } else {
+                    slideshow.classList.remove("play");
+                }
+            });
+        });
+
+        slideshows.forEach(slideshow => observer.observe(slideshow));
+    };
+
+    // Disable autoplay on mobile
+    const disableAutoplayOnMobile = () => {
+        if (isMobile()) {
+            slideshows.forEach(slideshow => {
+                slideshow.classList.remove("autoplay");
+            });
+        }
+    };
+
+    // Initialize all
+    lazyLoadImages();
+    handleSlideshowVisibility();
+    disableAutoplayOnMobile();
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const lazyLoadScopedImages = (selectors) => {
+        const containers = document.querySelectorAll(selectors.join(","));
+        const images = [];
+
+        containers.forEach(container => {
+            const scopedImages = container.querySelectorAll("img[data-src]");
+            scopedImages.forEach(img => images.push(img));
+        });
+
+        if ("IntersectionObserver" in window) {
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.removeAttribute("data-src");
+                        obs.unobserve(img);
+                    }
+                });
+            });
+
+            images.forEach(img => observer.observe(img));
+        } else {
+            // Fallback: just load everything
+            images.forEach(img => {
+                img.src = img.dataset.src;
+                img.removeAttribute("data-src");
+            });
+        }
+    };
+
+    lazyLoadScopedImages([".Tabs-container", ".GlobalPadding"]);
+});

@@ -7,14 +7,33 @@
 @media (max-width: 768px) {
     .gallery {
         column-count: 2;
-        padding: 2rem;
+        padding: 0rem;
+        column-gap: 1rem;
+
+    }
+
+
+    .item-gallery {
+
+        padding-bottom: 0rem;
+
+
     }
 }
 
 @media (max-width: 480px) {
     .gallery {
         column-count: 2;
-        padding: 2rem;
+        column-gap: 1rem;
+        padding: 0.5rem;
+    }
+
+
+    .item-gallery {
+
+        padding-bottom: 0rem;
+
+
     }
 }
 

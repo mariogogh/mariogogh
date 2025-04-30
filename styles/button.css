@@ -70,8 +70,8 @@ svg:hover {
 
 .button svg {
     fill: var(--main-w-100);
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 
 }
 
