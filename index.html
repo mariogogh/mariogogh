@@ -3023,7 +3023,88 @@
         </div>
         <!-- FOOTER -->
     </div>
+    <script>
+        document.querySelectorAll('.slideshow-container').forEach((container) => {
+            let slideIndex = 1;
+            const slides = container.querySelectorAll('.slide');
+            const bars = container.querySelectorAll('.progress-bar');
 
+            function showSlides(n) {
+                if (n > slides.length) slideIndex = 1;
+                if (n < 1) slideIndex = slides.length;
+
+                slides.forEach(slide => {
+                    slide.classList.remove('active', 'fade');
+                    slide.style.display = 'none';
+                });
+
+                bars.forEach(bar => bar.classList.remove('active'));
+
+                slides[slideIndex - 1].classList.add('active', 'fade');
+                slides[slideIndex - 1].style.display = 'block';
+                bars[slideIndex - 1].classList.add('active');
+            }
+
+            function changeSlide(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            container.querySelector('.prev').addEventListener('click', () => changeSlide(-1));
+            container.querySelector('.next').addEventListener('click', () => changeSlide(1));
+            bars.forEach((bar, index) => {
+                bar.addEventListener('click', () => currentSlide(index + 1));
+            });
+
+            slides.forEach(slide => {
+                slide.addEventListener('click', () => changeSlide(1));
+            });
+
+            // Add keyboard navigation when hovering or focusing on the carousele
+            container.closest('.carousele').addEventListener('mouseenter', () => {
+                document.addEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('mouseleave', () => {
+                document.removeEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('focus', () => {
+                document.addEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('blur', () => {
+                document.removeEventListener('keydown', handleKeydown);
+            });
+
+            function handleKeydown(e) {
+                if (e.key === 'ArrowLeft') changeSlide(-1);
+                if (e.key === 'ArrowRight') changeSlide(1);
+            }
+
+            showSlides(slideIndex);
+        });
+    </script>
+
+    <style>
+        /* Add fade effect for slides */
+        .slide.fade {
+            animation: fadeEffect 1.9s ease-in-out;
+        }
+
+        @keyframes fadeEffect {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 5;
+            }
+        }
+    </style>
 </body>
 
 </html>
