@@ -11,11 +11,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const allElements = document.querySelectorAll(".All");
     const imageUrls = [
-        "https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/random/image_top_mariogogh.jpg?raw=true",
-        "https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/random/image_bottom_mariogogh.jpg?raw=true",
-        "https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/Thumbs/image_creditas_02.gif?raw=true",
-        "https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/Thumbs/image_itau_02.gif?raw=true",
-        "https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/Thumbs/image_ambev_02.gif?raw=true"
+
+        "images/all/intro.gif",
+        "images/all/intro1.gif",
+        "images/all/intro2.gif",
+        "images/thumbs/image_ame_02.gif",
+        "images/thumbs/image_itau_02.gif",
+        "images/thumbs/image_Lab_02.gif",
+        "images/thumbs/image_SquareOne_02.gif",
+        "images/thumbs/image_creditas_02.gif",
+
     ];
 
     let loadedElements = 0;

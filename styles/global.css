@@ -24,7 +24,6 @@
 @import "/styles/home-cover.js";
 @import "/styles/mansory.css";
 @import "/styles/masonry-lab.css";
-@import "/styles/masonry-lab.js";
 @import "/styles/hover.css";
 @import "/styles/moreworks.css";
 @import "/styles/section_moreworks.css";
@@ -35,4 +34,6 @@
 @import "/styles/loading_page.css";
 @import "/styles/tab_bar.css";
 @import "/styles/tab_bar.js";
+@import "/styles/bootup-time.js";
+@import "src/scss/lazyframe";
 @import url("https://use.typekit.net/grn6fkm.css");
