@@ -15,11 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "images/all/intro.gif",
         "images/all/intro1.gif",
         "images/all/intro2.gif",
-        "images/thumbs/image_ame_02.gif",
-        "images/thumbs/image_itau_02.gif",
-        "images/thumbs/image_Lab_02.gif",
-        "images/thumbs/image_SquareOne_02.gif",
-        "images/thumbs/image_creditas_02.gif",
+
 
     ];
 
@@ -53,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const img = document.createElement("img");
         img.src = url;
         img.className = "loading-image";
-        img.style.width = "300px"; // Fixed size for consistency
+        img.style.width = "600px"; // Fixed size for consistency
         loadingImagesContainer.appendChild(img);
 
         img.onload = () => {
