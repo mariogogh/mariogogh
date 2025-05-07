@@ -116,7 +116,7 @@
 
 .carousel-image {
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
 }
 
 .carousel-image.active {

@@ -22,7 +22,7 @@
     position: relative;
     text-decoration: none;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.1s ease;
     background-color: var(--main-100);
     color: var(--main-w-25);
     font-family: var(--hero-font);
@@ -49,7 +49,7 @@
     height: 2px;
     background: var(--hero);
     transform: scaleX(0);
-    transition: transform 0.3s ease;
+    transition: transform 0.1s ease;
 }
 
 .tab-button:hover::after {
@@ -74,9 +74,32 @@
 
 .tab-panel img {
     opacity: 0;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.1s ease;
 }
 
 .tab-panel img.loaded {
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .tabs {
+        flex-direction: row;
+        width: 90vw;
+    }
+
+
+
+    .tabs-container {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-button {
+        font-size: 6vw;
+    }
+
+    .tabs-container {
+        margin-top: 20px;
+    }
 }
