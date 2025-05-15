@@ -25,99 +25,8 @@
 
     <!-- Coockies -->
     <!-- Elfsight Cookie Consent | Untitled Cookie Consent -->
-<<<<<<< HEAD
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Consentimento de Cookies</title>
-    <style>
-        #cookie-banner {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            right: 20px;
-            max-width: 400px;
-            margin: auto;
-            background: #fff;
-            color: #333;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            font-family: sans-serif;
-            z-index: 9999;
-            display: none;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        #cookie-banner.show {
-            display: flex;
-        }
-
-        #cookie-banner .buttons {
-            display: flex;
-            justify-content: flex-end;
-            gap: 10px;
-        }
-
-        #cookie-banner button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-
-        #cookie-banner button:hover {
-            opacity: 0.9;
-        }
-
-        #cookie-banner button.recusar {
-            background-color: #6c757d;
-        }
-    </style>
-
-
-    <div id="cookie-banner">
-        <div>
-            Utilizamos cookies para melhorar sua experiência. Você pode aceitar ou recusar. Saiba mais na nossa <a
-                href="#" target="_blank">Política de Privacidade</a>.
-        </div>
-        <div class="buttons">
-            <button class="recusar" id="reject-cookies">Recusar</button>
-            <button id="accept-cookies">Aceitar</button>
-        </div>
-    </div>
-
-    <script>
-        const banner = document.getElementById('cookie-banner');
-        const acceptBtn = document.getElementById('accept-cookies');
-        const rejectBtn = document.getElementById('reject-cookies');
-
-        // Checa se o usuário já escolheu
-        const consent = localStorage.getItem('cookieConsent');
-        if (!consent) {
-            banner.classList.add('show');
-        }
-
-        // Usuário aceita
-        acceptBtn.addEventListener('click', () => {
-            localStorage.setItem('cookieConsent', 'accepted');
-            banner.classList.remove('show');
-        });
-
-        // Usuário recusa
-        rejectBtn.addEventListener('click', () => {
-            localStorage.setItem('cookieConsent', 'rejected');
-            banner.classList.remove('show');
-        });
-    </script>
-
-
-
-
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-a132ef07-972d-41ef-b774-7d054173111d" data-elfsight-app-lazy></div>
     <!-- Coockies -->
     <!-- HEADER SCRIPT -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -151,132 +60,110 @@
             } else {
                 document.getElementById("navbar").style.top = "-400px";
             }
-=======
-
-
-    <style>
-        #cookie-banner {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            right: 20px;
-            max-width: 400px;
-            margin: auto;
-            background: #fff;
-            color: #333;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            font-family: sans-serif;
-            z-index: 9999;
-            display: none;
-            flex-direction: column;
-            gap: 15px;
->>>>>>> parent of fd82c10 (Remove cookie banner)
         }
 
-        #cookie-banner.show {
+        #cookie - banner.show {
             display: flex;
         }
 
-        #cookie-banner .buttons {
+        #cookie - banner.buttons {
             display: flex;
-            justify-content: flex-end;
+            justify - content: flex - end;
             gap: 10px;
         }
 
-        #cookie-banner button {
+        #cookie - banner button {
             border: none;
             padding: 10px 15px;
-            border-radius: 5px;
+            border - radius: 5px;
             cursor: pointer;
-            font-size: 14px;
+            font - size: 14px;
             transition: background 0.3s ease;
         }
 
-        #cookie-banner button.accept {
-            background-color: #022720;
+        #cookie - banner button.accept {
+            background - color: #022720;
             color: white;
         }
 
-        #cookie-banner button.accept:hover {
-            background-color: #034036;
+        #cookie - banner button.accept:hover {
+            background - color: #034036;
         }
 
-        #cookie-banner button.decline {
-            background-color: #6c757d;
+        #cookie - banner button.decline {
+            background - color: #6c757d;
             color: white;
         }
 
-        #cookie-banner button.decline:hover {
-            background-color: #5a6268;
+        #cookie - banner button.decline:hover {
+            background - color: #5a6268;
         }
-    </style>
+    </style >
 
 
-    <div id="cookie-banner">
-        <div id="cookie-banner">
-            <div>
-                We use cookies to improve your experience. By clicking "Accept", you agree to our use of cookies. Read
-                more in our <a href="#" target="_blank">Privacy Policy</a>.
-            </div>
-            <div class="buttons">
-                <button class="decline" id="reject-cookies">Decline</button>
-                <button class="accept" id="accept-cookies">Accept</button>
-            </div>
-        </div>
+            <div id="cookie-banner">
+                <div id="cookie-banner">
+                    <div>
+                        We use cookies to improve your experience. By clicking "Accept", you agree to our use of cookies. Read
+                        more in our <a href="#" target="_blank">Privacy Policy</a>.
+                    </div>
+                    <div class="buttons">
+                        <button class="decline" id="reject-cookies">Decline</button>
+                        <button class="accept" id="accept-cookies">Accept</button>
+                    </div>
+                </div>
 
-        <script>
-            const banner = document.getElementById('cookie-banner');
-            const acceptBtn = document.getElementById('accept-cookies');
-            const rejectBtn = document.getElementById('reject-cookies');
+                <script>
+                    const banner = document.getElementById('cookie-banner');
+                    const acceptBtn = document.getElementById('accept-cookies');
+                    const rejectBtn = document.getElementById('reject-cookies');
 
-            // Checa se o usuário já escolheu
-            const consent = localStorage.getItem('cookieConsent');
-            if (!consent) {
-                banner.classList.add('show');
+                    // Checa se o usuário já escolheu
+                    const consent = localStorage.getItem('cookieConsent');
+                    if (!consent) {
+                        banner.classList.add('show');
             }
 
             // Usuário aceita
             acceptBtn.addEventListener('click', () => {
-                localStorage.setItem('cookieConsent', 'accepted');
-                banner.classList.remove('show');
+                        localStorage.setItem('cookieConsent', 'accepted');
+                    banner.classList.remove('show');
             });
 
             // Usuário recusa
             rejectBtn.addEventListener('click', () => {
-                localStorage.setItem('cookieConsent', 'rejected');
-                banner.classList.remove('show');
+                        localStorage.setItem('cookieConsent', 'rejected');
+                    banner.classList.remove('show');
             });
-        </script>
+    </script>
 
 
 
 
-        <!-- Coockies -->
-        <!-- HEADER SCRIPT -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <!-- Coockies -->
+    <!-- HEADER SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
 
-        <script>
-            AOS.init();
-        </script>
-        <!-- AOS ANIMATION-->
-        <script src="/styles/page_transitions.js"></script>
-        <script src="/styles/loading_page.js"></script>
-        <!-- AOS ANIMATION-->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3QP882YD6"></script>
-        <!-- HEADER SCRIPT -->
-        <script>
-            // When the user scrolls down 20px from the top of the document, slide down the navbar
-            window.onscroll = function () {
-                scrollFunction();
+    <script>
+                AOS.init();
+    </script>
+    <!-- AOS ANIMATION-->
+    <script src="/styles/page_transitions.js"></script>
+    <script src="/styles/loading_page.js"></script>
+    <!-- AOS ANIMATION-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3QP882YD6"></script>
+    <!-- HEADER SCRIPT -->
+    <script>
+                // When the user scrolls down 20px from the top of the document, slide down the navbar
+                window.onscroll = function () {
+                    scrollFunction();
             };
 
-            function scrollFunction() {
+                function scrollFunction() {
                 if (
                     document.body.scrollTop > 40 ||
                     document.documentElement.scrollTop > 40
@@ -287,27 +174,27 @@
                     document.getElementById("navbar").style.top = "-400px";
                 }
             }
-        </script>
-        <script>
+    </script>
+    <script>
             document.querySelectorAll('.slideshow-container').forEach((container) => {
-                let slideIndex = 1;
+                    let slideIndex = 1;
                 const slides = container.querySelectorAll('.slide');
                 const bars = container.querySelectorAll('.progress-bar');
 
                 function showSlides(n) {
                     if (n > slides.length) slideIndex = 1;
-                    if (n < 1) slideIndex = slides.length;
+                if (n < 1) slideIndex = slides.length;
 
                     slides.forEach(slide => {
-                        slide.classList.remove('active', 'fade');
-                        slide.style.display = 'none';
+                    slide.classList.remove('active', 'fade');
+                slide.style.display = 'none';
                     });
 
                     bars.forEach(bar => bar.classList.remove('active'));
 
-                    slides[slideIndex - 1].classList.add('active', 'fade');
-                    slides[slideIndex - 1].style.display = 'block';
-                    bars[slideIndex - 1].classList.add('active');
+                slides[slideIndex - 1].classList.add('active', 'fade');
+                slides[slideIndex - 1].style.display = 'block';
+                bars[slideIndex - 1].classList.add('active');
                 }
 
                 function changeSlide(n) {
@@ -347,77 +234,77 @@
 
                 function handleKeydown(e) {
                     if (e.key === 'ArrowLeft') changeSlide(-1);
-                    if (e.key === 'ArrowRight') changeSlide(1);
+                if (e.key === 'ArrowRight') changeSlide(1);
                 }
 
                 showSlides(slideIndex);
             });
-        </script>
+    </script>
 
-        <style>
-            /* Add fade effect for slides */
-            .slide.fade {
-                animation: fadeEffect 0.5s ease-in-out;
+    <style>
+        /* Add fade effect for slides */
+        .slide.fade {
+            animation: fadeEffect 0.5s ease-in-out;
+        }
+
+        @keyframes fadeEffect {
+            from {
+                opacity: 0;
             }
 
-            @keyframes fadeEffect {
-                from {
-                    opacity: 0;
-                }
-
-                to {
-                    opacity: 1;
-                }
+            to {
+                opacity: 1;
             }
-        </style>
-        <!-- HEADER SCRIPT -->
+        }
+    </style>
+    <!-- HEADER SCRIPT -->
 
-        <!-- ALL SCRIPTS -->
-
-
-
-        <!-- HTML Meta Tags -->
-        <!-- Titulo do site -->
-        <title> Work by Mário Gogh </title>
-        <meta name="description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://mariogogh.com/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Work by Mário Gogh">
-        <meta property="og:description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-        <meta property="og:image" content="images/all/mariogogh-og_image.jpg">
-
-        <!-- Twitter Meta Tags -->
-
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="mariogogh.com">
-        <meta property="twitter:url" content="https://mariogogh.com/">
-        <meta name="twitter:title" content="Work by Mário Gogh">
-        <meta name="twitter:description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-        <meta name="twitter:image" content="images/all/mariogogh-og_image.jpg">
-
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- ALL SCRIPTS -->
 
 
 
-        <!-- STYLE-->
-        <!-- STYLE -->
-        <link rel="stylesheet" href="styles/global.css">
-        <!-- Font  -->
-        <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css" />
-        <style>
-            @import url("https://use.typekit.net/grn6fkm.css");
-        </style>
-        <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
+    <!-- HTML Meta Tags -->
+    <!-- Titulo do site -->
+    <title> Work by Mário Gogh </title>
+    <meta name="description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://mariogogh.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Work by Mário Gogh">
+    <meta property="og:description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+    <meta property="og:image" content="images/all/mariogogh-og_image.jpg">
+
+    <!-- Twitter Meta Tags -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="mariogogh.com">
+    <meta property="twitter:url" content="https://mariogogh.com/">
+    <meta name="twitter:title" content="Work by Mário Gogh">
+    <meta name="twitter:description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+    <meta name="twitter:image" content="images/all/mariogogh-og_image.jpg">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
 
-        <!-- STYLE-->
-        <!-- STYLE-->
+
+    <!-- STYLE-->
+    <!-- STYLE -->
+    <link rel="stylesheet" href="styles/global.css">
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css" />
+    <style>
+        @import url("https://use.typekit.net/grn6fkm.css");
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
+
+
+    <!-- STYLE-->
+    <!-- STYLE-->
 </head>
 <!-- HEAD -->
 
@@ -446,15 +333,15 @@
             <script language="JavaScript">
                 function random_imglink() {
                     var myimages = new Array()
-                    //specify random images below. You can have as many as you wish
-                    myimages[1] = "images/random/image_top_mariogogh.jpg"
-                    myimages[2] = "images/random/image_top_mariogogh2.jpg"
-                    myimages[3] = "images/random/image_top_mariogogh3.jpg"
-                    myimages[4] = "images/random/image_top_mariogogh4.jpg"
-                    var ry = Math.floor(Math.random() * myimages.length)
-                    if (ry == 0)
-                        ry = 1
-                    document.write('<img  class="hero_img_A" src="' + myimages[ry] + '" border=0>')
+                //specify random images below. You can have as many as you wish
+                myimages[1] = "images/random/image_top_mariogogh.jpg"
+                myimages[2] = "images/random/image_top_mariogogh2.jpg"
+                myimages[3] = "images/random/image_top_mariogogh3.jpg"
+                myimages[4] = "images/random/image_top_mariogogh4.jpg"
+                var ry = Math.floor(Math.random() * myimages.length)
+                if (ry == 0)
+                ry = 1
+                document.write('<img class="hero_img_A" src="' + myimages[ry] + '" border=0>')
                 }
                 random_imglink()
             </script>
@@ -469,16 +356,16 @@
             <script language="JavaScript">
                 function random_imglink() {
                     var myimages = new Array()
-                    //specify random images below. You can have as many as you wish
-                    myimages[1] = "images/random/image_bottom_mariogogh.jpg"
-                    myimages[2] = "images/random/image_bottom_mariogogh2.jpg"
-                    myimages[3] = "images/random/image_bottom_mariogogh3.jpg"
-                    myimages[4] = "images/random/image_bottom_mariogogh4.jpg"
+                //specify random images below. You can have as many as you wish
+                myimages[1] = "images/random/image_bottom_mariogogh.jpg"
+                myimages[2] = "images/random/image_bottom_mariogogh2.jpg"
+                myimages[3] = "images/random/image_bottom_mariogogh3.jpg"
+                myimages[4] = "images/random/image_bottom_mariogogh4.jpg"
 
-                    var ry = Math.floor(Math.random() * myimages.length)
-                    if (ry == 0)
-                        ry = 1
-                    document.write('<img  class="hero_img_AB" src="' + myimages[ry] + '" border=0>')
+                var ry = Math.floor(Math.random() * myimages.length)
+                if (ry == 0)
+                ry = 1
+                document.write('<img class="hero_img_AB" src="' + myimages[ry] + '" border=0>')
                 }
                 random_imglink()
                 //-->
@@ -496,16 +383,16 @@
             <script language="JavaScript">
                 function random_imglink() {
                     var myimages = new Array()
-                    //specify random images below. You can have as many as you wish
-                    myimages[1] = "images/random/image_bottom_mariogogh.jpg"
-                    myimages[2] = "images/random/image_bottom_mariogogh2.jpg"
-                    myimages[3] = "images/random/image_bottom_mariogogh3.jpg"
-                    myimages[4] = "images/random/image_bottom_mariogogh4.jpg"
+                //specify random images below. You can have as many as you wish
+                myimages[1] = "images/random/image_bottom_mariogogh.jpg"
+                myimages[2] = "images/random/image_bottom_mariogogh2.jpg"
+                myimages[3] = "images/random/image_bottom_mariogogh3.jpg"
+                myimages[4] = "images/random/image_bottom_mariogogh4.jpg"
 
-                    var ry = Math.floor(Math.random() * myimages.length)
-                    if (ry == 0)
-                        ry = 1
-                    document.write('<img  class="hero_img_AB" src="' + myimages[ry] + '" border=0>')
+                var ry = Math.floor(Math.random() * myimages.length)
+                if (ry == 0)
+                ry = 1
+                document.write('<img class="hero_img_AB" src="' + myimages[ry] + '" border=0>')
                 }
                 random_imglink()
                 //-->
@@ -1086,12 +973,12 @@
 
                                 <script>
                                     document.querySelectorAll('.slide').forEach(slide => {
-                                        slide.addEventListener('click', () => {
-                                            slide.classList.add('loading');
-                                            setTimeout(() => {
-                                                slide.classList.remove('loading');
-                                            }, 500); // Adjust the timeout duration as needed
-                                        });
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
                                     });
                                 </script>
                             </div>
@@ -1258,49 +1145,49 @@
 
                             <script>
                                 document.querySelectorAll(".slideshow-container").forEach((container) => {
-                                    let slideIndex = 1;
-                                    const slides = container.querySelectorAll(".slide");
-                                    const bars = container.querySelectorAll(".progress-bar");
+                    let slideIndex = 1;
+                const slides = container.querySelectorAll(".slide");
+                const bars = container.querySelectorAll(".progress-bar");
 
-                                    function showSlides(n) {
+                function showSlides(n) {
                                         if (n > slides.length) slideIndex = 1;
-                                        if (n < 1) slideIndex = slides.length;
+                if (n < 1) slideIndex = slides.length;
                                         slides.forEach(slide => {
-                                            slide.classList.remove("active");
-                                            slide.style.display = "none";
+                    slide.classList.remove("active");
+                slide.style.display = "none";
                                         });
                                         bars.forEach(bar => bar.classList.remove("active"));
-                                        slides[slideIndex - 1].classList.add("active");
-                                        slides[slideIndex - 1].style.display = "block";
-                                        bars[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].style.display = "block";
+                bars[slideIndex - 1].classList.add("active");
                                     }
 
-                                    function changeSlide(n) {
-                                        showSlides(slideIndex += n);
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
                                     }
 
-                                    function currentSlide(n) {
-                                        showSlides(slideIndex = n);
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
                                     }
 
                                     container.querySelector(".prev").addEventListener("click", () => changeSlide(-1));
                                     container.querySelector(".next").addEventListener("click", () => changeSlide(1));
                                     bars.forEach((bar, index) => {
-                                        bar.addEventListener("click", () => currentSlide(index + 1));
+                    bar.addEventListener("click", () => currentSlide(index + 1));
                                     });
 
                                     slides.forEach(slide => {
-                                        slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
+                    slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
                                     });
 
                                     document.addEventListener("keydown", (e) => {
                                         if (container.contains(document.activeElement)) {
                                             if (e.key === "ArrowLeft") changeSlide(-1);
-                                            if (e.key === "ArrowRight") changeSlide(1);
+                if (e.key === "ArrowRight") changeSlide(1);
                                         }
                                     });
 
-                                    showSlides(slideIndex);
+                showSlides(slideIndex);
                                 });
                             </script>
                         </div>
@@ -1492,12 +1379,12 @@
 
                                 <script>
                                     document.querySelectorAll('.slide').forEach(slide => {
-                                        slide.addEventListener('click', () => {
-                                            slide.classList.add('loading');
-                                            setTimeout(() => {
-                                                slide.classList.remove('loading');
-                                            }, 500); // Adjust the timeout duration as needed
-                                        });
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
                                     });
                                 </script>
                             </div>
@@ -1648,49 +1535,49 @@
 
                             <script>
                                 document.querySelectorAll(".slideshow-container").forEach((container) => {
-                                    let slideIndex = 1;
-                                    const slides = container.querySelectorAll(".slide");
-                                    const bars = container.querySelectorAll(".progress-bar");
+                    let slideIndex = 1;
+                const slides = container.querySelectorAll(".slide");
+                const bars = container.querySelectorAll(".progress-bar");
 
-                                    function showSlides(n) {
+                function showSlides(n) {
                                         if (n > slides.length) slideIndex = 1;
-                                        if (n < 1) slideIndex = slides.length;
+                if (n < 1) slideIndex = slides.length;
                                         slides.forEach(slide => {
-                                            slide.classList.remove("active");
-                                            slide.style.display = "none";
+                    slide.classList.remove("active");
+                slide.style.display = "none";
                                         });
                                         bars.forEach(bar => bar.classList.remove("active"));
-                                        slides[slideIndex - 1].classList.add("active");
-                                        slides[slideIndex - 1].style.display = "block";
-                                        bars[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].style.display = "block";
+                bars[slideIndex - 1].classList.add("active");
                                     }
 
-                                    function changeSlide(n) {
-                                        showSlides(slideIndex += n);
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
                                     }
 
-                                    function currentSlide(n) {
-                                        showSlides(slideIndex = n);
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
                                     }
 
                                     container.querySelector(".prev").addEventListener("click", () => changeSlide(-1));
                                     container.querySelector(".next").addEventListener("click", () => changeSlide(1));
                                     bars.forEach((bar, index) => {
-                                        bar.addEventListener("click", () => currentSlide(index + 1));
+                    bar.addEventListener("click", () => currentSlide(index + 1));
                                     });
 
                                     slides.forEach(slide => {
-                                        slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
+                    slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
                                     });
 
                                     document.addEventListener("keydown", (e) => {
                                         if (container.contains(document.activeElement)) {
                                             if (e.key === "ArrowLeft") changeSlide(-1);
-                                            if (e.key === "ArrowRight") changeSlide(1);
+                if (e.key === "ArrowRight") changeSlide(1);
                                         }
                                     });
 
-                                    showSlides(slideIndex);
+                showSlides(slideIndex);
                                 });
                             </script>
                         </div>
@@ -1934,12 +1821,12 @@
 
                                 <script>
                                     document.querySelectorAll('.slide').forEach(slide => {
-                                        slide.addEventListener('click', () => {
-                                            slide.classList.add('loading');
-                                            setTimeout(() => {
-                                                slide.classList.remove('loading');
-                                            }, 500); // Adjust the timeout duration as needed
-                                        });
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
                                     });
                                 </script>
                             </div>
@@ -2336,12 +2223,12 @@
 
                                 <script>
                                     document.querySelectorAll('.slide').forEach(slide => {
-                                        slide.addEventListener('click', () => {
-                                            slide.classList.add('loading');
-                                            setTimeout(() => {
-                                                slide.classList.remove('loading');
-                                            }, 500); // Adjust the timeout duration as needed
-                                        });
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
                                     });
                                 </script>
                             </div>
@@ -2463,49 +2350,49 @@
 
                             <script>
                                 document.querySelectorAll(".slideshow-container").forEach((container) => {
-                                    let slideIndex = 1;
-                                    const slides = container.querySelectorAll(".slide");
-                                    const bars = container.querySelectorAll(".progress-bar");
+                    let slideIndex = 1;
+                const slides = container.querySelectorAll(".slide");
+                const bars = container.querySelectorAll(".progress-bar");
 
-                                    function showSlides(n) {
+                function showSlides(n) {
                                         if (n > slides.length) slideIndex = 1;
-                                        if (n < 1) slideIndex = slides.length;
+                if (n < 1) slideIndex = slides.length;
                                         slides.forEach(slide => {
-                                            slide.classList.remove("active");
-                                            slide.style.display = "none";
+                    slide.classList.remove("active");
+                slide.style.display = "none";
                                         });
                                         bars.forEach(bar => bar.classList.remove("active"));
-                                        slides[slideIndex - 1].classList.add("active");
-                                        slides[slideIndex - 1].style.display = "block";
-                                        bars[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].style.display = "block";
+                bars[slideIndex - 1].classList.add("active");
                                     }
 
-                                    function changeSlide(n) {
-                                        showSlides(slideIndex += n);
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
                                     }
 
-                                    function currentSlide(n) {
-                                        showSlides(slideIndex = n);
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
                                     }
 
                                     container.querySelector(".prev").addEventListener("click", () => changeSlide(-1));
                                     container.querySelector(".next").addEventListener("click", () => changeSlide(1));
                                     bars.forEach((bar, index) => {
-                                        bar.addEventListener("click", () => currentSlide(index + 1));
+                    bar.addEventListener("click", () => currentSlide(index + 1));
                                     });
 
                                     slides.forEach(slide => {
-                                        slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
+                    slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
                                     });
 
                                     document.addEventListener("keydown", (e) => {
                                         if (container.contains(document.activeElement)) {
                                             if (e.key === "ArrowLeft") changeSlide(-1);
-                                            if (e.key === "ArrowRight") changeSlide(1);
+                if (e.key === "ArrowRight") changeSlide(1);
                                         }
                                     });
 
-                                    showSlides(slideIndex);
+                showSlides(slideIndex);
                                 });
                             </script>
                         </div>
@@ -2755,12 +2642,12 @@
 
                                 <script>
                                     document.querySelectorAll('.slide').forEach(slide => {
-                                        slide.addEventListener('click', () => {
-                                            slide.classList.add('loading');
-                                            setTimeout(() => {
-                                                slide.classList.remove('loading');
-                                            }, 500); // Adjust the timeout duration as needed
-                                        });
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
                                     });
                                 </script>
                             </div>
@@ -2924,55 +2811,55 @@
 
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+                document.addEventListener("DOMContentLoaded", function () {
             const tabButtons = document.querySelectorAll(".tab-button");
-            const tabPanels = document.querySelectorAll(".tab-panel");
-            const casesDiv = document.querySelector(".cases");
-            const allDiv = document.querySelector(".All");
+                const tabPanels = document.querySelectorAll(".tab-panel");
+                const casesDiv = document.querySelector(".cases");
+                const allDiv = document.querySelector(".All");
 
             tabButtons.forEach(button => {
-                button.addEventListener("click", () => {
-                    // Remove active class from all buttons and panels
-                    tabButtons.forEach(btn => btn.classList.remove("active"));
-                    tabPanels.forEach(panel => panel.classList.remove("active"));
+                    button.addEventListener("click", () => {
+                        // Remove active class from all buttons and panels
+                        tabButtons.forEach(btn => btn.classList.remove("active"));
+                        tabPanels.forEach(panel => panel.classList.remove("active"));
 
-                    // Add active class to the clicked button and corresponding panel
-                    button.classList.add("active");
-                    const target = button.getAttribute("data-target");
-                    document.querySelector(`.${target}`).classList.add("active");
+                        // Add active class to the clicked button and corresponding panel
+                        button.classList.add("active");
+                        const target = button.getAttribute("data-target");
+                        document.querySelector(`.${target}`).classList.add("active");
 
-                    // Show/hide the All and Cases divs based on the selected tab
-                    if (target === "all") {
-                        allDiv.style.display = "block";
-                        casesDiv.style.display = "none";
-                    } else if (target === "cases") {
-                        allDiv.style.display = "none";
-                        casesDiv.style.display = "block";
-                    }
-
-                    // Preload images in the active tab
-                    const images = document.querySelectorAll(`.${target} img`);
-                    images.forEach(img => {
-                        if (!img.classList.contains("loaded")) {
-                            const tempImg = new Image();
-                            tempImg.src = img.src;
-                            tempImg.onload = () => img.classList.add("loaded");
+                        // Show/hide the All and Cases divs based on the selected tab
+                        if (target === "all") {
+                            allDiv.style.display = "block";
+                            casesDiv.style.display = "none";
+                        } else if (target === "cases") {
+                            allDiv.style.display = "none";
+                            casesDiv.style.display = "block";
                         }
+
+                        // Preload images in the active tab
+                        const images = document.querySelectorAll(`.${target} img`);
+                        images.forEach(img => {
+                            if (!img.classList.contains("loaded")) {
+                                const tempImg = new Image();
+                                tempImg.src = img.src;
+                                tempImg.onload = () => img.classList.add("loaded");
+                            }
+                        });
                     });
-                });
             });
 
-            // Preload images in the default active tab
-            const activeImages = document.querySelectorAll(".tab-panel.active img");
+                // Preload images in the default active tab
+                const activeImages = document.querySelectorAll(".tab-panel.active img");
             activeImages.forEach(img => {
                 const tempImg = new Image();
                 tempImg.src = img.src;
                 tempImg.onload = () => img.classList.add("loaded");
             });
 
-            // Initialize visibility
-            allDiv.style.display = "block";
-            casesDiv.style.display = "none";
+                // Initialize visibility
+                allDiv.style.display = "block";
+                casesDiv.style.display = "none";
         });
     </script>
 
@@ -3338,17 +3225,17 @@
     </div>
     <script>
         document.querySelectorAll('.slideshow-container').forEach((container) => {
-            let slideIndex = 1;
-            const slides = container.querySelectorAll('.slide');
-            const bars = container.querySelectorAll('.progress-bar');
+                    let slideIndex = 1;
+                const slides = container.querySelectorAll('.slide');
+                const bars = container.querySelectorAll('.progress-bar');
 
-            function showSlides(n) {
+                function showSlides(n) {
                 if (n > slides.length) slideIndex = 1;
                 if (n < 1) slideIndex = slides.length;
 
                 slides.forEach(slide => {
                     slide.classList.remove('active', 'fade');
-                    slide.style.display = 'none';
+                slide.style.display = 'none';
                 });
 
                 bars.forEach(bar => bar.classList.remove('active'));
@@ -3358,47 +3245,47 @@
                 bars[slideIndex - 1].classList.add('active');
             }
 
-            function changeSlide(n) {
-                showSlides(slideIndex += n);
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
             }
 
-            function currentSlide(n) {
-                showSlides(slideIndex = n);
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
             }
 
             container.querySelector('.prev').addEventListener('click', () => changeSlide(-1));
             container.querySelector('.next').addEventListener('click', () => changeSlide(1));
             bars.forEach((bar, index) => {
-                bar.addEventListener('click', () => currentSlide(index + 1));
+                    bar.addEventListener('click', () => currentSlide(index + 1));
             });
 
             slides.forEach(slide => {
-                slide.addEventListener('click', () => changeSlide(1));
+                    slide.addEventListener('click', () => changeSlide(1));
             });
 
             // Add keyboard navigation when hovering or focusing on the carousele
             container.closest('.carousele').addEventListener('mouseenter', () => {
-                document.addEventListener('keydown', handleKeydown);
+                    document.addEventListener('keydown', handleKeydown);
             });
 
             container.closest('.carousele').addEventListener('mouseleave', () => {
-                document.removeEventListener('keydown', handleKeydown);
+                    document.removeEventListener('keydown', handleKeydown);
             });
 
             container.closest('.carousele').addEventListener('focus', () => {
-                document.addEventListener('keydown', handleKeydown);
+                    document.addEventListener('keydown', handleKeydown);
             });
 
             container.closest('.carousele').addEventListener('blur', () => {
-                document.removeEventListener('keydown', handleKeydown);
+                    document.removeEventListener('keydown', handleKeydown);
             });
 
-            function handleKeydown(e) {
+                function handleKeydown(e) {
                 if (e.key === 'ArrowLeft') changeSlide(-1);
                 if (e.key === 'ArrowRight') changeSlide(1);
             }
 
-            showSlides(slideIndex);
+                showSlides(slideIndex);
         });
     </script>
 
