@@ -25,10 +25,99 @@
 
     <!-- Coockies -->
     <!-- Elfsight Cookie Consent | Untitled Cookie Consent -->
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <div class="elfsight-app-a132ef07-972d-41ef-b774-7d054173111d" data-elfsight-app-lazy></div>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consentimento de Cookies</title>
+    <style>
+        #cookie-banner {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            right: 20px;
+            max-width: 400px;
+            margin: auto;
+            background: #fff;
+            color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            font-family: sans-serif;
+            z-index: 9999;
+            display: none;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        #cookie-banner.show {
+            display: flex;
+        }
+
+        #cookie-banner .buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        #cookie-banner button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #cookie-banner button:hover {
+            opacity: 0.9;
+        }
+
+        #cookie-banner button.recusar {
+            background-color: #6c757d;
+        }
+    </style>
 
 
+    <div id="cookie-banner">
+        <div>
+            Utilizamos cookies para melhorar sua experiência. Você pode aceitar ou recusar. Saiba mais na nossa <a
+                href="#" target="_blank">Política de Privacidade</a>.
+        </div>
+        <div class="buttons">
+            <button class="recusar" id="reject-cookies">Recusar</button>
+            <button id="accept-cookies">Aceitar</button>
+        </div>
+    </div>
+
+    <script>
+        const banner = document.getElementById('cookie-banner');
+        const acceptBtn = document.getElementById('accept-cookies');
+        const rejectBtn = document.getElementById('reject-cookies');
+
+        // Checa se o usuário já escolheu
+        const consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            banner.classList.add('show');
+        }
+
+        // Usuário aceita
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'accepted');
+            banner.classList.remove('show');
+        });
+
+        // Usuário recusa
+        rejectBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'rejected');
+            banner.classList.remove('show');
+        });
+    </script>
+
+
+
+
+    <!-- Coockies -->
     <!-- HEADER SCRIPT -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
