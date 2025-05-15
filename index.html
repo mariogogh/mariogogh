@@ -26,7 +26,9 @@
     <!-- Coockies -->
     <!-- Elfsight Cookie Consent | Untitled Cookie Consent -->
 
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consentimento de Cookies</title>
     <style>
         #cookie-banner {
             position: fixed;
@@ -58,238 +60,228 @@
         }
 
         #cookie-banner button {
+            background-color: #007bff;
+            color: white;
             border: none;
             padding: 10px 15px;
             border-radius: 5px;
             cursor: pointer;
             font-size: 14px;
-            transition: background 0.3s ease;
         }
 
-        #cookie-banner button.accept {
-            background-color: #022720;
-            color: white;
+        #cookie-banner button:hover {
+            opacity: 0.9;
         }
 
-        #cookie-banner button.accept:hover {
-            background-color: #034036;
-        }
-
-        #cookie-banner button.decline {
+        #cookie-banner button.recusar {
             background-color: #6c757d;
-            color: white;
-        }
-
-        #cookie-banner button.decline:hover {
-            background-color: #5a6268;
         }
     </style>
 
 
     <div id="cookie-banner">
-        <div id="cookie-banner">
-            <div>
-                We use cookies to improve your experience. By clicking "Accept", you agree to our use of cookies. Read
-                more in our <a href="#" target="_blank">Privacy Policy</a>.
-            </div>
-            <div class="buttons">
-                <button class="decline" id="reject-cookies">Decline</button>
-                <button class="accept" id="accept-cookies">Accept</button>
-            </div>
+        <div>
+            Utilizamos cookies para melhorar sua experiência. Você pode aceitar ou recusar. Saiba mais na nossa <a
+                href="#" target="_blank">Política de Privacidade</a>.
         </div>
+        <div class="buttons">
+            <button class="recusar" id="reject-cookies">Recusar</button>
+            <button id="accept-cookies">Aceitar</button>
+        </div>
+    </div>
 
-        <script>
-            const banner = document.getElementById('cookie-banner');
-            const acceptBtn = document.getElementById('accept-cookies');
-            const rejectBtn = document.getElementById('reject-cookies');
+    <script>
+        const banner = document.getElementById('cookie-banner');
+        const acceptBtn = document.getElementById('accept-cookies');
+        const rejectBtn = document.getElementById('reject-cookies');
 
-            // Checa se o usuário já escolheu
-            const consent = localStorage.getItem('cookieConsent');
-            if (!consent) {
-                banner.classList.add('show');
+        // Checa se o usuário já escolheu
+        const consent = localStorage.getItem('cookieConsent');
+        if (!consent) {
+            banner.classList.add('show');
+        }
+
+        // Usuário aceita
+        acceptBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'accepted');
+            banner.classList.remove('show');
+        });
+
+        // Usuário recusa
+        rejectBtn.addEventListener('click', () => {
+            localStorage.setItem('cookieConsent', 'rejected');
+            banner.classList.remove('show');
+        });
+    </script>
+
+
+
+
+    <!-- Coockies -->
+    <!-- HEADER SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS ANIMATION-->
+    <script src="/styles/page_transitions.js"></script>
+    <script src="/styles/loading_page.js"></script>
+    <!-- AOS ANIMATION-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3QP882YD6"></script>
+    <!-- HEADER SCRIPT -->
+    <script>
+        // When the user scrolls down 20px from the top of the document, slide down the navbar
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (
+                document.body.scrollTop > 40 ||
+                document.documentElement.scrollTop > 40
+            ) {
+                document.getElementById("navbar").style.top = "0px";
+                // WHE THE NAVBAR RETURNS
+            } else {
+                document.getElementById("navbar").style.top = "-400px";
             }
+        }
+    </script>
+    <script>
+        document.querySelectorAll('.slideshow-container').forEach((container) => {
+            let slideIndex = 1;
+            const slides = container.querySelectorAll('.slide');
+            const bars = container.querySelectorAll('.progress-bar');
 
-            // Usuário aceita
-            acceptBtn.addEventListener('click', () => {
-                localStorage.setItem('cookieConsent', 'accepted');
-                banner.classList.remove('show');
-            });
-
-            // Usuário recusa
-            rejectBtn.addEventListener('click', () => {
-                localStorage.setItem('cookieConsent', 'rejected');
-                banner.classList.remove('show');
-            });
-        </script>
-
-
-
-
-        <!-- Coockies -->
-        <!-- HEADER SCRIPT -->
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-
-        <script>
-            AOS.init();
-        </script>
-        <!-- AOS ANIMATION-->
-        <script src="/styles/page_transitions.js"></script>
-        <script src="/styles/loading_page.js"></script>
-        <!-- AOS ANIMATION-->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X3QP882YD6"></script>
-        <!-- HEADER SCRIPT -->
-        <script>
-            // When the user scrolls down 20px from the top of the document, slide down the navbar
-            window.onscroll = function () {
-                scrollFunction();
-            };
-
-            function scrollFunction() {
-                if (
-                    document.body.scrollTop > 40 ||
-                    document.documentElement.scrollTop > 40
-                ) {
-                    document.getElementById("navbar").style.top = "0px";
-                    // WHE THE NAVBAR RETURNS
-                } else {
-                    document.getElementById("navbar").style.top = "-400px";
-                }
-            }
-        </script>
-        <script>
-            document.querySelectorAll('.slideshow-container').forEach((container) => {
-                let slideIndex = 1;
-                const slides = container.querySelectorAll('.slide');
-                const bars = container.querySelectorAll('.progress-bar');
-
-                function showSlides(n) {
-                    if (n > slides.length) slideIndex = 1;
-                    if (n < 1) slideIndex = slides.length;
-
-                    slides.forEach(slide => {
-                        slide.classList.remove('active', 'fade');
-                        slide.style.display = 'none';
-                    });
-
-                    bars.forEach(bar => bar.classList.remove('active'));
-
-                    slides[slideIndex - 1].classList.add('active', 'fade');
-                    slides[slideIndex - 1].style.display = 'block';
-                    bars[slideIndex - 1].classList.add('active');
-                }
-
-                function changeSlide(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                container.querySelector('.prev').addEventListener('click', () => changeSlide(-1));
-                container.querySelector('.next').addEventListener('click', () => changeSlide(1));
-                bars.forEach((bar, index) => {
-                    bar.addEventListener('click', () => currentSlide(index + 1));
-                });
+            function showSlides(n) {
+                if (n > slides.length) slideIndex = 1;
+                if (n < 1) slideIndex = slides.length;
 
                 slides.forEach(slide => {
-                    slide.addEventListener('click', () => changeSlide(1));
+                    slide.classList.remove('active', 'fade');
+                    slide.style.display = 'none';
                 });
 
-                // Add keyboard navigation when hovering or focusing on the carousele
-                container.closest('.carousele').addEventListener('mouseenter', () => {
-                    document.addEventListener('keydown', handleKeydown);
-                });
+                bars.forEach(bar => bar.classList.remove('active'));
 
-                container.closest('.carousele').addEventListener('mouseleave', () => {
-                    document.removeEventListener('keydown', handleKeydown);
-                });
+                slides[slideIndex - 1].classList.add('active', 'fade');
+                slides[slideIndex - 1].style.display = 'block';
+                bars[slideIndex - 1].classList.add('active');
+            }
 
-                container.closest('.carousele').addEventListener('focus', () => {
-                    document.addEventListener('keydown', handleKeydown);
-                });
+            function changeSlide(n) {
+                showSlides(slideIndex += n);
+            }
 
-                container.closest('.carousele').addEventListener('blur', () => {
-                    document.removeEventListener('keydown', handleKeydown);
-                });
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
 
-                function handleKeydown(e) {
-                    if (e.key === 'ArrowLeft') changeSlide(-1);
-                    if (e.key === 'ArrowRight') changeSlide(1);
-                }
-
-                showSlides(slideIndex);
+            container.querySelector('.prev').addEventListener('click', () => changeSlide(-1));
+            container.querySelector('.next').addEventListener('click', () => changeSlide(1));
+            bars.forEach((bar, index) => {
+                bar.addEventListener('click', () => currentSlide(index + 1));
             });
-        </script>
 
-        <style>
-            /* Add fade effect for slides */
-            .slide.fade {
-                animation: fadeEffect 0.5s ease-in-out;
+            slides.forEach(slide => {
+                slide.addEventListener('click', () => changeSlide(1));
+            });
+
+            // Add keyboard navigation when hovering or focusing on the carousele
+            container.closest('.carousele').addEventListener('mouseenter', () => {
+                document.addEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('mouseleave', () => {
+                document.removeEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('focus', () => {
+                document.addEventListener('keydown', handleKeydown);
+            });
+
+            container.closest('.carousele').addEventListener('blur', () => {
+                document.removeEventListener('keydown', handleKeydown);
+            });
+
+            function handleKeydown(e) {
+                if (e.key === 'ArrowLeft') changeSlide(-1);
+                if (e.key === 'ArrowRight') changeSlide(1);
             }
 
-            @keyframes fadeEffect {
-                from {
-                    opacity: 0;
-                }
+            showSlides(slideIndex);
+        });
+    </script>
 
-                to {
-                    opacity: 1;
-                }
+    <style>
+        /* Add fade effect for slides */
+        .slide.fade {
+            animation: fadeEffect 0.5s ease-in-out;
+        }
+
+        @keyframes fadeEffect {
+            from {
+                opacity: 0;
             }
-        </style>
-        <!-- HEADER SCRIPT -->
 
-        <!-- ALL SCRIPTS -->
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <!-- HEADER SCRIPT -->
 
-
-
-        <!-- HTML Meta Tags -->
-        <!-- Titulo do site -->
-        <title> Work by Mário Gogh </title>
-        <meta name="description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://mariogogh.com/">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Work by Mário Gogh">
-        <meta property="og:description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-        <meta property="og:image" content="images/all/mariogogh-og_image.jpg">
-
-        <!-- Twitter Meta Tags -->
-
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="mariogogh.com">
-        <meta property="twitter:url" content="https://mariogogh.com/">
-        <meta name="twitter:title" content="Work by Mário Gogh">
-        <meta name="twitter:description"
-            content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
-        <meta name="twitter:image" content="images/all/mariogogh-og_image.jpg">
-
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- ALL SCRIPTS -->
 
 
 
-        <!-- STYLE-->
-        <!-- STYLE -->
-        <link rel="stylesheet" href="styles/global.css">
-        <!-- Font  -->
-        <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css" />
-        <style>
-            @import url("https://use.typekit.net/grn6fkm.css");
-        </style>
-        <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
+    <!-- HTML Meta Tags -->
+    <!-- Titulo do site -->
+    <title> Work by Mário Gogh </title>
+    <meta name="description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://mariogogh.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Work by Mário Gogh">
+    <meta property="og:description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+    <meta property="og:image" content="images/all/mariogogh-og_image.jpg">
+
+    <!-- Twitter Meta Tags -->
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="mariogogh.com">
+    <meta property="twitter:url" content="https://mariogogh.com/">
+    <meta name="twitter:title" content="Work by Mário Gogh">
+    <meta name="twitter:description"
+        content="Mariogogh ⏤ Designer & Illustrator, experienced in digital products & websites. Based in Brasília, Brazil.">
+    <meta name="twitter:image" content="images/all/mariogogh-og_image.jpg">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 
 
-        <!-- STYLE-->
-        <!-- STYLE-->
+
+    <!-- STYLE-->
+    <!-- STYLE -->
+    <link rel="stylesheet" href="styles/global.css">
+    <!-- Font  -->
+    <link rel="stylesheet" href="https://use.typekit.net/grn6fkm.css" />
+    <style>
+        @import url("https://use.typekit.net/grn6fkm.css");
+    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
+
+
+    <!-- STYLE-->
+    <!-- STYLE-->
 </head>
 <!-- HEAD -->
 
