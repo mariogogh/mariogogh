@@ -39,5 +39,4 @@
 @import "/styles/slideshow_1.js";
 @import "/styles/loading_page.js";
 @import "/styles/content_loading.js";
-
-
+@import "/styles/lazy-load.js";

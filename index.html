@@ -303,7 +303,8 @@
         @import url("https://use.typekit.net/grn6fkm.css");
     </style>
     <link rel="stylesheet" href="https://use.typekit.net/ret3spf.css" />
-
+    <script src="styles/lazy-load.js" defer></script>
+    <script src="styles/smooth-slow-scroll.js"></script>
 
     <!-- STYLE-->
     <!-- STYLE-->
@@ -416,7 +417,7 @@
                     <div class=" box-logo">
                         <a href="index" target="_self">
                             <div>
-                                <img class="avatar" width="52" height="52" src="images/svg/avatar_2025.svg"
+                                <img class="avatar" width="52" height="52" data-src="images/svg/avatar_2025.svg"
                                     alt="It's me, Mário">
                             </div>
                         </a>
@@ -1586,8 +1587,278 @@
                         </div>
                         <!-- CAROUSELL-->
                     </div>
-                    <!-- Ame-->
+                    <!-- Creditas-->
+                    <div>
+                        <!-- CAROUSELL-->
 
+                        <div class="carousele" data-aos="fade-up" data-aos-offset="100 " data-aos-delay="700 "
+                            data-aos-duration="900" data-aos-easing="ease-in-out ">
+                            <!-- ABOUT-->
+                            <div class=" content-full-screen ">
+                                <div class="content-in-line" data-aos="zoom-in ">
+                                    <svg class="svg-line-bar " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                                        <rect width="100% " height="2 " fill-opacity="0.71 " />
+                                    </svg>
+                                </div>
+                                <div class=" section-hero-elements " data-aos=" fade-up " data-aos-delay=" 70 "
+                                    data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                        <p class="name_project">
+                                            Creditas <svg width="22" height="22" viewBox="0 0 11 11" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M10.7798 1.99437V11.0001H1.78836L1.77415 9.82818H8.76279L0.0269928 1.08528L0.879265 0.240112L9.60796 8.97591L9.59375 1.99437H10.7798Z"
+                                                    fill="white" />
+                                            </svg>
+
+                                        </p>
+
+
+
+
+                                    </div>
+
+                                    <div class=" box-R-2collumn featured " data-aos=" fade-up " data-aos-delay="
+70 " data-aos-duration=" 600 " data-aos-easing=" ease-in-out ">
+                                    </div>
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+
+                                        <p>
+                                            Illustration Library
+                                            <br> <br>
+                                            Creditas, a leading Brazilian fintech, redesigned its app to make it more
+                                            intuitive and visually appealing. As part of this effort, a library of
+                                            illustrations was created with simplified colors and a style aligned with
+                                            the company’s mission. The redesign improved navigation and the presentation
+                                            of recommended products for users.
+                                        </p>
+
+                                    </div>
+
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+
+
+
+
+
+                                        <div class=" space100 ">
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class=" space50 "></div>
+
+                            <!-- Base do Carouseell-->
+                            <div class="slideshow-container" data-aos="fade-up" data-aos-offset="100 "
+                                data-aos-delay="700 " data-aos-duration="600" data-aos-easing="ease-in-out ">
+                                <!-- Slide 01-->
+                                <div class="slide active " onclick="changeSlide(1)">
+                                    <img loading="lazy" src="images/creditas/cover_01.webp" alt="Slide 1 ">
+                                </div>
+                                <!-- Slide 02-->
+                                <div class="slide " onclick="changeSlide(1)">
+                                    <img loading="lazy" src="images/creditas/img_02.webp" alt="Slide 2">
+                                </div>
+
+
+
+                                <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                                <div class="progress-bars">
+                                    <div class="progress-bar" onclick="currentSlide(1)"></div>
+                                    <div class="progress-bar" onclick="currentSlide(2)"></div>
+
+                                </div>
+
+
+                                <script>
+                                    document.querySelectorAll('.slide').forEach(slide => {
+                    slide.addEventListener('click', () => {
+                        slide.classList.add('loading');
+                        setTimeout(() => {
+                            slide.classList.remove('loading');
+                        }, 500); // Adjust the timeout duration as needed
+                    });
+                                    });
+                                </script>
+                            </div>
+                            <!-- ABOUT-->
+                            <div class=" space50 "></div>
+                            <div class=" content-full-screen ">
+                                <div class=" section-hero-elements " data-aos=" fade-up " data-aos-delay=" 70 "
+                                    data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                        <p class=" eyebrown ">
+                                            WHAT I DID
+                                        </p>
+                                        <p>
+                                            Product Illustration
+                                            <br> Concept Design
+
+
+                                        </p>
+                                        <div class=" space50 "></div>
+                                    </div>
+                                    <div class=" box-R-2collumn featured " data-aos=" fade-up " data-aos-delay="
+70 " data-aos-duration=" 600 " data-aos-easing=" ease-in-out ">
+                                    </div>
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                        <p class=" eyebrown ">
+                                            TEAM
+                                        </p>
+                                        <p>
+
+
+                                            MarioGogh, <br>
+                                            Leandro Rodrigues,
+                                            <br>
+                                            Felipe Marinheiro,
+                                            <br> <br>
+                                            Design Lead: <br>
+                                            Luciana Martins, <br>& Douglas Samuel.
+                                            <br> <br>
+                                            Design Director: <br>
+                                            Renan Manço
+                                        </p>
+                                        <div class=" space50 "></div>
+                                    </div>
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+600 " data-aos-easing=" ease-in-out ">
+                                        <p class=" eyebrown ">
+                                            Featured In
+                                        </p>
+
+                                        <p> <a href="https://www.behance.net/gallery/160435061/Creditas-Illustration-Library"
+                                                class="button  " target="_blank ">
+                                                behance.com <svg width="9 " height="9 " viewBox="0 0 9 9 "
+                                                    fill="var(--main-w-100)" xmlns="http://www.w3.org/2000/svg ">
+                                                    <path
+                                                        d="M0.916449 9L7.73107 2.18253L7.71932 7.43937H9V0H1.56266L1.55091 1.26728H6.81462L0 8.08475L0.916449 9Z "
+                                                        fill="var(--main-w-100)"></path>
+                                                </svg>
+
+                                            </a></p>
+                                        <div class=" space50 "></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- ABOUT-->
+                            <div class=" content-full-screen ">
+
+                                <div class=" section-hero-elements " data-aos=" fade-up " data-aos-delay=" 70 "
+                                    data-aos-duration="
+        600 " data-aos-easing=" ease-in-out ">
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+        600 " data-aos-easing=" ease-in-out ">
+
+                                    </div>
+                                    <div class=" box-R-2collumn featured " data-aos=" fade-up " data-aos-delay="
+        70 " data-aos-duration=" 600 " data-aos-easing=" ease-in-out ">
+
+
+
+                                    </div>
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+        600 " data-aos-easing=" ease-in-out ">
+
+                                        <p class=" eyebrown ">
+                                            COMPANY
+                                        </p>
+                                        <p>
+                                            Creditas
+                                        </p>
+                                        <div class=" space50 "></div>
+                                    </div>
+                                    <div class=" box-R-2collumn " data-aos=" fade-up " data-aos-delay=" 70 "
+                                        data-aos-duration="
+        600 " data-aos-easing=" ease-in-out ">
+                                        <p class=" eyebrown ">
+                                            YEAR
+                                        </p>
+                                        <p>
+                                            2022
+                                        </p>
+                                        <div class=" space50 "></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- ABOUT-->
+
+                            <!-- Fim Projeto 01-->
+
+
+
+                            <script>
+                                document.querySelectorAll(".slideshow-container").forEach((container) => {
+                    let slideIndex = 1;
+                const slides = container.querySelectorAll(".slide");
+                const bars = container.querySelectorAll(".progress-bar");
+
+                function showSlides(n) {
+                                        if (n > slides.length) slideIndex = 1;
+                if (n < 1) slideIndex = slides.length;
+                                        slides.forEach(slide => {
+                    slide.classList.remove("active");
+                slide.style.display = "none";
+                                        });
+                                        bars.forEach(bar => bar.classList.remove("active"));
+                slides[slideIndex - 1].classList.add("active");
+                slides[slideIndex - 1].style.display = "block";
+                bars[slideIndex - 1].classList.add("active");
+                                    }
+
+                function changeSlide(n) {
+                    showSlides(slideIndex += n);
+                                    }
+
+                function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                                    }
+
+                                    container.querySelector(".prev").addEventListener("click", () => changeSlide(-1));
+                                    container.querySelector(".next").addEventListener("click", () => changeSlide(1));
+                                    bars.forEach((bar, index) => {
+                    bar.addEventListener("click", () => currentSlide(index + 1));
+                                    });
+
+                                    slides.forEach(slide => {
+                    slide.addEventListener("click", () => changeSlide(1)); // Change slide on image click
+                                    });
+
+                                    document.addEventListener("keydown", (e) => {
+                                        if (container.contains(document.activeElement)) {
+                                            if (e.key === "ArrowLeft") changeSlide(-1);
+                if (e.key === "ArrowRight") changeSlide(1);
+                                        }
+                                    });
+
+                showSlides(slideIndex);
+                                });
+                            </script>
+                        </div>
+                        <!-- CAROUSELL-->
+                    </div>
+                    <!-- Creditas-->
                     <!-- Ame-->
                     <div>
                         <!-- CAROUSELL-->
