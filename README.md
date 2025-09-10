@@ -8,6 +8,7 @@ I'am Mário Gogh, a multidisciplinary Designer, from Brasília, Brazil.🇧🇷
 
 ![Portfolio]("https://github.com/mariogogh/mariogogh/blob/gh-pages/images/all/Mariogogh-og_image.jpg?raw=true")
 
+<img width="2880" height="1842" alt="image" src="https://github.com/user-attachments/assets/fac87355-49a8-4ac6-9947-a74b7ea6a982" />
 
 
 
