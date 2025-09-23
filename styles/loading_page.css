@@ -7,6 +7,7 @@
     height: 100%;
     background-color: #CFA542;
     z-index: 9999;
+    /* sempre acima de tudo */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,25 +25,22 @@
 }
 
 .loading-image {
-    width: 100%;
-
+    width: 50%;
     position: absolute;
     opacity: 0;
     transition: opacity 0.3s ease, transform 0.9s ease;
-
 }
 
 .loading-image.visible {
     opacity: 1;
-    transform: scale(1.5);
+
 }
 
 #loading-percentage {
     color: white;
     font-size: 10rem;
-    margin-top: 0px;
+    margin: 0;
     position: absolute;
-
     text-align: left;
     bottom: 0;
     left: 0;
