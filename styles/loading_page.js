@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // --- Media Sources ---
     const imageUrls = [
-        "images/all/intro.gif",
-        "images/all/intro2.gif",
-        "images/all/intro1.gif",
+        "images/all/img_loading.gif",
+        "images/all/img_loading2.gif",
+        "images/all/img_loading3.gif",
     ];
-    const allElements = Array.from(document.querySelectorAll(".All"));
+    const allElements = Array.from(document.querySelectorAll(".all"));
 
     // --- State ---
     let loadedElements = 0;
