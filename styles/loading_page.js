@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "images/all/img_loading2.gif",
         "images/all/img_loading3.gif",
     ];
-    const allElements = Array.from(document.querySelectorAll(".all"));
+    const allElements = Array.from(document.querySelectorAll(".All"));
 
     // --- State ---
     let loadedElements = 0;
@@ -33,13 +33,6 @@ document.addEventListener("DOMContentLoaded", function () {
         loadingPercentage.textContent = `${percentage}%`;
     }
 
-    // --- Fallback Timer ---
-    let fallbackTimeout = null;
-    function scheduleFallback() {
-        if (fallbackTimeout) clearTimeout(fallbackTimeout);
-        fallbackTimeout = setTimeout(removeLoadingScreen, 8000); // 8s fallback
-    }
-
     // --- Remove Loading Screen ---
     function removeLoadingScreen() {
         if (finished) return;
@@ -47,6 +40,9 @@ document.addEventListener("DOMContentLoaded", function () {
         loadingScreen.style.opacity = "0";
         setTimeout(() => loadingScreen.remove(), 500);
     }
+
+    // --- Fallback Timer ---
+    let fallbackTimeout = setTimeout(removeLoadingScreen, 8000);
 
     // --- Preload Media ---
     function preloadMedia(element, onLoad) {
@@ -56,7 +52,8 @@ document.addEventListener("DOMContentLoaded", function () {
             isLoaded = true;
             loadedElements++;
             updateLoadingPercentage();
-            onLoad && onLoad();
+            checkIfDone();
+            if (onLoad) onLoad();
         }
 
         if (element.tagName === "IMG") {
@@ -74,8 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 element.addEventListener("error", done, { once: true });
             }
         } else {
-            // Not media, count as loaded
-            done();
+            done(); // não é mídia
         }
     }
 
@@ -101,21 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // --- Watch for Completion ---
     function checkIfDone() {
         if (loadedElements >= totalElements) {
+            clearTimeout(fallbackTimeout);
             removeLoadingScreen();
         }
     }
 
-    // --- Observe Progress ---
-    const observer = new MutationObserver(checkIfDone);
-    observer.observe(loadingPercentage, { childList: true });
-
-    // --- Fallback in case of stuck loading ---
-    scheduleFallback();
-
     // --- Clean up ---
     window.addEventListener("beforeunload", () => {
-        observer.disconnect();
-        if (fallbackTimeout) clearTimeout(fallbackTimeout);
+        clearTimeout(fallbackTimeout);
     });
 
     // --- Final check in case everything is cached ---
