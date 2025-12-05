@@ -1,31 +1,53 @@
-.main-hero {
-    width: 100%;
-    height: 100%;
-    paddding-top: 64px;
-    z-index: 30;
-    overflow: hidden;
-    position: sticky;
+* {
+    border-box: border-box;
 }
 
-.main-hero-img img:hover {}
 
-.main-hero-img {
+.section-random {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-random {
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-img {
+    object-fit: cover;
+    margin: 0;
+    opacity: 90%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.hero {
+    width: 50%;
+    height: 90%;
+    padding-top: 3%;
+    transition: transform 0.9s ease;
+    opacity: 1;
+}
+
+.main-hero {
+    width: 50%;
+    height: 50%;
     align-items: center;
     justify-content: center;
-    opacity: 1;
-    transition: 9.2s ease-in-out;
-    transition: transform 0.9s ease;
+    transition: 8.2s ease-in-out;
+    transition: transform 8.9s ease;
     object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
     background-size: cover;
-    background: var(--main-100);
-    z-index: 2;
-    position: sticky;
+    z-index: 1;
+    position: relative;
 }
 
 .main-hero-img2 {
@@ -76,9 +98,11 @@
     background-size: cover;
     transition: opacity 0.2s ease-in-out;
     transition: transform 0.9s ease;
-    opacity: 1;
-    padding-right: 24px;
-    padding-left: 24px;
+    border-radius: 32px;
+    padding: 1px;
+    border: 16px solid transparent;
+
+
 }
 
 .full-image-img-about {
@@ -99,19 +123,6 @@
 
 .box-R-image p {
     padding: 32px;
-}
-
-.hero {
-    width: 100%;
-    height: 90%;
-    padding-top: 3%;
-    display: flex;
-    align-items: flex-end;
-    text-align: left;
-    flex-direction: column;
-    transition: opacity 0.2s ease-in-out;
-    transition: transform 0.9s ease;
-    opacity: 1;
 }
 
 .new-hero {
@@ -157,6 +168,23 @@
 }
 
 @media (max-width: 600px) {
+    .section-random {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .box-random {
+        width: 100%;
+        height: 50%;
+        display: flex;
+    }
+
+    .random-img {
+        object-fit: cover;
+        padding: 26px;
+        background-size: cover;
+    }
+
     .main-hero {
         height: 100%;
         background-position: center;
@@ -166,6 +194,7 @@
         padding-top: 0px;
         padding-bottom: 0px;
     }
+
     .main-hero-img {
         width: 100%;
         height: 600px;
@@ -173,6 +202,7 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
     .section-hero-2 {
         width: 100%;
         height: 50%;
@@ -184,6 +214,7 @@
         text-align: left;
         flex-direction: column;
     }
+
     .img-right {
         width: 100%;
         background-position: center;
@@ -198,11 +229,13 @@
         text-align: left;
         flex-direction: column;
     }
+
     .img-right img {
         width: 50%;
         height: 100%;
         background-size: cover;
     }
+
     .full-image-img-about {
         width: 100%;
         height: 100%;
@@ -214,9 +247,11 @@
         padding-right: 24px;
         padding-left: 24px;
     }
+
     .full-image-img-about p {
         padding-left: 24px;
     }
+
     .full-image-img {
         width: 100%;
         height: 100%;
@@ -227,5 +262,12 @@
         opacity: 1;
         padding-right: 0px;
         padding-left: 0px;
+        border-radius: 16px;
+        border: 0px solid transparent;
     }
 }
+
+
+
+
+/* NOVO HERO */

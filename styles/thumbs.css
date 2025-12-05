@@ -1,0 +1,149 @@
+.thumb_section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: var(--cursor);
+    z-index: 0;
+}
+
+.thumb-L {
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    position: relative;
+    cursor: var(--cursor);
+}
+
+.thumb-R {
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+    transition: opacity 0.2s ease-in-out;
+    transition: transform 0.9s ease;
+    position: relative;
+    cursor: var(--cursor);
+}
+
+.thumbnail {
+    display: inline-block;
+    background-size: cover;
+    margin-right: 32px;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-right: 32px;
+}
+
+.figure_img {
+    width: 99.1%;
+
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+
+    border-radius: 16px;
+
+
+}
+
+
+.figure_gif {
+    width: 99.1%;
+
+    background-size: cover;
+    position: absolute;
+    display: inline-block;
+
+    /* Borda externa vermelha */
+    box-shadow: inset 0 0 0 10px;
+    /* Borda interna azul */
+    border-radius: 16px;
+    transition: border 5s ease;
+
+
+}
+
+.figure_img:hover {
+
+    transition: border 5s ease;
+
+}
+
+.figure_gif:hover {
+
+    transition: border 5s ease;
+}
+
+.thumb_info {
+    width: 100%;
+    padding-top: 86%;
+    padding-left: 1%;
+    display: flex;
+    color: var(--main-w-100);
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 64px;
+}
+
+.thumb_info p {
+    padding-top: 0.3%;
+    padding-left: 2%;
+}
+
+.thumb_info h1 {
+    padding-top: 0%;
+    position: relative;
+    left: -1%;
+    font-size: 4vw;
+    color: var(--main-w-100);
+}
+
+@media (max-width: 600px) {
+    .thumb_section {
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 24px;
+    }
+
+    .thumb_info p {
+        padding-top: 3%;
+        padding-left: 24px;
+    }
+
+    .thumb_info h1 {
+        padding-top: 2%;
+        padding-left: -1%;
+    }
+
+    .thumb-R {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .thumb-L {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+}

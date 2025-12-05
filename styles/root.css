@@ -1,263 +1,273 @@
-@import url("https://use.typekit.net/grn6fkm.css");
-:root {
-    --main-font: aktiv-grotesk, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    --hero-font: acumin-pro-wide, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    /* BLACK */
-    --main-100: #000000;
-    --main-50: #808080;
-    --main-25: #BFBFBF;
-    --main-15: #D9D9D9;
-    --main-50%: rgba(0, 0, 0, 0.15);
-    --main-68: rgba(0, 0, 0, 0.68);
-    --eyebrown: #888888;
-    /* WHITE */
-    --main-w-100: #FFFFFF;
-    --main-w-90: #C5C6BC;
-    --main-w-50: #A2A6A3;
-    --main-w-25: #84898D;
-    --main-w-5: #656C77;
-    /* PAGE COLORS */
-    --work: #0B4E63;
-    --about: #355C36;
-    --lab: #755F27;
-    /* COLORS NAMES */
-    --hero-text: #F4C858;
-    /* HEADER COLORS */
-    --links-color1: red;
-    --header-links: #355C36;
-    --header-active: #d6aa3a;
-    /* LINKS */
-    --links-svg: #647CD4;
-    /* WORKS FROM. COLORS */
-    --span4: #9A9EB2;
-    --span3: #355C36;
-    font-weight: 500;
-    font-style: bold;
-    /* SECTION WORKS COLORS */
-    --span1: #191919;
-    --svg: #989898;
+    @import url("https://use.typekit.net/ret3spf.css");
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+
+
+
+
+    :root {
+        --main-font: "DM Sans", sans-serif;
+        /* BLACK */
+        --hero-font: "DM Sans", sans-serif, weight 400, style normal;
+        /* BLACK */
+        --hero-font: "DM Sans", sans-serif;
+        --body-font: "DM Sans", sans-serif;
+
+        /* BLACK */
+        --main-100: #131313;
+        --main-90: #222020;
+        --main-75: #353333a8;
+        --main-50: #808080;
+        --main-25: #BFBFBF;
+        --main-15: #D9D9D9;
+        --main-5: #F6F6F6;
+        --main-50%: rgba(0, 0, 0, 0.15);
+        --main-68: rgba(0, 0, 0, 0.68);
+        --eyebrown: #ADADAD;
+        /* WHITE */
+        --main-w-100: #FFFFFF;
+        --main-w-95: #D9D9D9;
+        --main-w-90: #C5C6BC;
+        --main-w-50: #A2A6A3;
+        --main-w-25: #84898D;
+        --main-w-5: #656C77;
+        /* PAGE COLORS FINAL */
+        --hero: #066455;
+        --work: #022720;
+        --about: #022720;
+        --lab: #022720;
+        --bg-footer: #022720;
+        /* COLORS NAMES */
+        --hero-text: #FFFFFF;
+        --hero-accent: #FFFFFF;
+        /* HEADER COLORS */
+        --links-color1: red;
+        --header-links: #355C36;
+        --header-active: #d6aa3a;
+        /* LINKS */
+        --links-svg: #647CD4;
+        /* WORKS FROM. COLORS */
+        --span4: #9A9EB2;
+        --span3: #355C36;
+        /* SECTION WORKS COLORS */
+        --span1: #191919;
+
+        --svg: #989898;
+        /* WORKS COLORS */
+        --color-blue: #D6AA3A;
+        --bg-works: #D6AA3A;
+        --bg-works2: #293872;
+        --text-work: #FFFFFFcc;
+        /* ABOUT COLORS */
+        --links-color2: #3F8C94;
+        /* FOOTER COLORS*/
+        --text-work: #FFFFFFcc;
+        --links-color50: rgba(247, 92, 26, 0.5);
+        --links-color10: rgba(247, 92, 26, 0.25);
+        --lab-bg: #3F8C94;
+        --lab-page-colors: #363D38;
+        --Type-color-black: rgba(0, 0, 0, 0.7);
+        --Type-color-white: rgba(0, 0, 0, 0.9);
+        --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), pointer;
+
+    }
+
+    .bg-space-color {
+        background: var(--main-w-100);
+    }
+
+    /* SPANS */
+
+    span1 {
+        color: var(--main-w-100);
+    }
+
+    spaname {
+        color: #DF2253;
+    }
+
+    span3 {
+        color: var(--gold);
+        font-size: 18px;
+    }
+
+    span4 {
+        color: var(--span4);
+    }
+
+    /* LINKS WITH SVG */
+
+    .links-svg {
+        color: var(--links-svg);
+    }
+
+    .links-svg a {
+        color: var(--links-svg);
+    }
+
+    .links-svg svg {
+        color: var(--links-svg);
+    }
+
     /* WORKS COLORS */
-    --color-blue: #D6AA3A;
-    --bg-works: #D6AA3A;
-    --bg-works2: #293872;
-    --text-work: #FFFFFFcc;
-    /* ABOUT COLORS */
-    --links-color2: #3F8C94;
+
+    .bg-color-work {
+        background: var(--bg-works);
+        color: var(--text-work);
+    }
+
+    .bg-color-work p {
+        color: var(--text-work);
+    }
+
+    .bg-color-work span2 {
+        color: var(--main-68);
+    }
+
+    .bg-color-work h3 {
+        color: var(--main-w-100);
+    }
+
     /* FOOTER COLORS*/
-    --text-work: #FFFFFFcc;
-    --bg-footer: #151718;
-    --links-color50: rgba(247, 92, 26, 0.5);
-    --links-color10: rgba(247, 92, 26, 0.25);
-    --lab-bg: #3F8C94;
-    --lab-page-colors: #363D38;
-    --Type-color-black: rgba(0, 0, 0, 0.7);
-    --Type-color-white: rgba(0, 0, 0, 0.9);
-    --cursor: url("https://cdn.glitch.com/834fa98e-ba51-4bb5-b1ee-3b506c1833c8%2F0be45a09-7125-4325-95a5-3f32f1f48968_maozinha.png?v=1610492124794"), auto;
-    --cursor-img: url("https://github.com/mariogogh/mariogogh/blob/gh-pages/Images/all/cursor.png?raw=true"), auto;
-}
 
-.bg-space-color {
-    background: var(--main-w-100);
-}
+    .bg-black .box-L {
+        background: var(--bg-footer);
+        color: var(--main-w-100);
+        z-index: 2;
+    }
 
+    .bg-black {
+        background: var(--bg-footer);
+        color: var(--main-w-100);
+        z-index: 2;
+    }
 
-/* SPANS */
+    .bg-black .links {
+        background: var(--bg-footer);
+        color: var(--main-w-100);
+        z-index: 2;
+    }
 
-span1 {
-    color: var(--span1);
-}
+    .bg-black span1 {
+        color: var(--main-w-100);
+        z-index: 2;
+    }
 
-span3 {
-    color: var(--gold: );
-    font-size: 18px;
-}
+    .bg-black h1 {
+        color: var(--main-w-100);
+        padding-top: 43px;
+        z-index: 2;
+    }
 
-span4 {
-    color: var(--span4);
-}
+    .bg-black p {
+        background: var(--bg-footer);
+        color: var(--main-w-100);
+        letter-spacing: 0.0em;
+        z-index: 2;
+    }
 
+    .bg-black a {
+        text-decoration: none;
+    }
 
-/* LINKS WITH SVG */
+    .bg-black .button {
+        color: var(--main-w-100);
+    }
 
-.links-svg {
-    color: var(--links-svg);
-}
+    .bg-black span3 {
+        color: var(--main-w-100);
+    }
 
-.links-svg a {
-    color: var(--links-svg);
-}
+    /* ABOUT COLORS */
 
-.links-svg svg {
-    color: var(--links-svg);
-}
+    .bg-color-about {
+        background: var(--links-color2);
+        color: var(--main-w-100);
+    }
 
+    .bg-color-about p {
+        color: var(--main-w-100);
+    }
 
-/* WORKS COLORS */
+    .bg-color-about span2 {
+        color: var(--main-w-90);
+    }
 
-.bg-color-work {
-    background: var(--bg-works);
-    color: var(--text-work);
-}
+    .bg-color-about h2 {
+        color: var(--main-w-100);
+    }
 
-.bg-color-work p {
-    color: var(--text-work);
-}
+    .bg-color-about .button .active {
+        color: var(--links-color2);
+        border-bottom: 2px solid var(--links-color2);
+    }
 
-.bg-color-work span2 {
-    color: var(--main-68);
-}
+    .bg-color-about #navbar {
+        color: var(--links-color2);
+        border-bottom: 2px solid var(--links-color2);
+    }
 
-.bg-color-work h3 {
-    color: var(--main-w-100);
-}
+    .type-black {
+        color: var(--main-100);
+    }
 
+    .type-white {
+        color: var(--main-w-100);
+    }
 
-/* FOOTER COLORS*/
+    span {
+        color: var(--links-color100);
+    }
 
-.bg-black .box-L {
-    background: var(--bg-footer);
-    color: var(--main-w-100);
-    z-index: 2;
-}
+    span2 {
+        color: var(--main-68);
+    }
 
-.bg-black {
-    background: var(--bg-footer);
-    color: var(--main-w-100);
-    z-index: 2;
-}
+    span5 {
+        color: var(--gold-color);
+    }
 
-.bg-black .links {
-    background: var(--bg-footer);
-    color: var(--main-w-100);
-    z-index: 2;
-}
+    .bg-color-hero2 {
+        background: var(--lab-bg);
+    }
 
-.bg-black span1 {
-    color: var(--main-w-100);
-    z-index: 2;
-}
+    .lab-bg {
+        background: var(--lab-bg);
+    }
 
-.bg-black h1 {
-    color: var(--main-w-100);
-    z-index: 2;
-}
+    .lab-page-colors {
+        background: var(--main-100);
+        color: var(--main-w-100);
+    }
 
-.bg-black p {
-    background: var(--bg-footer);
-    color: var(--main-w-100);
-    letter-spacing: 0.0em;
-    z-index: 2;
-}
+    .lab-page-colors #navbar {
+        background: var(--main-100);
+        color: var(--main-w-100);
+    }
 
-.bg-black a {
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-}
+    .lab-page-colors .button:hover {
+        border-bottom: 2px solid var(--lab-bg);
+    }
 
-.bg-black .button {
-    color: var(--main-w-100);
-}
+    .lab-page-colors .button:active {
+        color: var(--lab-bg);
+    }
 
-.bg-black span3 {
-    color: var(--main-w-100);
-}
+    .lab-page-colors .button:focus {
+        border-bottom: 2px solid var(--lab-bg);
+    }
 
+    .lab-page-colors .active {
+        border-bottom: 2px solid var(--lab-bg);
+        color: var(--main-w-100);
+    }
 
-/* ABOUT COLORS */
+    .bg-color-gold {
+        background: var(--gold-color);
+        color: var(--main-100);
+    }
 
-.bg-color-about {
-    background: var(--links-color2);
-    color: var(--main-w-100);
-}
-
-.bg-color-about p {
-    color: var(--main-w-100);
-}
-
-.bg-color-about span2 {
-    color: var(--main-w-90);
-}
-
-.bg-color-about h2 {
-    color: var(--main-w-100);
-}
-
-.bg-color-about .button .active {
-    color: var(--links-color2);
-    border-bottom: 2px solid var(--links-color2);
-}
-
-.bg-color-about #navbar {
-    color: var(--links-color2);
-    border-bottom: 2px solid var(--links-color2);
-}
-
-.type-black {
-    color: var(--main-100);
-}
-
-.type-white {
-    color: var(--main-w-100);
-}
-
-span {
-    color: var(--links-color100);
-}
-
-span2 {
-    color: var(--main-68);
-}
-
-span5 {
-    color: var(--gold-color);
-}
-
-.bg-color-hero2 {
-    background: var(--lab-bg);
-}
-
-.lab-bg {
-    background: var(--lab-bg);
-}
-
-.lab-page-colors {
-    background: var(--main-100);
-    color: var(--main-w-100);
-}
-
-.lab-page-colors #navbar {
-    background: var(--main-100);
-    color: var(--main-w-100);
-}
-
-.lab-page-colors .button:hover {
-    border-bottom: 2px solid var(--lab-bg);
-}
-
-.lab-page-colors .button:active {
-    color: var(--lab-bg);
-}
-
-.lab-page-colors .button:focus {
-    border-bottom: 2px solid var(--lab-bg);
-}
-
-.lab-page-colors .active {
-    border-bottom: 2px solid var(--lab-bg);
-    color: var(--main-w-100);
-}
-
-.bg-color-gold {
-    background: var(--gold-color);
-    color: var(--main-100);
-}
-
-.bg-color-gold .button {
-    background: var(--gold-color);
-    color: red;
-}
+    .bg-color-gold .button {
+        background: var(--gold-color);
+        color: red;
+    }

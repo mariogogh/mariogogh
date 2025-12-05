@@ -1,0 +1,358 @@
+/* CSS files add styling rules to your content */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.portfolio {
+    padding-left: 0px;
+}
+
+.brandproject {
+    padding: 8px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 52px;
+}
+
+
+.carousele {
+
+
+    padding: 0px;
+    border-radius: 2px;
+}
+
+
+.carousele .svg-line-bar {
+    height: 2px;
+    width: 100vw;
+}
+
+.carousele .active:hover {
+    border-bottom: 0px solid;
+}
+
+.slideshow-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 95vw;
+    max-height: 932%;
+    /* Defina um tamanho máximo para o container */
+
+    cursor: var(--cursor), pointer;
+}
+
+@media (max-width: 768px) {
+
+
+    .slideshow-container {
+        max-height: 95vh;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .carousele {
+        padding: 20px;
+    }
+
+
+    .slideshow-container {
+        max-height: 70vh;
+
+    }
+}
+
+.slide {
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    max-height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    cursor: var(--cursor), link;
+    cursor:
+        /* Altura fixa para o slide */
+
+
+}
+
+.slide img {
+    width: 100vw;
+    height: 95vh;
+    /* Mantém a proporção da imagem */
+    object-fit: cover;
+    cursor: var(--cursor);
+}
+
+.slide .video {
+    cursor: var(--cursor);
+    width: 100vw;
+    height: 95vh;
+
+    max-height: 95vh;
+    /* Match the height of the .slide class */
+    margin-bottom: 3px;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0);
+    object-position: 50% 50%;
+}
+
+
+.carousel-image {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.carousel-image.active {
+    opacity: 1;
+}
+
+
+
+
+.slide_grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+
+}
+
+.item {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: auto;
+}
+
+
+
+.slide-grid .item {
+
+    /* Dois itens lado a lado com espaçamento */
+    background-color: #f0f0f0;
+
+    /* Altura fixa para os itens da grid */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgba(255, 255, 255, 0.028);
+    font-size: 32px;
+    font-family: font-family: var(--body-font);
+    font-weight: 300;
+    user-select: none;
+    z-index: 10;
+    border-radius: 12px;
+
+
+}
+
+.prev {
+    left: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.next {
+    right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.progress-bars {
+    width: 50%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: -40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.progress-bar {
+    width: 32%;
+    height: 4px;
+    background-color: #ffffff3c;
+
+    transition: background-color 0.3s ease;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.progress-bar.active {
+    background-color: #ffffff;
+    cursor: pointer;
+
+}
+
+
+
+.slideshow-container img {
+    text-decoration: none;
+    border: none;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+    /* Remove underline */
+}
+
+.slideshow-container img:hover {
+    text-decoration: none;
+    opacity: 1;
+    border: none;
+
+    /* Ensure no underline on hover */
+}
+
+@media screen and (max-width:1200px) {
+    .slideshow-container img {
+        width: 100vw;
+        height: auto;
+        max-height: 95vh;
+        /* Ajusta a altura máxima para telas menores */
+    }
+
+    .slide .video {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+        min-height: 23vh;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+    }
+
+    .slide-grid .item {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+    }
+
+    .portfolio {
+        padding: 0px;
+    }
+
+    .prev,
+    .next {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .slideshow-container img {
+        width: 100vw;
+        height: auto;
+        max-height: 95vh;
+        /* Ajusta a altura máxima para telas menores */
+    }
+
+    .slide .video {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+        min-height: 23vh;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+    }
+
+    .slide-grid .item {
+        width: 100%;
+        height: auto;
+        max-height: 95vh;
+    }
+
+    .portfolio {
+        padding: 0px;
+    }
+
+    .prev,
+    .next {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .slide img {
+        width: 100%;
+
+        max-height: 95vh;
+    }
+
+    .slide .video {
+        width: 100%;
+
+        max-height: 95vh;
+        min-height: 23vh;
+    }
+
+    .slide-grid .item {
+        width: 100%;
+        max-height: 95vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slide img {
+        width: 100%;
+
+
+    }
+
+    .slide .video {
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    .slide-grid .item {
+        width: 100%;
+        max-height: 95vh;
+    }
+}

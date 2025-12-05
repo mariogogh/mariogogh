@@ -1,27 +1,42 @@
 /* Todos os arquivos de css */
 
 @import "/styles/reset.css";
+@import "/styles/thumbs.css";
 @import "/styles/compo.css";
 @import "/styles/works.css";
 @import "/styles/svg.css";
 @import "/styles/header.css";
 @import "/styles/hero.css";
+@import "/styles/hero_2.css";
 @import "/styles/button.css";
 @import "/styles/sections.css";
 @import "/styles/footer.css";
 @import "/styles/tipografia.css";
-@import "/styles/queries.css";
 @import "/styles/links.css";
-@import "/styles/scroll.js";
-@import "/styles/script.js";
 @import "/styles/gallery.css";
-@import "/styles/carousel.css";
+@import "/styles/gallery_new.css";
 @import "/styles/root.css";
 @import "/styles/images.css";
 @import "/styles/home-cover.css";
-@import "/styles/home-cover.js";
 @import "/styles/mansory.css";
+@import "/styles/masonry-lab.css";
+@import "/styles/hover.css";
+@import "/styles/moreworks.css";
+@import "/styles/section_moreworks.css";
+@import "/styles/slideshow_1.css";
+@import "/styles/loading_page.css";
+@import "src/scss/lazyframe";
 @import url("https://use.typekit.net/grn6fkm.css");
-@import ".htaccess";
-
-/* CSS files add styling rules to your content */
+@import "/styles/tab_bar.css";
+/* Todos os arquivos de JS */
+@import "/styles/scroll.js";
+@import "/styles/section_moreworks.js";
+@import "/styles/script.js";
+@import "/styles/script_02.js";
+@import "/styles/home-cover.js";
+@import "/styles/tab_bar.js";
+@import "/styles/bootup-time.js";
+@import "/styles/slideshow_1.js";
+@import "/styles/loading_page.js";
+@import "/styles/content_loading.js";
+@import "/styles/lazy-load.js";

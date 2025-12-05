@@ -2,8 +2,28 @@
 
 .EVINO {}
 
+.ame-digital {}
+
+
+
+
+.hero_img_A {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.hero_img_AB {
+
+    border-radius: 0px 0px 6px 6px;
+
+}
+
+.full-image-img-about {
+    border-radius: 0px;
+}
+
 .hero-work {
     background: var(--work);
+    color: var(--hero-accent);
 }
 
 .hero-about {
@@ -14,12 +34,28 @@
     background: var(--lab);
 }
 
+.hero-about .caption p {
+    color: var(--hero-accent);
+}
+
+.hero-lab .caption p {
+    color: var(--hero-accent);
+}
+
+.hero-work .caption p {
+    color: var(--hero-accent);
+}
+
+.accent {
+    color: var(--hero-accent);
+}
+
 .hero-work-link .button:focus {
-    border-bottom: 2px solid var(--work);
+    border-bottom: 2px solid var(--hero);
 }
 
 .hero-work-link .active {
-    border-bottom: 2px solid var(--work);
+    border-bottom: 2px solid var(--hero);
 }
 
 .hero-work-link .button:hover {
@@ -51,28 +87,66 @@
 }
 
 .workslide-work {
-    z-index: 5;
+    z-index: 1;
     position: sticky;
 }
 
 .workslide-work span1 {
-    color: var( --hero-text);
+    color: var(--hero-accent);
 }
 
 .workslide-work p {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
+    padding-left: 0px;
 }
 
 .workslide-work a {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
+}
+
+.workslide-work .button {
+    color: var(--main-w-100);
 }
 
 .workslide-work svg {
-    color: var( --main-w-100);
+    fill: var(--main-w-100);
 }
 
 .workslide-work a:visited {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
+}
+
+.workslide-work a:link {
+    color: var(--main-w-100);
+}
+
+.workslide-work a:hover {
+    color: white;
+}
+
+.workslide-lab {
+    z-index: 5;
+    position: sticky;
+}
+
+.workslide-lab span1 {
+    color: var(--hero-text);
+}
+
+.workslide-lab p {
+    color: var(--main-w-100);
+}
+
+.workslide-lab a {
+    color: var(--main-w-100);
+}
+
+.workslide-lab svg {
+    color: var(--main-w-100);
+}
+
+.workslide-lab a:visited {
+    color: var(--main-w-100);
 }
 
 .workslide-about {
@@ -81,12 +155,16 @@
 }
 
 .workslide-about span1 {
-    color: var( --hero-text);
+    color: var(--hero-text);
 }
 
 .workslide-about p {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
     ;
+}
+
+.info_intro {
+    padding-left: 390px;
 }
 
 .content-full-screen .workslide-about {
@@ -94,27 +172,38 @@
 }
 
 .workslide-about .box-L {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
     ;
 }
 
 .workslide-about a {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-about svg {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .workslide-about a:visited {
-    color: var( --main-w-100);
+    color: var(--main-w-100);
 }
 
 .bg-div-all {
-    background: var( --hero-text);
-    z-index: 1;
+
+    z-index: 331;
     position: sticky;
-    transition: background 5s ease;
+
+
+}
+
+.bg-div-all a {}
+
+.bg-div-all svg {
+    cursor: var(--cursor);
+}
+
+.bg-div-all .svg {
+    cursor: var(--cursor);
 }
 
 .img-small-right {
@@ -202,7 +291,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    padding: 24px;
+    padding: 0px;
     justify-content: space-between;
     z-index: 0;
 }
@@ -251,13 +340,15 @@
     padding-bottom: 332px;
 }
 
-img {
-    transition: opacity 0.2s ease-in-out;
-}
+
+
+
+
 
 img :hover {
-    opacity: 1 !important;
+
     spandisplay: none;
+
     before {
         content: "Reply!";
     }
@@ -317,24 +408,29 @@ img :hover {
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .section-hero-elements {
         width: 100%;
         display: block;
         padding: 24px;
     }
+
     .section-mansoury {
         width: 100%;
         display: block;
     }
+
     .section-hero-elements-img {
         width: 100%;
         display: block;
     }
+
     .section-hero-work-info {
         width: 100%;
         display: block;
         padding-left: 24px;
     }
+
     .img-small-right {
         width: 100%;
         height: 100%;
@@ -342,6 +438,7 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .img-small-left {
         width: 100%;
         height: 100%;
@@ -349,6 +446,7 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .img-small-in-full {
         width: 100%;
         height: 100%;
@@ -356,10 +454,21 @@ img :hover {
         background-size: cover;
         background: #yellow;
     }
+
     .workslide-about p {
         padding-left: 24px;
     }
+
     .content-full-screen .workslide-about {
         padding-left: 0px;
+    }
+
+    .workslide-work {
+        padding-left: 16px;
+    }
+
+    .about-works {
+        display: 16px;
+
     }
 }

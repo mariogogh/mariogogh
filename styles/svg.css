@@ -1,3 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.flag {
+    padding-left: 0px;
+    height: 3vw;
+}
+
+.video {
+    border-radius: 24px;
+}
+
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    color: #f81515;
+}
+
+#text h1 {}
+
+#text .container {
+    width: 0px;
+    height: 9vmin;
+    margin: 0px 5px;
+    transition: 300ms ease;
+}
+
+.image {
+    width: 200%;
+    height: 200%;
+    object-fit: cover;
+}
+
+#text:hover .container {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .video-container {
     position: relative;
     width: 100%;
@@ -18,18 +74,21 @@
 }
 
 .svg-line-bar {
-    width: 100%;
+    width: 99%;
     fill: var(--eyebrown);
     display: flex;
+    justify-content: space-between;
     justify-content: center;
     align-items: center;
     height: 9;
+
 }
 
 .svg-link {
     fill: var(--main-w-90);
     color: var(--main-w-90);
     font-color: var(--main-w-90);
+    cursor: var(--cursor);
 }
 
 a .svg-link {
@@ -37,6 +96,7 @@ a .svg-link {
     color: var(--main-w-90);
     font-color: var(--main-w-90);
     opacity: 70%;
+    cursor: var(--cursor);
 }
 
 a.svg-link: hover {
@@ -57,6 +117,7 @@ a.svg-link: focus {
     fill: var(--main-w-100);
     color: var(--main-w-100);
     font-color: var(--main-w-100);
+    cursor: var(--cursor);
 }
 
 .content-about-svg {
@@ -91,9 +152,61 @@ a.svg-link: focus {
     position: fixed;
     align-items: flex-end;
     transition: top 5s;
+    cursor: var(--cursor);
+    fill: #0F1E40;
 }
+
+.cursor_hand {
+
+    cursor: var(--cursor);
+}
+
 
 a:link svg-right-fixed {
     text-decoration: none;
     opacity: 100%;
+    cursor: var(--cursor);
+}
+
+svg-right-fixed a {
+
+    cursor: var(--cursor);
+}
+
+
+.fixed_back {
+    z-index: 13;
+    left: 24px;
+    bottom: 56px;
+    position: relative;
+    align-items: flex-end;
+    transition: top 5s;
+    cursor: var(--cursor);
+    border-radius: 100px;
+}
+
+@media (max-width: 600px) {
+    .svg-line-bar {
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 9px;
+    }
+
+    .flag {
+        padding-left: 16px;
+        height: 50px;
+    }
+
+
+    .fixed_back {
+        z-index: 13;
+        left: 24px;
+        bottom: 56px;
+        top: 24px;
+        position: relative;
+        align-items: flex-end;
+        transition: top 5s;
+        cursor: var(--cursor);
+        border-radius: 100px;
+    }
 }
