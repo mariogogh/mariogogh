@@ -1998,6 +1998,30 @@
                             <div class=" space50 "></div>
 
                             <!-- Base do Carouseell-->
+
+                            <script>
+                                function updateVideos() {
+                                    const slides = document.querySelectorAll('.slide');
+                                    const activeIndex = [...slides].findIndex(slide => slide.classList.contains('active'));
+
+                                    slides.forEach((slide, index) => {
+                                        const video = slide.querySelector('video');
+                                        if (!video) return;
+
+                                        if (index === activeIndex) {
+                                            video.play().catch(() => { });
+                                        } else {
+                                            video.pause();
+                                        }
+                                    });
+                                }
+
+                                document.addEventListener("DOMContentLoaded", updateVideos);
+
+                                // Quando mudar o slide:
+                                setInterval(updateVideos, 300);
+                            </script>
+
                             <div class="slideshow-container" data-aos="fade-up" data-aos-offset="100 "
                                 data-aos-delay="700 " data-aos-duration="600" data-aos-easing="ease-in-out ">
                                 <!-- Slide 01-->
@@ -2022,17 +2046,16 @@
                                 </div>
                                 <!-- Slide 06-->
                                 <div class="slide" onclick="changeSlide(1)">
-                                    <div> <video class="video" loading="lazy" src="Images/ame/mariogogh_ame_06.mp4"
-                                            loop="" preload="auto" playsinline="" muted="" autoplay=""
-                                            data-video="0"></video>
+                                    <div> <video class="video" src="images/ame/mariogogh_ame_06.mp4" loop=""
+                                            preload="auto" playsinline="" muted="" autoplay="" data-video="0"></video>
                                     </div>
                                 </div>
                                 <!-- Slide 06 1&2-->
                                 <div class="slide" onclick="changeSlide(1)">
                                     <div class="slide_grid" onclick="changeSlide(1)">
-                                        <div> <video class="video" loading="lazy"
-                                                src="images/ame/mariogogh_ame_06_1.mp4" loop="" preload="auto"
-                                                playsinline="" muted="" autoplay="" data-video="0"></video></div>
+                                        <div> <video class="video" src="images/ame/mariogogh_ame_06_1.mp4" loop=""
+                                                preload="auto" playsinline="" muted="" autoplay=""
+                                                data-video="0"></video></div>
 
                                         <div> <video class="video" src="images/ame/mariogogh_ame_06_2.mp4" loop=""
                                                 preload="auto" playsinline="" muted="" autoplay=""
@@ -2070,21 +2093,20 @@
 
                                 <!-- Slide 10-->
                                 <div class="slide" onclick="changeSlide(1)">
-                                    <div> <video class="video" loading="lazy" src="images/ame/mariogogh_ame_10.mp4"
-                                            loop="" preload="auto" playsinline="" muted="" autoplay=""
-                                            data-video="0"></video>
+                                    <div> <video class="video" src="images/ame/mariogogh_ame_10.mp4" loop=""
+                                            preload="auto" playsinline="" muted="" autoplay="" data-video="0"></video>
                                     </div>
                                 </div>
                                 <!-- Slide 10 1&2-->
                                 <div class="slide" onclick="changeSlide(1)">
                                     <div class="slide_grid" onclick="changeSlide(1)">
-                                        <div> <video class="video" loading="lazy"
-                                                src="images/ame/mariogogh_ame_10_1.mp4" loop="" preload="auto"
-                                                playsinline="" muted="" autoplay="" data-video="0"></video></div>
+                                        <div> <video class="video" src="images/ame/mariogogh_ame_10_1.mp4" loop=""
+                                                preload="auto" playsinline="" muted="" autoplay=""
+                                                data-video="0"></video></div>
 
-                                        <div> <video class="video" loading="lazy"
-                                                src="images/ame/mariogogh_ame_10_2.mp4" loop="" preload="auto"
-                                                playsinline="" muted="" autoplay="" data-video="0"></video></div>
+                                        <div> <video class="video" src="images/ame/mariogogh_ame_10_2.mp4" loop=""
+                                                preload="auto" playsinline="" muted="" autoplay=""
+                                                data-video="0"></video></div>
                                     </div>
                                 </div>
                                 <!-- Slide 11 1&2-->
@@ -2119,9 +2141,8 @@
 
                                 <!-- Slide 16-->
                                 <div class="slide" onclick="changeSlide(1)">
-                                    <div> <video class="video" loading="lazy" src="images/ame/mariogogh_ame_case.mp4"
-                                            loop="" preload="auto" playsinline="" muted="" autoplay=""
-                                            data-video="0"></video>
+                                    <div> <video class="video" src="images/ame/mariogogh_ame_case.mp4" loop=""
+                                            preload="auto" playsinline="" muted="" autoplay="" data-video="0"></video>
                                     </div>
                                 </div>
 
