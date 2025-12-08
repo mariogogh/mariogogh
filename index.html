@@ -1999,28 +1999,7 @@
 
                             <!-- Base do Carouseell-->
 
-                            <script>
-                                function updateVideos() {
-                                    const slides = document.querySelectorAll('.slide');
-                                    const activeIndex = [...slides].findIndex(slide => slide.classList.contains('active'));
 
-                                    slides.forEach((slide, index) => {
-                                        const video = slide.querySelector('video');
-                                        if (!video) return;
-
-                                        if (index === activeIndex) {
-                                            video.play().catch(() => { });
-                                        } else {
-                                            video.pause();
-                                        }
-                                    });
-                                }
-
-                                document.addEventListener("DOMContentLoaded", updateVideos);
-
-                                // Quando mudar o slide:
-                                setInterval(updateVideos, 300);
-                            </script>
 
                             <div class="slideshow-container" data-aos="fade-up" data-aos-offset="100 "
                                 data-aos-delay="700 " data-aos-duration="600" data-aos-easing="ease-in-out ">
