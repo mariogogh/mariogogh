@@ -4,7 +4,6 @@
 
 
 
-
     :root {
         --main-font: "DM Sans", sans-serif;
         /* BLACK */
@@ -270,4 +269,186 @@
     .bg-color-gold .button {
         background: var(--gold-color);
         color: red;
+    }
+
+    /* Theme Toggle Button - Acessível */
+    .theme-toggle {
+        position: fixed;
+        left: 48px;
+        bottom: 48px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 2px solid var(--main-100);
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: all 0.3s ease;
+        padding: 0;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    [data-theme="dark"] .theme-toggle {
+        border-color: var(--main-w-100);
+    }
+
+    .theme-toggle:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .theme-toggle:focus {
+        outline: 2px solid var(--links-svg);
+        outline-offset: 2px;
+    }
+
+    .theme-toggle:active {
+        transform: scale(0.95);
+    }
+
+    .theme-toggle svg {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .theme-toggle .sun-icon {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    .theme-toggle .moon-icon {
+        opacity: 0;
+        transform: rotate(-180deg);
+    }
+
+    [data-theme="dark"] .theme-toggle .sun-icon {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    [data-theme="dark"] .theme-toggle .moon-icon {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    /* Screen Reader Only */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
+    }
+
+
+
+    /* style.css */
+
+    /* Variáveis de Tema (Baseadas no seu esquema) */
+    :root {
+        --main-100: #131313;
+        --main-w-100: #FFFFFF;
+        --links-svg: #647CD4;
+
+        /* Variáveis dinâmicas */
+        --bg-color: var(--main-w-100);
+        --text-color: var(--main-100);
+        --toggle-border: var(--main-100);
+        --toggle-shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    [data-theme="dark"] {
+        --bg-color: var(--main-100);
+        --text-color: var(--main-w-100);
+        --toggle-border: var(--main-w-100);
+        --toggle-shadow: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Estilos do Botão */
+    .theme-toggle {
+        position: fixed;
+        left: 48px;
+        bottom: 48px;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 2px solid var(--toggle-border);
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+        transition: all 0.3s ease;
+        padding: 0;
+        box-shadow: 0 2px 8px var(--toggle-shadow);
+    }
+
+    .theme-toggle:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 12px var(--toggle-shadow);
+    }
+
+    .theme-toggle:focus {
+        outline: 2px solid var(--links-svg);
+        outline-offset: 2px;
+    }
+
+    .theme-toggle:active {
+        transform: scale(0.95);
+    }
+
+    /* Estilização dos Ícones SVG */
+    .theme-toggle svg {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        fill: currentColor;
+        /* Herda a cor do texto do botão */
+    }
+
+    /* Lógica de Visibilidade dos Ícones */
+    .theme-toggle .sun-icon {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    .theme-toggle .moon-icon {
+        opacity: 0;
+        transform: rotate(-180deg);
+    }
+
+    [data-theme="dark"] .theme-toggle .sun-icon {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+
+    [data-theme="dark"] .theme-toggle .moon-icon {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    /* Acessibilidade: Esconder texto apenas visualmente */
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border-width: 0;
     }

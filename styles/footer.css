@@ -217,6 +217,9 @@
         padding: 24px;
     }
 
+
+
+
     .section-footer p {
         font-size: 14px;
     }
@@ -224,6 +227,12 @@
     .section-footer a {
         font-size: 14px;
     }
+
+    .section-hero-elements h100 {
+        padding: 24px;
+        font-size: 10vw;
+    }
+
 
     .box1 {
         width: 100%;
@@ -369,9 +378,11 @@
     /* Tamanho máximo do iframe */
     margin: auto;
 
-    height: 500px;
+    height: 100vh;
     /* Altura do iframe */
     overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
 }
 
 iframe {

@@ -92,7 +92,7 @@
 
 .slide img {
     width: 100vw;
-    height: 95vh;
+
     /* Mantém a proporção da imagem */
     object-fit: cover;
     cursor: var(--cursor);
@@ -101,7 +101,7 @@
 .slide .video {
     cursor: var(--cursor);
     width: 100vw;
-    height: 95vh;
+
 
     max-height: 95vh;
     /* Match the height of the .slide class */

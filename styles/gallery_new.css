@@ -54,8 +54,9 @@
     border-bottom: 0px solid;
 
     cursor: var(--cursor);
-    scale: 101%;
-    transition: scale 2s;
+    scale: 105%;
+    transition: scale 1s;
+
 }
 
 .item-gallery img,
@@ -63,7 +64,8 @@
     width: 100%;
     display: block;
     border: none;
-    border-radius: 2px;
+    border-radius: 10px;
+
 
 }
 

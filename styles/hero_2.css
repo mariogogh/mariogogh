@@ -5,8 +5,8 @@
     width: auto;
     color: white;
     background: var(--hero);
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 16%;
+    padding-right: 16%;
     bottom: 0%;
     z-index: 50;
     padding-bottom: -2px;
@@ -62,8 +62,8 @@
     width: auto;
     background: var(--work);
     z-index: 20;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 16%;
+    padding-right: 16%;
     padding-top: 0px;
     z-index: 49;
     position: sticky;
