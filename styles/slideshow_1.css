@@ -108,7 +108,7 @@
     margin-bottom: 3px;
     display: block;
     object-fit: cover;
-    border-radius: 6px;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, 0);
     object-position: 50% 50%;
 }
