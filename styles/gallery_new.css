@@ -39,7 +39,7 @@
 
 .item-gallery {
     break-inside: avoid;
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 0rem;
     padding-right: 0rem;
     padding-bottom: 1rem;
@@ -67,6 +67,15 @@
     border-radius: 10px;
 
 
+}
+
+.item-gallery .lab-gallery-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
 .item-gallery .video {

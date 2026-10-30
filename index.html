@@ -613,12 +613,24 @@
             <div class="tab-content">
                 <div class="tab-panel all active">
                     <div class="All">
-
-
-
                         <!-- Existing All Content  -->
                         <div class="gallery fade" data-aos="fade-up" data-aos-duration="3000">
 
+
+
+
+
+
+                            <!--Poster - Lula-->
+                            <div class="item-gallery video">
+                                <a href="https://www.instagram.com/p/De27VfylFSs/?utm_source=ig_web_copy_link&dlrf=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA=="
+                                    class="button" target="_blank">
+                                    <video class="lab-gallery-video" autoplay="autoplay" loop muted="muted" playsinline
+                                        preload="auto">
+                                        <source src="images/lab/poster_lula_26.mp4" type="video/mp4">
+                                    </video>
+                                </a>
+                            </div>
 
 
 
@@ -3654,6 +3666,16 @@
             const tabPanels = document.querySelectorAll(".tab-panel");
             const casesDiv = document.querySelector(".cases");
             const allDiv = document.querySelector(".All");
+            const labGalleryVideo = document.querySelector(".lab-gallery-video");
+
+            if (labGalleryVideo) {
+                labGalleryVideo.defaultMuted = true;
+                labGalleryVideo.muted = true;
+                labGalleryVideo.volume = 0;
+                labGalleryVideo.play().catch(error => {
+                    console.warn("Could not autoplay the gallery video:", error);
+                });
+            }
 
             tabButtons.forEach(button => {
                 button.addEventListener("click", () => {
